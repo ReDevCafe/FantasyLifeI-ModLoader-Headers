@@ -25,10 +25,10 @@ class ML_API RecipeDataRewardData : public GameObjectProxy<FGDRecipeData_RewardD
         uint32_t GetRank2Exp() const { return this->_object.rank2_exp; }
         uint32_t GetRank3Exp() const { return this->_object.rank3_exp; }
 
-        uint32_t SetRank0Exp(uint32_t exp) const { this->_object.rank0_exp = exp; }
-        uint32_t SetRank1Exp(uint32_t exp) const { this->_object.rank1_exp = exp; }
-        uint32_t SetRank2Exp(uint32_t exp) const { this->_object.rank2_exp = exp; }
-        uint32_t SetRank3Exp(uint32_t exp) const { this->_object.rank3_exp = exp; }
+        void SetRank0Exp(uint32_t exp) const { this->_object.rank0_exp = exp; }
+        void SetRank1Exp(uint32_t exp) const { this->_object.rank1_exp = exp; }
+        void SetRank2Exp(uint32_t exp) const { this->_object.rank2_exp = exp; }
+        void SetRank3Exp(uint32_t exp) const { this->_object.rank3_exp = exp; }
 
 
 };

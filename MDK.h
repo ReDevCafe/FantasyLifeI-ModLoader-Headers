@@ -1,11 +1,7 @@
 #pragma once
 
-
-#ifdef _WIN32
-    #define MOD_EXPORT extern "C" __declspec(dllexport)
-#else
-    #define MOD_EXPORT extern "C"
-#endif
+// Definition
+#include "Export.h"
 
 // Game SDK
 #include "SDK.h"

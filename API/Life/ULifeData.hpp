@@ -10,16 +10,11 @@
 class ML_API ULifeData : public GameObjectProxy<UGDSLifeData>
 {
     public: 
-        ULifeData(UGDSLifeData& data) : GameObjectProxy(data)
-        {
-            for(int i = 0; i < data.m_dataMap.Data.Count; ++i)
-                _lifeData.push_back(LifeData{data.m_dataMap.Data[i].Value.Second});
-        };
+        ULifeData(UGDSLifeData& data) : 
+            GameObjectProxy(data)
+        {};
 
-        LifeData    GetLife(ELifeType life) const { return this->_lifeData[(uint8_t) life - 1]; }
-
-    private:
-        std::vector<LifeData> _lifeData;
+        LifeData    GetLife(ELifeType life);
 };      
 
 

@@ -6,8 +6,8 @@ class ModBase
     public:
     virtual ~ModBase() = default;
 
-    virtual void OnPreLoad();
-    virtual void OnPostLoad();
+    virtual void OnPreLoad()    = 0;
+    virtual void OnPostLoad()   = 0;
 };
 
 #endif // !MODBASE_HPP

@@ -1,4 +1,4 @@
-#ifndef ITEMTABLEDETAIL_HPP`
+#ifndef ITEMTABLEDETAIL_HPP
     #define ITEMTABLEDETAIL_HPP
 
     #include "API/GameObjectProxy.hpp"

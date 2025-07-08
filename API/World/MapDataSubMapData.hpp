@@ -9,8 +9,7 @@ class ML_API MapDataSubMapData : public GameObjectProxy<FGDMapData_SubMapData>
 {
     public:
     MapDataSubMapData(FGDMapData_SubMapData& data) : 
-        GameObjectProxy(data),
-        _attributeInfo{data.attributeInfo}
+        GameObjectProxy(data)
     {};
 
     //protected:
@@ -24,8 +23,7 @@ class ML_API MapDataSubMapData : public GameObjectProxy<FGDMapData_SubMapData>
     void        SetMapType(EMapType type)               { this->_object.Type = type; }
 
     std::string GetAreaID();
-
-    MapAttributeInfo GetAttributeInfo()                 { return _attributeInfo; }
+    MapAttributeInfo GetAttributeInfo()                 { return MapAttributeInfo(this->_object.attributeInfo); }
 
     float       GetShadowAmountInEvent()                { return this->_object.shadowAmountInEvent; }
     void        SetShadowAmountInEvent(float value)     { this->_object.shadowAmountInEvent = value; }
@@ -41,9 +39,6 @@ class ML_API MapDataSubMapData : public GameObjectProxy<FGDMapData_SubMapData>
 
     FVector4    GetSafeWarpPosition()                   { return  this->_object.safeWarpPos; }
     void        SetSafeWarpPosition(FVector4 value)     { this->_object.safeWarpPos = value; }
-
-    private:
-    MapAttributeInfo _attributeInfo;
 };
 
 #endif // !MAPDATASUBMAPDATA_HPP

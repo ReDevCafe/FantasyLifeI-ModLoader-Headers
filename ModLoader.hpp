@@ -11,10 +11,10 @@
     #include "Patcher/Patches/EventHook.hpp"
     #include "Export.h"
 
-class ML_API ModLoader {
+class ModLoader {
     public:
-        static GameData *gameData;
-        static GameCache *gameCache;
+        ML_API static GameData *gameData;
+        ML_API static GameCache *gameCache;
 
         static ModEnvironnement *modEnvironnement;
         static Logger *logger; 

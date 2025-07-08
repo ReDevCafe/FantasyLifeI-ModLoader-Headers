@@ -17,7 +17,7 @@ enum EventType {
 };
 
 
-class ML_API EventHandler {
+class EventHandler {
     public:
 
         template<typename...Args>
@@ -39,15 +39,15 @@ class ML_API EventHandler {
                 _handlers.emplace(type, std::vector<std::function<void(std::vector<std::any>)>>()).first->second.emplace_back(function);
             
         }
-        static void callEvent();
-        static void addEvent(EventType type, uintptr_t trampoline);
-        static EventType getTypeFromAddress(uintptr_t address);
-        static std::vector<std::any> getArgsFromEvent(EventType type, CONTEXT context);
-        static std::vector<std::function<void(std::vector<std::any>)>> *getEventHandler(EventType type);
+        ML_API static void callEvent();
+        ML_API static void addEvent(EventType type, uintptr_t trampoline);
+        ML_API static EventType getTypeFromAddress(uintptr_t address);
+        ML_API static std::vector<std::any> getArgsFromEvent(EventType type, CONTEXT context);
+        ML_API static std::vector<std::function<void(std::vector<std::any>)>> *getEventHandler(EventType type);
     protected:
     private:
-        static std::unordered_map<EventType, std::vector<std::function<void(std::vector<std::any>)>>> _handlers;
-        static std::unordered_map<uintptr_t, EventType> _events;
+        ML_API static std::unordered_map<EventType, std::vector<std::function<void(std::vector<std::any>)>>> _handlers;
+        ML_API static std::unordered_map<uintptr_t, EventType> _events;
 };
 
 template<typename... Args, std::size_t... Is>

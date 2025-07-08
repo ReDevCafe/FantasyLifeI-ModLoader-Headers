@@ -11,8 +11,7 @@ class ML_API SkillData : public GameObjectProxy<FGDSkillData>
 {
     public:
         SkillData(FGDSkillData& data) : 
-            GameObjectProxy(data),
-            _params{data.Params}
+            GameObjectProxy(data)
         {};
 
         std::string         GetIdentifier();
@@ -20,7 +19,7 @@ class ML_API SkillData : public GameObjectProxy<FGDSkillData>
         ESkillCategory      GetCategory()                        { return this->_object.Category;}
         void                SetCategory(ESkillCategory category) { this->_object.Category = category; }
 
-        CommonSkillParam    GetParams()                          { return _params; }
+        CommonSkillParam    GetParams()                          { return CommonSkillParam(this->_object.Params); }
 
     protected:
         std::string         GetNameIdentifier();
@@ -51,9 +50,6 @@ class ML_API SkillData : public GameObjectProxy<FGDSkillData>
 
         ERarityType         GetRarity()                         { return  this->_object.rarity; }
         void                SetRarity(ERarityType value)        { this->_object.rarity = value; }
-
-    private:    
-        CommonSkillParam _params;
 };
 
 #endif // !SKILLDATA_HPP

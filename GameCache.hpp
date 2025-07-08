@@ -37,7 +37,7 @@ class GameCache
         MapSubLevel             GetSubLevel     (std::string key) const { return *_cacheSubLevel.at(key); }
         MapData                 GetMapData      (std::string key) const { return *_cacheMap.at(key); }
 
-        const std::unordered_map<std::string, std::unique_ptr<ItemData>>& GetListItems() const { return _cacheItemData; }
+        const std::unordered_map<std::string, std::unique_ptr<ItemData>>&   GetListItems() const { return _cacheItemData; }
         const std::unordered_map<std::string, std::unique_ptr<RecipeData>>& GetListRecipes() const { return _cacheRecipeData; }
 
     private:

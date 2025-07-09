@@ -4,6 +4,7 @@
     #include "Json.hpp"
     #include "Mod/ModObject.hpp"
     #include "Mod/ModBase.hpp"
+    #include <mutex>
 
 #ifdef _WIN32
     #include <windows.h>
@@ -34,9 +35,10 @@ class ModEnvironnement
         ModMetaData             parseModMeta(std::filesystem::path filename);
         void                    resolveOrder(std::vector<ModObject*> mods);
 
-        std::vector<ModObject*> _modsList;
-        std::vector<LibHandle> _modLibList;
-        std::vector<std::unique_ptr<ModBase>> _modPTRList;
+        std::vector<ModObject*>                 _modsList;
+        std::vector<LibHandle>                  _modLibList;
+        std::vector<std::unique_ptr<ModBase>>   _modPTRList;
+        std::mutex _mergeMutex;
 };
 
 #endif // !

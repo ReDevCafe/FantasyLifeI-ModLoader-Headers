@@ -9,9 +9,18 @@
 #include <fstream>
 #include <mutex>
 #include <functional>
-#include <Windows.h>
 #include <filesystem>
 #include <ctime>
+
+#ifdef _WIN32
+    #include <ShlObj.h>
+    #include <Windows.h>
+
+    #pragma comment (lib, "shell32.lib")
+
+#else
+    #include <cstdlib>
+#endif
 
 class Logger
 {
@@ -66,8 +75,18 @@ class Logger
 
             char buf[64];
             std::strftime(buf, sizeof(buf), "%Y-%m-%d.%H.%M.%S", &timeinfo);
-            std::string filename = "../../../Logs/FliML-" + prefix + std::string(buf) + ".log";
-            std::filesystem::create_directories("../../../Logs");
+#ifdef _WIN32
+            char document[MAX_PATH];
+            HRESULT result = SHGetFolderPath(NULL, CSIDL_PERSONAL, NULL, SHGFP_TYPE_CURRENT, document);
+            if(result != S_OK) throw std::runtime_error("Could not get Documents path on Windows.");
+#else
+            const char* home = std::getenv("HOME");
+            if(!home) return std::runtime_error("HOME environment variable not set.");
+            std::string document = home + "/Documents"
+#endif 
+            std::string logFolder = document + std::string("/My Games/Fantasy Life I/Logs");            // Sorry
+            std::string filename = logFolder + "/FliML-" + prefix + "-" + std::string(buf) + ".log";
+            std::filesystem::create_directories(logFolder);
 
             logFile.open(filename, std::ios::out | std::ios::trunc);
             if(!logFile.is_open()) throw std::filesystem::filesystem_error(

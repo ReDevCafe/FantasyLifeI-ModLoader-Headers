@@ -11,7 +11,6 @@ class TArrayHelper
     static T    Get(TArray<T>& array, int index)
     {
         if(index < 0 || index >= array.Count) throw std::out_of_range("TArrayHelper::Get() index out of range");
-
         return array.Data[index];
     }
 
@@ -19,7 +18,6 @@ class TArrayHelper
     {
         if(index < 0 || index >= array.Count) throw std::out_of_range("TArrayHelper::Set() index out of range");
         array.Data[index] = value;
-        array.Count++;
     }
 
     static void Add(TArray<T>& array, T value)

@@ -202,31 +202,31 @@ public:
 
 	/// Functions
 	// Function /Script/EnhancedInput.EnhancedPlayerMappableKeyProfile.ToString
-	// FString ToString();                                                                                                      // [0x775ea80] Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// FString ToString();                                                                                                      // [0x775d250] Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/EnhancedInput.EnhancedPlayerMappableKeyProfile.SetDisplayName
-	// void SetDisplayName(FText& NewDisplayName);                                                                              // [0x7f814b0] Native|Public|HasOutParms|BlueprintCallable 
+	// void SetDisplayName(FText& NewDisplayName);                                                                              // [0x7f7f900] Native|Public|HasOutParms|BlueprintCallable 
 	// Function /Script/EnhancedInput.EnhancedPlayerMappableKeyProfile.ResetToDefault
-	// void ResetToDefault();                                                                                                   // [0x516c410] Native|Public|BlueprintCallable 
+	// void ResetToDefault();                                                                                                   // [0x516bd50] Native|Public|BlueprintCallable 
 	// Function /Script/EnhancedInput.EnhancedPlayerMappableKeyProfile.ResetMappingToDefault
-	// void ResetMappingToDefault(FName InMappingName);                                                                         // [0x7f81420] Final|Native|Public|BlueprintCallable 
+	// void ResetMappingToDefault(FName InMappingName);                                                                         // [0x7f7f870] Final|Native|Public|BlueprintCallable 
 	// Function /Script/EnhancedInput.EnhancedPlayerMappableKeyProfile.QueryPlayerMappedKeys
-	// int32_t QueryPlayerMappedKeys(FPlayerMappableKeyQueryOptions& OPTIONS, TArray<FKey>& OutKeys);                           // [0x7f806f0] Native|Public|HasOutParms|BlueprintCallable|BlueprintPure|Const 
+	// int32_t QueryPlayerMappedKeys(FPlayerMappableKeyQueryOptions& OPTIONS, TArray<FKey>& OutKeys);                           // [0x7f7eb40] Native|Public|HasOutParms|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/EnhancedInput.EnhancedPlayerMappableKeyProfile.K2_FindKeyMapping
-	// void K2_FindKeyMapping(FPlayerKeyMapping& OutKeyMapping, FMapPlayerKeyArgs& InArgs);                                     // [0x7f7f430] Final|Native|Public|HasOutParms|BlueprintCallable|BlueprintPure|Const 
+	// void K2_FindKeyMapping(FPlayerKeyMapping& OutKeyMapping, FMapPlayerKeyArgs& InArgs);                                     // [0x7f7d880] Final|Native|Public|HasOutParms|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/EnhancedInput.EnhancedPlayerMappableKeyProfile.GetProfileIdentifer
-	// FGameplayTag GetProfileIdentifer();                                                                                      // [0x5a849d0] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// FGameplayTag GetProfileIdentifer();                                                                                      // [0x5a83e10] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/EnhancedInput.EnhancedPlayerMappableKeyProfile.GetProfileDisplayName
-	// FText GetProfileDisplayName();                                                                                           // [0x7f7d9d0] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// FText GetProfileDisplayName();                                                                                           // [0x7f7be20] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/EnhancedInput.EnhancedPlayerMappableKeyProfile.GetPlayerMappingRows
-	// TMap<FName, FKeyMappingRow> GetPlayerMappingRows();                                                                      // [0x7f7e520] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// TMap<FName, FKeyMappingRow> GetPlayerMappingRows();                                                                      // [0x7f7c970] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/EnhancedInput.EnhancedPlayerMappableKeyProfile.GetMappingNamesForKey
-	// int32_t GetMappingNamesForKey(FKey& InKey, TArray<FName>& OutMappingNames);                                              // [0x7f7e100] Native|Public|HasOutParms|BlueprintCallable|BlueprintPure|Const 
+	// int32_t GetMappingNamesForKey(FKey& InKey, TArray<FName>& OutMappingNames);                                              // [0x7f7c550] Native|Public|HasOutParms|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/EnhancedInput.EnhancedPlayerMappableKeyProfile.GetMappedKeysInRow
-	// int32_t GetMappedKeysInRow(FName MappingName, TArray<FKey>& OutKeys);                                                    // [0x7f7dca0] Native|Public|HasOutParms|BlueprintCallable|BlueprintPure|Const 
+	// int32_t GetMappedKeysInRow(FName MappingName, TArray<FKey>& OutKeys);                                                    // [0x7f7c0f0] Native|Public|HasOutParms|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/EnhancedInput.EnhancedPlayerMappableKeyProfile.DumpProfileToLog
-	// void DumpProfileToLog();                                                                                                 // [0x4e5ac20] Native|Public|BlueprintCallable|Const 
+	// void DumpProfileToLog();                                                                                                 // [0x4e5a6f0] Native|Public|BlueprintCallable|Const 
 	// Function /Script/EnhancedInput.EnhancedPlayerMappableKeyProfile.DoesMappingPassQueryOptions
-	// bool DoesMappingPassQueryOptions(FPlayerKeyMapping& PlayerMapping, FPlayerMappableKeyQueryOptions& OPTIONS);             // [0x7f7d140] Native|Public|HasOutParms|BlueprintCallable|BlueprintPure|Const 
+	// bool DoesMappingPassQueryOptions(FPlayerKeyMapping& PlayerMapping, FPlayerMappableKeyQueryOptions& OPTIONS);             // [0x7f7b590] Native|Public|HasOutParms|BlueprintCallable|BlueprintPure|Const 
 };
 
 /// Class /Script/EnhancedInput.EnhancedInputUserSettings
@@ -246,49 +246,49 @@ public:
 
 	/// Functions
 	// Function /Script/EnhancedInput.EnhancedInputUserSettings.UnregisterInputMappingContexts
-	// bool UnregisterInputMappingContexts(TSet<UInputMappingContext*>& MappingContexts);                                       // [0x7f82030] Final|Native|Public|HasOutParms|BlueprintCallable 
+	// bool UnregisterInputMappingContexts(TSet<UInputMappingContext*>& MappingContexts);                                       // [0x7f80480] Final|Native|Public|HasOutParms|BlueprintCallable 
 	// Function /Script/EnhancedInput.EnhancedInputUserSettings.UnregisterInputMappingContext
-	// bool UnregisterInputMappingContext(class UInputMappingContext* IMC);                                                     // [0x7f81f90] Native|Public|BlueprintCallable 
+	// bool UnregisterInputMappingContext(class UInputMappingContext* IMC);                                                     // [0x7f803e0] Native|Public|BlueprintCallable 
 	// Function /Script/EnhancedInput.EnhancedInputUserSettings.UnMapPlayerKey
-	// void UnMapPlayerKey(FMapPlayerKeyArgs& InArgs, FGameplayTagContainer& FailureReason);                                    // [0x7f81ad0] Native|Public|HasOutParms|BlueprintCallable 
+	// void UnMapPlayerKey(FMapPlayerKeyArgs& InArgs, FGameplayTagContainer& FailureReason);                                    // [0x7f7ff20] Native|Public|HasOutParms|BlueprintCallable 
 	// Function /Script/EnhancedInput.EnhancedInputUserSettings.SetKeyProfile
-	// bool SetKeyProfile(FGameplayTag& InProfileId);                                                                           // [0x7f81560] Native|Public|HasOutParms|BlueprintCallable 
+	// bool SetKeyProfile(FGameplayTag& InProfileId);                                                                           // [0x7f7f9b0] Native|Public|HasOutParms|BlueprintCallable 
 	// Function /Script/EnhancedInput.EnhancedInputUserSettings.SaveSettings
-	// void SaveSettings();                                                                                                     // [0x3cdcd00] Native|Public|BlueprintCallable 
+	// void SaveSettings();                                                                                                     // [0x3cdc9f0] Native|Public|BlueprintCallable 
 	// Function /Script/EnhancedInput.EnhancedInputUserSettings.ResetKeyProfileToDefault
-	// void ResetKeyProfileToDefault(FGameplayTag& ProfileId, FGameplayTagContainer& FailureReason);                            // [0x7f812f0] Native|Public|HasOutParms|BlueprintCallable 
+	// void ResetKeyProfileToDefault(FGameplayTag& ProfileId, FGameplayTagContainer& FailureReason);                            // [0x7f7f740] Native|Public|HasOutParms|BlueprintCallable 
 	// Function /Script/EnhancedInput.EnhancedInputUserSettings.ResetAllPlayerKeysInRow
-	// void ResetAllPlayerKeysInRow(FMapPlayerKeyArgs& InArgs, FGameplayTagContainer& FailureReason);                           // [0x7f81140] Native|Public|HasOutParms|BlueprintCallable 
+	// void ResetAllPlayerKeysInRow(FMapPlayerKeyArgs& InArgs, FGameplayTagContainer& FailureReason);                           // [0x7f7f590] Native|Public|HasOutParms|BlueprintCallable 
 	// Function /Script/EnhancedInput.EnhancedInputUserSettings.RegisterInputMappingContexts
-	// bool RegisterInputMappingContexts(TSet<UInputMappingContext*>& MappingContexts);                                         // [0x7f80980] Final|Native|Public|HasOutParms|BlueprintCallable 
+	// bool RegisterInputMappingContexts(TSet<UInputMappingContext*>& MappingContexts);                                         // [0x7f7edd0] Final|Native|Public|HasOutParms|BlueprintCallable 
 	// Function /Script/EnhancedInput.EnhancedInputUserSettings.RegisterInputMappingContext
-	// bool RegisterInputMappingContext(class UInputMappingContext* IMC);                                                       // [0x7f808e0] Native|Public|BlueprintCallable 
+	// bool RegisterInputMappingContext(class UInputMappingContext* IMC);                                                       // [0x7f7ed30] Native|Public|BlueprintCallable 
 	// Function /Script/EnhancedInput.EnhancedInputUserSettings.MapPlayerKey
-	// void MapPlayerKey(FMapPlayerKeyArgs& InArgs, FGameplayTagContainer& FailureReason);                                      // [0x7f7fd40] Native|Public|HasOutParms|BlueprintCallable 
+	// void MapPlayerKey(FMapPlayerKeyArgs& InArgs, FGameplayTagContainer& FailureReason);                                      // [0x7f7e190] Native|Public|HasOutParms|BlueprintCallable 
 	// Function /Script/EnhancedInput.EnhancedInputUserSettings.MappingContextRegisteredWithSettings__DelegateSignature
-	// void MappingContextRegisteredWithSettings__DelegateSignature(class UInputMappingContext* IMC);                           // [0x2fd44f0] MulticastDelegate|Public|Delegate 
+	// void MappingContextRegisteredWithSettings__DelegateSignature(class UInputMappingContext* IMC);                           // [0x2fd4400] MulticastDelegate|Public|Delegate 
 	// Function /Script/EnhancedInput.EnhancedInputUserSettings.MappableKeyProfileChanged__DelegateSignature
-	// void MappableKeyProfileChanged__DelegateSignature(class UEnhancedPlayerMappableKeyProfile* NewProfile);                  // [0x2fd44f0] MulticastDelegate|Public|Delegate 
+	// void MappableKeyProfileChanged__DelegateSignature(class UEnhancedPlayerMappableKeyProfile* NewProfile);                  // [0x2fd4400] MulticastDelegate|Public|Delegate 
 	// Function /Script/EnhancedInput.EnhancedInputUserSettings.IsMappingContextRegistered
-	// bool IsMappingContextRegistered(class UInputMappingContext* IMC);                                                        // [0x7f7f140] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// bool IsMappingContextRegistered(class UInputMappingContext* IMC);                                                        // [0x7f7d590] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/EnhancedInput.EnhancedInputUserSettings.GetKeyProfileWithIdentifier
-	// class UEnhancedPlayerMappableKeyProfile* GetKeyProfileWithIdentifier(FGameplayTag& ProfileId);                           // [0x7f7da90] Native|Public|HasOutParms|BlueprintCallable|BlueprintPure|Const 
+	// class UEnhancedPlayerMappableKeyProfile* GetKeyProfileWithIdentifier(FGameplayTag& ProfileId);                           // [0x7f7bee0] Native|Public|HasOutParms|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/EnhancedInput.EnhancedInputUserSettings.GetCurrentKeyProfileIdentifier
-	// FGameplayTag GetCurrentKeyProfileIdentifier();                                                                           // [0x7f7d990] Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// FGameplayTag GetCurrentKeyProfileIdentifier();                                                                           // [0x7f7bde0] Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/EnhancedInput.EnhancedInputUserSettings.GetCurrentKeyProfile
-	// class UEnhancedPlayerMappableKeyProfile* GetCurrentKeyProfile();                                                         // [0x7f7d950] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// class UEnhancedPlayerMappableKeyProfile* GetCurrentKeyProfile();                                                         // [0x7f7bda0] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/EnhancedInput.EnhancedInputUserSettings.FindMappingsInRow
-	// TSet<FPlayerKeyMapping> FindMappingsInRow(FName MappingName);                                                            // [0x7f7d2e0] Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// TSet<FPlayerKeyMapping> FindMappingsInRow(FName MappingName);                                                            // [0x7f7b730] Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/EnhancedInput.EnhancedInputUserSettings.EnhancedInputUserSettingsChanged__DelegateSignature
-	// void EnhancedInputUserSettingsChanged__DelegateSignature(class UEnhancedInputUserSettings* Settings);                    // [0x2fd44f0] MulticastDelegate|Public|Delegate 
+	// void EnhancedInputUserSettingsChanged__DelegateSignature(class UEnhancedInputUserSettings* Settings);                    // [0x2fd4400] MulticastDelegate|Public|Delegate 
 	// Function /Script/EnhancedInput.EnhancedInputUserSettings.EnhancedInputUserSettingsApplied__DelegateSignature
-	// void EnhancedInputUserSettingsApplied__DelegateSignature();                                                              // [0x2fd44f0] MulticastDelegate|Public|Delegate 
+	// void EnhancedInputUserSettingsApplied__DelegateSignature();                                                              // [0x2fd4400] MulticastDelegate|Public|Delegate 
 	// Function /Script/EnhancedInput.EnhancedInputUserSettings.CreateNewKeyProfile
-	// class UEnhancedPlayerMappableKeyProfile* CreateNewKeyProfile(FPlayerMappableKeyProfileCreationArgs& InArgs);             // [0x7f7d080] Native|Public|HasOutParms|BlueprintCallable 
+	// class UEnhancedPlayerMappableKeyProfile* CreateNewKeyProfile(FPlayerMappableKeyProfileCreationArgs& InArgs);             // [0x7f7b4d0] Native|Public|HasOutParms|BlueprintCallable 
 	// Function /Script/EnhancedInput.EnhancedInputUserSettings.AsyncSaveSettings
-	// void AsyncSaveSettings();                                                                                                // [0x3cdca00] Native|Public|BlueprintCallable 
+	// void AsyncSaveSettings();                                                                                                // [0x3cdc6f0] Native|Public|BlueprintCallable 
 	// Function /Script/EnhancedInput.EnhancedInputUserSettings.ApplySettings
-	// void ApplySettings();                                                                                                    // [0x4e5ac20] Native|Public|BlueprintCallable 
+	// void ApplySettings();                                                                                                    // [0x4e5a6f0] Native|Public|BlueprintCallable 
 };
 
 /// Struct /Script/EnhancedInput.BlueprintEnhancedInputActionBinding
@@ -328,7 +328,7 @@ public:
 
 	/// Functions
 	// Function /Script/EnhancedInput.EnhancedInputComponent.GetBoundActionValue
-	// FInputActionValue GetBoundActionValue(class UInputAction* Action);                                                       // [0x7f7d490] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// FInputActionValue GetBoundActionValue(class UInputAction* Action);                                                       // [0x7f7b8e0] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 };
 
 /// Struct /Script/EnhancedInput.DefaultContextSetting
@@ -373,39 +373,39 @@ public:
 
 	/// Functions
 	// Function /Script/EnhancedInput.EnhancedInputLibrary.RequestRebuildControlMappingsUsingContext
-	// void RequestRebuildControlMappingsUsingContext(class UInputMappingContext* Context, bool bForceImmediately);             // [0x7f81060] Final|BlueprintCosmetic|Native|Static|Public|BlueprintCallable 
+	// void RequestRebuildControlMappingsUsingContext(class UInputMappingContext* Context, bool bForceImmediately);             // [0x7f7f4b0] Final|BlueprintCosmetic|Native|Static|Public|BlueprintCallable 
 	// Function /Script/EnhancedInput.EnhancedInputLibrary.MakeInputActionValueOfType
-	// FInputActionValue MakeInputActionValueOfType(double X, double Y, double Z, EInputActionValueType valueType);             // [0x7f7fa40] Final|Native|Static|Public|BlueprintCallable|BlueprintPure 
+	// FInputActionValue MakeInputActionValueOfType(double X, double Y, double Z, EInputActionValueType valueType);             // [0x7f7de90] Final|Native|Static|Public|BlueprintCallable|BlueprintPure 
 	// Function /Script/EnhancedInput.EnhancedInputLibrary.MakeInputActionValue
-	// FInputActionValue MakeInputActionValue(double X, double Y, double Z, FInputActionValue& MatchValueType);                 // [0x7f7f860] Final|Native|Static|Public|HasOutParms|BlueprintCallable|BlueprintPure 
+	// FInputActionValue MakeInputActionValue(double X, double Y, double Z, FInputActionValue& MatchValueType);                 // [0x7f7dcb0] Final|Native|Static|Public|HasOutParms|BlueprintCallable|BlueprintPure 
 	// Function /Script/EnhancedInput.EnhancedInputLibrary.IsActionKeyMappingPlayerMappable
-	// bool IsActionKeyMappingPlayerMappable(FEnhancedActionKeyMapping& ActionKeyMapping);                                      // [0x7f7eec0] Final|Native|Static|Public|HasOutParms|BlueprintCallable|BlueprintPure 
+	// bool IsActionKeyMappingPlayerMappable(FEnhancedActionKeyMapping& ActionKeyMapping);                                      // [0x7f7d310] Final|Native|Static|Public|HasOutParms|BlueprintCallable|BlueprintPure 
 	// Function /Script/EnhancedInput.EnhancedInputLibrary.GetThirdPlayerMappableKeySlot
-	// FPlayerMappableKeySlot GetThirdPlayerMappableKeySlot();                                                                  // [0x7f7e570] Final|Native|Static|Public|BlueprintCallable|BlueprintPure 
+	// FPlayerMappableKeySlot GetThirdPlayerMappableKeySlot();                                                                  // [0x7f7c9c0] Final|Native|Static|Public|BlueprintCallable|BlueprintPure 
 	// Function /Script/EnhancedInput.EnhancedInputLibrary.GetSecondPlayerMappableKeySlot
-	// FPlayerMappableKeySlot GetSecondPlayerMappableKeySlot();                                                                 // [0x7f7e550] Final|Native|Static|Public|BlueprintCallable|BlueprintPure 
+	// FPlayerMappableKeySlot GetSecondPlayerMappableKeySlot();                                                                 // [0x7f7c9a0] Final|Native|Static|Public|BlueprintCallable|BlueprintPure 
 	// Function /Script/EnhancedInput.EnhancedInputLibrary.GetPlayerMappableKeySettings
-	// class UPlayerMappableKeySettings* GetPlayerMappableKeySettings(FEnhancedActionKeyMapping& ActionKeyMapping);             // [0x7f7e280] Final|Native|Static|Public|HasOutParms|BlueprintCallable|BlueprintPure 
+	// class UPlayerMappableKeySettings* GetPlayerMappableKeySettings(FEnhancedActionKeyMapping& ActionKeyMapping);             // [0x7f7c6d0] Final|Native|Static|Public|HasOutParms|BlueprintCallable|BlueprintPure 
 	// Function /Script/EnhancedInput.EnhancedInputLibrary.GetMappingName
-	// FName GetMappingName(FEnhancedActionKeyMapping& ActionKeyMapping);                                                       // [0x7f7df40] Final|Native|Static|Public|HasOutParms|BlueprintCallable|BlueprintPure 
+	// FName GetMappingName(FEnhancedActionKeyMapping& ActionKeyMapping);                                                       // [0x7f7c390] Final|Native|Static|Public|HasOutParms|BlueprintCallable|BlueprintPure 
 	// Function /Script/EnhancedInput.EnhancedInputLibrary.GetFourthPlayerMappableKeySlot
-	// FPlayerMappableKeySlot GetFourthPlayerMappableKeySlot();                                                                 // [0x7f7da70] Final|Native|Static|Public|BlueprintCallable|BlueprintPure 
+	// FPlayerMappableKeySlot GetFourthPlayerMappableKeySlot();                                                                 // [0x7f7bec0] Final|Native|Static|Public|BlueprintCallable|BlueprintPure 
 	// Function /Script/EnhancedInput.EnhancedInputLibrary.GetFirstPlayerMappableKeySlot
-	// FPlayerMappableKeySlot GetFirstPlayerMappableKeySlot();                                                                  // [0x7f7da50] Final|Native|Static|Public|BlueprintCallable|BlueprintPure 
+	// FPlayerMappableKeySlot GetFirstPlayerMappableKeySlot();                                                                  // [0x7f7bea0] Final|Native|Static|Public|BlueprintCallable|BlueprintPure 
 	// Function /Script/EnhancedInput.EnhancedInputLibrary.GetBoundActionValue
-	// FInputActionValue GetBoundActionValue(class AActor* Actor, class UInputAction* Action);                                  // [0x7f7d5c0] Final|Native|Static|Public|BlueprintCallable|BlueprintPure 
+	// FInputActionValue GetBoundActionValue(class AActor* Actor, class UInputAction* Action);                                  // [0x7f7ba10] Final|Native|Static|Public|BlueprintCallable|BlueprintPure 
 	// Function /Script/EnhancedInput.EnhancedInputLibrary.Conv_InputActionValueToString
-	// FString Conv_InputActionValueToString(FInputActionValue ActionValue);                                                    // [0x7f7ceb0] Final|Native|Static|Public|BlueprintCallable|BlueprintPure 
+	// FString Conv_InputActionValueToString(FInputActionValue ActionValue);                                                    // [0x7f7b300] Final|Native|Static|Public|BlueprintCallable|BlueprintPure 
 	// Function /Script/EnhancedInput.EnhancedInputLibrary.Conv_InputActionValueToBool
-	// bool Conv_InputActionValueToBool(FInputActionValue InValue);                                                             // [0x7f7cdf0] Final|Native|Static|Public|BlueprintCallable|BlueprintPure 
+	// bool Conv_InputActionValueToBool(FInputActionValue InValue);                                                             // [0x7f7b240] Final|Native|Static|Public|BlueprintCallable|BlueprintPure 
 	// Function /Script/EnhancedInput.EnhancedInputLibrary.Conv_InputActionValueToAxis3D
-	// FVector Conv_InputActionValueToAxis3D(FInputActionValue ActionValue);                                                    // [0x7f7cd50] Final|Native|Static|Public|HasDefaults|BlueprintCallable|BlueprintPure 
+	// FVector Conv_InputActionValueToAxis3D(FInputActionValue ActionValue);                                                    // [0x7f7b1a0] Final|Native|Static|Public|HasDefaults|BlueprintCallable|BlueprintPure 
 	// Function /Script/EnhancedInput.EnhancedInputLibrary.Conv_InputActionValueToAxis2D
-	// FVector2D Conv_InputActionValueToAxis2D(FInputActionValue InValue);                                                      // [0x7f7ccc0] Final|Native|Static|Public|HasDefaults|BlueprintCallable|BlueprintPure 
+	// FVector2D Conv_InputActionValueToAxis2D(FInputActionValue InValue);                                                      // [0x7f7b110] Final|Native|Static|Public|HasDefaults|BlueprintCallable|BlueprintPure 
 	// Function /Script/EnhancedInput.EnhancedInputLibrary.Conv_InputActionValueToAxis1D
-	// double Conv_InputActionValueToAxis1D(FInputActionValue InValue);                                                         // [0x7f7cc20] Final|Native|Static|Public|BlueprintCallable|BlueprintPure 
+	// double Conv_InputActionValueToAxis1D(FInputActionValue InValue);                                                         // [0x7f7b070] Final|Native|Static|Public|BlueprintCallable|BlueprintPure 
 	// Function /Script/EnhancedInput.EnhancedInputLibrary.BreakInputActionValue
-	// void BreakInputActionValue(FInputActionValue InActionValue, double& X, double& Y, double& Z, EInputActionValueType& Type); // [0x7f7c9f0] Final|Native|Static|Public|HasOutParms|BlueprintCallable|BlueprintPure 
+	// void BreakInputActionValue(FInputActionValue InActionValue, double& X, double& Y, double& Z, EInputActionValueType& Type); // [0x7f7ae40] Final|Native|Static|Public|HasOutParms|BlueprintCallable|BlueprintPure 
 };
 
 /// Class /Script/EnhancedInput.EnhancedInputPlatformData
@@ -418,7 +418,7 @@ public:
 
 	/// Functions
 	// Function /Script/EnhancedInput.EnhancedInputPlatformData.GetContextRedirect
-	// class UInputMappingContext* GetContextRedirect(class UInputMappingContext* InContext);                                   // [0x7f7d800] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// class UInputMappingContext* GetContextRedirect(class UInputMappingContext* InContext);                                   // [0x7f7bc50] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 };
 
 /// Class /Script/EnhancedInput.EnhancedInputPlatformSettings
@@ -441,65 +441,65 @@ public:
 
 	/// Functions
 	// Function /Script/EnhancedInput.EnhancedInputSubsystemInterface.UpdateValueOfContinuousInputInjectionForPlayerMapping
-	// void UpdateValueOfContinuousInputInjectionForPlayerMapping(FName MappingName, FInputActionValue RawValue);               // [0x7f823e0] Native|Public|BlueprintCallable 
+	// void UpdateValueOfContinuousInputInjectionForPlayerMapping(FName MappingName, FInputActionValue RawValue);               // [0x7f80830] Native|Public|BlueprintCallable 
 	// Function /Script/EnhancedInput.EnhancedInputSubsystemInterface.UpdateValueOfContinuousInputInjectionForAction
-	// void UpdateValueOfContinuousInputInjectionForAction(class UInputAction* Action, FInputActionValue RawValue);             // [0x7f822e0] Native|Public|BlueprintCallable 
+	// void UpdateValueOfContinuousInputInjectionForAction(class UInputAction* Action, FInputActionValue RawValue);             // [0x7f80730] Native|Public|BlueprintCallable 
 	// Function /Script/EnhancedInput.EnhancedInputSubsystemInterface.StopContinuousInputInjectionForPlayerMapping
-	// void StopContinuousInputInjectionForPlayerMapping(FName MappingName);                                                    // [0x7f81a40] Native|Public|BlueprintCallable 
+	// void StopContinuousInputInjectionForPlayerMapping(FName MappingName);                                                    // [0x7f7fe90] Native|Public|BlueprintCallable 
 	// Function /Script/EnhancedInput.EnhancedInputSubsystemInterface.StopContinuousInputInjectionForAction
-	// void StopContinuousInputInjectionForAction(class UInputAction* Action);                                                  // [0x7f819b0] Native|Public|BlueprintCallable 
+	// void StopContinuousInputInjectionForAction(class UInputAction* Action);                                                  // [0x7f7fe00] Native|Public|BlueprintCallable 
 	// Function /Script/EnhancedInput.EnhancedInputSubsystemInterface.StartContinuousInputInjectionForPlayerMapping
-	// void StartContinuousInputInjectionForPlayerMapping(FName MappingName, FInputActionValue RawValue, TArray<UInputModifier*>& Modifiers, TArray<UInputTrigger*>& Triggers); // [0x7f817e0] Native|Public|HasOutParms|BlueprintCallable 
+	// void StartContinuousInputInjectionForPlayerMapping(FName MappingName, FInputActionValue RawValue, TArray<UInputModifier*>& Modifiers, TArray<UInputTrigger*>& Triggers); // [0x7f7fc30] Native|Public|HasOutParms|BlueprintCallable 
 	// Function /Script/EnhancedInput.EnhancedInputSubsystemInterface.StartContinuousInputInjectionForAction
-	// void StartContinuousInputInjectionForAction(class UInputAction* Action, FInputActionValue RawValue, TArray<UInputModifier*>& Modifiers, TArray<UInputTrigger*>& Triggers); // [0x7f81610] Native|Public|HasOutParms|BlueprintCallable 
+	// void StartContinuousInputInjectionForAction(class UInputAction* Action, FInputActionValue RawValue, TArray<UInputModifier*>& Modifiers, TArray<UInputTrigger*>& Triggers); // [0x7f7fa60] Native|Public|HasOutParms|BlueprintCallable 
 	// Function /Script/EnhancedInput.EnhancedInputSubsystemInterface.RequestRebuildControlMappings
-	// void RequestRebuildControlMappings(FModifyContextOptions& OPTIONS, EInputMappingRebuildType RebuildType);                // [0x7f80f70] BlueprintCosmetic|Native|Public|HasOutParms|BlueprintCallable 
+	// void RequestRebuildControlMappings(FModifyContextOptions& OPTIONS, EInputMappingRebuildType RebuildType);                // [0x7f7f3c0] BlueprintCosmetic|Native|Public|HasOutParms|BlueprintCallable 
 	// Function /Script/EnhancedInput.EnhancedInputSubsystemInterface.RemovePlayerMappableConfig
-	// void RemovePlayerMappableConfig(class UPlayerMappableInputConfig* Config, FModifyContextOptions& OPTIONS);               // [0x7f80e80] BlueprintCosmetic|Native|Public|HasOutParms|BlueprintCallable 
+	// void RemovePlayerMappableConfig(class UPlayerMappableInputConfig* Config, FModifyContextOptions& OPTIONS);               // [0x7f7f2d0] BlueprintCosmetic|Native|Public|HasOutParms|BlueprintCallable 
 	// Function /Script/EnhancedInput.EnhancedInputSubsystemInterface.RemoveMappingContext
-	// void RemoveMappingContext(class UInputMappingContext* MappingContext, FModifyContextOptions& OPTIONS);                   // [0x7f80d90] BlueprintCosmetic|Native|Public|HasOutParms|BlueprintCallable 
+	// void RemoveMappingContext(class UInputMappingContext* MappingContext, FModifyContextOptions& OPTIONS);                   // [0x7f7f1e0] BlueprintCosmetic|Native|Public|HasOutParms|BlueprintCallable 
 	// Function /Script/EnhancedInput.EnhancedInputSubsystemInterface.RemoveAllPlayerMappedKeysForMapping
-	// int32_t RemoveAllPlayerMappedKeysForMapping(FName MappingName, FModifyContextOptions& OPTIONS);                          // [0x7f80ca0] BlueprintCosmetic|Native|Public|HasOutParms|BlueprintCallable 
+	// int32_t RemoveAllPlayerMappedKeysForMapping(FName MappingName, FModifyContextOptions& OPTIONS);                          // [0x7f7f0f0] BlueprintCosmetic|Native|Public|HasOutParms|BlueprintCallable 
 	// Function /Script/EnhancedInput.EnhancedInputSubsystemInterface.RemoveAllPlayerMappedKeys
-	// void RemoveAllPlayerMappedKeys(FModifyContextOptions& OPTIONS);                                                          // [0x7f80c00] BlueprintCosmetic|Native|Public|HasOutParms|BlueprintCallable 
+	// void RemoveAllPlayerMappedKeys(FModifyContextOptions& OPTIONS);                                                          // [0x7f7f050] BlueprintCosmetic|Native|Public|HasOutParms|BlueprintCallable 
 	// Function /Script/EnhancedInput.EnhancedInputSubsystemInterface.QueryMapKeyInContextSet
-	// EMappingQueryResult QueryMapKeyInContextSet(TArray<UInputMappingContext*>& PrioritizedActiveContexts, class UInputMappingContext* InputContext, class UInputAction* Action, FKey Key, TArray<FMappingQueryIssue>& OutIssues, EMappingQueryIssue BlockingIssues); // [0x7f80460] BlueprintCosmetic|Native|Public|HasOutParms|BlueprintCallable 
+	// EMappingQueryResult QueryMapKeyInContextSet(TArray<UInputMappingContext*>& PrioritizedActiveContexts, class UInputMappingContext* InputContext, class UInputAction* Action, FKey Key, TArray<FMappingQueryIssue>& OutIssues, EMappingQueryIssue BlockingIssues); // [0x7f7e8b0] BlueprintCosmetic|Native|Public|HasOutParms|BlueprintCallable 
 	// Function /Script/EnhancedInput.EnhancedInputSubsystemInterface.QueryMapKeyInActiveContextSet
-	// EMappingQueryResult QueryMapKeyInActiveContextSet(class UInputMappingContext* InputContext, class UInputAction* Action, FKey Key, TArray<FMappingQueryIssue>& OutIssues, EMappingQueryIssue BlockingIssues); // [0x7f80240] BlueprintCosmetic|Native|Public|HasOutParms|BlueprintCallable 
+	// EMappingQueryResult QueryMapKeyInActiveContextSet(class UInputMappingContext* InputContext, class UInputAction* Action, FKey Key, TArray<FMappingQueryIssue>& OutIssues, EMappingQueryIssue BlockingIssues); // [0x7f7e690] BlueprintCosmetic|Native|Public|HasOutParms|BlueprintCallable 
 	// Function /Script/EnhancedInput.EnhancedInputSubsystemInterface.QueryKeysMappedToAction
-	// TArray<FKey> QueryKeysMappedToAction(class UInputAction* Action);                                                        // [0x7f80190] BlueprintCosmetic|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// TArray<FKey> QueryKeysMappedToAction(class UInputAction* Action);                                                        // [0x7f7e5e0] BlueprintCosmetic|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/EnhancedInput.EnhancedInputSubsystemInterface.OnUserSettingsChanged
-	// void OnUserSettingsChanged(class UEnhancedInputUserSettings* Settings);                                                  // [0x7f80100] Native|Protected     
+	// void OnUserSettingsChanged(class UEnhancedInputUserSettings* Settings);                                                  // [0x7f7e550] Native|Protected     
 	// Function /Script/EnhancedInput.EnhancedInputSubsystemInterface.OnUserKeyProfileChanged
-	// void OnUserKeyProfileChanged(class UEnhancedPlayerMappableKeyProfile* InNewProfile);                                     // [0x7f80070] Native|Protected     
+	// void OnUserKeyProfileChanged(class UEnhancedPlayerMappableKeyProfile* InNewProfile);                                     // [0x7f7e4c0] Native|Protected     
 	// Function /Script/EnhancedInput.EnhancedInputSubsystemInterface.K2_RemovePlayerMappedKeyInSlot
-	// int32_t K2_RemovePlayerMappedKeyInSlot(FName MappingName, FPlayerMappableKeySlot& KeySlot, FModifyContextOptions& OPTIONS); // [0x7f7f720] BlueprintCosmetic|Native|Public|HasOutParms|BlueprintCallable 
+	// int32_t K2_RemovePlayerMappedKeyInSlot(FName MappingName, FPlayerMappableKeySlot& KeySlot, FModifyContextOptions& OPTIONS); // [0x7f7db70] BlueprintCosmetic|Native|Public|HasOutParms|BlueprintCallable 
 	// Function /Script/EnhancedInput.EnhancedInputSubsystemInterface.K2_GetPlayerMappedKeyInSlot
-	// FKey K2_GetPlayerMappedKeyInSlot(FName MappingName, FPlayerMappableKeySlot& KeySlot);                                    // [0x7f7f5e0] BlueprintCosmetic|Native|Public|HasOutParms|BlueprintCallable|BlueprintPure|Const 
+	// FKey K2_GetPlayerMappedKeyInSlot(FName MappingName, FPlayerMappableKeySlot& KeySlot);                                    // [0x7f7da30] BlueprintCosmetic|Native|Public|HasOutParms|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/EnhancedInput.EnhancedInputSubsystemInterface.K2_AddPlayerMappedKeyInSlot
-	// int32_t K2_AddPlayerMappedKeyInSlot(FName MappingName, FKey NewKey, FPlayerMappableKeySlot& KeySlot, FModifyContextOptions& OPTIONS); // [0x7f7f240] BlueprintCosmetic|Native|Public|HasOutParms|BlueprintCallable 
+	// int32_t K2_AddPlayerMappedKeyInSlot(FName MappingName, FKey NewKey, FPlayerMappableKeySlot& KeySlot, FModifyContextOptions& OPTIONS); // [0x7f7d690] BlueprintCosmetic|Native|Public|HasOutParms|BlueprintCallable 
 	// Function /Script/EnhancedInput.EnhancedInputSubsystemInterface.InjectInputVectorForPlayerMapping
-	// void InjectInputVectorForPlayerMapping(FName MappingName, FVector Value, TArray<UInputModifier*>& Modifiers, TArray<UInputTrigger*>& Triggers); // [0x7f7ed10] Native|Public|HasOutParms|HasDefaults|BlueprintCallable 
+	// void InjectInputVectorForPlayerMapping(FName MappingName, FVector Value, TArray<UInputModifier*>& Modifiers, TArray<UInputTrigger*>& Triggers); // [0x7f7d160] Native|Public|HasOutParms|HasDefaults|BlueprintCallable 
 	// Function /Script/EnhancedInput.EnhancedInputSubsystemInterface.InjectInputVectorForAction
-	// void InjectInputVectorForAction(class UInputAction* Action, FVector Value, TArray<UInputModifier*>& Modifiers, TArray<UInputTrigger*>& Triggers); // [0x7f7eb60] Native|Public|HasOutParms|HasDefaults|BlueprintCallable 
+	// void InjectInputVectorForAction(class UInputAction* Action, FVector Value, TArray<UInputModifier*>& Modifiers, TArray<UInputTrigger*>& Triggers); // [0x7f7cfb0] Native|Public|HasOutParms|HasDefaults|BlueprintCallable 
 	// Function /Script/EnhancedInput.EnhancedInputSubsystemInterface.InjectInputForPlayerMapping
-	// void InjectInputForPlayerMapping(FName MappingName, FInputActionValue RawValue, TArray<UInputModifier*>& Modifiers, TArray<UInputTrigger*>& Triggers); // [0x7f7e990] Native|Public|HasOutParms|BlueprintCallable 
+	// void InjectInputForPlayerMapping(FName MappingName, FInputActionValue RawValue, TArray<UInputModifier*>& Modifiers, TArray<UInputTrigger*>& Triggers); // [0x7f7cde0] Native|Public|HasOutParms|BlueprintCallable 
 	// Function /Script/EnhancedInput.EnhancedInputSubsystemInterface.InjectInputForAction
-	// void InjectInputForAction(class UInputAction* Action, FInputActionValue RawValue, TArray<UInputModifier*>& Modifiers, TArray<UInputTrigger*>& Triggers); // [0x7f7e7c0] Native|Public|HasOutParms|BlueprintCallable 
+	// void InjectInputForAction(class UInputAction* Action, FInputActionValue RawValue, TArray<UInputModifier*>& Modifiers, TArray<UInputTrigger*>& Triggers); // [0x7f7cc10] Native|Public|HasOutParms|BlueprintCallable 
 	// Function /Script/EnhancedInput.EnhancedInputSubsystemInterface.HasMappingContext
-	// bool HasMappingContext(class UInputMappingContext* MappingContext, int32_t& OutFoundPriority);                           // [0x7f7e6e0] BlueprintCosmetic|Native|Public|HasOutParms|BlueprintCallable|BlueprintPure|Const 
+	// bool HasMappingContext(class UInputMappingContext* MappingContext, int32_t& OutFoundPriority);                           // [0x7f7cb30] BlueprintCosmetic|Native|Public|HasOutParms|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/EnhancedInput.EnhancedInputSubsystemInterface.GetUserSettings
-	// class UEnhancedInputUserSettings* GetUserSettings();                                                                     // [0x50fe450] Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// class UEnhancedInputUserSettings* GetUserSettings();                                                                     // [0x50fde20] Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/EnhancedInput.EnhancedInputSubsystemInterface.GetAllPlayerMappedKeys
-	// TArray<FKey> GetAllPlayerMappedKeys(FName MappingName);                                                                  // [0x7f7d3e0] BlueprintCosmetic|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// TArray<FKey> GetAllPlayerMappedKeys(FName MappingName);                                                                  // [0x7f7b830] BlueprintCosmetic|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/EnhancedInput.EnhancedInputSubsystemInterface.GetAllPlayerMappableActionKeyMappings
-	// TArray<FEnhancedActionKeyMapping> GetAllPlayerMappableActionKeyMappings();                                               // [0x7f7d390] BlueprintCosmetic|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// TArray<FEnhancedActionKeyMapping> GetAllPlayerMappableActionKeyMappings();                                               // [0x7f7b7e0] BlueprintCosmetic|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/EnhancedInput.EnhancedInputSubsystemInterface.ClearAllMappings
-	// void ClearAllMappings();                                                                                                 // [0x7f7cc00] BlueprintCosmetic|Native|Public|BlueprintCallable 
+	// void ClearAllMappings();                                                                                                 // [0x7f7b050] BlueprintCosmetic|Native|Public|BlueprintCallable 
 	// Function /Script/EnhancedInput.EnhancedInputSubsystemInterface.AddPlayerMappableConfig
-	// void AddPlayerMappableConfig(class UPlayerMappableInputConfig* Config, FModifyContextOptions& OPTIONS);                  // [0x7f7c900] BlueprintCosmetic|Native|Public|HasOutParms|BlueprintCallable 
+	// void AddPlayerMappableConfig(class UPlayerMappableInputConfig* Config, FModifyContextOptions& OPTIONS);                  // [0x7f7ad50] BlueprintCosmetic|Native|Public|HasOutParms|BlueprintCallable 
 	// Function /Script/EnhancedInput.EnhancedInputSubsystemInterface.AddMappingContext
-	// void AddMappingContext(class UInputMappingContext* MappingContext, int32_t Priority, FModifyContextOptions& OPTIONS);    // [0x7f7c7e0] BlueprintCosmetic|Native|Public|HasOutParms|BlueprintCallable 
+	// void AddMappingContext(class UInputMappingContext* MappingContext, int32_t Priority, FModifyContextOptions& OPTIONS);    // [0x7f7ac30] BlueprintCosmetic|Native|Public|HasOutParms|BlueprintCallable 
 };
 
 /// Struct /Script/EnhancedInput.InjectedInput
@@ -524,7 +524,7 @@ public:
 
 	/// Functions
 	// Function /Script/EnhancedInput.EnhancedInputLocalPlayerSubsystem.OnControlMappingsRebuilt__DelegateSignature
-	// void OnControlMappingsRebuilt__DelegateSignature();                                                                      // [0x2fd44f0] MulticastDelegate|Public|Delegate 
+	// void OnControlMappingsRebuilt__DelegateSignature();                                                                      // [0x2fd4400] MulticastDelegate|Public|Delegate 
 };
 
 /// Class /Script/EnhancedInput.EnhancedInputWorldSubsystem
@@ -541,9 +541,9 @@ public:
 
 	/// Functions
 	// Function /Script/EnhancedInput.EnhancedInputWorldSubsystem.RemoveActorInputComponent
-	// bool RemoveActorInputComponent(class AActor* Actor);                                                                     // [0x7f80ad0] Final|Native|Public|BlueprintCallable 
+	// bool RemoveActorInputComponent(class AActor* Actor);                                                                     // [0x7f7ef20] Final|Native|Public|BlueprintCallable 
 	// Function /Script/EnhancedInput.EnhancedInputWorldSubsystem.AddActorInputComponent
-	// void AddActorInputComponent(class AActor* Actor);                                                                        // [0x7f7c590] Final|Native|Public|BlueprintCallable 
+	// void AddActorInputComponent(class AActor* Actor);                                                                        // [0x7f7a9e0] Final|Native|Public|BlueprintCallable 
 };
 
 /// Struct /Script/EnhancedInput.KeyConsumptionOptions
@@ -656,15 +656,15 @@ public:
 
 	/// Functions
 	// Function /Script/EnhancedInput.InputMappingContext.UnmapKey
-	// void UnmapKey(class UInputAction* Action, FKey Key);                                                                     // [0x7f81d80] Final|Native|Public|BlueprintCallable 
+	// void UnmapKey(class UInputAction* Action, FKey Key);                                                                     // [0x7f801d0] Final|Native|Public|BlueprintCallable 
 	// Function /Script/EnhancedInput.InputMappingContext.UnmapAllKeysFromAction
-	// void UnmapAllKeysFromAction(class UInputAction* Action);                                                                 // [0x7f81c80] Final|Native|Public|BlueprintCallable 
+	// void UnmapAllKeysFromAction(class UInputAction* Action);                                                                 // [0x7f800d0] Final|Native|Public|BlueprintCallable 
 	// Function /Script/EnhancedInput.InputMappingContext.UnmapAll
-	// void UnmapAll();                                                                                                         // [0x7f81d10] Final|Native|Public|BlueprintCallable 
+	// void UnmapAll();                                                                                                         // [0x7f80160] Final|Native|Public|BlueprintCallable 
 	// Function /Script/EnhancedInput.InputMappingContext.UnmapAction
-	// void UnmapAction(class UInputAction* Action);                                                                            // [0x7f81c80] Final|Native|Public|BlueprintCallable 
+	// void UnmapAction(class UInputAction* Action);                                                                            // [0x7f800d0] Final|Native|Public|BlueprintCallable 
 	// Function /Script/EnhancedInput.InputMappingContext.MapKey
-	// FEnhancedActionKeyMapping MapKey(class UInputAction* Action, FKey ToKey);                                                // [0x7f7fbf0] Final|Native|Public|BlueprintCallable 
+	// FEnhancedActionKeyMapping MapKey(class UInputAction* Action, FKey ToKey);                                                // [0x7f7e040] Final|Native|Public|BlueprintCallable 
 };
 
 /// Class /Script/EnhancedInput.InputModifier
@@ -676,9 +676,9 @@ public:
 
 	/// Functions
 	// Function /Script/EnhancedInput.InputModifier.ModifyRaw
-	// FInputActionValue ModifyRaw(class UEnhancedPlayerInput* PlayerInput, FInputActionValue CurrentValue, float DeltaTime);   // [0x7f7fef0] Native|Event|Public|BlueprintCallable|BlueprintEvent|BlueprintPure|Const 
+	// FInputActionValue ModifyRaw(class UEnhancedPlayerInput* PlayerInput, FInputActionValue CurrentValue, float DeltaTime);   // [0x7f7e340] Native|Event|Public|BlueprintCallable|BlueprintEvent|BlueprintPure|Const 
 	// Function /Script/EnhancedInput.InputModifier.GetVisualizationColor
-	// FLinearColor GetVisualizationColor(FInputActionValue SampleValue, FInputActionValue FinalValue);                         // [0x7f7e590] Native|Event|Public|HasDefaults|BlueprintEvent|Const 
+	// FLinearColor GetVisualizationColor(FInputActionValue SampleValue, FInputActionValue FinalValue);                         // [0x7f7c9e0] Native|Event|Public|HasDefaults|BlueprintEvent|Const 
 };
 
 /// Class /Script/EnhancedInput.InputModifierSmoothDelta
@@ -802,11 +802,11 @@ public:
 
 	/// Functions
 	// Function /Script/EnhancedInput.InputTrigger.UpdateState
-	// ETriggerState UpdateState(class UEnhancedPlayerInput* PlayerInput, FInputActionValue ModifiedValue, float DeltaTime);    // [0x7f82180] Native|Event|Public|BlueprintCallable|BlueprintEvent 
+	// ETriggerState UpdateState(class UEnhancedPlayerInput* PlayerInput, FInputActionValue ModifiedValue, float DeltaTime);    // [0x7f805d0] Native|Event|Public|BlueprintCallable|BlueprintEvent 
 	// Function /Script/EnhancedInput.InputTrigger.IsActuated
-	// bool IsActuated(FInputActionValue& ForValue);                                                                            // [0x7f7f050] Final|Native|Public|HasOutParms|BlueprintCallable|BlueprintPure|Const 
+	// bool IsActuated(FInputActionValue& ForValue);                                                                            // [0x7f7d4a0] Final|Native|Public|HasOutParms|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/EnhancedInput.InputTrigger.GetTriggerType
-	// ETriggerType GetTriggerType();                                                                                           // [0x5372130] Native|Event|Public|BlueprintCallable|BlueprintEvent|BlueprintPure|Const 
+	// ETriggerType GetTriggerType();                                                                                           // [0x53719f0] Native|Event|Public|BlueprintCallable|BlueprintEvent|BlueprintPure|Const 
 };
 
 /// Class /Script/EnhancedInput.InputTriggerTimedBase
@@ -941,23 +941,23 @@ public:
 
 	/// Functions
 	// Function /Script/EnhancedInput.PlayerMappableInputConfig.ResetToDefault
-	// void ResetToDefault();                                                                                                   // [0x4d332c0] Final|Native|Public|BlueprintCallable 
+	// void ResetToDefault();                                                                                                   // [0x4d32ea0] Final|Native|Public|BlueprintCallable 
 	// Function /Script/EnhancedInput.PlayerMappableInputConfig.IsDeprecated
-	// bool IsDeprecated();                                                                                                     // [0x7f7f120] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// bool IsDeprecated();                                                                                                     // [0x7f7d570] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/EnhancedInput.PlayerMappableInputConfig.GetPlayerMappableKeys
-	// TArray<FEnhancedActionKeyMapping> GetPlayerMappableKeys();                                                               // [0x7f7e410] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// TArray<FEnhancedActionKeyMapping> GetPlayerMappableKeys();                                                               // [0x7f7c860] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/EnhancedInput.PlayerMappableInputConfig.GetMetadata
-	// class UObject* GetMetadata();                                                                                            // [0x7f7e260] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// class UObject* GetMetadata();                                                                                            // [0x7f7c6b0] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/EnhancedInput.PlayerMappableInputConfig.GetMappingContexts
-	// TMap<UInputMappingContext*, int32_t> GetMappingContexts();                                                               // [0x7f7df10] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// TMap<UInputMappingContext*, int32_t> GetMappingContexts();                                                               // [0x7f7c360] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/EnhancedInput.PlayerMappableInputConfig.GetMappingByName
-	// FEnhancedActionKeyMapping GetMappingByName(FName MappingName);                                                           // [0x7f7de00] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// FEnhancedActionKeyMapping GetMappingByName(FName MappingName);                                                           // [0x7f7c250] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/EnhancedInput.PlayerMappableInputConfig.GetKeysBoundToAction
-	// TArray<FEnhancedActionKeyMapping> GetKeysBoundToAction(class UInputAction* InAction);                                    // [0x7f7db40] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// TArray<FEnhancedActionKeyMapping> GetKeysBoundToAction(class UInputAction* InAction);                                    // [0x7f7bf90] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/EnhancedInput.PlayerMappableInputConfig.GetDisplayName
-	// FText GetDisplayName();                                                                                                  // [0x7f7d9d0] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// FText GetDisplayName();                                                                                                  // [0x7f7be20] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/EnhancedInput.PlayerMappableInputConfig.GetConfigName
-	// FName GetConfigName();                                                                                                   // [0x50fe480] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// FName GetConfigName();                                                                                                   // [0x50fde50] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 };
 
 /// Class /Script/EnhancedInput.PlayerMappableKeySettings

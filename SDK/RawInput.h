@@ -23,7 +23,7 @@ public:
 
 	/// Functions
 	// Function /Script/RawInput.RawInputFunctionLibrary.GetRegisteredDevices
-	// TArray<FRegisteredDeviceInfo> GetRegisteredDevices();                                                                    // [0x7c32680] Final|Native|Static|Public|BlueprintCallable|BlueprintPure 
+	// TArray<FRegisteredDeviceInfo> GetRegisteredDevices();                                                                    // [0x7c30d50] Final|Native|Static|Public|BlueprintCallable|BlueprintPure 
 };
 
 /// Struct /Script/RawInput.RawInputDeviceAxisProperties

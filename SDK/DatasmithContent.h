@@ -438,13 +438,13 @@ public:
 
 	/// Functions
 	// Function /Script/DatasmithContent.DatasmithContentBlueprintLibrary.GetDatasmithUserDataValuesForKey
-	// TArray<FString> GetDatasmithUserDataValuesForKey(class UObject* Object, FName Key, bool bPartialMatchKey);               // [0x7f98670] Final|Native|Static|Public|BlueprintCallable 
+	// TArray<FString> GetDatasmithUserDataValuesForKey(class UObject* Object, FName Key, bool bPartialMatchKey);               // [0x7f96ac0] Final|Native|Static|Public|BlueprintCallable 
 	// Function /Script/DatasmithContent.DatasmithContentBlueprintLibrary.GetDatasmithUserDataValueForKey
-	// FString GetDatasmithUserDataValueForKey(class UObject* Object, FName Key, bool bPartialMatchKey);                        // [0x7f981a0] Final|Native|Static|Public|BlueprintCallable 
+	// FString GetDatasmithUserDataValueForKey(class UObject* Object, FName Key, bool bPartialMatchKey);                        // [0x7f965f0] Final|Native|Static|Public|BlueprintCallable 
 	// Function /Script/DatasmithContent.DatasmithContentBlueprintLibrary.GetDatasmithUserDataKeysAndValuesForValue
-	// void GetDatasmithUserDataKeysAndValuesForValue(class UObject* Object, FString StringToMatch, TArray<FName>& OutKeys, TArray<FString>& OutValues); // [0x7f97cd0] Final|Native|Static|Public|HasOutParms|BlueprintCallable 
+	// void GetDatasmithUserDataKeysAndValuesForValue(class UObject* Object, FString StringToMatch, TArray<FName>& OutKeys, TArray<FString>& OutValues); // [0x7f96120] Final|Native|Static|Public|HasOutParms|BlueprintCallable 
 	// Function /Script/DatasmithContent.DatasmithContentBlueprintLibrary.GetDatasmithUserData
-	// class UDatasmithAssetUserData* GetDatasmithUserData(class UObject* Object);                                              // [0x7f97c40] Final|Native|Static|Public|BlueprintCallable 
+	// class UDatasmithAssetUserData* GetDatasmithUserData(class UObject* Object);                                              // [0x7f96090] Final|Native|Static|Public|BlueprintCallable 
 };
 
 /// Class /Script/DatasmithContent.DatasmithCustomActionBase
@@ -476,7 +476,7 @@ public:
 
 	/// Functions
 	// Function /Script/DatasmithContent.DatasmithImportedSequencesActor.PlayLevelSequence
-	// void PlayLevelSequence(class ULevelSequence* SequenceToPlay);                                                            // [0x49fc7a0] Final|Native|Public|BlueprintCallable 
+	// void PlayLevelSequence(class ULevelSequence* SequenceToPlay);                                                            // [0x49fc400] Final|Native|Public|BlueprintCallable 
 };
 
 /// Class /Script/DatasmithContent.DatasmithOptionsBase

@@ -1033,9 +1033,9 @@ public:
 
 	/// Functions
 	// Function /Script/MeshModelingToolsExp.BakeInputMeshProperties.GetTargetUVLayerNamesFunc
-	// TArray<FString> GetTargetUVLayerNamesFunc();                                                                             // [0x81fd670] Final|Native|Public|Const 
+	// TArray<FString> GetTargetUVLayerNamesFunc();                                                                             // [0x81fbb20] Final|Native|Public|Const 
 	// Function /Script/MeshModelingToolsExp.BakeInputMeshProperties.GetSourceUVLayerNamesFunc
-	// TArray<FString> GetSourceUVLayerNamesFunc();                                                                             // [0x81fd640] Final|Native|Public|Const 
+	// TArray<FString> GetSourceUVLayerNamesFunc();                                                                             // [0x81fbaf0] Final|Native|Public|Const 
 };
 
 /// Class /Script/MeshModelingToolsExp.BakeNormalMapToolProperties
@@ -1081,7 +1081,7 @@ public:
 
 	/// Functions
 	// Function /Script/MeshModelingToolsExp.BakeTexture2DProperties.GetUVLayerNamesFunc
-	// TArray<FString> GetUVLayerNamesFunc();                                                                                   // [0x81fd6a0] Final|Native|Public|Const 
+	// TArray<FString> GetUVLayerNamesFunc();                                                                                   // [0x81fbb50] Final|Native|Public|Const 
 };
 
 /// Class /Script/MeshModelingToolsExp.BakeMultiTexture2DProperties
@@ -1097,7 +1097,7 @@ public:
 
 	/// Functions
 	// Function /Script/MeshModelingToolsExp.BakeMultiTexture2DProperties.GetUVLayerNamesFunc
-	// TArray<FString> GetUVLayerNamesFunc();                                                                                   // [0x7c231d0] Final|Native|Public|Const 
+	// TArray<FString> GetUVLayerNamesFunc();                                                                                   // [0x7c218a0] Final|Native|Public|Const 
 };
 
 /// Class /Script/MeshModelingToolsExp.BakeVisualizationProperties
@@ -1642,7 +1642,7 @@ public:
 	class UDragAlignmentMechanic*                      DragAlignmentMechanic;                                      // 0x01C8   (0x0008)  
 	class UConstructionPlaneMechanic*                  PlaneMechanic;                                              // 0x01D0   (0x0008)  
 	unsigned char                                      UnknownData03_6[0x1E0];                                     // 0x01D8   (0x01E0)  MISSED
-	SDK_UNDEFINED(80,1104) /* TSet<UPrimitiveComponent*> */ __um(AllComponents);                                   // 0x03B8   (0x0050)  
+	SDK_UNDEFINED(80,1114) /* TSet<UPrimitiveComponent*> */ __um(AllComponents);                                   // 0x03B8   (0x0050)  
 	unsigned char                                      UnknownData04_6[0xA0];                                      // 0x0408   (0x00A0)  MISSED
 	class UPreviewGeometry*                            PreviewGeometry;                                            // 0x04A8   (0x0008)  
 };
@@ -1663,9 +1663,9 @@ public:
 
 	/// Functions
 	// Function /Script/MeshModelingToolsExp.MeshConstraintProperties.IsPreventTinyTrianglesEnabled
-	// bool IsPreventTinyTrianglesEnabled();                                                                                    // [0x4e5a7e0] Native|Protected|Const 
+	// bool IsPreventTinyTrianglesEnabled();                                                                                    // [0x4e5a2b0] Native|Protected|Const 
 	// Function /Script/MeshModelingToolsExp.MeshConstraintProperties.IsPreventNormalFlipsEnabled
-	// bool IsPreventNormalFlipsEnabled();                                                                                      // [0x4d33330] Native|Protected|Const 
+	// bool IsPreventNormalFlipsEnabled();                                                                                      // [0x4d32f10] Native|Protected|Const 
 };
 
 /// Class /Script/MeshModelingToolsExp.RemeshProperties
@@ -1708,7 +1708,7 @@ public:
 
 	/// Functions
 	// Function /Script/MeshModelingToolsExp.RevolveSplineToolActionPropertySet.ResetAxis
-	// void ResetAxis();                                                                                                        // [0x821e9b0] Final|Native|Public  
+	// void ResetAxis();                                                                                                        // [0x821ce60] Final|Native|Public  
 };
 
 /// Class /Script/MeshModelingToolsExp.RevolveSplineTool
@@ -1820,7 +1820,7 @@ public:
 
 	/// Functions
 	// Function /Script/MeshModelingToolsExp.BakeMeshAttributeMapsToolProperties.GetMapPreviewNamesFunc
-	// TArray<FString> GetMapPreviewNamesFunc();                                                                                // [0x821e950] Final|Native|Public  
+	// TArray<FString> GetMapPreviewNamesFunc();                                                                                // [0x821ce00] Final|Native|Public  
 };
 
 /// Class /Script/MeshModelingToolsExp.BakeMeshAttributeTool
@@ -1939,7 +1939,7 @@ public:
 
 	/// Functions
 	// Function /Script/MeshModelingToolsExp.BakeMultiMeshAttributeMapsToolProperties.GetMapPreviewNamesFunc
-	// TArray<FString> GetMapPreviewNamesFunc();                                                                                // [0x821e950] Final|Native|Public  
+	// TArray<FString> GetMapPreviewNamesFunc();                                                                                // [0x821ce00] Final|Native|Public  
 };
 
 /// Struct /Script/MeshModelingToolsExp.BakeMultiMeshDetailProperties
@@ -1969,7 +1969,7 @@ public:
 
 	/// Functions
 	// Function /Script/MeshModelingToolsExp.BakeMultiMeshInputToolProperties.GetTargetUVLayerNamesFunc
-	// TArray<FString> GetTargetUVLayerNamesFunc();                                                                             // [0x821e980] Final|Native|Public|Const 
+	// TArray<FString> GetTargetUVLayerNamesFunc();                                                                             // [0x821ce30] Final|Native|Public|Const 
 };
 
 /// Class /Script/MeshModelingToolsExp.BakeMultiMeshAttributeMapsTool
@@ -2039,7 +2039,7 @@ public:
 	unsigned char                                      UnknownData00_8[0x8];                                       // 0x0098   (0x0008)  MISSED
 	class UConvertMeshesToolProperties*                BasicProperties;                                            // 0x00A0   (0x0008)  
 	class UCreateMeshObjectTypeProperties*             OutputTypeProperties;                                       // 0x00A8   (0x0008)  
-	SDK_UNDEFINED(16,1105) /* TArray<TWeakObjectPtr<UPrimitiveComponent*>> */ __um(Inputs);                        // 0x00B0   (0x0010)  
+	SDK_UNDEFINED(16,1115) /* TArray<TWeakObjectPtr<UPrimitiveComponent*>> */ __um(Inputs);                        // 0x00B0   (0x0010)  
 	unsigned char                                      UnknownData01_7[0x8];                                       // 0x00C0   (0x0008)  MISSED
 };
 
@@ -2090,7 +2090,7 @@ public:
 
 	/// Functions
 	// Function /Script/MeshModelingToolsExp.OutputPolygroupLayerProperties.GetGroupOptionsList
-	// TArray<FString> GetGroupOptionsList();                                                                                   // [0x7aecca0] Final|Native|Public  
+	// TArray<FString> GetGroupOptionsList();                                                                                   // [0x7aeb3f0] Final|Native|Public  
 };
 
 /// Class /Script/MeshModelingToolsExp.ConvertToPolygonsOperatorFactory
@@ -2173,21 +2173,21 @@ public:
 
 	/// Functions
 	// Function /Script/MeshModelingToolsExp.CubeGridToolActions.SlideForward
-	// void SlideForward();                                                                                                     // [0x8270260] Final|Native|Public  
+	// void SlideForward();                                                                                                     // [0x826e710] Final|Native|Public  
 	// Function /Script/MeshModelingToolsExp.CubeGridToolActions.SlideBack
-	// void SlideBack();                                                                                                        // [0x8270200] Final|Native|Public  
+	// void SlideBack();                                                                                                        // [0x826e6b0] Final|Native|Public  
 	// Function /Script/MeshModelingToolsExp.CubeGridToolActions.ResetGridFromActor
-	// void ResetGridFromActor();                                                                                               // [0x8270140] Final|Native|Public  
+	// void ResetGridFromActor();                                                                                               // [0x826e5f0] Final|Native|Public  
 	// Function /Script/MeshModelingToolsExp.CubeGridToolActions.Push
-	// void Push();                                                                                                             // [0x82700e0] Final|Native|Public  
+	// void Push();                                                                                                             // [0x826e590] Final|Native|Public  
 	// Function /Script/MeshModelingToolsExp.CubeGridToolActions.Pull
-	// void Pull();                                                                                                             // [0x8270080] Final|Native|Public  
+	// void Pull();                                                                                                             // [0x826e530] Final|Native|Public  
 	// Function /Script/MeshModelingToolsExp.CubeGridToolActions.Flip
-	// void Flip();                                                                                                             // [0x826fc60] Final|Native|Public  
+	// void Flip();                                                                                                             // [0x826e110] Final|Native|Public  
 	// Function /Script/MeshModelingToolsExp.CubeGridToolActions.CornerMode
-	// void CornerMode();                                                                                                       // [0x826fbc0] Final|Native|Public  
+	// void CornerMode();                                                                                                       // [0x826e070] Final|Native|Public  
 	// Function /Script/MeshModelingToolsExp.CubeGridToolActions.AcceptAndStartNew
-	// void AcceptAndStartNew();                                                                                                // [0x826fa40] Final|Native|Public  
+	// void AcceptAndStartNew();                                                                                                // [0x826def0] Final|Native|Public  
 };
 
 /// Class /Script/MeshModelingToolsExp.CubeGridTool
@@ -2275,7 +2275,7 @@ public:
 
 	/// Functions
 	// Function /Script/MeshModelingToolsExp.DisplaceMeshCommonProperties.GetWeightMapsFunc
-	// TArray<FString> GetWeightMapsFunc();                                                                                     // [0x826fea0] Final|Native|Public  
+	// TArray<FString> GetWeightMapsFunc();                                                                                     // [0x826e350] Final|Native|Public  
 };
 
 /// Class /Script/MeshModelingToolsExp.SelectiveTessellationProperties
@@ -2292,7 +2292,7 @@ public:
 
 	/// Functions
 	// Function /Script/MeshModelingToolsExp.SelectiveTessellationProperties.GetMaterialIDsFunc
-	// TArray<FString> GetMaterialIDsFunc();                                                                                    // [0x826fd20] Final|Native|Public  
+	// TArray<FString> GetMaterialIDsFunc();                                                                                    // [0x826e1d0] Final|Native|Public  
 };
 
 /// Class /Script/MeshModelingToolsExp.DisplaceMeshTextureMapProperties
@@ -2499,7 +2499,7 @@ public:
 
 	/// Functions
 	// Function /Script/MeshModelingToolsExp.DynamicSculptToolActions.DiscardAttributes
-	// void DiscardAttributes();                                                                                                // [0x826fc20] Final|Native|Public  
+	// void DiscardAttributes();                                                                                                // [0x826e0d0] Final|Native|Public  
 };
 
 /// Class /Script/MeshModelingToolsExp.BrushRemeshProperties
@@ -2632,21 +2632,21 @@ public:
 
 	/// Functions
 	// Function /Script/MeshModelingToolsExp.EditPivotToolActionPropertySet.WorldOrigin
-	// void WorldOrigin();                                                                                                      // [0x8270320] Final|Native|Public  
+	// void WorldOrigin();                                                                                                      // [0x826e7d0] Final|Native|Public  
 	// Function /Script/MeshModelingToolsExp.EditPivotToolActionPropertySet.Top
-	// void Top();                                                                                                              // [0x82702c0] Final|Native|Public  
+	// void Top();                                                                                                              // [0x826e770] Final|Native|Public  
 	// Function /Script/MeshModelingToolsExp.EditPivotToolActionPropertySet.Right
-	// void Right();                                                                                                            // [0x82701a0] Final|Native|Public  
+	// void Right();                                                                                                            // [0x826e650] Final|Native|Public  
 	// Function /Script/MeshModelingToolsExp.EditPivotToolActionPropertySet.Left
-	// void Left();                                                                                                             // [0x8270020] Final|Native|Public  
+	// void Left();                                                                                                             // [0x826e4d0] Final|Native|Public  
 	// Function /Script/MeshModelingToolsExp.EditPivotToolActionPropertySet.Front
-	// void Front();                                                                                                            // [0x826fcc0] Final|Native|Public  
+	// void Front();                                                                                                            // [0x826e170] Final|Native|Public  
 	// Function /Script/MeshModelingToolsExp.EditPivotToolActionPropertySet.Center
-	// void Center();                                                                                                           // [0x826fb60] Final|Native|Public  
+	// void Center();                                                                                                           // [0x826e010] Final|Native|Public  
 	// Function /Script/MeshModelingToolsExp.EditPivotToolActionPropertySet.Bottom
-	// void Bottom();                                                                                                           // [0x826fb00] Final|Native|Public  
+	// void Bottom();                                                                                                           // [0x826dfb0] Final|Native|Public  
 	// Function /Script/MeshModelingToolsExp.EditPivotToolActionPropertySet.Back
-	// void Back();                                                                                                             // [0x826faa0] Final|Native|Public  
+	// void Back();                                                                                                             // [0x826df50] Final|Native|Public  
 };
 
 /// Struct /Script/MeshModelingToolsExp.EditPivotTarget
@@ -2740,9 +2740,9 @@ public:
 
 	/// Functions
 	// Function /Script/MeshModelingToolsExp.HoleFillToolActions.SelectAll
-	// void SelectAll();                                                                                                        // [0x82e19f0] Final|Native|Public  
+	// void SelectAll();                                                                                                        // [0x82dfea0] Final|Native|Public  
 	// Function /Script/MeshModelingToolsExp.HoleFillToolActions.Clear
-	// void Clear();                                                                                                            // [0x82e1000] Final|Native|Public  
+	// void Clear();                                                                                                            // [0x82df4b0] Final|Native|Public  
 };
 
 /// Class /Script/MeshModelingToolsExp.HoleFillStatisticsProperties
@@ -2808,9 +2808,9 @@ public:
 
 	/// Functions
 	// Function /Script/MeshModelingToolsExp.LatticeDeformerToolProperties.Constrain
-	// void Constrain();                                                                                                        // [0x82e11d0] Final|Native|Public  
+	// void Constrain();                                                                                                        // [0x82df680] Final|Native|Public  
 	// Function /Script/MeshModelingToolsExp.LatticeDeformerToolProperties.ClearConstraints
-	// void ClearConstraints();                                                                                                 // [0x82e1120] Final|Native|Public  
+	// void ClearConstraints();                                                                                                 // [0x82df5d0] Final|Native|Public  
 };
 
 /// Class /Script/MeshModelingToolsExp.LatticeDeformerOperatorFactory
@@ -2863,7 +2863,7 @@ public:
 
 	/// Functions
 	// Function /Script/MeshModelingToolsExp.MeshAttributePaintToolProperties.GetAttributeNames
-	// TArray<FString> GetAttributeNames();                                                                                     // [0x7c23200] Final|Native|Public  
+	// TArray<FString> GetAttributeNames();                                                                                     // [0x7c218d0] Final|Native|Public  
 };
 
 /// Class /Script/MeshModelingToolsExp.MeshAttributePaintEditActions
@@ -2948,21 +2948,21 @@ public:
 
 	/// Functions
 	// Function /Script/MeshModelingToolsExp.MeshGroupPaintToolFreezeActions.UnfreezeAll
-	// void UnfreezeAll();                                                                                                      // [0x82e1940] Final|Native|Public  
+	// void UnfreezeAll();                                                                                                      // [0x82dfdf0] Final|Native|Public  
 	// Function /Script/MeshModelingToolsExp.MeshGroupPaintToolFreezeActions.ShrinkCurrent
-	// void ShrinkCurrent();                                                                                                    // [0x82e0f50] Final|Native|Public  
+	// void ShrinkCurrent();                                                                                                    // [0x82df400] Final|Native|Public  
 	// Function /Script/MeshModelingToolsExp.MeshGroupPaintToolFreezeActions.GrowCurrent
-	// void GrowCurrent();                                                                                                      // [0x82e1510] Final|Native|Public  
+	// void GrowCurrent();                                                                                                      // [0x82df9c0] Final|Native|Public  
 	// Function /Script/MeshModelingToolsExp.MeshGroupPaintToolFreezeActions.FreezeOthers
-	// void FreezeOthers();                                                                                                     // [0x82e14b0] Final|Native|Public  
+	// void FreezeOthers();                                                                                                     // [0x82df960] Final|Native|Public  
 	// Function /Script/MeshModelingToolsExp.MeshGroupPaintToolFreezeActions.FreezeCurrent
-	// void FreezeCurrent();                                                                                                    // [0x82e13f0] Final|Native|Public  
+	// void FreezeCurrent();                                                                                                    // [0x82df8a0] Final|Native|Public  
 	// Function /Script/MeshModelingToolsExp.MeshGroupPaintToolFreezeActions.FloodFillCurrent
-	// void FloodFillCurrent();                                                                                                 // [0x82e1630] Final|Native|Public  
+	// void FloodFillCurrent();                                                                                                 // [0x82dfae0] Final|Native|Public  
 	// Function /Script/MeshModelingToolsExp.MeshGroupPaintToolFreezeActions.ClearCurrent
-	// void ClearCurrent();                                                                                                     // [0x82e1170] Final|Native|Public  
+	// void ClearCurrent();                                                                                                     // [0x82df620] Final|Native|Public  
 	// Function /Script/MeshModelingToolsExp.MeshGroupPaintToolFreezeActions.ClearAll
-	// void ClearAll();                                                                                                         // [0x82e10c0] Final|Native|Public  
+	// void ClearAll();                                                                                                         // [0x82df570] Final|Native|Public  
 };
 
 /// Class /Script/MeshModelingToolsExp.MeshSculptToolBase
@@ -3062,7 +3062,7 @@ public:
 
 	/// Functions
 	// Function /Script/MeshModelingToolsExp.MeshInspectorMaterialProperties.GetUVChannelNamesFunc
-	// TArray<FString> GetUVChannelNamesFunc();                                                                                 // [0x7c231d0] Final|Native|Public|Const 
+	// TArray<FString> GetUVChannelNamesFunc();                                                                                 // [0x7c218a0] Final|Native|Public|Const 
 };
 
 /// Class /Script/MeshModelingToolsExp.MeshInspectorTool
@@ -3105,25 +3105,25 @@ public:
 
 	/// Functions
 	// Function /Script/MeshModelingToolsExp.MeshSelectionEditActions.Shrink
-	// void Shrink();                                                                                                           // [0x82e1bb0] Final|Native|Public  
+	// void Shrink();                                                                                                           // [0x82e0060] Final|Native|Public  
 	// Function /Script/MeshModelingToolsExp.MeshSelectionEditActions.SelectAll
-	// void SelectAll();                                                                                                        // [0x82e1a50] Final|Native|Public  
+	// void SelectAll();                                                                                                        // [0x82dff00] Final|Native|Public  
 	// Function /Script/MeshModelingToolsExp.MeshSelectionEditActions.OptimizeBorder
-	// void OptimizeBorder();                                                                                                   // [0x82e18e0] Final|Native|Public  
+	// void OptimizeBorder();                                                                                                   // [0x82dfd90] Final|Native|Public  
 	// Function /Script/MeshModelingToolsExp.MeshSelectionEditActions.LargestTriCountPart
-	// void LargestTriCountPart();                                                                                              // [0x82e1830] Final|Native|Public  
+	// void LargestTriCountPart();                                                                                              // [0x82dfce0] Final|Native|Public  
 	// Function /Script/MeshModelingToolsExp.MeshSelectionEditActions.LargestAreaPart
-	// void LargestAreaPart();                                                                                                  // [0x82e17d0] Final|Native|Public  
+	// void LargestAreaPart();                                                                                                  // [0x82dfc80] Final|Native|Public  
 	// Function /Script/MeshModelingToolsExp.MeshSelectionEditActions.Invert
-	// void Invert();                                                                                                           // [0x82e1770] Final|Native|Public  
+	// void Invert();                                                                                                           // [0x82dfc20] Final|Native|Public  
 	// Function /Script/MeshModelingToolsExp.MeshSelectionEditActions.Grow
-	// void Grow();                                                                                                             // [0x82e1710] Final|Native|Public  
+	// void Grow();                                                                                                             // [0x82dfbc0] Final|Native|Public  
 	// Function /Script/MeshModelingToolsExp.MeshSelectionEditActions.FloodFill
-	// void FloodFill();                                                                                                        // [0x82e15d0] Final|Native|Public  
+	// void FloodFill();                                                                                                        // [0x82dfa80] Final|Native|Public  
 	// Function /Script/MeshModelingToolsExp.MeshSelectionEditActions.ExpandToMaterials
-	// void ExpandToMaterials();                                                                                                // [0x82e1450] Final|Native|Public  
+	// void ExpandToMaterials();                                                                                                // [0x82df900] Final|Native|Public  
 	// Function /Script/MeshModelingToolsExp.MeshSelectionEditActions.Clear
-	// void Clear();                                                                                                            // [0x82e1060] Final|Native|Public  
+	// void Clear();                                                                                                            // [0x82df510] Final|Native|Public  
 };
 
 /// Class /Script/MeshModelingToolsExp.MeshSelectionMeshEditActions
@@ -3135,19 +3135,19 @@ public:
 
 	/// Functions
 	// Function /Script/MeshModelingToolsExp.MeshSelectionMeshEditActions.SmoothBorder
-	// void SmoothBorder();                                                                                                     // [0x82e1c10] Final|Native|Public  
+	// void SmoothBorder();                                                                                                     // [0x82e00c0] Final|Native|Public  
 	// Function /Script/MeshModelingToolsExp.MeshSelectionMeshEditActions.Separate
-	// void Separate();                                                                                                         // [0x82e1ab0] Final|Native|Public  
+	// void Separate();                                                                                                         // [0x82dff60] Final|Native|Public  
 	// Function /Script/MeshModelingToolsExp.MeshSelectionMeshEditActions.FlipNormals
-	// void FlipNormals();                                                                                                      // [0x82e1570] Final|Native|Public  
+	// void FlipNormals();                                                                                                      // [0x82dfa20] Final|Native|Public  
 	// Function /Script/MeshModelingToolsExp.MeshSelectionMeshEditActions.Duplicate
-	// void Duplicate();                                                                                                        // [0x82e1390] Final|Native|Public  
+	// void Duplicate();                                                                                                        // [0x82df840] Final|Native|Public  
 	// Function /Script/MeshModelingToolsExp.MeshSelectionMeshEditActions.Disconnect
-	// void Disconnect();                                                                                                       // [0x82e12e0] Final|Native|Public  
+	// void Disconnect();                                                                                                       // [0x82df790] Final|Native|Public  
 	// Function /Script/MeshModelingToolsExp.MeshSelectionMeshEditActions.Delete
-	// void Delete();                                                                                                           // [0x82e1280] Final|Native|Public  
+	// void Delete();                                                                                                           // [0x82df730] Final|Native|Public  
 	// Function /Script/MeshModelingToolsExp.MeshSelectionMeshEditActions.CreatePolygroup
-	// void CreatePolygroup();                                                                                                  // [0x82e1220] Final|Native|Public  
+	// void CreatePolygroup();                                                                                                  // [0x82df6d0] Final|Native|Public  
 };
 
 /// Class /Script/MeshModelingToolsExp.MeshSelectionToolProperties
@@ -3222,7 +3222,7 @@ public:
 
 	/// Functions
 	// Function /Script/MeshModelingToolsExp.MeshSpaceDeformerToolActionPropertySet.ShiftToCenter
-	// void ShiftToCenter();                                                                                                    // [0x82e1b10] Final|Native|Public  
+	// void ShiftToCenter();                                                                                                    // [0x82dffc0] Final|Native|Public  
 };
 
 /// Class /Script/MeshModelingToolsExp.SpaceDeformerOperatorFactory
@@ -3318,13 +3318,13 @@ public:
 
 	/// Functions
 	// Function /Script/MeshModelingToolsExp.MeshVertexPaintToolQuickActions.PaintAll
-	// void PaintAll();                                                                                                         // [0x82e1940] Final|Native|Public  
+	// void PaintAll();                                                                                                         // [0x82dfdf0] Final|Native|Public  
 	// Function /Script/MeshModelingToolsExp.MeshVertexPaintToolQuickActions.FillWhite
-	// void FillWhite();                                                                                                        // [0x82e1510] Final|Native|Public  
+	// void FillWhite();                                                                                                        // [0x82df9c0] Final|Native|Public  
 	// Function /Script/MeshModelingToolsExp.MeshVertexPaintToolQuickActions.FillBlack
-	// void FillBlack();                                                                                                        // [0x82e14b0] Final|Native|Public  
+	// void FillBlack();                                                                                                        // [0x82df960] Final|Native|Public  
 	// Function /Script/MeshModelingToolsExp.MeshVertexPaintToolQuickActions.EraseAll
-	// void EraseAll();                                                                                                         // [0x82e13f0] Final|Native|Public  
+	// void EraseAll();                                                                                                         // [0x82df8a0] Final|Native|Public  
 };
 
 /// Class /Script/MeshModelingToolsExp.MeshVertexPaintToolUtilityActions
@@ -3349,11 +3349,11 @@ public:
 
 	/// Functions
 	// Function /Script/MeshModelingToolsExp.MeshVertexPaintToolUtilityActions.GetWeightMapsFunc
-	// TArray<FString> GetWeightMapsFunc();                                                                                     // [0x826fea0] Final|Native|Public  
+	// TArray<FString> GetWeightMapsFunc();                                                                                     // [0x826e350] Final|Native|Public  
 	// Function /Script/MeshModelingToolsExp.MeshVertexPaintToolUtilityActions.GetLODNamesFunc
-	// TArray<FString> GetLODNamesFunc();                                                                                       // [0x82e16e0] Final|Native|Public|Const 
+	// TArray<FString> GetLODNamesFunc();                                                                                       // [0x82dfb90] Final|Native|Public|Const 
 	// Function /Script/MeshModelingToolsExp.MeshVertexPaintToolUtilityActions.ApplySelectedOperation
-	// void ApplySelectedOperation();                                                                                           // [0x82e0f50] Final|Native|Public  
+	// void ApplySelectedOperation();                                                                                           // [0x82df400] Final|Native|Public  
 };
 
 /// Class /Script/MeshModelingToolsExp.MeshVertexPaintTool
@@ -3483,19 +3483,19 @@ public:
 
 	/// Functions
 	// Function /Script/MeshModelingToolsExp.MirrorToolActionPropertySet.Up
-	// void Up();                                                                                                               // [0x82e1c70] Final|Native|Public  
+	// void Up();                                                                                                               // [0x82e0120] Final|Native|Public  
 	// Function /Script/MeshModelingToolsExp.MirrorToolActionPropertySet.ShiftToCenter
-	// void ShiftToCenter();                                                                                                    // [0x82e1b60] Final|Native|Public  
+	// void ShiftToCenter();                                                                                                    // [0x82e0010] Final|Native|Public  
 	// Function /Script/MeshModelingToolsExp.MirrorToolActionPropertySet.Right
-	// void Right();                                                                                                            // [0x82e19a0] Final|Native|Public  
+	// void Right();                                                                                                            // [0x82dfe50] Final|Native|Public  
 	// Function /Script/MeshModelingToolsExp.MirrorToolActionPropertySet.Left
-	// void Left();                                                                                                             // [0x82e1890] Final|Native|Public  
+	// void Left();                                                                                                             // [0x82dfd40] Final|Native|Public  
 	// Function /Script/MeshModelingToolsExp.MirrorToolActionPropertySet.Forward
-	// void Forward();                                                                                                          // [0x82e1690] Final|Native|Public  
+	// void Forward();                                                                                                          // [0x82dfb40] Final|Native|Public  
 	// Function /Script/MeshModelingToolsExp.MirrorToolActionPropertySet.Down
-	// void Down();                                                                                                             // [0x82e1340] Final|Native|Public  
+	// void Down();                                                                                                             // [0x82df7f0] Final|Native|Public  
 	// Function /Script/MeshModelingToolsExp.MirrorToolActionPropertySet.Backward
-	// void Backward();                                                                                                         // [0x82e0fb0] Final|Native|Public  
+	// void Backward();                                                                                                         // [0x82df460] Final|Native|Public  
 };
 
 /// Class /Script/MeshModelingToolsExp.MirrorTool
@@ -3797,17 +3797,17 @@ public:
 
 	/// Functions
 	// Function /Script/MeshModelingToolsExp.SimpleCollisionEditorToolActionProperties.Duplicate
-	// void Duplicate();                                                                                                        // [0x8329ce0] Final|Native|Public  
+	// void Duplicate();                                                                                                        // [0x8328190] Final|Native|Public  
 	// Function /Script/MeshModelingToolsExp.SimpleCollisionEditorToolActionProperties.DeleteAll
-	// void DeleteAll();                                                                                                        // [0x8329c90] Final|Native|Public  
+	// void DeleteAll();                                                                                                        // [0x8328140] Final|Native|Public  
 	// Function /Script/MeshModelingToolsExp.SimpleCollisionEditorToolActionProperties.Delete
-	// void Delete();                                                                                                           // [0x8329c40] Final|Native|Public  
+	// void Delete();                                                                                                           // [0x83280f0] Final|Native|Public  
 	// Function /Script/MeshModelingToolsExp.SimpleCollisionEditorToolActionProperties.AddSphere
-	// void AddSphere();                                                                                                        // [0x8329bd0] Final|Native|Public  
+	// void AddSphere();                                                                                                        // [0x8328080] Final|Native|Public  
 	// Function /Script/MeshModelingToolsExp.SimpleCollisionEditorToolActionProperties.AddCapsule
-	// void AddCapsule();                                                                                                       // [0x8329b80] Final|Native|Public  
+	// void AddCapsule();                                                                                                       // [0x8328030] Final|Native|Public  
 	// Function /Script/MeshModelingToolsExp.SimpleCollisionEditorToolActionProperties.AddBox
-	// void AddBox();                                                                                                           // [0x8329b30] Final|Native|Public  
+	// void AddBox();                                                                                                           // [0x8327fe0] Final|Native|Public  
 };
 
 /// Class /Script/MeshModelingToolsExp.SimpleCollisionEditorTool
@@ -3867,9 +3867,9 @@ public:
 
 	/// Functions
 	// Function /Script/MeshModelingToolsExp.PlaneCutTool.FlipPlane
-	// void FlipPlane();                                                                                                        // [0x8329d30] Final|Native|Protected 
+	// void FlipPlane();                                                                                                        // [0x83281e0] Final|Native|Protected 
 	// Function /Script/MeshModelingToolsExp.PlaneCutTool.Cut
-	// void Cut();                                                                                                              // [0x8329c20] Final|Native|Protected 
+	// void Cut();                                                                                                              // [0x83280d0] Final|Native|Protected 
 };
 
 /// Class /Script/MeshModelingToolsExp.ProjectToTargetToolBuilder
@@ -4310,9 +4310,9 @@ public:
 
 	/// Functions
 	// Function /Script/MeshModelingToolsExp.TransferMeshToolProperties.GetTargetLODNamesFunc
-	// TArray<FString> GetTargetLODNamesFunc();                                                                                 // [0x8329d50] Final|Native|Public|Const 
+	// TArray<FString> GetTargetLODNamesFunc();                                                                                 // [0x8328200] Final|Native|Public|Const 
 	// Function /Script/MeshModelingToolsExp.TransferMeshToolProperties.GetSourceLODNamesFunc
-	// TArray<FString> GetSourceLODNamesFunc();                                                                                 // [0x821e950] Final|Native|Public|Const 
+	// TArray<FString> GetSourceLODNamesFunc();                                                                                 // [0x821ce00] Final|Native|Public|Const 
 };
 
 /// Class /Script/MeshModelingToolsExp.TransferMeshTool
@@ -4397,7 +4397,7 @@ public:
 	class UCreateMeshObjectTypeProperties*             OutputTypeProperties;                                       // 0x00B0   (0x0008)  
 	class UMeshOpPreviewWithBackgroundCompute*         Preview;                                                    // 0x00B8   (0x0008)  
 	TWeakObjectPtr<class UWorld*>                      TargetWorld;                                                // 0x00C0   (0x0008)  
-	SDK_UNDEFINED(16,1106) /* TArray<TWeakObjectPtr<AActor*>> */ __um(ActorsWithSplines);                          // 0x00C8   (0x0010)  
+	SDK_UNDEFINED(16,1116) /* TArray<TWeakObjectPtr<AActor*>> */ __um(ActorsWithSplines);                          // 0x00C8   (0x0010)  
 	unsigned char                                      UnknownData01_7[0x20];                                      // 0x00D8   (0x0020)  MISSED
 };
 

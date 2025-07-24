@@ -26,9 +26,9 @@ public:
 
 	/// Functions
 	// Function /Game/BluePrints/Debug/UI/DebugPlayerActionJump.DebugPlayerActionJump_C.BndEvt__DebugPlayerActionJump_Button_0_K2Node_ComponentBoundEvent_2_OnButtonPressedEvent__DelegateSignature
-	// void BndEvt__DebugPlayerActionJump_Button_0_K2Node_ComponentBoundEvent_2_OnButtonPressedEvent__DelegateSignature();      // [0x2fd44f0] BlueprintEvent       
+	// void BndEvt__DebugPlayerActionJump_Button_0_K2Node_ComponentBoundEvent_2_OnButtonPressedEvent__DelegateSignature();      // [0x2fd4400] BlueprintEvent       
 	// Function /Game/BluePrints/Debug/UI/DebugPlayerActionJump.DebugPlayerActionJump_C.ExecuteUbergraph_DebugPlayerActionJump
-	// void ExecuteUbergraph_DebugPlayerActionJump(int32_t EntryPoint);                                                         // [0x2fd44f0] Final                
+	// void ExecuteUbergraph_DebugPlayerActionJump(int32_t EntryPoint);                                                         // [0x2fd4400] Final                
 };
 
 /// Class /Game/BluePrints/Debug/UI/DebugPlayerActionUpDown.DebugPlayerActionUpDown_C
@@ -43,17 +43,17 @@ public:
 
 	/// Functions
 	// Function /Game/BluePrints/Debug/UI/DebugPlayerActionUpDown.DebugPlayerActionUpDown_C.BndEvt__DebugPlayerActionUpDown_UpButton_K2Node_ComponentBoundEvent_0_OnButtonHoverEvent__DelegateSignature
-	// void BndEvt__DebugPlayerActionUpDown_UpButton_K2Node_ComponentBoundEvent_0_OnButtonHoverEvent__DelegateSignature();      // [0x2fd44f0] BlueprintEvent       
+	// void BndEvt__DebugPlayerActionUpDown_UpButton_K2Node_ComponentBoundEvent_0_OnButtonHoverEvent__DelegateSignature();      // [0x2fd4400] BlueprintEvent       
 	// Function /Game/BluePrints/Debug/UI/DebugPlayerActionUpDown.DebugPlayerActionUpDown_C.BndEvt__DebugPlayerActionUpDown_DownButton_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature
-	// void BndEvt__DebugPlayerActionUpDown_DownButton_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature();    // [0x2fd44f0] BlueprintEvent       
+	// void BndEvt__DebugPlayerActionUpDown_DownButton_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature();    // [0x2fd4400] BlueprintEvent       
 	// Function /Game/BluePrints/Debug/UI/DebugPlayerActionUpDown.DebugPlayerActionUpDown_C.BndEvt__DebugPlayerActionUpDown_UpButton_K2Node_ComponentBoundEvent_2_OnButtonHoverEvent__DelegateSignature
-	// void BndEvt__DebugPlayerActionUpDown_UpButton_K2Node_ComponentBoundEvent_2_OnButtonHoverEvent__DelegateSignature();      // [0x2fd44f0] BlueprintEvent       
+	// void BndEvt__DebugPlayerActionUpDown_UpButton_K2Node_ComponentBoundEvent_2_OnButtonHoverEvent__DelegateSignature();      // [0x2fd4400] BlueprintEvent       
 	// Function /Game/BluePrints/Debug/UI/DebugPlayerActionUpDown.DebugPlayerActionUpDown_C.Tick
-	// void Tick(FGeometry MyGeometry, float InDeltaTime);                                                                      // [0x2fd44f0] BlueprintCosmetic|Event|Public|BlueprintEvent 
+	// void Tick(FGeometry MyGeometry, float InDeltaTime);                                                                      // [0x2fd4400] BlueprintCosmetic|Event|Public|BlueprintEvent 
 	// Function /Game/BluePrints/Debug/UI/DebugPlayerActionUpDown.DebugPlayerActionUpDown_C.BndEvt__DebugPlayerActionUpDown_DownButton_K2Node_ComponentBoundEvent_3_OnButtonHoverEvent__DelegateSignature
-	// void BndEvt__DebugPlayerActionUpDown_DownButton_K2Node_ComponentBoundEvent_3_OnButtonHoverEvent__DelegateSignature();    // [0x2fd44f0] BlueprintEvent       
+	// void BndEvt__DebugPlayerActionUpDown_DownButton_K2Node_ComponentBoundEvent_3_OnButtonHoverEvent__DelegateSignature();    // [0x2fd4400] BlueprintEvent       
 	// Function /Game/BluePrints/Debug/UI/DebugPlayerActionUpDown.DebugPlayerActionUpDown_C.ExecuteUbergraph_DebugPlayerActionUpDown
-	// void ExecuteUbergraph_DebugPlayerActionUpDown(int32_t EntryPoint);                                                       // [0x2fd44f0] Final|HasDefaults    
+	// void ExecuteUbergraph_DebugPlayerActionUpDown(int32_t EntryPoint);                                                       // [0x2fd4400] Final|HasDefaults    
 };
 
 /// Class /Game/BluePrints/Debug/UI/DebugPlayerActionWarp.DebugPlayerActionWarp_C
@@ -68,13 +68,13 @@ public:
 
 	/// Functions
 	// Function /Game/BluePrints/Debug/UI/DebugPlayerActionWarp.DebugPlayerActionWarp_C.BndEvt__DebugPlayerActionWarp_WarpButton_K2Node_ComponentBoundEvent_0_OnButtonHoverEvent__DelegateSignature
-	// void BndEvt__DebugPlayerActionWarp_WarpButton_K2Node_ComponentBoundEvent_0_OnButtonHoverEvent__DelegateSignature();      // [0x2fd44f0] BlueprintEvent       
+	// void BndEvt__DebugPlayerActionWarp_WarpButton_K2Node_ComponentBoundEvent_0_OnButtonHoverEvent__DelegateSignature();      // [0x2fd4400] BlueprintEvent       
 	// Function /Game/BluePrints/Debug/UI/DebugPlayerActionWarp.DebugPlayerActionWarp_C.Tick
-	// void Tick(FGeometry MyGeometry, float InDeltaTime);                                                                      // [0x2fd44f0] BlueprintCosmetic|Event|Public|BlueprintEvent 
+	// void Tick(FGeometry MyGeometry, float InDeltaTime);                                                                      // [0x2fd4400] BlueprintCosmetic|Event|Public|BlueprintEvent 
 	// Function /Game/BluePrints/Debug/UI/DebugPlayerActionWarp.DebugPlayerActionWarp_C.BndEvt__DebugPlayerActionWarp_WarpButton_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature
-	// void BndEvt__DebugPlayerActionWarp_WarpButton_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature();      // [0x2fd44f0] BlueprintEvent       
+	// void BndEvt__DebugPlayerActionWarp_WarpButton_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature();      // [0x2fd4400] BlueprintEvent       
 	// Function /Game/BluePrints/Debug/UI/DebugPlayerActionWarp.DebugPlayerActionWarp_C.ExecuteUbergraph_DebugPlayerActionWarp
-	// void ExecuteUbergraph_DebugPlayerActionWarp(int32_t EntryPoint);                                                         // [0x2fd44f0] Final|HasDefaults    
+	// void ExecuteUbergraph_DebugPlayerActionWarp(int32_t EntryPoint);                                                         // [0x2fd4400] Final|HasDefaults    
 };
 
 /// Class /Game/BluePrints/Debug/UI/DebugPlayerActionSpider.DebugPlayerActionSpider_C
@@ -89,17 +89,17 @@ public:
 
 	/// Functions
 	// Function /Game/BluePrints/Debug/UI/DebugPlayerActionSpider.DebugPlayerActionSpider_C.BndEvt__DebugPlayerActionSpider_ThreadButton_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature
-	// void BndEvt__DebugPlayerActionSpider_ThreadButton_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature();  // [0x2fd44f0] BlueprintEvent       
+	// void BndEvt__DebugPlayerActionSpider_ThreadButton_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature();  // [0x2fd4400] BlueprintEvent       
 	// Function /Game/BluePrints/Debug/UI/DebugPlayerActionSpider.DebugPlayerActionSpider_C.Tick
-	// void Tick(FGeometry MyGeometry, float InDeltaTime);                                                                      // [0x2fd44f0] BlueprintCosmetic|Event|Public|BlueprintEvent 
+	// void Tick(FGeometry MyGeometry, float InDeltaTime);                                                                      // [0x2fd4400] BlueprintCosmetic|Event|Public|BlueprintEvent 
 	// Function /Game/BluePrints/Debug/UI/DebugPlayerActionSpider.DebugPlayerActionSpider_C.BndEvt__DebugPlayerActionSpider_ThreadButton_K2Node_ComponentBoundEvent_2_OnButtonReleasedEvent__DelegateSignature
-	// void BndEvt__DebugPlayerActionSpider_ThreadButton_K2Node_ComponentBoundEvent_2_OnButtonReleasedEvent__DelegateSignature(); // [0x2fd44f0] BlueprintEvent       
+	// void BndEvt__DebugPlayerActionSpider_ThreadButton_K2Node_ComponentBoundEvent_2_OnButtonReleasedEvent__DelegateSignature(); // [0x2fd4400] BlueprintEvent       
 	// Function /Game/BluePrints/Debug/UI/DebugPlayerActionSpider.DebugPlayerActionSpider_C.BndEvt__DebugPlayerActionSpider_DestroyThreadButton_K2Node_ComponentBoundEvent_3_OnButtonPressedEvent__DelegateSignature
-	// void BndEvt__DebugPlayerActionSpider_DestroyThreadButton_K2Node_ComponentBoundEvent_3_OnButtonPressedEvent__DelegateSignature(); // [0x2fd44f0] BlueprintEvent       
+	// void BndEvt__DebugPlayerActionSpider_DestroyThreadButton_K2Node_ComponentBoundEvent_3_OnButtonPressedEvent__DelegateSignature(); // [0x2fd4400] BlueprintEvent       
 	// Function /Game/BluePrints/Debug/UI/DebugPlayerActionSpider.DebugPlayerActionSpider_C.BndEvt__DebugPlayerActionSpider_ThreadButton_K2Node_ComponentBoundEvent_0_OnButtonHoverEvent__DelegateSignature
-	// void BndEvt__DebugPlayerActionSpider_ThreadButton_K2Node_ComponentBoundEvent_0_OnButtonHoverEvent__DelegateSignature();  // [0x2fd44f0] BlueprintEvent       
+	// void BndEvt__DebugPlayerActionSpider_ThreadButton_K2Node_ComponentBoundEvent_0_OnButtonHoverEvent__DelegateSignature();  // [0x2fd4400] BlueprintEvent       
 	// Function /Game/BluePrints/Debug/UI/DebugPlayerActionSpider.DebugPlayerActionSpider_C.ExecuteUbergraph_DebugPlayerActionSpider
-	// void ExecuteUbergraph_DebugPlayerActionSpider(int32_t EntryPoint);                                                       // [0x2fd44f0] Final|HasDefaults    
+	// void ExecuteUbergraph_DebugPlayerActionSpider(int32_t EntryPoint);                                                       // [0x2fd4400] Final|HasDefaults    
 };
 
 /// Class /Game/BluePrints/Camera/BP_NPCTalkCameraActor.BP_NPCTalkCameraActor_C
@@ -130,9 +130,16 @@ class ABP_CraftObjLayout_ChaseCameraActor_C : public AChaseCameraActor
 public:
 };
 
-/// Class /Game/BluePrints/Camera/BP_PickupCameraActor.BP_PickupCameraActor_C
-/// Size: 0x0440 (1088 bytes) (0x000440 - 0x000440) align 8 MaxSize: 0x0440
-class ABP_PickupCameraActor_C : public APickupCameraActor
+/// Class /Game/BluePrints/Camera/BP_ChaseCameraActor.BP_ChaseCameraActor_C
+/// Size: 0x06B8 (1720 bytes) (0x0006B8 - 0x0006B8) align 8 MaxSize: 0x06B8
+class ABP_ChaseCameraActor_C : public AChaseCameraActor
+{ 
+public:
+};
+
+/// Class /Game/BluePrints/Camera/BP_ScreenCaptureCameraActor.BP_ScreenCaptureCameraActor_C
+/// Size: 0x03B0 (944 bytes) (0x0003B0 - 0x0003B0) align 8 MaxSize: 0x03B0
+class ABP_ScreenCaptureCameraActor_C : public AScreenCaptureCameraActor
 { 
 public:
 };
@@ -144,16 +151,9 @@ class UBP_CheatManager_C : public UCheatManager
 public:
 };
 
-/// Class /Game/BluePrints/Camera/BP_ChaseCameraActor.BP_ChaseCameraActor_C
-/// Size: 0x06B8 (1720 bytes) (0x0006B8 - 0x0006B8) align 8 MaxSize: 0x06B8
-class ABP_ChaseCameraActor_C : public AChaseCameraActor
-{ 
-public:
-};
-
-/// Class /Game/BluePrints/Camera/BP_ScreenCaptureCameraActor.BP_ScreenCaptureCameraActor_C
-/// Size: 0x03B0 (944 bytes) (0x0003B0 - 0x0003B0) align 8 MaxSize: 0x03B0
-class ABP_ScreenCaptureCameraActor_C : public AScreenCaptureCameraActor
+/// Class /Game/BluePrints/Camera/BP_PickupCameraActor.BP_PickupCameraActor_C
+/// Size: 0x0440 (1088 bytes) (0x000440 - 0x000440) align 8 MaxSize: 0x0440
+class ABP_PickupCameraActor_C : public APickupCameraActor
 { 
 public:
 };
@@ -170,9 +170,9 @@ public:
 
 	/// Functions
 	// Function /Game/BluePrints/_test/BP_GamePlayerController.BP_GamePlayerController_C.ReceiveBeginPlay
-	// void ReceiveBeginPlay();                                                                                                 // [0x2fd44f0] Event|Protected|BlueprintEvent 
+	// void ReceiveBeginPlay();                                                                                                 // [0x2fd4400] Event|Protected|BlueprintEvent 
 	// Function /Game/BluePrints/_test/BP_GamePlayerController.BP_GamePlayerController_C.ExecuteUbergraph_BP_GamePlayerController
-	// void ExecuteUbergraph_BP_GamePlayerController(int32_t EntryPoint);                                                       // [0x2fd44f0] Final                
+	// void ExecuteUbergraph_BP_GamePlayerController(int32_t EntryPoint);                                                       // [0x2fd4400] Final                
 };
 
 /// Class /Game/BluePrints/_test/BP_GameInstance.BP_GameInstance_C
@@ -185,11 +185,36 @@ public:
 
 	/// Functions
 	// Function /Game/BluePrints/_test/BP_GameInstance.BP_GameInstance_C.ReceiveShutdown
-	// void ReceiveShutdown();                                                                                                  // [0x2fd44f0] Event|Public|BlueprintEvent 
+	// void ReceiveShutdown();                                                                                                  // [0x2fd4400] Event|Public|BlueprintEvent 
 	// Function /Game/BluePrints/_test/BP_GameInstance.BP_GameInstance_C.ReceiveInit
-	// void ReceiveInit();                                                                                                      // [0x2fd44f0] Event|Public|BlueprintEvent 
+	// void ReceiveInit();                                                                                                      // [0x2fd4400] Event|Public|BlueprintEvent 
 	// Function /Game/BluePrints/_test/BP_GameInstance.BP_GameInstance_C.ExecuteUbergraph_BP_GameInstance
-	// void ExecuteUbergraph_BP_GameInstance(int32_t EntryPoint);                                                               // [0x2fd44f0] Final                
+	// void ExecuteUbergraph_BP_GameInstance(int32_t EntryPoint);                                                               // [0x2fd4400] Final                
+};
+
+/// Class /Game/BluePrints/Movie/ManaPlay_wBP.ManaPlay_wBP_C
+/// Size: 0x02F0 (752 bytes) (0x0002E0 - 0x0002F0) align 8 MaxSize: 0x02F0
+class UManaPlay_wBP_C : public UUserWidget
+{ 
+public:
+	class UCustomImage*                                BG_Black;                                                   // 0x02E0   (0x0008)  
+	class UCustomImage*                                GameManaPlayer_Video;                                       // 0x02E8   (0x0008)  
+};
+
+/// Class /Game/BluePrints/_test/BP_DP1ProjectGameModeBase.BP_DP1ProjectGameModeBase_C
+/// Size: 0x0368 (872 bytes) (0x000358 - 0x000368) align 8 MaxSize: 0x0368
+class ABP_DP1ProjectGameModeBase_C : public ADP1ProjectGameModeBase
+{ 
+public:
+	FPointerToUberGraphFrame                           UberGraphFrame;                                             // 0x0358   (0x0008)  
+	class USceneComponent*                             DefaultSceneRoot;                                           // 0x0360   (0x0008)  
+
+
+	/// Functions
+	// Function /Game/BluePrints/_test/BP_DP1ProjectGameModeBase.BP_DP1ProjectGameModeBase_C.ReceiveBeginPlay
+	// void ReceiveBeginPlay();                                                                                                 // [0x2fd4400] Event|Protected|BlueprintEvent 
+	// Function /Game/BluePrints/_test/BP_DP1ProjectGameModeBase.BP_DP1ProjectGameModeBase_C.ExecuteUbergraph_BP_DP1ProjectGameModeBase
+	// void ExecuteUbergraph_BP_DP1ProjectGameModeBase(int32_t EntryPoint);                                                     // [0x2fd4400] Final                
 };
 
 /// Class /Game/BluePrints/Camera/CameraShake/CameraShake_Impact.CameraShake_Impact_250_C
@@ -365,22 +390,6 @@ public:
 class UCameraShake_Impact_200_C : public ULegacyCameraShake
 { 
 public:
-};
-
-/// Class /Game/BluePrints/_test/BP_DP1ProjectGameModeBase.BP_DP1ProjectGameModeBase_C
-/// Size: 0x0368 (872 bytes) (0x000358 - 0x000368) align 8 MaxSize: 0x0368
-class ABP_DP1ProjectGameModeBase_C : public ADP1ProjectGameModeBase
-{ 
-public:
-	FPointerToUberGraphFrame                           UberGraphFrame;                                             // 0x0358   (0x0008)  
-	class USceneComponent*                             DefaultSceneRoot;                                           // 0x0360   (0x0008)  
-
-
-	/// Functions
-	// Function /Game/BluePrints/_test/BP_DP1ProjectGameModeBase.BP_DP1ProjectGameModeBase_C.ReceiveBeginPlay
-	// void ReceiveBeginPlay();                                                                                                 // [0x2fd44f0] Event|Protected|BlueprintEvent 
-	// Function /Game/BluePrints/_test/BP_DP1ProjectGameModeBase.BP_DP1ProjectGameModeBase_C.ExecuteUbergraph_BP_DP1ProjectGameModeBase
-	// void ExecuteUbergraph_BP_DP1ProjectGameModeBase(int32_t EntryPoint);                                                     // [0x2fd44f0] Final                
 };
 
 #pragma pack(pop)

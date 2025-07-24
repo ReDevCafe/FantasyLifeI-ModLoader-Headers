@@ -21,7 +21,7 @@ public:
 
 	/// Functions
 	// Function /Script/AutomationUtils.AutomationUtilsBlueprintLibrary.TakeGameplayAutomationScreenshot
-	// void TakeGameplayAutomationScreenshot(FString ScreenshotName, float MaxGlobalError, float MaxLocalError, FString MapNameOverride); // [0x81410a0] Final|Native|Static|Public|BlueprintCallable 
+	// void TakeGameplayAutomationScreenshot(FString ScreenshotName, float MaxGlobalError, float MaxLocalError, FString MapNameOverride); // [0x813f550] Final|Native|Static|Public|BlueprintCallable 
 };
 
 #pragma pack(pop)

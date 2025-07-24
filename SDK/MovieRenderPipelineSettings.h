@@ -23,7 +23,7 @@ public:
 
 	/// Functions
 	// Function /Script/MovieRenderPipelineSettings.MoviePipelineBurnInWidget.OnOutputFrameStarted
-	// void OnOutputFrameStarted(class UMoviePipeline* ForPipeline);                                                            // [0x2fd44f0] Event|Public|BlueprintEvent 
+	// void OnOutputFrameStarted(class UMoviePipeline* ForPipeline);                                                            // [0x2fd4400] Event|Public|BlueprintEvent 
 };
 
 /// Class /Script/MovieRenderPipelineSettings.MoviePipelineBurnInSetting
@@ -53,7 +53,7 @@ struct FMoviePipelineConsoleVariableEntry
 class UMoviePipelineConsoleVariableSetting : public UMoviePipelineSetting
 { 
 public:
-	SDK_UNDEFINED(16,1135) /* TArray<TScriptInterface<Class>> */ __um(ConsoleVariablePresets);                     // 0x0048   (0x0010)  
+	SDK_UNDEFINED(16,1145) /* TArray<TScriptInterface<Class>> */ __um(ConsoleVariablePresets);                     // 0x0048   (0x0010)  
 	TMap<FString, float>                               ConsoleVariables;                                           // 0x0058   (0x0050)  
 	TArray<FString>                                    StartConsoleCommands;                                       // 0x00A8   (0x0010)  
 	TArray<FString>                                    EndConsoleCommands;                                         // 0x00B8   (0x0010)  
@@ -63,15 +63,15 @@ public:
 
 	/// Functions
 	// Function /Script/MovieRenderPipelineSettings.MoviePipelineConsoleVariableSetting.UpdateConsoleVariableEnableState
-	// bool UpdateConsoleVariableEnableState(FString Name, bool bIsEnabled);                                                    // [0x7766350] Final|Native|Public|BlueprintCallable 
+	// bool UpdateConsoleVariableEnableState(FString Name, bool bIsEnabled);                                                    // [0x7764b20] Final|Native|Public|BlueprintCallable 
 	// Function /Script/MovieRenderPipelineSettings.MoviePipelineConsoleVariableSetting.RemoveConsoleVariable
-	// bool RemoveConsoleVariable(FString Name, bool bRemoveAllInstances);                                                      // [0x77661f0] Final|Native|Public|BlueprintCallable 
+	// bool RemoveConsoleVariable(FString Name, bool bRemoveAllInstances);                                                      // [0x77649c0] Final|Native|Public|BlueprintCallable 
 	// Function /Script/MovieRenderPipelineSettings.MoviePipelineConsoleVariableSetting.GetConsoleVariables
-	// TArray<FMoviePipelineConsoleVariableEntry> GetConsoleVariables();                                                        // [0x7766050] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// TArray<FMoviePipelineConsoleVariableEntry> GetConsoleVariables();                                                        // [0x7764820] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/MovieRenderPipelineSettings.MoviePipelineConsoleVariableSetting.AddOrUpdateConsoleVariable
-	// bool AddOrUpdateConsoleVariable(FString Name, float Value);                                                              // [0x7765e70] Final|Native|Public|BlueprintCallable 
+	// bool AddOrUpdateConsoleVariable(FString Name, float Value);                                                              // [0x7764640] Final|Native|Public|BlueprintCallable 
 	// Function /Script/MovieRenderPipelineSettings.MoviePipelineConsoleVariableSetting.AddConsoleVariable
-	// bool AddConsoleVariable(FString Name, float Value);                                                                      // [0x7765cd0] Final|Native|Public|BlueprintCallable 
+	// bool AddConsoleVariable(FString Name, float Value);                                                                      // [0x77644a0] Final|Native|Public|BlueprintCallable 
 };
 
 /// Class /Script/MovieRenderPipelineSettings.MoviePipelineWidgetRenderer

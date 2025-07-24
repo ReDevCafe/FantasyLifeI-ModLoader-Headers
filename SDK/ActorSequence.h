@@ -69,11 +69,11 @@ public:
 
 	/// Functions
 	// Function /Script/ActorSequence.ActorSequenceComponent.StopSequence
-	// void StopSequence();                                                                                                     // [0x83e2110] Final|Native|Public|BlueprintCallable 
+	// void StopSequence();                                                                                                     // [0x83e05c0] Final|Native|Public|BlueprintCallable 
 	// Function /Script/ActorSequence.ActorSequenceComponent.PlaySequence
-	// void PlaySequence();                                                                                                     // [0x83e20e0] Final|Native|Public|BlueprintCallable 
+	// void PlaySequence();                                                                                                     // [0x83e0590] Final|Native|Public|BlueprintCallable 
 	// Function /Script/ActorSequence.ActorSequenceComponent.PauseSequence
-	// void PauseSequence();                                                                                                    // [0x83e20b0] Final|Native|Public|BlueprintCallable 
+	// void PauseSequence();                                                                                                    // [0x83e0560] Final|Native|Public|BlueprintCallable 
 };
 
 /// Class /Script/ActorSequence.ActorSequencePlayer

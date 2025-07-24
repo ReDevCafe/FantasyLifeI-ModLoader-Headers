@@ -117,19 +117,19 @@ public:
 
 	/// Functions
 	// Function /Script/Paper2D.PaperFlipbook.IsValidKeyFrameIndex
-	// bool IsValidKeyFrameIndex(int32_t Index);                                                                                // [0x7e6b2d0] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// bool IsValidKeyFrameIndex(int32_t Index);                                                                                // [0x7e69790] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/Paper2D.PaperFlipbook.GetTotalDuration
-	// float GetTotalDuration();                                                                                                // [0x7e6b1e0] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// float GetTotalDuration();                                                                                                // [0x7e696a0] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/Paper2D.PaperFlipbook.GetSpriteAtTime
-	// class UPaperSprite* GetSpriteAtTime(float Time, bool bClampToEnds);                                                      // [0x7e6a7e0] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// class UPaperSprite* GetSpriteAtTime(float Time, bool bClampToEnds);                                                      // [0x7e68ca0] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/Paper2D.PaperFlipbook.GetSpriteAtFrame
-	// class UPaperSprite* GetSpriteAtFrame(int32_t FrameIndex);                                                                // [0x7e6a720] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// class UPaperSprite* GetSpriteAtFrame(int32_t FrameIndex);                                                                // [0x7e68be0] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/Paper2D.PaperFlipbook.GetNumKeyFrames
-	// int32_t GetNumKeyFrames();                                                                                               // [0x53cf690] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// int32_t GetNumKeyFrames();                                                                                               // [0x53ceed0] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/Paper2D.PaperFlipbook.GetNumFrames
-	// int32_t GetNumFrames();                                                                                                  // [0x7e6a650] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// int32_t GetNumFrames();                                                                                                  // [0x7e68b10] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/Paper2D.PaperFlipbook.GetKeyFrameIndexAtTime
-	// int32_t GetKeyFrameIndexAtTime(float Time, bool bClampToEnds);                                                           // [0x7e6a350] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// int32_t GetKeyFrameIndexAtTime(float Time, bool bClampToEnds);                                                           // [0x7e68810] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 };
 
 /// Class /Script/Paper2D.PaperFlipbookActor
@@ -156,59 +156,59 @@ public:
 	int32_t                                            CachedFrameIndex;                                           // 0x056C   (0x0004)  
 	FLinearColor                                       SpriteColor;                                                // 0x0570   (0x0010)  
 	class UBodySetup*                                  CachedBodySetup;                                            // 0x0580   (0x0008)  
-	SDK_UNDEFINED(16,1177) /* FMulticastInlineDelegate */ __um(OnFinishedPlaying);                                 // 0x0588   (0x0010)  
+	SDK_UNDEFINED(16,1187) /* FMulticastInlineDelegate */ __um(OnFinishedPlaying);                                 // 0x0588   (0x0010)  
 	unsigned char                                      UnknownData01_7[0x8];                                       // 0x0598   (0x0008)  MISSED
 
 
 	/// Functions
 	// Function /Script/Paper2D.PaperFlipbookComponent.Stop
-	// void Stop();                                                                                                             // [0x7e6ce30] Final|Native|Public|BlueprintCallable 
+	// void Stop();                                                                                                             // [0x7e6b2f0] Final|Native|Public|BlueprintCallable 
 	// Function /Script/Paper2D.PaperFlipbookComponent.SetSpriteColor
-	// void SetSpriteColor(FLinearColor NewColor);                                                                              // [0x7e6c6c0] Final|Native|Public|HasDefaults|BlueprintCallable 
+	// void SetSpriteColor(FLinearColor NewColor);                                                                              // [0x7e6ab80] Final|Native|Public|HasDefaults|BlueprintCallable 
 	// Function /Script/Paper2D.PaperFlipbookComponent.SetPlayRate
-	// void SetPlayRate(float NewRate);                                                                                         // [0x7e6c450] Final|Native|Public|BlueprintCallable 
+	// void SetPlayRate(float NewRate);                                                                                         // [0x7e6a910] Final|Native|Public|BlueprintCallable 
 	// Function /Script/Paper2D.PaperFlipbookComponent.SetPlaybackPositionInFrames
-	// void SetPlaybackPositionInFrames(int32_t NewFramePosition, bool bFireEvents);                                            // [0x7e6c5b0] Final|Native|Public|BlueprintCallable 
+	// void SetPlaybackPositionInFrames(int32_t NewFramePosition, bool bFireEvents);                                            // [0x7e6aa70] Final|Native|Public|BlueprintCallable 
 	// Function /Script/Paper2D.PaperFlipbookComponent.SetPlaybackPosition
-	// void SetPlaybackPosition(float newPosition, bool bFireEvents);                                                           // [0x7e6c4d0] Final|Native|Public|BlueprintCallable 
+	// void SetPlaybackPosition(float newPosition, bool bFireEvents);                                                           // [0x7e6a990] Final|Native|Public|BlueprintCallable 
 	// Function /Script/Paper2D.PaperFlipbookComponent.SetNewTime
-	// void SetNewTime(float NewTime);                                                                                          // [0x7e6c3b0] Final|Native|Public|BlueprintCallable 
+	// void SetNewTime(float NewTime);                                                                                          // [0x7e6a870] Final|Native|Public|BlueprintCallable 
 	// Function /Script/Paper2D.PaperFlipbookComponent.SetLooping
-	// void SetLooping(bool bNewLooping);                                                                                       // [0x7e6c310] Final|Native|Public|BlueprintCallable 
+	// void SetLooping(bool bNewLooping);                                                                                       // [0x7e6a7d0] Final|Native|Public|BlueprintCallable 
 	// Function /Script/Paper2D.PaperFlipbookComponent.SetFlipbook
-	// bool SetFlipbook(class UPaperFlipbook* NewFlipbook);                                                                     // [0x5282920] Native|Public|BlueprintCallable 
+	// bool SetFlipbook(class UPaperFlipbook* NewFlipbook);                                                                     // [0x5282260] Native|Public|BlueprintCallable 
 	// Function /Script/Paper2D.PaperFlipbookComponent.ReverseFromEnd
-	// void ReverseFromEnd();                                                                                                   // [0x7e6be20] Final|Native|Public|BlueprintCallable 
+	// void ReverseFromEnd();                                                                                                   // [0x7e6a2e0] Final|Native|Public|BlueprintCallable 
 	// Function /Script/Paper2D.PaperFlipbookComponent.Reverse
-	// void Reverse();                                                                                                          // [0x7e6bde0] Final|Native|Public|BlueprintCallable 
+	// void Reverse();                                                                                                          // [0x7e6a2a0] Final|Native|Public|BlueprintCallable 
 	// Function /Script/Paper2D.PaperFlipbookComponent.PlayFromStart
-	// void PlayFromStart();                                                                                                    // [0x7e6bb70] Final|Native|Public|BlueprintCallable 
+	// void PlayFromStart();                                                                                                    // [0x7e6a030] Final|Native|Public|BlueprintCallable 
 	// Function /Script/Paper2D.PaperFlipbookComponent.Play
-	// void Play();                                                                                                             // [0x7e6bb20] Final|Native|Public|BlueprintCallable 
+	// void Play();                                                                                                             // [0x7e69fe0] Final|Native|Public|BlueprintCallable 
 	// Function /Script/Paper2D.PaperFlipbookComponent.OnRep_SourceFlipbook
-	// void OnRep_SourceFlipbook(class UPaperFlipbook* OldFlipbook);                                                            // [0x7e6ba30] Final|Native|Protected 
+	// void OnRep_SourceFlipbook(class UPaperFlipbook* OldFlipbook);                                                            // [0x7e69ef0] Final|Native|Protected 
 	// Function /Script/Paper2D.PaperFlipbookComponent.IsReversing
-	// bool IsReversing();                                                                                                      // [0x7e6b2a0] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// bool IsReversing();                                                                                                      // [0x7e69760] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/Paper2D.PaperFlipbookComponent.IsPlaying
-	// bool IsPlaying();                                                                                                        // [0x7e6b270] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// bool IsPlaying();                                                                                                        // [0x7e69730] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/Paper2D.PaperFlipbookComponent.IsLooping
-	// bool IsLooping();                                                                                                        // [0x7e6b240] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// bool IsLooping();                                                                                                        // [0x7e69700] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/Paper2D.PaperFlipbookComponent.GetSpriteColor
-	// FLinearColor GetSpriteColor();                                                                                           // [0x7e6a8f0] Final|Native|Public|HasDefaults|BlueprintCallable|BlueprintPure|Const 
+	// FLinearColor GetSpriteColor();                                                                                           // [0x7e68db0] Final|Native|Public|HasDefaults|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/Paper2D.PaperFlipbookComponent.GetPlayRate
-	// float GetPlayRate();                                                                                                     // [0x7e6a680] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// float GetPlayRate();                                                                                                     // [0x7e68b40] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/Paper2D.PaperFlipbookComponent.GetPlaybackPositionInFrames
-	// int32_t GetPlaybackPositionInFrames();                                                                                   // [0x7e6a6a0] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// int32_t GetPlaybackPositionInFrames();                                                                                   // [0x7e68b60] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/Paper2D.PaperFlipbookComponent.GetPlaybackPosition
-	// float GetPlaybackPosition();                                                                                             // [0x7e6a1a0] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// float GetPlaybackPosition();                                                                                             // [0x7e68660] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/Paper2D.PaperFlipbookComponent.GetFlipbookLengthInFrames
-	// int32_t GetFlipbookLengthInFrames();                                                                                     // [0x7e6a150] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// int32_t GetFlipbookLengthInFrames();                                                                                     // [0x7e68610] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/Paper2D.PaperFlipbookComponent.GetFlipbookLength
-	// float GetFlipbookLength();                                                                                               // [0x7e6a0d0] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// float GetFlipbookLength();                                                                                               // [0x7e68590] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/Paper2D.PaperFlipbookComponent.GetFlipbookFramerate
-	// float GetFlipbookFramerate();                                                                                            // [0x7e6a090] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// float GetFlipbookFramerate();                                                                                            // [0x7e68550] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/Paper2D.PaperFlipbookComponent.GetFlipbook
-	// class UPaperFlipbook* GetFlipbook();                                                                                     // [0x7e6a060] Native|Public|BlueprintCallable|BlueprintPure 
+	// class UPaperFlipbook* GetFlipbook();                                                                                     // [0x7e68520] Native|Public|BlueprintCallable|BlueprintPure 
 };
 
 /// Class /Script/Paper2D.PaperGroupedSpriteActor
@@ -241,21 +241,21 @@ public:
 
 	/// Functions
 	// Function /Script/Paper2D.PaperGroupedSpriteComponent.UpdateInstanceTransform
-	// bool UpdateInstanceTransform(int32_t InstanceIndex, FTransform& NewInstanceTransform, bool bWorldSpace, bool bMarkRenderStateDirty, bool bTeleport); // [0x7e6cf70] Native|Public|HasOutParms|HasDefaults|BlueprintCallable 
+	// bool UpdateInstanceTransform(int32_t InstanceIndex, FTransform& NewInstanceTransform, bool bWorldSpace, bool bMarkRenderStateDirty, bool bTeleport); // [0x7e6b430] Native|Public|HasOutParms|HasDefaults|BlueprintCallable 
 	// Function /Script/Paper2D.PaperGroupedSpriteComponent.UpdateInstanceColor
-	// bool UpdateInstanceColor(int32_t InstanceIndex, FLinearColor NewInstanceColor, bool bMarkRenderStateDirty);              // [0x7e6ce50] Native|Public|HasDefaults|BlueprintCallable 
+	// bool UpdateInstanceColor(int32_t InstanceIndex, FLinearColor NewInstanceColor, bool bMarkRenderStateDirty);              // [0x7e6b310] Native|Public|HasDefaults|BlueprintCallable 
 	// Function /Script/Paper2D.PaperGroupedSpriteComponent.SortInstancesAlongAxis
-	// void SortInstancesAlongAxis(FVector WorldSpaceSortAxis);                                                                 // [0x7e6cda0] Final|Native|Public|HasDefaults|BlueprintCallable 
+	// void SortInstancesAlongAxis(FVector WorldSpaceSortAxis);                                                                 // [0x7e6b260] Final|Native|Public|HasDefaults|BlueprintCallable 
 	// Function /Script/Paper2D.PaperGroupedSpriteComponent.RemoveInstance
-	// bool RemoveInstance(int32_t InstanceIndex);                                                                              // [0x7e6bc40] Native|Public|BlueprintCallable 
+	// bool RemoveInstance(int32_t InstanceIndex);                                                                              // [0x7e6a100] Native|Public|BlueprintCallable 
 	// Function /Script/Paper2D.PaperGroupedSpriteComponent.GetInstanceTransform
-	// bool GetInstanceTransform(int32_t InstanceIndex, FTransform& OutInstanceTransform, bool bWorldSpace);                    // [0x7e6a1c0] Final|Native|Public|HasOutParms|HasDefaults|BlueprintCallable|BlueprintPure|Const 
+	// bool GetInstanceTransform(int32_t InstanceIndex, FTransform& OutInstanceTransform, bool bWorldSpace);                    // [0x7e68680] Final|Native|Public|HasOutParms|HasDefaults|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/Paper2D.PaperGroupedSpriteComponent.GetInstanceCount
-	// int32_t GetInstanceCount();                                                                                              // [0x7e6a1a0] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// int32_t GetInstanceCount();                                                                                              // [0x7e68660] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/Paper2D.PaperGroupedSpriteComponent.ClearInstances
-	// void ClearInstances();                                                                                                   // [0x7e69e00] Native|Public|BlueprintCallable 
+	// void ClearInstances();                                                                                                   // [0x7e682c0] Native|Public|BlueprintCallable 
 	// Function /Script/Paper2D.PaperGroupedSpriteComponent.AddInstance
-	// int32_t AddInstance(FTransform& Transform, class UPaperSprite* Sprite, bool bWorldSpace, FLinearColor Color);            // [0x7e69910] Final|Native|Public|HasOutParms|HasDefaults|BlueprintCallable 
+	// int32_t AddInstance(FTransform& Transform, class UPaperSprite* Sprite, bool bWorldSpace, FLinearColor Color);            // [0x7e67dd0] Final|Native|Public|HasOutParms|HasDefaults|BlueprintCallable 
 };
 
 /// Class /Script/Paper2D.PaperRuntimeSettings
@@ -324,7 +324,7 @@ public:
 
 	/// Functions
 	// Function /Script/Paper2D.PaperSpriteBlueprintLibrary.MakeBrushFromSprite
-	// FSlateBrush MakeBrushFromSprite(class UPaperSprite* Sprite, int32_t Width, int32_t Height);                              // [0x7e6b370] Final|Native|Static|Public|BlueprintCallable|BlueprintPure 
+	// FSlateBrush MakeBrushFromSprite(class UPaperSprite* Sprite, int32_t Width, int32_t Height);                              // [0x7e69830] Final|Native|Static|Public|BlueprintCallable|BlueprintPure 
 };
 
 /// Class /Script/Paper2D.PaperSpriteComponent
@@ -339,11 +339,11 @@ public:
 
 	/// Functions
 	// Function /Script/Paper2D.PaperSpriteComponent.SetSpriteColor
-	// void SetSpriteColor(FLinearColor NewColor);                                                                              // [0x7e6c7f0] Final|Native|Public|HasDefaults|BlueprintCallable 
+	// void SetSpriteColor(FLinearColor NewColor);                                                                              // [0x7e6acb0] Final|Native|Public|HasDefaults|BlueprintCallable 
 	// Function /Script/Paper2D.PaperSpriteComponent.SetSprite
-	// bool SetSprite(class UPaperSprite* NewSprite);                                                                           // [0x5282920] Native|Public|BlueprintCallable 
+	// bool SetSprite(class UPaperSprite* NewSprite);                                                                           // [0x5282260] Native|Public|BlueprintCallable 
 	// Function /Script/Paper2D.PaperSpriteComponent.GetSprite
-	// class UPaperSprite* GetSprite();                                                                                         // [0x7e6a060] Native|Public|BlueprintCallable|BlueprintPure 
+	// class UPaperSprite* GetSprite();                                                                                         // [0x7e68520] Native|Public|BlueprintCallable|BlueprintPure 
 };
 
 /// Struct /Script/Paper2D.PaperTileInfo
@@ -436,43 +436,43 @@ public:
 
 	/// Functions
 	// Function /Script/Paper2D.PaperTileMapComponent.SetTileMapColor
-	// void SetTileMapColor(FLinearColor NewColor);                                                                             // [0x7e6cd20] Final|Native|Public|HasDefaults|BlueprintCallable 
+	// void SetTileMapColor(FLinearColor NewColor);                                                                             // [0x7e6b1e0] Final|Native|Public|HasDefaults|BlueprintCallable 
 	// Function /Script/Paper2D.PaperTileMapComponent.SetTileMap
-	// bool SetTileMap(class UPaperTileMap* NewTileMap);                                                                        // [0x5282920] Native|Public|BlueprintCallable 
+	// bool SetTileMap(class UPaperTileMap* NewTileMap);                                                                        // [0x5282260] Native|Public|BlueprintCallable 
 	// Function /Script/Paper2D.PaperTileMapComponent.SetTile
-	// void SetTile(int32_t X, int32_t Y, int32_t Layer, FPaperTileInfo NewValue);                                              // [0x7e6cb60] Final|Native|Public|BlueprintCallable 
+	// void SetTile(int32_t X, int32_t Y, int32_t Layer, FPaperTileInfo NewValue);                                              // [0x7e6b020] Final|Native|Public|BlueprintCallable 
 	// Function /Script/Paper2D.PaperTileMapComponent.SetLayerColor
-	// void SetLayerColor(FLinearColor NewColor, int32_t Layer);                                                                // [0x7e6c210] Final|Native|Public|HasDefaults|BlueprintCallable 
+	// void SetLayerColor(FLinearColor NewColor, int32_t Layer);                                                                // [0x7e6a6d0] Final|Native|Public|HasDefaults|BlueprintCallable 
 	// Function /Script/Paper2D.PaperTileMapComponent.SetLayerCollision
-	// void SetLayerCollision(int32_t Layer, bool bHasCollision, bool bOverrideThickness, float CustomThickness, bool bOverrideOffset, float CustomOffset, bool bRebuildCollision); // [0x7e6bfd0] Final|Native|Public|BlueprintCallable 
+	// void SetLayerCollision(int32_t Layer, bool bHasCollision, bool bOverrideThickness, float CustomThickness, bool bOverrideOffset, float CustomOffset, bool bRebuildCollision); // [0x7e6a490] Final|Native|Public|BlueprintCallable 
 	// Function /Script/Paper2D.PaperTileMapComponent.SetDefaultCollisionThickness
-	// void SetDefaultCollisionThickness(float Thickness, bool bRebuildCollision);                                              // [0x7e6beb0] Final|Native|Public|BlueprintCallable 
+	// void SetDefaultCollisionThickness(float Thickness, bool bRebuildCollision);                                              // [0x7e6a370] Final|Native|Public|BlueprintCallable 
 	// Function /Script/Paper2D.PaperTileMapComponent.ResizeMap
-	// void ResizeMap(int32_t NewWidthInTiles, int32_t NewHeightInTiles);                                                       // [0x7e6bce0] Final|Native|Public|BlueprintCallable 
+	// void ResizeMap(int32_t NewWidthInTiles, int32_t NewHeightInTiles);                                                       // [0x7e6a1a0] Final|Native|Public|BlueprintCallable 
 	// Function /Script/Paper2D.PaperTileMapComponent.RebuildCollision
-	// void RebuildCollision();                                                                                                 // [0x7e6bbe0] Final|Native|Public|BlueprintCallable 
+	// void RebuildCollision();                                                                                                 // [0x7e6a0a0] Final|Native|Public|BlueprintCallable 
 	// Function /Script/Paper2D.PaperTileMapComponent.OwnsTileMap
-	// bool OwnsTileMap();                                                                                                      // [0x7e6bae0] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// bool OwnsTileMap();                                                                                                      // [0x7e69fa0] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/Paper2D.PaperTileMapComponent.MakeTileMapEditable
-	// void MakeTileMapEditable();                                                                                              // [0x7e6b9b0] Final|Native|Public|BlueprintCallable 
+	// void MakeTileMapEditable();                                                                                              // [0x7e69e70] Final|Native|Public|BlueprintCallable 
 	// Function /Script/Paper2D.PaperTileMapComponent.GetTilePolygon
-	// void GetTilePolygon(int32_t TileX, int32_t TileY, TArray<FVector>& Points, int32_t layerIndex, bool bWorldSpace);        // [0x7e6ae20] Final|Native|Public|HasOutParms|BlueprintCallable|BlueprintPure|Const 
+	// void GetTilePolygon(int32_t TileX, int32_t TileY, TArray<FVector>& Points, int32_t layerIndex, bool bWorldSpace);        // [0x7e692e0] Final|Native|Public|HasOutParms|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/Paper2D.PaperTileMapComponent.GetTileMapColor
-	// FLinearColor GetTileMapColor();                                                                                          // [0x7e6adf0] Final|Native|Public|HasDefaults|BlueprintCallable|BlueprintPure|Const 
+	// FLinearColor GetTileMapColor();                                                                                          // [0x7e692b0] Final|Native|Public|HasDefaults|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/Paper2D.PaperTileMapComponent.GetTileCornerPosition
-	// FVector GetTileCornerPosition(int32_t TileX, int32_t TileY, int32_t layerIndex, bool bWorldSpace);                       // [0x7e6ac60] Final|Native|Public|HasDefaults|BlueprintCallable|BlueprintPure|Const 
+	// FVector GetTileCornerPosition(int32_t TileX, int32_t TileY, int32_t layerIndex, bool bWorldSpace);                       // [0x7e69120] Final|Native|Public|HasDefaults|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/Paper2D.PaperTileMapComponent.GetTileCenterPosition
-	// FVector GetTileCenterPosition(int32_t TileX, int32_t TileY, int32_t layerIndex, bool bWorldSpace);                       // [0x7e6aad0] Final|Native|Public|HasDefaults|BlueprintCallable|BlueprintPure|Const 
+	// FVector GetTileCenterPosition(int32_t TileX, int32_t TileY, int32_t layerIndex, bool bWorldSpace);                       // [0x7e68f90] Final|Native|Public|HasDefaults|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/Paper2D.PaperTileMapComponent.GetTile
-	// FPaperTileInfo GetTile(int32_t X, int32_t Y, int32_t Layer);                                                             // [0x7e6a920] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// FPaperTileInfo GetTile(int32_t X, int32_t Y, int32_t Layer);                                                             // [0x7e68de0] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/Paper2D.PaperTileMapComponent.GetMapSize
-	// void GetMapSize(int32_t& MapWidth, int32_t& MapHeight, int32_t& NumLayers);                                              // [0x7e6a4e0] Final|Native|Public|HasOutParms|BlueprintCallable 
+	// void GetMapSize(int32_t& MapWidth, int32_t& MapHeight, int32_t& NumLayers);                                              // [0x7e689a0] Final|Native|Public|HasOutParms|BlueprintCallable 
 	// Function /Script/Paper2D.PaperTileMapComponent.GetLayerColor
-	// FLinearColor GetLayerColor(int32_t Layer);                                                                               // [0x7e6a420] Final|Native|Public|HasDefaults|BlueprintCallable|BlueprintPure|Const 
+	// FLinearColor GetLayerColor(int32_t Layer);                                                                               // [0x7e688e0] Final|Native|Public|HasDefaults|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/Paper2D.PaperTileMapComponent.CreateNewTileMap
-	// void CreateNewTileMap(int32_t MapWidth, int32_t MapHeight, int32_t TileWidth, int32_t TileHeight, float PixelsPerUnrealUnit, bool bCreateLayer); // [0x7e69e20] Final|Native|Public|BlueprintCallable 
+	// void CreateNewTileMap(int32_t MapWidth, int32_t MapHeight, int32_t TileWidth, int32_t TileHeight, float PixelsPerUnrealUnit, bool bCreateLayer); // [0x7e682e0] Final|Native|Public|BlueprintCallable 
 	// Function /Script/Paper2D.PaperTileMapComponent.AddNewLayer
-	// class UPaperTileLayer* AddNewLayer();                                                                                    // [0x7e69b10] Final|Native|Public|BlueprintCallable 
+	// class UPaperTileLayer* AddNewLayer();                                                                                    // [0x7e67fd0] Final|Native|Public|BlueprintCallable 
 };
 
 /// Struct /Script/Paper2D.IntMargin
@@ -603,7 +603,7 @@ public:
 
 	/// Functions
 	// Function /Script/Paper2D.PaperTerrainComponent.SetTerrainColor
-	// void SetTerrainColor(FLinearColor NewColor);                                                                             // [0x7e6c920] Final|Native|Public|HasDefaults|BlueprintCallable 
+	// void SetTerrainColor(FLinearColor NewColor);                                                                             // [0x7e6ade0] Final|Native|Public|HasDefaults|BlueprintCallable 
 };
 
 /// Struct /Script/Paper2D.PaperTerrainMaterialRule
@@ -648,13 +648,13 @@ public:
 
 	/// Functions
 	// Function /Script/Paper2D.TileMapBlueprintLibrary.MakeTile
-	// FPaperTileInfo MakeTile(int32_t TileIndex, class UPaperTileSet* TileSet, bool bFlipH, bool bFlipV, bool bFlipD);         // [0x7e6b780] Final|Native|Static|Public|BlueprintCallable|BlueprintPure 
+	// FPaperTileInfo MakeTile(int32_t TileIndex, class UPaperTileSet* TileSet, bool bFlipH, bool bFlipV, bool bFlipD);         // [0x7e69c40] Final|Native|Static|Public|BlueprintCallable|BlueprintPure 
 	// Function /Script/Paper2D.TileMapBlueprintLibrary.GetTileUserData
-	// FName GetTileUserData(FPaperTileInfo tile);                                                                              // [0x7e6b0e0] Final|Native|Static|Public|BlueprintCallable|BlueprintPure 
+	// FName GetTileUserData(FPaperTileInfo tile);                                                                              // [0x7e695a0] Final|Native|Static|Public|BlueprintCallable|BlueprintPure 
 	// Function /Script/Paper2D.TileMapBlueprintLibrary.GetTileTransform
-	// FTransform GetTileTransform(FPaperTileInfo tile);                                                                        // [0x7e6aff0] Final|Native|Static|Public|HasDefaults|BlueprintCallable|BlueprintPure 
+	// FTransform GetTileTransform(FPaperTileInfo tile);                                                                        // [0x7e694b0] Final|Native|Static|Public|HasDefaults|BlueprintCallable|BlueprintPure 
 	// Function /Script/Paper2D.TileMapBlueprintLibrary.BreakTile
-	// void BreakTile(FPaperTileInfo tile, int32_t& TileIndex, class UPaperTileSet*& TileSet, bool& bFlipH, bool& bFlipV, bool& bFlipD); // [0x7e69ba0] Final|Native|Static|Public|HasOutParms|BlueprintCallable|BlueprintPure 
+	// void BreakTile(FPaperTileInfo tile, int32_t& TileIndex, class UPaperTileSet*& TileSet, bool& bFlipH, bool& bFlipV, bool& bFlipD); // [0x7e68060] Final|Native|Static|Public|HasOutParms|BlueprintCallable|BlueprintPure 
 };
 
 /// Struct /Script/Paper2D.SpriteDrawCallRecord

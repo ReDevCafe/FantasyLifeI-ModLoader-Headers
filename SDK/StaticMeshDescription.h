@@ -21,13 +21,13 @@ public:
 
 	/// Functions
 	// Function /Script/StaticMeshDescription.StaticMeshDescription.SetVertexInstanceUV
-	// void SetVertexInstanceUV(FVertexInstanceID VertexInstanceID, FVector2D uv, int32_t UVIndex);                             // [0x3b74a90] Final|RequiredAPI|Native|Public|HasDefaults|BlueprintCallable 
+	// void SetVertexInstanceUV(FVertexInstanceID VertexInstanceID, FVector2D uv, int32_t UVIndex);                             // [0x3b74780] Final|RequiredAPI|Native|Public|HasDefaults|BlueprintCallable 
 	// Function /Script/StaticMeshDescription.StaticMeshDescription.SetPolygonGroupMaterialSlotName
-	// void SetPolygonGroupMaterialSlotName(FPolygonGroupID PolygonGroupID, FName& SlotName);                                   // [0x3b74890] Final|RequiredAPI|Native|Public|HasOutParms|BlueprintCallable 
+	// void SetPolygonGroupMaterialSlotName(FPolygonGroupID PolygonGroupID, FName& SlotName);                                   // [0x3b74580] Final|RequiredAPI|Native|Public|HasOutParms|BlueprintCallable 
 	// Function /Script/StaticMeshDescription.StaticMeshDescription.GetVertexInstanceUV
-	// FVector2D GetVertexInstanceUV(FVertexInstanceID VertexInstanceID, int32_t UVIndex);                                      // [0x3b74680] Final|RequiredAPI|Native|Public|HasDefaults|BlueprintCallable|BlueprintPure|Const 
+	// FVector2D GetVertexInstanceUV(FVertexInstanceID VertexInstanceID, int32_t UVIndex);                                      // [0x3b74370] Final|RequiredAPI|Native|Public|HasDefaults|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/StaticMeshDescription.StaticMeshDescription.CreateCube
-	// void CreateCube(FVector Center, FVector HalfExtents, FPolygonGroupID PolygonGroup, FPolygonID& PolygonID_PlusX, FPolygonID& PolygonID_MinusX, FPolygonID& PolygonID_PlusY, FPolygonID& PolygonID_MinusY, FPolygonID& PolygonID_PlusZ, FPolygonID& PolygonID_MinusZ); // [0x3b74330] Final|RequiredAPI|Native|Public|HasOutParms|HasDefaults|BlueprintCallable 
+	// void CreateCube(FVector Center, FVector HalfExtents, FPolygonGroupID PolygonGroup, FPolygonID& PolygonID_PlusX, FPolygonID& PolygonID_MinusX, FPolygonID& PolygonID_PlusY, FPolygonID& PolygonID_MinusY, FPolygonID& PolygonID_PlusZ, FPolygonID& PolygonID_MinusZ); // [0x3b74020] Final|RequiredAPI|Native|Public|HasOutParms|HasDefaults|BlueprintCallable 
 };
 
 /// Struct /Script/StaticMeshDescription.UVMapSettings

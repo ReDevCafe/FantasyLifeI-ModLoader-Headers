@@ -32,13 +32,20 @@ class GameCache
         ItemData                GetItem         (std::string key) const { return *_cacheItemData.at(key); }
         RecipeData              GetRecipe       (std::string key) const { return *_cacheRecipeData.at(key); }
         CharaData               GetChara        (std::string key) const { return *_cacheCharaData.at(key); }
-
-        // World shit
         MapSubLevel             GetSubLevel     (std::string key) const { return *_cacheSubLevel.at(key); }
         MapData                 GetMapData      (std::string key) const { return *_cacheMap.at(key); }
 
-        const std::unordered_map<std::string, std::unique_ptr<ItemData>>&   GetListItems() const { return _cacheItemData; }
-        const std::unordered_map<std::string, std::unique_ptr<RecipeData>>& GetListRecipes() const { return _cacheRecipeData; }
+        /* Get Lists
+        const std::unordered_map<std::string, FGDStCommon_NounInfo*>                GetNounInfos()            const { return _cacheNounInfo; }
+        const std::unordered_map<std::string, FGDStCommon_TextInfo*>                GetTextInfos()            const { return _cacheTextInfo; }
+        const std::unordered_map<std::string, std::unique_ptr<CommonPickParamData>> GetCommonPicksParamData() const { return _cacheCommonPickParam; }
+        const std::unordered_map<std::string, std::unique_ptr<SkillData>>           GetSkillsData()           const { return _cacheSkillData; }
+        const std::unordered_map<std::string, std::unique_ptr<ItemData>>            GetListItems()            const { return _cacheItemData; }
+        const std::unordered_map<std::string, std::unique_ptr<RecipeData>>          GetListRecipes()          const { return _cacheRecipeData; }
+        const std::unordered_map<std::string, std::unique_ptr<CharaData>>           GetCharasData()           const { return _cacheCharaData; }
+        const std::unordered_map<std::string, std::unique_ptr<MapSubLevel>>         GetSubLevels()            const { return _cacheSubLevel; }
+        const std::unordered_map<std::string, std::unique_ptr<MapData>>             GetMaps()                 const { return _cacheMap; }
+        */
 
     private:
         std::unordered_map<std::string, FGDStCommon_NounInfo*>                  _cacheNounInfo;
@@ -48,8 +55,6 @@ class GameCache
         std::unordered_map<std::string, std::unique_ptr<ItemData>>              _cacheItemData;
         std::unordered_map<std::string, std::unique_ptr<RecipeData>>            _cacheRecipeData;
         std::unordered_map<std::string, std::unique_ptr<CharaData>>             _cacheCharaData;
-
-        // World shit
         std::unordered_map<std::string, std::unique_ptr<MapSubLevel>>           _cacheSubLevel;
         std::unordered_map<std::string, std::unique_ptr<MapData>>               _cacheMap;
 
@@ -61,10 +66,8 @@ class GameCache
         void initRecipe(GameData* gmd, UStaticDataManager* sdm);
         void initChara(GameData* gmd, UStaticDataManager* sdm);
 
-
+        // Post load 
         void postInitText(GameData* gmd, UStaticDataManager* sdm);
-
-        // World shit
         void initSubLevel(GameData* gmd, UStaticDataManager* sdm);
         void initMap(GameData* gmd, UStaticDataManager* sdm);
 };

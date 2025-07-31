@@ -1,0 +1,9 @@
+#ifndef MODCONFIGURATIONENVIRONNEMENT_HPP
+    #define MODCONFIGURATIONENVIRONNEMENT_HPP
+
+class ModConfigurationEnvironnement
+{
+    
+};
+
+#endif // !MODCONFIGURATIONENVIRONNEMENT_HPP

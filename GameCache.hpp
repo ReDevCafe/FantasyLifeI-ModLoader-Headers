@@ -11,8 +11,7 @@
     #include "API/Skill/SkillData.hpp"
     #include "API/Common/CommonPickParamData.hpp"
     #include "API/Entities/CharaData.hpp"
-    #include "API/World/MapSubLevel.hpp"
-    #include "API/World/MapData.hpp"
+    #include "API/World/Level.hpp"
 
 class UStaticDataManager;
 class GameData;
@@ -32,8 +31,6 @@ class GameCache
         ItemData                GetItem         (std::string key) const { return *_cacheItemData.at(key); }
         RecipeData              GetRecipe       (std::string key) const { return *_cacheRecipeData.at(key); }
         CharaData               GetChara        (std::string key) const { return *_cacheCharaData.at(key); }
-        MapSubLevel             GetSubLevel     (std::string key) const { return *_cacheSubLevel.at(key); }
-        MapData                 GetMapData      (std::string key) const { return *_cacheMap.at(key); }
 
         /* Get Lists
         const std::unordered_map<std::string, FGDStCommon_NounInfo*>                GetNounInfos()            const { return _cacheNounInfo; }
@@ -55,8 +52,7 @@ class GameCache
         std::unordered_map<std::string, std::unique_ptr<ItemData>>              _cacheItemData;
         std::unordered_map<std::string, std::unique_ptr<RecipeData>>            _cacheRecipeData;
         std::unordered_map<std::string, std::unique_ptr<CharaData>>             _cacheCharaData;
-        std::unordered_map<std::string, std::unique_ptr<MapSubLevel>>           _cacheSubLevel;
-        std::unordered_map<std::string, std::unique_ptr<MapData>>               _cacheMap;
+        std::unordered_map<std::string, std::unique_ptr<Level>>                 _cacheLevel;
 
         void initNoun(GameData* gmd, UStaticDataManager* sdm);
         void initText(GameData* gmd, UStaticDataManager* sdm);
@@ -66,10 +62,10 @@ class GameCache
         void initRecipe(GameData* gmd, UStaticDataManager* sdm);
         void initChara(GameData* gmd, UStaticDataManager* sdm);
 
+        void initLevel(GameData* gmd);
+
         // Post load 
         void postInitText(GameData* gmd, UStaticDataManager* sdm);
-        void initSubLevel(GameData* gmd, UStaticDataManager* sdm);
-        void initMap(GameData* gmd, UStaticDataManager* sdm);
 };
 
 #endif // !GAMECACHE_HPP

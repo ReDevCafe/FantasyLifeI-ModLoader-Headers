@@ -4,7 +4,6 @@
 
     #include "API/GameObjectProxy.hpp"
     #include "LifeData.hpp"
-    #include <vector>
     #include "Export.h"
 
 class ML_API ULifeData : public GameObjectProxy<UGDSLifeData>

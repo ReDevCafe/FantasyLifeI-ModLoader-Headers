@@ -82,5 +82,5 @@
 // Utility and Cache
 #include "GameCache.hpp"
 #include "GameData.hpp"
-#include "Utils.hpp"
+#include "Engine/FNamePool.hpp"
 #include "ModLoader.hpp"

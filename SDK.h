@@ -215,3 +215,5 @@
 #include "SDK/WebRemoteControl.h"
 #include "SDK/WebSocketNetworking.h"
 #include "SDK/WmfMediaFactory.h"
+
+#include "SDKFix.h"

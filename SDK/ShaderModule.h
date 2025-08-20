@@ -80,8 +80,15 @@ struct FDioramaBlur_CircleMask
 	unsigned char                                      UnknownData01_7[0x4];                                       // 0x0084   (0x0004)  MISSED
 };
 
+/// Struct /Script/ShaderModule.DioramaBlur_PhotoAdjust
+/// Size: 0x0044 (68 bytes) (0x000000 - 0x000044) align 4 MaxSize: 0x0044
+struct FDioramaBlur_PhotoAdjust
+{ 
+	unsigned char                                      UnknownData00_2[0x44];                                      // 0x0000   (0x0044)  MISSED
+};
+
 /// Struct /Script/ShaderModule.PostProcessDioramaBlurParam
-/// Size: 0x0100 (256 bytes) (0x000000 - 0x000100) align 8 MaxSize: 0x0100
+/// Size: 0x0148 (328 bytes) (0x000000 - 0x000148) align 8 MaxSize: 0x0148
 struct FPostProcessDioramaBlurParam
 { 
 	bool                                               IsEnable;                                                   // 0x0000   (0x0001)  
@@ -91,7 +98,7 @@ struct FPostProcessDioramaBlurParam
 	FDioramaBlur_BandBlur                              BandBlur;                                                   // 0x0058   (0x0014)  
 	unsigned char                                      UnknownData01_6[0x4];                                       // 0x006C   (0x0004)  MISSED
 	FDioramaBlur_CircleMask                            CircleMask;                                                 // 0x0070   (0x0088)  
-	unsigned char                                      UnknownData02_7[0x8];                                       // 0x00F8   (0x0008)  MISSED
+	unsigned char                                      UnknownData02_7[0x50];                                      // 0x00F8   (0x0050)  MISSED
 };
 
 #pragma pack(pop)

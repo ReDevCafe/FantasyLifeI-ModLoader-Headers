@@ -178,13 +178,13 @@ public:
 
 	/// Functions
 	// Function /Script/MovieRenderPipelineCore.MovieGraphNode.TogglePromotePropertyToPin
-	// void TogglePromotePropertyToPin(FName& PropertyName);                                                                    // [0x76cd8e0] Native|Public|HasOutParms|BlueprintCallable 
+	// void TogglePromotePropertyToPin(FName& PropertyName);                                                                    // [0x77ebe40] Native|Public|HasOutParms|BlueprintCallable 
 	// Function /Script/MovieRenderPipelineCore.MovieGraphNode.GetOutputPin
-	// class UMovieGraphPin* GetOutputPin(FName& InPinLabel);                                                                   // [0x76cd060] Final|Native|Public|HasOutParms|BlueprintCallable|BlueprintPure|Const 
+	// class UMovieGraphPin* GetOutputPin(FName& InPinLabel);                                                                   // [0x77eb5c0] Final|Native|Public|HasOutParms|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/MovieRenderPipelineCore.MovieGraphNode.GetInputPin
-	// class UMovieGraphPin* GetInputPin(FName& InPinLabel, EMovieGraphPinQueryRequirement PinRequirement);                     // [0x76cce30] Final|Native|Public|HasOutParms|BlueprintCallable|BlueprintPure|Const 
+	// class UMovieGraphPin* GetInputPin(FName& InPinLabel, EMovieGraphPinQueryRequirement PinRequirement);                     // [0x77eb390] Final|Native|Public|HasOutParms|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/MovieRenderPipelineCore.MovieGraphNode.GetExposedProperties
-	// TArray<FMovieGraphPropertyInfo> GetExposedProperties();                                                                  // [0x5a84060] Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// TArray<FMovieGraphPropertyInfo> GetExposedProperties();                                                                  // [0x5b643c0] Native|Public|BlueprintCallable|BlueprintPure|Const 
 };
 
 /// Class /Script/MovieRenderPipelineCore.MovieGraphSettingNode
@@ -201,7 +201,7 @@ class UMovieGraphApplyCVarPresetNode : public UMovieGraphSettingNode
 public:
 	bool                                               bOverride_ConsoleVariablePreset : 1;                        // 0x0098:0 (0x0001)  
 	unsigned char                                      UnknownData00_5[0x7];                                       // 0x0099   (0x0007)  MISSED
-	SDK_UNDEFINED(16,1129) /* TScriptInterface<Class> */ __um(ConsoleVariablePreset);                              // 0x00A0   (0x0010)  
+	SDK_UNDEFINED(16,1148) /* TScriptInterface<Class> */ __um(ConsoleVariablePreset);                              // 0x00A0   (0x0010)  
 };
 
 /// Class /Script/MovieRenderPipelineCore.MovieGraphFileOutputNode
@@ -231,57 +231,57 @@ public:
 
 	/// Functions
 	// Function /Script/MovieRenderPipelineCore.MovieGraphBlueprintLibrary.ResolveVersionNumber
-	// int32_t ResolveVersionNumber(FMovieGraphFilenameResolveParams InParams, bool bGetNextVersion);                           // [0x76c80f0] Final|Native|Static|Public|BlueprintCallable 
+	// int32_t ResolveVersionNumber(FMovieGraphFilenameResolveParams InParams, bool bGetNextVersion);                           // [0x77e6650] Final|Native|Static|Public|BlueprintCallable 
 	// Function /Script/MovieRenderPipelineCore.MovieGraphBlueprintLibrary.ResolveFilenameFormatArguments
-	// FString ResolveFilenameFormatArguments(FString InFormatString, FMovieGraphFilenameResolveParams& InParams, FMovieGraphResolveArgs& OutMergedFormatArgs); // [0x76c7e60] Final|Native|Static|Public|HasOutParms|BlueprintCallable 
+	// FString ResolveFilenameFormatArguments(FString InFormatString, FMovieGraphFilenameResolveParams& InParams, FMovieGraphResolveArgs& OutMergedFormatArgs); // [0x77e63c0] Final|Native|Static|Public|HasOutParms|BlueprintCallable 
 	// Function /Script/MovieRenderPipelineCore.MovieGraphBlueprintLibrary.NamedResolutionFromSize
-	// FMovieGraphNamedResolution NamedResolutionFromSize(int32_t InResX, int32_t InResY);                                      // [0x76c7740] Final|Native|Static|Public|BlueprintCallable|BlueprintPure 
+	// FMovieGraphNamedResolution NamedResolutionFromSize(int32_t InResX, int32_t InResY);                                      // [0x77e5ca0] Final|Native|Static|Public|BlueprintCallable|BlueprintPure 
 	// Function /Script/MovieRenderPipelineCore.MovieGraphBlueprintLibrary.NamedResolutionFromProfile
-	// FMovieGraphNamedResolution NamedResolutionFromProfile(FName& InResolutionProfileName);                                   // [0x76c7690] Final|Native|Static|Public|HasOutParms|BlueprintCallable|BlueprintPure 
+	// FMovieGraphNamedResolution NamedResolutionFromProfile(FName& InResolutionProfileName);                                   // [0x77e5bf0] Final|Native|Static|Public|HasOutParms|BlueprintCallable|BlueprintPure 
 	// Function /Script/MovieRenderPipelineCore.MovieGraphBlueprintLibrary.IsNamedResolutionValid
-	// bool IsNamedResolutionValid(FName& InResolutionProfileName);                                                             // [0x76c75f0] Final|Native|Static|Public|HasOutParms|BlueprintCallable|BlueprintPure 
+	// bool IsNamedResolutionValid(FName& InResolutionProfileName);                                                             // [0x77e5b50] Final|Native|Static|Public|HasOutParms|BlueprintCallable|BlueprintPure 
 	// Function /Script/MovieRenderPipelineCore.MovieGraphBlueprintLibrary.GetRootTimecode
-	// FTimecode GetRootTimecode(class UMovieGraphPipeline* InMovieGraphPipeline);                                              // [0x76c70e0] Final|Native|Static|Public|BlueprintCallable|BlueprintPure 
+	// FTimecode GetRootTimecode(class UMovieGraphPipeline* InMovieGraphPipeline);                                              // [0x77e5640] Final|Native|Static|Public|BlueprintCallable|BlueprintPure 
 	// Function /Script/MovieRenderPipelineCore.MovieGraphBlueprintLibrary.GetRootFrameNumber
-	// FFrameNumber GetRootFrameNumber(class UMovieGraphPipeline* InMovieGraphPipeline);                                        // [0x76c7050] Final|Native|Static|Public|HasDefaults|BlueprintCallable|BlueprintPure 
+	// FFrameNumber GetRootFrameNumber(class UMovieGraphPipeline* InMovieGraphPipeline);                                        // [0x77e55b0] Final|Native|Static|Public|HasDefaults|BlueprintCallable|BlueprintPure 
 	// Function /Script/MovieRenderPipelineCore.MovieGraphBlueprintLibrary.GetPipelineState
-	// EMovieRenderPipelineState GetPipelineState(class UMovieGraphPipeline* InMovieGraphPipeline);                             // [0x76c6fc0] Final|Native|Static|Public|BlueprintCallable|BlueprintPure 
+	// EMovieRenderPipelineState GetPipelineState(class UMovieGraphPipeline* InMovieGraphPipeline);                             // [0x77e5520] Final|Native|Static|Public|BlueprintCallable|BlueprintPure 
 	// Function /Script/MovieRenderPipelineCore.MovieGraphBlueprintLibrary.GetOverallSegmentCounts
-	// void GetOverallSegmentCounts(class UMovieGraphPipeline* InMovieGraphPipeline, int32_t& OutCurrentIndex, int32_t& OutTotalCount); // [0x76c6e90] Final|Native|Static|Public|HasOutParms|BlueprintCallable|BlueprintPure 
+	// void GetOverallSegmentCounts(class UMovieGraphPipeline* InMovieGraphPipeline, int32_t& OutCurrentIndex, int32_t& OutTotalCount); // [0x77e53f0] Final|Native|Static|Public|HasOutParms|BlueprintCallable|BlueprintPure 
 	// Function /Script/MovieRenderPipelineCore.MovieGraphBlueprintLibrary.GetOverallOutputFrames
-	// void GetOverallOutputFrames(class UMovieGraphPipeline* InMovieGraphPipeline, int32_t& OutCurrentIndex, int32_t& OutTotalCount); // [0x76c6d60] Final|Native|Static|Public|HasOutParms|BlueprintCallable|BlueprintPure 
+	// void GetOverallOutputFrames(class UMovieGraphPipeline* InMovieGraphPipeline, int32_t& OutCurrentIndex, int32_t& OutTotalCount); // [0x77e52c0] Final|Native|Static|Public|HasOutParms|BlueprintCallable|BlueprintPure 
 	// Function /Script/MovieRenderPipelineCore.MovieGraphBlueprintLibrary.GetJobName
-	// FText GetJobName(class UMovieGraphPipeline* InMovieGraphPipeline);                                                       // [0x76c6b70] Final|Native|Static|Public|BlueprintCallable|BlueprintPure 
+	// FText GetJobName(class UMovieGraphPipeline* InMovieGraphPipeline);                                                       // [0x77e50d0] Final|Native|Static|Public|BlueprintCallable|BlueprintPure 
 	// Function /Script/MovieRenderPipelineCore.MovieGraphBlueprintLibrary.GetJobInitializationTime
-	// FDateTime GetJobInitializationTime(class UMovieGraphPipeline* InMovieGraphPipeline);                                     // [0x76c6ae0] Final|Native|Static|Public|HasDefaults|BlueprintCallable|BlueprintPure 
+	// FDateTime GetJobInitializationTime(class UMovieGraphPipeline* InMovieGraphPipeline);                                     // [0x77e5040] Final|Native|Static|Public|HasDefaults|BlueprintCallable|BlueprintPure 
 	// Function /Script/MovieRenderPipelineCore.MovieGraphBlueprintLibrary.GetJobAuthor
-	// FText GetJobAuthor(class UMovieGraphPipeline* InMovieGraphPipeline);                                                     // [0x76c6a30] Final|Native|Static|Public|BlueprintCallable|BlueprintPure 
+	// FText GetJobAuthor(class UMovieGraphPipeline* InMovieGraphPipeline);                                                     // [0x77e4f90] Final|Native|Static|Public|BlueprintCallable|BlueprintPure 
 	// Function /Script/MovieRenderPipelineCore.MovieGraphBlueprintLibrary.GetEstimatedTimeRemaining
-	// bool GetEstimatedTimeRemaining(class UMovieGraphPipeline* InMovieGraphPipeline, FTimespan& OutEstimate);                 // [0x76c6890] Final|Native|Static|Public|HasOutParms|HasDefaults|BlueprintCallable|BlueprintPure 
+	// bool GetEstimatedTimeRemaining(class UMovieGraphPipeline* InMovieGraphPipeline, FTimespan& OutEstimate);                 // [0x77e4df0] Final|Native|Static|Public|HasOutParms|HasDefaults|BlueprintCallable|BlueprintPure 
 	// Function /Script/MovieRenderPipelineCore.MovieGraphBlueprintLibrary.GetEffectiveOutputResolution
-	// FIntPoint GetEffectiveOutputResolution(class UMovieGraphEvaluatedConfig* InEvaluatedGraph);                              // [0x76c6800] Final|Native|Static|Public|HasDefaults|BlueprintCallable 
+	// FIntPoint GetEffectiveOutputResolution(class UMovieGraphEvaluatedConfig* InEvaluatedGraph);                              // [0x77e4d60] Final|Native|Static|Public|HasDefaults|BlueprintCallable 
 	// Function /Script/MovieRenderPipelineCore.MovieGraphBlueprintLibrary.GetEffectiveFrameRate
-	// FFrameRate GetEffectiveFrameRate(class UMovieGraphGlobalOutputSettingNode* InNode, FFrameRate& InDefaultRate);           // [0x76c6720] Final|Native|Static|Public|HasOutParms|BlueprintCallable 
+	// FFrameRate GetEffectiveFrameRate(class UMovieGraphGlobalOutputSettingNode* InNode, FFrameRate& InDefaultRate);           // [0x77e4c80] Final|Native|Static|Public|HasOutParms|BlueprintCallable 
 	// Function /Script/MovieRenderPipelineCore.MovieGraphBlueprintLibrary.GetCurrentShotTimecode
-	// FTimecode GetCurrentShotTimecode(class UMovieGraphPipeline* InMovieGraphPipeline);                                       // [0x76c6680] Final|Native|Static|Public|BlueprintCallable|BlueprintPure 
+	// FTimecode GetCurrentShotTimecode(class UMovieGraphPipeline* InMovieGraphPipeline);                                       // [0x77e4be0] Final|Native|Static|Public|BlueprintCallable|BlueprintPure 
 	// Function /Script/MovieRenderPipelineCore.MovieGraphBlueprintLibrary.GetCurrentShotFrameNumber
-	// FFrameNumber GetCurrentShotFrameNumber(class UMovieGraphPipeline* InMovieGraphPipeline);                                 // [0x76c65f0] Final|Native|Static|Public|HasDefaults|BlueprintCallable|BlueprintPure 
+	// FFrameNumber GetCurrentShotFrameNumber(class UMovieGraphPipeline* InMovieGraphPipeline);                                 // [0x77e4b50] Final|Native|Static|Public|HasDefaults|BlueprintCallable|BlueprintPure 
 	// Function /Script/MovieRenderPipelineCore.MovieGraphBlueprintLibrary.GetCurrentSegmentWorkMetrics
-	// FMoviePipelineSegmentWorkMetrics GetCurrentSegmentWorkMetrics(class UMovieGraphPipeline* InMovieGraphPipeline);          // [0x76c6500] Final|Native|Static|Public|BlueprintCallable|BlueprintPure 
+	// FMoviePipelineSegmentWorkMetrics GetCurrentSegmentWorkMetrics(class UMovieGraphPipeline* InMovieGraphPipeline);          // [0x77e4a60] Final|Native|Static|Public|BlueprintCallable|BlueprintPure 
 	// Function /Script/MovieRenderPipelineCore.MovieGraphBlueprintLibrary.GetCurrentSegmentState
-	// EMovieRenderShotState GetCurrentSegmentState(class UMovieGraphPipeline* InMovieGraphPipeline);                           // [0x76c6470] Final|Native|Static|Public|BlueprintCallable|BlueprintPure 
+	// EMovieRenderShotState GetCurrentSegmentState(class UMovieGraphPipeline* InMovieGraphPipeline);                           // [0x77e49d0] Final|Native|Static|Public|BlueprintCallable|BlueprintPure 
 	// Function /Script/MovieRenderPipelineCore.MovieGraphBlueprintLibrary.GetCurrentSegmentName
-	// void GetCurrentSegmentName(class UMovieGraphPipeline* InMovieGraphPipeline, FText& OutOuterName, FText& OutInnerName);   // [0x76c6320] Final|Native|Static|Public|HasOutParms|BlueprintCallable|BlueprintPure 
+	// void GetCurrentSegmentName(class UMovieGraphPipeline* InMovieGraphPipeline, FText& OutOuterName, FText& OutInnerName);   // [0x77e4880] Final|Native|Static|Public|HasOutParms|BlueprintCallable|BlueprintPure 
 	// Function /Script/MovieRenderPipelineCore.MovieGraphBlueprintLibrary.GetCurrentFocusDistance
-	// float GetCurrentFocusDistance(class UMovieGraphPipeline* InMovieGraphPipeline);                                          // [0x76c6290] Final|Native|Static|Public|BlueprintCallable|BlueprintPure 
+	// float GetCurrentFocusDistance(class UMovieGraphPipeline* InMovieGraphPipeline);                                          // [0x77e47f0] Final|Native|Static|Public|BlueprintCallable|BlueprintPure 
 	// Function /Script/MovieRenderPipelineCore.MovieGraphBlueprintLibrary.GetCurrentFocalLength
-	// float GetCurrentFocalLength(class UMovieGraphPipeline* InMovieGraphPipeline);                                            // [0x76c6200] Final|Native|Static|Public|BlueprintCallable|BlueprintPure 
+	// float GetCurrentFocalLength(class UMovieGraphPipeline* InMovieGraphPipeline);                                            // [0x77e4760] Final|Native|Static|Public|BlueprintCallable|BlueprintPure 
 	// Function /Script/MovieRenderPipelineCore.MovieGraphBlueprintLibrary.GetCurrentCineCamera
-	// class UCineCameraComponent* GetCurrentCineCamera(class UMovieGraphPipeline* InMovieGraphPipeline);                       // [0x76c6170] Final|Native|Static|Public|BlueprintCallable|BlueprintPure 
+	// class UCineCameraComponent* GetCurrentCineCamera(class UMovieGraphPipeline* InMovieGraphPipeline);                       // [0x77e46d0] Final|Native|Static|Public|BlueprintCallable|BlueprintPure 
 	// Function /Script/MovieRenderPipelineCore.MovieGraphBlueprintLibrary.GetCurrentAperture
-	// float GetCurrentAperture(class UMovieGraphPipeline* InMovieGraphPipeline);                                               // [0x76c60e0] Final|Native|Static|Public|BlueprintCallable|BlueprintPure 
+	// float GetCurrentAperture(class UMovieGraphPipeline* InMovieGraphPipeline);                                               // [0x77e4640] Final|Native|Static|Public|BlueprintCallable|BlueprintPure 
 	// Function /Script/MovieRenderPipelineCore.MovieGraphBlueprintLibrary.GetCompletionPercentage
-	// float GetCompletionPercentage(class UMovieGraphPipeline* InPipeline);                                                    // [0x76c6050] Final|Native|Static|Public|BlueprintCallable|BlueprintPure 
+	// float GetCompletionPercentage(class UMovieGraphPipeline* InPipeline);                                                    // [0x77e45b0] Final|Native|Static|Public|BlueprintCallable|BlueprintPure 
 };
 
 /// Class /Script/MovieRenderPipelineCore.MovieGraphBranchNode
@@ -328,7 +328,7 @@ public:
 
 	/// Functions
 	// Function /Script/MovieRenderPipelineCore.MovieGraphBurnInWidget.UpdateForGraph
-	// void UpdateForGraph(class UMovieGraphPipeline* InGraphPipeline, class UMovieGraphEvaluatedConfig* InEvaluatedConfig);    // [0x2fd4400] Event|Public|BlueprintEvent 
+	// void UpdateForGraph(class UMovieGraphPipeline* InGraphPipeline, class UMovieGraphEvaluatedConfig* InEvaluatedConfig);    // [0x30b4600] Event|Public|BlueprintEvent 
 };
 
 /// Class /Script/MovieRenderPipelineCore.MovieGraphCameraSettingNode
@@ -397,69 +397,69 @@ public:
 
 	/// Functions
 	// Function /Script/MovieRenderPipelineCore.MovieGraphValueContainer.SetValueTypeObject
-	// void SetValueTypeObject(class UObject* ValueTypeObject);                                                                 // [0x76d8e50] Final|Native|Public|BlueprintCallable 
+	// void SetValueTypeObject(class UObject* ValueTypeObject);                                                                 // [0x77f73b0] Final|Native|Public|BlueprintCallable 
 	// Function /Script/MovieRenderPipelineCore.MovieGraphValueContainer.SetValueType
-	// void SetValueType(EMovieGraphValueType valueType, class UObject* InValueTypeObject);                                     // [0x76d8d80] Final|Native|Public|BlueprintCallable 
+	// void SetValueType(EMovieGraphValueType valueType, class UObject* InValueTypeObject);                                     // [0x77f72e0] Final|Native|Public|BlueprintCallable 
 	// Function /Script/MovieRenderPipelineCore.MovieGraphValueContainer.SetValueText
-	// bool SetValueText(FText& InValue);                                                                                       // [0x76d8bc0] Final|Native|Public|HasOutParms|BlueprintCallable 
+	// bool SetValueText(FText& InValue);                                                                                       // [0x77f7120] Final|Native|Public|HasOutParms|BlueprintCallable 
 	// Function /Script/MovieRenderPipelineCore.MovieGraphValueContainer.SetValueString
-	// bool SetValueString(FString InValue);                                                                                    // [0x76d8a20] Final|Native|Public|BlueprintCallable 
+	// bool SetValueString(FString InValue);                                                                                    // [0x77f6f80] Final|Native|Public|BlueprintCallable 
 	// Function /Script/MovieRenderPipelineCore.MovieGraphValueContainer.SetValueSerializedString
-	// bool SetValueSerializedString(FString NewValue);                                                                         // [0x76d8880] Final|Native|Public|BlueprintCallable 
+	// bool SetValueSerializedString(FString NewValue);                                                                         // [0x77f6de0] Final|Native|Public|BlueprintCallable 
 	// Function /Script/MovieRenderPipelineCore.MovieGraphValueContainer.SetValueObject
-	// bool SetValueObject(class UObject* InValue);                                                                             // [0x76d7da0] Final|Native|Public|BlueprintCallable 
+	// bool SetValueObject(class UObject* InValue);                                                                             // [0x77f6300] Final|Native|Public|BlueprintCallable 
 	// Function /Script/MovieRenderPipelineCore.MovieGraphValueContainer.SetValueName
-	// bool SetValueName(FName InValue);                                                                                        // [0x76d8710] Final|Native|Public|BlueprintCallable 
+	// bool SetValueName(FName InValue);                                                                                        // [0x77f6c70] Final|Native|Public|BlueprintCallable 
 	// Function /Script/MovieRenderPipelineCore.MovieGraphValueContainer.SetValueInt64
-	// bool SetValueInt64(int64_t InValue);                                                                                     // [0x76d85a0] Final|Native|Public|BlueprintCallable 
+	// bool SetValueInt64(int64_t InValue);                                                                                     // [0x77f6b00] Final|Native|Public|BlueprintCallable 
 	// Function /Script/MovieRenderPipelineCore.MovieGraphValueContainer.SetValueInt32
-	// bool SetValueInt32(int32_t InValue);                                                                                     // [0x76d8430] Final|Native|Public|BlueprintCallable 
+	// bool SetValueInt32(int32_t InValue);                                                                                     // [0x77f6990] Final|Native|Public|BlueprintCallable 
 	// Function /Script/MovieRenderPipelineCore.MovieGraphValueContainer.SetValueFloat
-	// bool SetValueFloat(float InValue);                                                                                       // [0x76d82d0] Final|Native|Public|BlueprintCallable 
+	// bool SetValueFloat(float InValue);                                                                                       // [0x77f6830] Final|Native|Public|BlueprintCallable 
 	// Function /Script/MovieRenderPipelineCore.MovieGraphValueContainer.SetValueEnum
-	// bool SetValueEnum(char InValue, class UEnum* Enum);                                                                      // [0x76d80f0] Final|Native|Public|BlueprintCallable 
+	// bool SetValueEnum(char InValue, class UEnum* Enum);                                                                      // [0x77f6650] Final|Native|Public|BlueprintCallable 
 	// Function /Script/MovieRenderPipelineCore.MovieGraphValueContainer.SetValueDouble
-	// bool SetValueDouble(double InValue);                                                                                     // [0x76d7f90] Final|Native|Public|BlueprintCallable 
+	// bool SetValueDouble(double InValue);                                                                                     // [0x77f64f0] Final|Native|Public|BlueprintCallable 
 	// Function /Script/MovieRenderPipelineCore.MovieGraphValueContainer.SetValueContainerType
-	// void SetValueContainerType(EMovieGraphContainerType ContainerType);                                                      // [0x76d7f10] Final|Native|Public|BlueprintCallable 
+	// void SetValueContainerType(EMovieGraphContainerType ContainerType);                                                      // [0x77f6470] Final|Native|Public|BlueprintCallable 
 	// Function /Script/MovieRenderPipelineCore.MovieGraphValueContainer.SetValueClass
-	// bool SetValueClass(class UClass* InValue);                                                                               // [0x76d7da0] Final|Native|Public|BlueprintCallable 
+	// bool SetValueClass(class UClass* InValue);                                                                               // [0x77f6300] Final|Native|Public|BlueprintCallable 
 	// Function /Script/MovieRenderPipelineCore.MovieGraphValueContainer.SetValueByte
-	// bool SetValueByte(char InValue);                                                                                         // [0x76d7c40] Final|Native|Public|BlueprintCallable 
+	// bool SetValueByte(char InValue);                                                                                         // [0x77f61a0] Final|Native|Public|BlueprintCallable 
 	// Function /Script/MovieRenderPipelineCore.MovieGraphValueContainer.SetValueBool
-	// bool SetValueBool(bool bInValue);                                                                                        // [0x76d7ad0] Final|Native|Public|BlueprintCallable 
+	// bool SetValueBool(bool bInValue);                                                                                        // [0x77f6030] Final|Native|Public|BlueprintCallable 
 	// Function /Script/MovieRenderPipelineCore.MovieGraphValueContainer.GetValueTypeObject
-	// class UObject* GetValueTypeObject();                                                                                     // [0x76d7780] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// class UObject* GetValueTypeObject();                                                                                     // [0x77f5ce0] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/MovieRenderPipelineCore.MovieGraphValueContainer.GetValueType
-	// EMovieGraphValueType GetValueType();                                                                                     // [0x76d76b0] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// EMovieGraphValueType GetValueType();                                                                                     // [0x77f5c10] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/MovieRenderPipelineCore.MovieGraphValueContainer.GetValueText
-	// bool GetValueText(FText& OutValue);                                                                                      // [0x76d74f0] Final|Native|Public|HasOutParms|BlueprintCallable|BlueprintPure|Const 
+	// bool GetValueText(FText& OutValue);                                                                                      // [0x77f5a50] Final|Native|Public|HasOutParms|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/MovieRenderPipelineCore.MovieGraphValueContainer.GetValueString
-	// bool GetValueString(FString& OutValue);                                                                                  // [0x76d7330] Final|Native|Public|HasOutParms|BlueprintCallable|BlueprintPure|Const 
+	// bool GetValueString(FString& OutValue);                                                                                  // [0x77f5890] Final|Native|Public|HasOutParms|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/MovieRenderPipelineCore.MovieGraphValueContainer.GetValueSerializedString
-	// FString GetValueSerializedString();                                                                                      // [0x76d71d0] Final|Native|Public|BlueprintCallable 
+	// FString GetValueSerializedString();                                                                                      // [0x77f5730] Final|Native|Public|BlueprintCallable 
 	// Function /Script/MovieRenderPipelineCore.MovieGraphValueContainer.GetValueObject
-	// bool GetValueObject(class UObject* OutValue, class UClass* RequestedClass);                                              // [0x76d6ff0] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// bool GetValueObject(class UObject* OutValue, class UClass* RequestedClass);                                              // [0x77f5550] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/MovieRenderPipelineCore.MovieGraphValueContainer.GetValueName
-	// bool GetValueName(FName& OutValue);                                                                                      // [0x76d6e60] Final|Native|Public|HasOutParms|BlueprintCallable|BlueprintPure|Const 
+	// bool GetValueName(FName& OutValue);                                                                                      // [0x77f53c0] Final|Native|Public|HasOutParms|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/MovieRenderPipelineCore.MovieGraphValueContainer.GetValueInt64
-	// bool GetValueInt64(int64_t& OutValue);                                                                                   // [0x76d6cd0] Final|Native|Public|HasOutParms|BlueprintCallable|BlueprintPure|Const 
+	// bool GetValueInt64(int64_t& OutValue);                                                                                   // [0x77f5230] Final|Native|Public|HasOutParms|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/MovieRenderPipelineCore.MovieGraphValueContainer.GetValueInt32
-	// bool GetValueInt32(int32_t& OutValue);                                                                                   // [0x76d6b40] Final|Native|Public|HasOutParms|BlueprintCallable|BlueprintPure|Const 
+	// bool GetValueInt32(int32_t& OutValue);                                                                                   // [0x77f50a0] Final|Native|Public|HasOutParms|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/MovieRenderPipelineCore.MovieGraphValueContainer.GetValueFloat
-	// bool GetValueFloat(float& OutValue);                                                                                     // [0x76d69b0] Final|Native|Public|HasOutParms|BlueprintCallable|BlueprintPure|Const 
+	// bool GetValueFloat(float& OutValue);                                                                                     // [0x77f4f10] Final|Native|Public|HasOutParms|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/MovieRenderPipelineCore.MovieGraphValueContainer.GetValueEnum
-	// bool GetValueEnum(char& OutValue, class UEnum* RequestedEnum);                                                           // [0x76d67a0] Final|Native|Public|HasOutParms|BlueprintCallable|BlueprintPure|Const 
+	// bool GetValueEnum(char& OutValue, class UEnum* RequestedEnum);                                                           // [0x77f4d00] Final|Native|Public|HasOutParms|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/MovieRenderPipelineCore.MovieGraphValueContainer.GetValueDouble
-	// bool GetValueDouble(double& OutValue);                                                                                   // [0x76d6610] Final|Native|Public|HasOutParms|BlueprintCallable|BlueprintPure|Const 
+	// bool GetValueDouble(double& OutValue);                                                                                   // [0x77f4b70] Final|Native|Public|HasOutParms|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/MovieRenderPipelineCore.MovieGraphValueContainer.GetValueContainerType
-	// EMovieGraphContainerType GetValueContainerType();                                                                        // [0x76d6540] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// EMovieGraphContainerType GetValueContainerType();                                                                        // [0x77f4aa0] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/MovieRenderPipelineCore.MovieGraphValueContainer.GetValueClass
-	// bool GetValueClass(class UClass*& OutValue);                                                                             // [0x76d63b0] Final|Native|Public|HasOutParms|BlueprintCallable|BlueprintPure|Const 
+	// bool GetValueClass(class UClass*& OutValue);                                                                             // [0x77f4910] Final|Native|Public|HasOutParms|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/MovieRenderPipelineCore.MovieGraphValueContainer.GetValueByte
-	// bool GetValueByte(char& OutValue);                                                                                       // [0x76d6220] Final|Native|Public|HasOutParms|BlueprintCallable|BlueprintPure|Const 
+	// bool GetValueByte(char& OutValue);                                                                                       // [0x77f4780] Final|Native|Public|HasOutParms|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/MovieRenderPipelineCore.MovieGraphValueContainer.GetValueBool
-	// bool GetValueBool(bool& bOutValue);                                                                                      // [0x76d6090] Final|Native|Public|HasOutParms|BlueprintCallable|BlueprintPure|Const 
+	// bool GetValueBool(bool& bOutValue);                                                                                      // [0x77f45f0] Final|Native|Public|HasOutParms|BlueprintCallable|BlueprintPure|Const 
 };
 
 /// Class /Script/MovieRenderPipelineCore.MovieGraphMember
@@ -476,11 +476,11 @@ public:
 
 	/// Functions
 	// Function /Script/MovieRenderPipelineCore.MovieGraphMember.SetMemberName
-	// bool SetMemberName(FString InNewName);                                                                                   // [0x76c8210] Native|Public|BlueprintCallable 
+	// bool SetMemberName(FString InNewName);                                                                                   // [0x77e6770] Native|Public|BlueprintCallable 
 	// Function /Script/MovieRenderPipelineCore.MovieGraphMember.GetMemberName
-	// FString GetMemberName();                                                                                                 // [0x76c6c20] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// FString GetMemberName();                                                                                                 // [0x77e5180] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/MovieRenderPipelineCore.MovieGraphMember.GetGuid
-	// FGuid GetGuid();                                                                                                         // [0x76c6970] Final|Native|Public|HasDefaults|BlueprintCallable|BlueprintPure|Const 
+	// FGuid GetGuid();                                                                                                         // [0x77e4ed0] Final|Native|Public|HasDefaults|BlueprintCallable|BlueprintPure|Const 
 };
 
 /// Class /Script/MovieRenderPipelineCore.MovieGraphVariable
@@ -572,11 +572,11 @@ public:
 
 	/// Functions
 	// Function /Script/MovieRenderPipelineCore.MovieGraphEvaluatedConfig.GetSettingsForBranch
-	// TArray<UMovieGraphSettingNode*> GetSettingsForBranch(class UClass* InClass, FName InBranchName, bool bIncludeCDOs, bool bExactMatch); // [0x76c7340] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// TArray<UMovieGraphSettingNode*> GetSettingsForBranch(class UClass* InClass, FName InBranchName, bool bIncludeCDOs, bool bExactMatch); // [0x77e58a0] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/MovieRenderPipelineCore.MovieGraphEvaluatedConfig.GetSettingForBranch
-	// class UMovieGraphSettingNode* GetSettingForBranch(class UClass* InClass, FName InBranchName, bool bIncludeCDOs, bool bExactMatch); // [0x76c7180] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// class UMovieGraphSettingNode* GetSettingForBranch(class UClass* InClass, FName InBranchName, bool bIncludeCDOs, bool bExactMatch); // [0x77e56e0] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/MovieRenderPipelineCore.MovieGraphEvaluatedConfig.GetBranchNames
-	// TArray<FName> GetBranchNames();                                                                                          // [0x76c5f90] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// TArray<FName> GetBranchNames();                                                                                          // [0x77e44f0] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 };
 
 /// Class /Script/MovieRenderPipelineCore.MovieGraphTraversableObject
@@ -602,45 +602,45 @@ public:
 
 	/// Functions
 	// Function /Script/MovieRenderPipelineCore.MovieGraphConfig.UpdateGlobalVariableValues
-	// void UpdateGlobalVariableValues(class UMovieGraphPipeline* InPipeline);                                                  // [0x76c82c0] Final|Native|Public|BlueprintCallable 
+	// void UpdateGlobalVariableValues(class UMovieGraphPipeline* InPipeline);                                                  // [0x77e6820] Final|Native|Public|BlueprintCallable 
 	// Function /Script/MovieRenderPipelineCore.MovieGraphConfig.RemoveOutboundEdges
-	// bool RemoveOutboundEdges(class UMovieGraphNode* InNode, FName& InPinName);                                               // [0x76c7d80] Final|Native|Public|HasOutParms|BlueprintCallable 
+	// bool RemoveOutboundEdges(class UMovieGraphNode* InNode, FName& InPinName);                                               // [0x77e62e0] Final|Native|Public|HasOutParms|BlueprintCallable 
 	// Function /Script/MovieRenderPipelineCore.MovieGraphConfig.RemoveNodes
-	// bool RemoveNodes(TArray<UMovieGraphNode*> InNodes);                                                                      // [0x76c7c80] Final|Native|Public|BlueprintCallable 
+	// bool RemoveNodes(TArray<UMovieGraphNode*> InNodes);                                                                      // [0x77e61e0] Final|Native|Public|BlueprintCallable 
 	// Function /Script/MovieRenderPipelineCore.MovieGraphConfig.RemoveNode
-	// bool RemoveNode(class UMovieGraphNode* InNode);                                                                          // [0x76c7be0] Final|Native|Public|BlueprintCallable 
+	// bool RemoveNode(class UMovieGraphNode* InNode);                                                                          // [0x77e6140] Final|Native|Public|BlueprintCallable 
 	// Function /Script/MovieRenderPipelineCore.MovieGraphConfig.RemoveLabeledEdge
-	// bool RemoveLabeledEdge(class UMovieGraphNode* FromNode, FName& FromPinName, class UMovieGraphNode* ToNode, FName& ToPinName); // [0x76c7a50] Final|Native|Public|HasOutParms|BlueprintCallable 
+	// bool RemoveLabeledEdge(class UMovieGraphNode* FromNode, FName& FromPinName, class UMovieGraphNode* ToNode, FName& ToPinName); // [0x77e5fb0] Final|Native|Public|HasOutParms|BlueprintCallable 
 	// Function /Script/MovieRenderPipelineCore.MovieGraphConfig.RemoveInboundEdges
-	// bool RemoveInboundEdges(class UMovieGraphNode* InNode, FName& InPinName);                                                // [0x76c7970] Final|Native|Public|HasOutParms|BlueprintCallable 
+	// bool RemoveInboundEdges(class UMovieGraphNode* InNode, FName& InPinName);                                                // [0x77e5ed0] Final|Native|Public|HasOutParms|BlueprintCallable 
 	// Function /Script/MovieRenderPipelineCore.MovieGraphConfig.RemoveAllOutboundEdges
-	// bool RemoveAllOutboundEdges(class UMovieGraphNode* InNode);                                                              // [0x76c78d0] Final|Native|Public|BlueprintCallable 
+	// bool RemoveAllOutboundEdges(class UMovieGraphNode* InNode);                                                              // [0x77e5e30] Final|Native|Public|BlueprintCallable 
 	// Function /Script/MovieRenderPipelineCore.MovieGraphConfig.RemoveAllInboundEdges
-	// bool RemoveAllInboundEdges(class UMovieGraphNode* InNode);                                                               // [0x76c7830] Final|Native|Public|BlueprintCallable 
+	// bool RemoveAllInboundEdges(class UMovieGraphNode* InNode);                                                               // [0x77e5d90] Final|Native|Public|BlueprintCallable 
 	// Function /Script/MovieRenderPipelineCore.MovieGraphConfig.GetVariables
-	// TArray<UMovieGraphVariable*> GetVariables(bool bIncludeGlobal);                                                          // [0x76c7510] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// TArray<UMovieGraphVariable*> GetVariables(bool bIncludeGlobal);                                                          // [0x77e5a70] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/MovieRenderPipelineCore.MovieGraphConfig.GetOutputs
-	// TArray<UMovieGraphOutput*> GetOutputs();                                                                                 // [0x76c6ce0] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// TArray<UMovieGraphOutput*> GetOutputs();                                                                                 // [0x77e5240] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/MovieRenderPipelineCore.MovieGraphConfig.GetOutputNode
-	// class UMovieGraphNode* GetOutputNode();                                                                                  // [0x499c160] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// class UMovieGraphNode* GetOutputNode();                                                                                  // [0x4a7c360] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/MovieRenderPipelineCore.MovieGraphConfig.GetInputs
-	// TArray<UMovieGraphInput*> GetInputs();                                                                                   // [0x76c69b0] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// TArray<UMovieGraphInput*> GetInputs();                                                                                   // [0x77e4f10] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/MovieRenderPipelineCore.MovieGraphConfig.GetInputNode
-	// class UMovieGraphNode* GetInputNode();                                                                                   // [0x76c6990] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// class UMovieGraphNode* GetInputNode();                                                                                   // [0x77e4ef0] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/MovieRenderPipelineCore.MovieGraphConfig.DeleteMember
-	// bool DeleteMember(class UMovieGraphMember* MemberToDelete);                                                              // [0x76c5ef0] Final|Native|Public|BlueprintCallable 
+	// bool DeleteMember(class UMovieGraphMember* MemberToDelete);                                                              // [0x77e4450] Final|Native|Public|BlueprintCallable 
 	// Function /Script/MovieRenderPipelineCore.MovieGraphConfig.CreateNodeByClass
-	// class UMovieGraphNode* CreateNodeByClass(class UClass* InClass);                                                         // [0x76c5cb0] Final|Native|Public|BlueprintCallable 
+	// class UMovieGraphNode* CreateNodeByClass(class UClass* InClass);                                                         // [0x77e4210] Final|Native|Public|BlueprintCallable 
 	// Function /Script/MovieRenderPipelineCore.MovieGraphConfig.CreateFlattenedGraph
-	// class UMovieGraphEvaluatedConfig* CreateFlattenedGraph(FMovieGraphTraversalContext& InContext, FString& OutError);       // [0x76c5af0] Final|Native|Public|HasOutParms|BlueprintCallable 
+	// class UMovieGraphEvaluatedConfig* CreateFlattenedGraph(FMovieGraphTraversalContext& InContext, FString& OutError);       // [0x77e4050] Final|Native|Public|HasOutParms|BlueprintCallable 
 	// Function /Script/MovieRenderPipelineCore.MovieGraphConfig.AddVariable
-	// class UMovieGraphVariable* AddVariable(FName InCustomBaseName);                                                          // [0x76c5a50] Final|Native|Public|BlueprintCallable 
+	// class UMovieGraphVariable* AddVariable(FName InCustomBaseName);                                                          // [0x77e3fb0] Final|Native|Public|BlueprintCallable 
 	// Function /Script/MovieRenderPipelineCore.MovieGraphConfig.AddOutput
-	// class UMovieGraphOutput* AddOutput();                                                                                    // [0x76c5a20] Final|Native|Public|BlueprintCallable 
+	// class UMovieGraphOutput* AddOutput();                                                                                    // [0x77e3f80] Final|Native|Public|BlueprintCallable 
 	// Function /Script/MovieRenderPipelineCore.MovieGraphConfig.AddLabeledEdge
-	// bool AddLabeledEdge(class UMovieGraphNode* FromNode, FName& FromPinLabel, class UMovieGraphNode* ToNode, FName& ToPinLabel); // [0x76c5890] Final|Native|Public|HasOutParms|BlueprintCallable 
+	// bool AddLabeledEdge(class UMovieGraphNode* FromNode, FName& FromPinLabel, class UMovieGraphNode* ToNode, FName& ToPinLabel); // [0x77e3df0] Final|Native|Public|HasOutParms|BlueprintCallable 
 	// Function /Script/MovieRenderPipelineCore.MovieGraphConfig.AddInput
-	// class UMovieGraphInput* AddInput();                                                                                      // [0x76c5860] Final|Native|Public|BlueprintCallable 
+	// class UMovieGraphInput* AddInput();                                                                                      // [0x77e3dc0] Final|Native|Public|BlueprintCallable 
 };
 
 /// Class /Script/MovieRenderPipelineCore.MovieGraphTimeStepBase
@@ -652,7 +652,7 @@ public:
 
 	/// Functions
 	// Function /Script/MovieRenderPipelineCore.MovieGraphTimeStepBase.GetCalculatedTimeData
-	// FMovieGraphTimeStepData GetCalculatedTimeData();                                                                         // [0x76cccb0] Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// FMovieGraphTimeStepData GetCalculatedTimeData();                                                                         // [0x77eb210] Native|Public|BlueprintCallable|BlueprintPure|Const 
 };
 
 /// Struct /Script/MovieRenderPipelineCore.MovieGraphTimeStepData
@@ -706,7 +706,7 @@ public:
 
 	/// Functions
 	// Function /Script/MovieRenderPipelineCore.MovieGraphRendererBase.GetPreviewData
-	// TArray<FMovieGraphImagePreviewData> GetPreviewData();                                                                    // [0x76cd110] Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// TArray<FMovieGraphImagePreviewData> GetPreviewData();                                                                    // [0x77eb670] Native|Public|BlueprintCallable|BlueprintPure|Const 
 };
 
 /// Class /Script/MovieRenderPipelineCore.MovieGraphDataSourceBase
@@ -772,15 +772,15 @@ public:
 
 	/// Functions
 	// Function /Script/MovieRenderPipelineCore.MovieGraphScriptBase.OnShotStart
-	// void OnShotStart(class UMoviePipelineExecutorJob* InJobCopy, class UMoviePipelineExecutorShot* InShotCopy);              // [0x76cd6b0] Native|Event|Public|BlueprintEvent 
+	// void OnShotStart(class UMoviePipelineExecutorJob* InJobCopy, class UMoviePipelineExecutorShot* InShotCopy);              // [0x77ebc10] Native|Event|Public|BlueprintEvent 
 	// Function /Script/MovieRenderPipelineCore.MovieGraphScriptBase.OnShotFinished
-	// void OnShotFinished(class UMoviePipelineExecutorJob* InJobCopy, class UMoviePipelineExecutorShot* InShotCopy, FMoviePipelineOutputData& OutputData); // [0x76cd4b0] Native|Event|Public|HasOutParms|BlueprintEvent 
+	// void OnShotFinished(class UMoviePipelineExecutorJob* InJobCopy, class UMoviePipelineExecutorShot* InShotCopy, FMoviePipelineOutputData& OutputData); // [0x77eba10] Native|Event|Public|HasOutParms|BlueprintEvent 
 	// Function /Script/MovieRenderPipelineCore.MovieGraphScriptBase.OnJobStart
-	// void OnJobStart(class UMoviePipelineExecutorJob* InJobCopy);                                                             // [0x76cd420] Native|Event|Public|BlueprintEvent 
+	// void OnJobStart(class UMoviePipelineExecutorJob* InJobCopy);                                                             // [0x77eb980] Native|Event|Public|BlueprintEvent 
 	// Function /Script/MovieRenderPipelineCore.MovieGraphScriptBase.OnJobFinished
-	// void OnJobFinished(class UMoviePipelineExecutorJob* InJobCopy, FMoviePipelineOutputData& InOutputData);                  // [0x76cd250] Native|Event|Public|HasOutParms|BlueprintEvent 
+	// void OnJobFinished(class UMoviePipelineExecutorJob* InJobCopy, FMoviePipelineOutputData& InOutputData);                  // [0x77eb7b0] Native|Event|Public|HasOutParms|BlueprintEvent 
 	// Function /Script/MovieRenderPipelineCore.MovieGraphScriptBase.IsPerShotCallbackNeeded
-	// bool IsPerShotCallbackNeeded();                                                                                          // [0x4e5a2b0] Native|Event|Public|BlueprintEvent|Const 
+	// bool IsPerShotCallbackNeeded();                                                                                          // [0x4f3a610] Native|Event|Public|BlueprintEvent|Const 
 };
 
 /// Class /Script/MovieRenderPipelineCore.MovieGraphExecuteScriptNode
@@ -915,19 +915,19 @@ public:
 
 	/// Functions
 	// Function /Script/MovieRenderPipelineCore.MovieGraphModifierNode.RemoveModifier
-	// bool RemoveModifier(class UClass* ModifierType);                                                                         // [0x76cd830] Final|Native|Public|BlueprintCallable 
+	// bool RemoveModifier(class UClass* ModifierType);                                                                         // [0x77ebd90] Final|Native|Public|BlueprintCallable 
 	// Function /Script/MovieRenderPipelineCore.MovieGraphModifierNode.RemoveCollection
-	// bool RemoveCollection(FName& InCollectionName);                                                                          // [0x76cd780] Final|Native|Public|HasOutParms|BlueprintCallable 
+	// bool RemoveCollection(FName& InCollectionName);                                                                          // [0x77ebce0] Final|Native|Public|HasOutParms|BlueprintCallable 
 	// Function /Script/MovieRenderPipelineCore.MovieGraphModifierNode.GetModifiers
-	// TArray<UMovieGraphCollectionModifier*> GetModifiers();                                                                   // [0x76ccfd0] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// TArray<UMovieGraphCollectionModifier*> GetModifiers();                                                                   // [0x77eb530] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/MovieRenderPipelineCore.MovieGraphModifierNode.GetModifier
-	// class UMovieGraphCollectionModifier* GetModifier(class UClass* ModifierType);                                            // [0x76ccf20] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// class UMovieGraphCollectionModifier* GetModifier(class UClass* ModifierType);                                            // [0x77eb480] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/MovieRenderPipelineCore.MovieGraphModifierNode.GetCollections
-	// TArray<FName> GetCollections();                                                                                          // [0x76ccda0] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// TArray<FName> GetCollections();                                                                                          // [0x77eb300] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/MovieRenderPipelineCore.MovieGraphModifierNode.AddModifier
-	// class UMovieGraphCollectionModifier* AddModifier(class UClass* ModifierType);                                            // [0x76ccc00] Final|Native|Public|BlueprintCallable 
+	// class UMovieGraphCollectionModifier* AddModifier(class UClass* ModifierType);                                            // [0x77eb160] Final|Native|Public|BlueprintCallable 
 	// Function /Script/MovieRenderPipelineCore.MovieGraphModifierNode.AddCollection
-	// void AddCollection(FName& InCollectionName);                                                                             // [0x76ccb60] Final|Native|Public|HasOutParms|BlueprintCallable 
+	// void AddCollection(FName& InCollectionName);                                                                             // [0x77eb0c0] Final|Native|Public|HasOutParms|BlueprintCallable 
 };
 
 /// Class /Script/MovieRenderPipelineCore.MovieGraphPostRenderNode
@@ -970,7 +970,7 @@ public:
 
 	/// Functions
 	// Function /Script/MovieRenderPipelineCore.MovieGraphPin.GetConnectedNodes
-	// TArray<UMovieGraphNode*> GetConnectedNodes();                                                                            // [0x76d2420] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// TArray<UMovieGraphNode*> GetConnectedNodes();                                                                            // [0x77f0980] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 };
 
 /// Class /Script/MovieRenderPipelineCore.MoviePipelineBase
@@ -978,20 +978,20 @@ public:
 class UMoviePipelineBase : public UObject
 { 
 public:
-	SDK_UNDEFINED(16,1130) /* FMulticastInlineDelegate */ __um(OnMoviePipelineWorkFinishedDelegate);               // 0x0028   (0x0010)  
-	SDK_UNDEFINED(16,1131) /* FMulticastInlineDelegate */ __um(OnMoviePipelineShotWorkFinishedDelegate);           // 0x0038   (0x0010)  
+	SDK_UNDEFINED(16,1149) /* FMulticastInlineDelegate */ __um(OnMoviePipelineWorkFinishedDelegate);               // 0x0028   (0x0010)  
+	SDK_UNDEFINED(16,1150) /* FMulticastInlineDelegate */ __um(OnMoviePipelineShotWorkFinishedDelegate);           // 0x0038   (0x0010)  
 	unsigned char                                      UnknownData00_7[0x30];                                      // 0x0048   (0x0030)  MISSED
 
 
 	/// Functions
 	// Function /Script/MovieRenderPipelineCore.MoviePipelineBase.Shutdown
-	// void Shutdown(bool bIsError);                                                                                            // [0x4d38b60] Final|Native|Public|BlueprintCallable 
+	// void Shutdown(bool bIsError);                                                                                            // [0x4e18d60] Final|Native|Public|BlueprintCallable 
 	// Function /Script/MovieRenderPipelineCore.MoviePipelineBase.RequestShutdown
-	// void RequestShutdown(bool bIsError);                                                                                     // [0x53ced70] Final|Native|Public|BlueprintCallable 
+	// void RequestShutdown(bool bIsError);                                                                                     // [0x54af0d0] Final|Native|Public|BlueprintCallable 
 	// Function /Script/MovieRenderPipelineCore.MoviePipelineBase.IsShutdownRequested
-	// bool IsShutdownRequested();                                                                                              // [0x53cf600] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// bool IsShutdownRequested();                                                                                              // [0x54af960] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/MovieRenderPipelineCore.MoviePipelineBase.GetPipelineState
-	// EMovieRenderPipelineState GetPipelineState();                                                                            // [0x4d32f10] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// EMovieRenderPipelineState GetPipelineState();                                                                            // [0x4e13110] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 };
 
 /// Class /Script/MovieRenderPipelineCore.MovieGraphPipeline
@@ -1012,7 +1012,7 @@ public:
 	class UClass*                                      PreviewWidgetClassToUse;                                    // 0x00D8   (0x0008)  
 	class UMovieGraphRenderPreviewWidget*              PreviewWidget;                                              // 0x00E0   (0x0008)  
 	TArray<class UMovieGraphScriptBase*>               CurrentScriptInstances;                                     // 0x00E8   (0x0010)  
-	SDK_UNDEFINED(80,1132) /* TSet<UMovieGraphFileOutputNode*> */ __um(OutputNodesDataSentTo);                     // 0x00F8   (0x0050)  
+	SDK_UNDEFINED(80,1151) /* TSet<UMovieGraphFileOutputNode*> */ __um(OutputNodesDataSentTo);                     // 0x00F8   (0x0050)  
 	unsigned char                                      UnknownData00_6[0x70];                                      // 0x0148   (0x0070)  MISSED
 	class UMovieGraphEngineTimeStep*                   CustomEngineTimeStep;                                       // 0x01B8   (0x0008)  
 	class UEngineCustomTimeStep*                       PrevCustomEngineTimeStep;                                   // 0x01C0   (0x0008)  
@@ -1020,23 +1020,23 @@ public:
 
 	/// Functions
 	// Function /Script/MovieRenderPipelineCore.MovieGraphPipeline.SetInitializationTime
-	// void SetInitializationTime(FDateTime& InDateTime);                                                                       // [0x76d32f0] Final|Native|Public|HasOutParms|HasDefaults|BlueprintCallable 
+	// void SetInitializationTime(FDateTime& InDateTime);                                                                       // [0x77f1850] Final|Native|Public|HasOutParms|HasDefaults|BlueprintCallable 
 	// Function /Script/MovieRenderPipelineCore.MovieGraphPipeline.OnMoviePipelineFinishedImpl
-	// void OnMoviePipelineFinishedImpl();                                                                                      // [0x516bd30] Native|Protected|BlueprintCallable 
+	// void OnMoviePipelineFinishedImpl();                                                                                      // [0x524c090] Native|Protected|BlueprintCallable 
 	// Function /Script/MovieRenderPipelineCore.MovieGraphPipeline.Initialize
-	// void Initialize(class UMoviePipelineExecutorJob* InJob, FMovieGraphInitConfig& InitConfig);                              // [0x76d28b0] Final|Native|Public|HasOutParms|BlueprintCallable 
+	// void Initialize(class UMoviePipelineExecutorJob* InJob, FMovieGraphInitConfig& InitConfig);                              // [0x77f0e10] Final|Native|Public|HasOutParms|BlueprintCallable 
 	// Function /Script/MovieRenderPipelineCore.MovieGraphPipeline.GetTimeStepInstance
-	// class UMovieGraphTimeStepBase* GetTimeStepInstance();                                                                    // [0x76d2880] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// class UMovieGraphTimeStepBase* GetTimeStepInstance();                                                                    // [0x77f0de0] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/MovieRenderPipelineCore.MovieGraphPipeline.GetRendererInstance
-	// class UMovieGraphRendererBase* GetRendererInstance();                                                                    // [0x76d2860] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// class UMovieGraphRendererBase* GetRendererInstance();                                                                    // [0x77f0dc0] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/MovieRenderPipelineCore.MovieGraphPipeline.GetInitializationTimeOffset
-	// FTimespan GetInitializationTimeOffset();                                                                                 // [0x51e6810] Final|Native|Public|HasDefaults|BlueprintCallable|BlueprintPure|Const 
+	// FTimespan GetInitializationTimeOffset();                                                                                 // [0x52c6b70] Final|Native|Public|HasDefaults|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/MovieRenderPipelineCore.MovieGraphPipeline.GetInitializationTime
-	// FDateTime GetInitializationTime();                                                                                       // [0x51a1bb0] Final|Native|Public|HasDefaults|BlueprintCallable|BlueprintPure|Const 
+	// FDateTime GetInitializationTime();                                                                                       // [0x5281f10] Final|Native|Public|HasDefaults|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/MovieRenderPipelineCore.MovieGraphPipeline.GetCurrentTraversalContext
-	// FMovieGraphTraversalContext GetCurrentTraversalContext(bool bForShot);                                                   // [0x76d24a0] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// FMovieGraphTraversalContext GetCurrentTraversalContext(bool bForShot);                                                   // [0x77f0a00] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/MovieRenderPipelineCore.MovieGraphPipeline.GetCurrentJob
-	// class UMoviePipelineExecutorJob* GetCurrentJob();                                                                        // [0x56cb930] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// class UMoviePipelineExecutorJob* GetCurrentJob();                                                                        // [0x57abc90] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 };
 
 /// Class /Script/MovieRenderPipelineCore.MovieGraphProjectSettings
@@ -1077,21 +1077,21 @@ public:
 
 	/// Functions
 	// Function /Script/MovieRenderPipelineCore.MovieGraphConditionGroupQueryBase.ShouldHidePropertyNames
-	// bool ShouldHidePropertyNames();                                                                                          // [0x4e3f460] Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// bool ShouldHidePropertyNames();                                                                                          // [0x4f1f7c0] Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/MovieRenderPipelineCore.MovieGraphConditionGroupQueryBase.SetOperationType
-	// void SetOperationType(EMovieGraphConditionGroupQueryOpType OperationType);                                               // [0x76d3550] Final|Native|Public|BlueprintCallable 
+	// void SetOperationType(EMovieGraphConditionGroupQueryOpType OperationType);                                               // [0x77f1ab0] Final|Native|Public|BlueprintCallable 
 	// Function /Script/MovieRenderPipelineCore.MovieGraphConditionGroupQueryBase.SetEnabled
-	// void SetEnabled(bool bEnabled);                                                                                          // [0x76d31d0] Final|Native|Public|BlueprintCallable 
+	// void SetEnabled(bool bEnabled);                                                                                          // [0x77f1730] Final|Native|Public|BlueprintCallable 
 	// Function /Script/MovieRenderPipelineCore.MovieGraphConditionGroupQueryBase.IsFirstConditionGroupQuery
-	// bool IsFirstConditionGroupQuery();                                                                                       // [0x76d29f0] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// bool IsFirstConditionGroupQuery();                                                                                       // [0x77f0f50] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/MovieRenderPipelineCore.MovieGraphConditionGroupQueryBase.IsEnabled
-	// bool IsEnabled();                                                                                                        // [0x76d2990] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// bool IsEnabled();                                                                                                        // [0x77f0ef0] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/MovieRenderPipelineCore.MovieGraphConditionGroupQueryBase.IsEditorOnlyQuery
-	// bool IsEditorOnlyQuery();                                                                                                // [0x4e5a2b0] Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// bool IsEditorOnlyQuery();                                                                                                // [0x4f3a610] Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/MovieRenderPipelineCore.MovieGraphConditionGroupQueryBase.GetOperationType
-	// EMovieGraphConditionGroupQueryOpType GetOperationType();                                                                 // [0x76d2710] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// EMovieGraphConditionGroupQueryOpType GetOperationType();                                                                 // [0x77f0c70] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/MovieRenderPipelineCore.MovieGraphConditionGroupQueryBase.Evaluate
-	// void Evaluate(TArray<AActor*>& InActorsToQuery, class UWorld* InWorld, TSet<AActor*>& OutMatchingActors);                // [0x76d1fe0] Native|Public|HasOutParms|BlueprintCallable|BlueprintPure|Const 
+	// void Evaluate(TArray<AActor*>& InActorsToQuery, class UWorld* InWorld, TSet<AActor*>& OutMatchingActors);                // [0x77f0540] Native|Public|HasOutParms|BlueprintCallable|BlueprintPure|Const 
 };
 
 /// Class /Script/MovieRenderPipelineCore.MovieGraphConditionGroupQuery_Actor
@@ -1099,7 +1099,7 @@ public:
 class UMovieGraphConditionGroupQuery_Actor : public UMovieGraphConditionGroupQueryBase
 { 
 public:
-	SDK_UNDEFINED(16,1133) /* TArray<TWeakObjectPtr<AActor*>> */ __um(ActorsToMatch);                              // 0x0030   (0x0010)  
+	SDK_UNDEFINED(16,1152) /* TArray<TWeakObjectPtr<AActor*>> */ __um(ActorsToMatch);                              // 0x0030   (0x0010)  
 };
 
 /// Class /Script/MovieRenderPipelineCore.MovieGraphConditionGroupQuery_ActorTagName
@@ -1157,7 +1157,7 @@ public:
 class UMovieGraphConditionGroupQuery_Sublevel : public UMovieGraphConditionGroupQueryBase
 { 
 public:
-	SDK_UNDEFINED(16,1134) /* TArray<TWeakObjectPtr<UWorld*>> */ __um(Sublevels);                                  // 0x0030   (0x0010)  
+	SDK_UNDEFINED(16,1153) /* TArray<TWeakObjectPtr<UWorld*>> */ __um(Sublevels);                                  // 0x0030   (0x0010)  
 };
 
 /// Class /Script/MovieRenderPipelineCore.MovieGraphConditionGroup
@@ -1169,27 +1169,27 @@ public:
 	EMovieGraphConditionGroupOpType                    OpType;                                                     // 0x0038   (0x0001)  
 	unsigned char                                      UnknownData00_6[0x7];                                       // 0x0039   (0x0007)  MISSED
 	TArray<class UMovieGraphConditionGroupQueryBase*>  Queries;                                                    // 0x0040   (0x0010)  
-	SDK_UNDEFINED(80,1135) /* TSet<AActor*> */         __um(QueryResult);                                          // 0x0050   (0x0050)  
-	SDK_UNDEFINED(80,1136) /* TSet<AActor*> */         __um(EvaluationResult);                                     // 0x00A0   (0x0050)  
+	SDK_UNDEFINED(80,1154) /* TSet<AActor*> */         __um(QueryResult);                                          // 0x0050   (0x0050)  
+	SDK_UNDEFINED(80,1155) /* TSet<AActor*> */         __um(EvaluationResult);                                     // 0x00A0   (0x0050)  
 
 
 	/// Functions
 	// Function /Script/MovieRenderPipelineCore.MovieGraphConditionGroup.SetOperationType
-	// void SetOperationType(EMovieGraphConditionGroupOpType OperationType);                                                    // [0x76d34d0] Final|Native|Public|BlueprintCallable 
+	// void SetOperationType(EMovieGraphConditionGroupOpType OperationType);                                                    // [0x77f1a30] Final|Native|Public|BlueprintCallable 
 	// Function /Script/MovieRenderPipelineCore.MovieGraphConditionGroup.RemoveQuery
-	// bool RemoveQuery(class UMovieGraphConditionGroupQueryBase* InQuery);                                                     // [0x76d2d20] Final|Native|Public|BlueprintCallable 
+	// bool RemoveQuery(class UMovieGraphConditionGroupQueryBase* InQuery);                                                     // [0x77f1280] Final|Native|Public|BlueprintCallable 
 	// Function /Script/MovieRenderPipelineCore.MovieGraphConditionGroup.MoveQueryToIndex
-	// bool MoveQueryToIndex(class UMovieGraphConditionGroupQueryBase* InQuery, int32_t NewIndex);                              // [0x76d2b20] Final|Native|Public|BlueprintCallable 
+	// bool MoveQueryToIndex(class UMovieGraphConditionGroupQueryBase* InQuery, int32_t NewIndex);                              // [0x77f1080] Final|Native|Public|BlueprintCallable 
 	// Function /Script/MovieRenderPipelineCore.MovieGraphConditionGroup.IsFirstConditionGroup
-	// bool IsFirstConditionGroup();                                                                                            // [0x76d29c0] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// bool IsFirstConditionGroup();                                                                                            // [0x77f0f20] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/MovieRenderPipelineCore.MovieGraphConditionGroup.GetQueries
-	// TArray<UMovieGraphConditionGroupQueryBase*> GetQueries();                                                                // [0x76d2740] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// TArray<UMovieGraphConditionGroupQueryBase*> GetQueries();                                                                // [0x77f0ca0] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/MovieRenderPipelineCore.MovieGraphConditionGroup.GetOperationType
-	// EMovieGraphConditionGroupOpType GetOperationType();                                                                      // [0x76d26e0] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// EMovieGraphConditionGroupOpType GetOperationType();                                                                      // [0x77f0c40] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/MovieRenderPipelineCore.MovieGraphConditionGroup.Evaluate
-	// TSet<AActor*> Evaluate(class UWorld* InWorld);                                                                           // [0x76d1ec0] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// TSet<AActor*> Evaluate(class UWorld* InWorld);                                                                           // [0x77f0420] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/MovieRenderPipelineCore.MovieGraphConditionGroup.AddQuery
-	// class UMovieGraphConditionGroupQueryBase* AddQuery(class UClass*& InQueryType, int32_t InsertIndex);                     // [0x76d1b60] Final|Native|Public|HasOutParms|BlueprintCallable 
+	// class UMovieGraphConditionGroupQueryBase* AddQuery(class UClass*& InQueryType, int32_t InsertIndex);                     // [0x77f00c0] Final|Native|Public|HasOutParms|BlueprintCallable 
 };
 
 /// Class /Script/MovieRenderPipelineCore.MovieGraphCollection
@@ -1203,19 +1203,19 @@ public:
 
 	/// Functions
 	// Function /Script/MovieRenderPipelineCore.MovieGraphCollection.SetCollectionName
-	// void SetCollectionName(FString InName);                                                                                  // [0x76d2fd0] Final|Native|Public|BlueprintCallable 
+	// void SetCollectionName(FString InName);                                                                                  // [0x77f1530] Final|Native|Public|BlueprintCallable 
 	// Function /Script/MovieRenderPipelineCore.MovieGraphCollection.RemoveConditionGroup
-	// bool RemoveConditionGroup(class UMovieGraphConditionGroup* InConditionGroup);                                            // [0x76d2bf0] Final|Native|Public|BlueprintCallable 
+	// bool RemoveConditionGroup(class UMovieGraphConditionGroup* InConditionGroup);                                            // [0x77f1150] Final|Native|Public|BlueprintCallable 
 	// Function /Script/MovieRenderPipelineCore.MovieGraphCollection.MoveConditionGroupToIndex
-	// bool MoveConditionGroupToIndex(class UMovieGraphConditionGroup* InConditionGroup, int32_t NewIndex);                     // [0x76d2a50] Final|Native|Public|BlueprintCallable 
+	// bool MoveConditionGroupToIndex(class UMovieGraphConditionGroup* InConditionGroup, int32_t NewIndex);                     // [0x77f0fb0] Final|Native|Public|BlueprintCallable 
 	// Function /Script/MovieRenderPipelineCore.MovieGraphCollection.GetConditionGroups
-	// TArray<UMovieGraphConditionGroup*> GetConditionGroups();                                                                 // [0x76d2390] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// TArray<UMovieGraphConditionGroup*> GetConditionGroups();                                                                 // [0x77f08f0] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/MovieRenderPipelineCore.MovieGraphCollection.GetCollectionName
-	// FString GetCollectionName();                                                                                             // [0x76d2290] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// FString GetCollectionName();                                                                                             // [0x77f07f0] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/MovieRenderPipelineCore.MovieGraphCollection.Evaluate
-	// TSet<AActor*> Evaluate(class UWorld* InWorld);                                                                           // [0x76d1da0] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// TSet<AActor*> Evaluate(class UWorld* InWorld);                                                                           // [0x77f0300] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/MovieRenderPipelineCore.MovieGraphCollection.AddConditionGroup
-	// class UMovieGraphConditionGroup* AddConditionGroup();                                                                    // [0x76d1aa0] Final|Native|Public|BlueprintCallable 
+	// class UMovieGraphConditionGroup* AddConditionGroup();                                                                    // [0x77f0000] Final|Native|Public|BlueprintCallable 
 };
 
 /// Class /Script/MovieRenderPipelineCore.MovieGraphCollectionModifier
@@ -1228,11 +1228,11 @@ public:
 
 	/// Functions
 	// Function /Script/MovieRenderPipelineCore.MovieGraphCollectionModifier.SetCollections
-	// void SetCollections(TArray<UMovieGraphCollection*> InCollections);                                                       // [0x76d3070] Final|Native|Public|BlueprintCallable 
+	// void SetCollections(TArray<UMovieGraphCollection*> InCollections);                                                       // [0x77f15d0] Final|Native|Public|BlueprintCallable 
 	// Function /Script/MovieRenderPipelineCore.MovieGraphCollectionModifier.GetCollections
-	// TArray<UMovieGraphCollection*> GetCollections();                                                                         // [0x76d22d0] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// TArray<UMovieGraphCollection*> GetCollections();                                                                         // [0x77f0830] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/MovieRenderPipelineCore.MovieGraphCollectionModifier.AddCollection
-	// void AddCollection(class UMovieGraphCollection* Collection);                                                             // [0x76d1a10] Final|Native|Public|BlueprintCallable 
+	// void AddCollection(class UMovieGraphCollection* Collection);                                                             // [0x77eff70] Final|Native|Public|BlueprintCallable 
 };
 
 /// Class /Script/MovieRenderPipelineCore.MovieGraphMaterialModifier
@@ -1249,11 +1249,11 @@ public:
 
 	/// Functions
 	// Function /Script/MovieRenderPipelineCore.MovieGraphMaterialModifier.UndoModifier
-	// void UndoModifier();                                                                                                     // [0x4e5a6f0] Native|Public|BlueprintCallable 
+	// void UndoModifier();                                                                                                     // [0x4f3aa50] Native|Public|BlueprintCallable 
 	// Function /Script/MovieRenderPipelineCore.MovieGraphMaterialModifier.SetMaterial
-	// void SetMaterial(TWeakObjectPtr<UMaterialInterface*> InMaterial);                                                        // [0x76d3390] Final|Native|Public|BlueprintCallable 
+	// void SetMaterial(TWeakObjectPtr<UMaterialInterface*> InMaterial);                                                        // [0x77f18f0] Final|Native|Public|BlueprintCallable 
 	// Function /Script/MovieRenderPipelineCore.MovieGraphMaterialModifier.ApplyModifier
-	// void ApplyModifier(class UWorld* World);                                                                                 // [0x76cd420] Native|Public|BlueprintCallable 
+	// void ApplyModifier(class UWorld* World);                                                                                 // [0x77eb980] Native|Public|BlueprintCallable 
 };
 
 /// Class /Script/MovieRenderPipelineCore.MovieGraphRenderPropertyModifier
@@ -1277,13 +1277,13 @@ public:
 
 	/// Functions
 	// Function /Script/MovieRenderPipelineCore.MovieGraphRenderPropertyModifier.UndoModifier
-	// void UndoModifier();                                                                                                     // [0x4e5a6f0] Native|Public|BlueprintCallable 
+	// void UndoModifier();                                                                                                     // [0x4f3aa50] Native|Public|BlueprintCallable 
 	// Function /Script/MovieRenderPipelineCore.MovieGraphRenderPropertyModifier.SetHidden
-	// void SetHidden(bool bInIsHidden);                                                                                        // [0x76d3260] Final|Native|Public|BlueprintCallable 
+	// void SetHidden(bool bInIsHidden);                                                                                        // [0x77f17c0] Final|Native|Public|BlueprintCallable 
 	// Function /Script/MovieRenderPipelineCore.MovieGraphRenderPropertyModifier.IsHidden
-	// bool IsHidden();                                                                                                         // [0x76d2a20] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// bool IsHidden();                                                                                                         // [0x77f0f80] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/MovieRenderPipelineCore.MovieGraphRenderPropertyModifier.ApplyModifier
-	// void ApplyModifier(class UWorld* World);                                                                                 // [0x76cd420] Native|Public|BlueprintCallable 
+	// void ApplyModifier(class UWorld* World);                                                                                 // [0x77eb980] Native|Public|BlueprintCallable 
 };
 
 /// Class /Script/MovieRenderPipelineCore.MovieGraphRenderLayer
@@ -1297,21 +1297,21 @@ public:
 
 	/// Functions
 	// Function /Script/MovieRenderPipelineCore.MovieGraphRenderLayer.SetRenderLayerName
-	// void SetRenderLayerName(FName& NewName);                                                                                 // [0x76d35d0] Final|Native|Public|HasOutParms|BlueprintCallable 
+	// void SetRenderLayerName(FName& NewName);                                                                                 // [0x77f1b30] Final|Native|Public|HasOutParms|BlueprintCallable 
 	// Function /Script/MovieRenderPipelineCore.MovieGraphRenderLayer.Revert
-	// void Revert();                                                                                                           // [0x76d2e80] Final|Native|Public|BlueprintCallable 
+	// void Revert();                                                                                                           // [0x77f13e0] Final|Native|Public|BlueprintCallable 
 	// Function /Script/MovieRenderPipelineCore.MovieGraphRenderLayer.RemoveModifier
-	// void RemoveModifier(class UMovieGraphCollectionModifier* Modifier);                                                      // [0x76d2c90] Final|Native|Public|BlueprintCallable 
+	// void RemoveModifier(class UMovieGraphCollectionModifier* Modifier);                                                      // [0x77f11f0] Final|Native|Public|BlueprintCallable 
 	// Function /Script/MovieRenderPipelineCore.MovieGraphRenderLayer.GetRenderLayerName
-	// FName GetRenderLayerName();                                                                                              // [0x5a83e10] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// FName GetRenderLayerName();                                                                                              // [0x5b64170] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/MovieRenderPipelineCore.MovieGraphRenderLayer.GetModifiers
-	// TArray<UMovieGraphCollectionModifier*> GetModifiers();                                                                   // [0x76d2620] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// TArray<UMovieGraphCollectionModifier*> GetModifiers();                                                                   // [0x77f0b80] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/MovieRenderPipelineCore.MovieGraphRenderLayer.GetCollectionByName
-	// class UMovieGraphCollection* GetCollectionByName(FString Name);                                                          // [0x76d21e0] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// class UMovieGraphCollection* GetCollectionByName(FString Name);                                                          // [0x77f0740] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/MovieRenderPipelineCore.MovieGraphRenderLayer.Apply
-	// void Apply(class UWorld* World);                                                                                         // [0x76d1cf0] Final|Native|Public|BlueprintCallable 
+	// void Apply(class UWorld* World);                                                                                         // [0x77f0250] Final|Native|Public|BlueprintCallable 
 	// Function /Script/MovieRenderPipelineCore.MovieGraphRenderLayer.AddModifier
-	// void AddModifier(class UMovieGraphCollectionModifier* Modifier);                                                         // [0x76d1ad0] Final|Native|Public|BlueprintCallable 
+	// void AddModifier(class UMovieGraphCollectionModifier* Modifier);                                                         // [0x77f0030] Final|Native|Public|BlueprintCallable 
 };
 
 /// Class /Script/MovieRenderPipelineCore.MovieGraphRenderLayerSubsystem
@@ -1325,23 +1325,23 @@ public:
 
 	/// Functions
 	// Function /Script/MovieRenderPipelineCore.MovieGraphRenderLayerSubsystem.SetActiveRenderLayerByObj
-	// void SetActiveRenderLayerByObj(class UMovieGraphRenderLayer* RenderLayer);                                               // [0x76d2f40] Final|Native|Public|BlueprintCallable 
+	// void SetActiveRenderLayerByObj(class UMovieGraphRenderLayer* RenderLayer);                                               // [0x77f14a0] Final|Native|Public|BlueprintCallable 
 	// Function /Script/MovieRenderPipelineCore.MovieGraphRenderLayerSubsystem.SetActiveRenderLayerByName
-	// void SetActiveRenderLayerByName(FName& RenderLayerName);                                                                 // [0x76d2ea0] Final|Native|Public|HasOutParms|BlueprintCallable 
+	// void SetActiveRenderLayerByName(FName& RenderLayerName);                                                                 // [0x77f1400] Final|Native|Public|HasOutParms|BlueprintCallable 
 	// Function /Script/MovieRenderPipelineCore.MovieGraphRenderLayerSubsystem.Reset
-	// void Reset();                                                                                                            // [0x76d2e60] Final|Native|Public|BlueprintCallable 
+	// void Reset();                                                                                                            // [0x77f13c0] Final|Native|Public|BlueprintCallable 
 	// Function /Script/MovieRenderPipelineCore.MovieGraphRenderLayerSubsystem.RemoveRenderLayer
-	// void RemoveRenderLayer(FString RenderLayerName);                                                                         // [0x76d2dc0] Final|Native|Public|BlueprintCallable 
+	// void RemoveRenderLayer(FString RenderLayerName);                                                                         // [0x77f1320] Final|Native|Public|BlueprintCallable 
 	// Function /Script/MovieRenderPipelineCore.MovieGraphRenderLayerSubsystem.GetRenderLayers
-	// TArray<UMovieGraphRenderLayer*> GetRenderLayers();                                                                       // [0x76d27d0] Final|Native|Public|BlueprintCallable 
+	// TArray<UMovieGraphRenderLayer*> GetRenderLayers();                                                                       // [0x77f0d30] Final|Native|Public|BlueprintCallable 
 	// Function /Script/MovieRenderPipelineCore.MovieGraphRenderLayerSubsystem.GetFromWorld
-	// class UMovieGraphRenderLayerSubsystem* GetFromWorld(class UWorld* World);                                                // [0x76d2590] Final|Native|Static|Public|BlueprintCallable 
+	// class UMovieGraphRenderLayerSubsystem* GetFromWorld(class UWorld* World);                                                // [0x77f0af0] Final|Native|Static|Public|BlueprintCallable 
 	// Function /Script/MovieRenderPipelineCore.MovieGraphRenderLayerSubsystem.GetActiveRenderLayer
-	// class UMovieGraphRenderLayer* GetActiveRenderLayer();                                                                    // [0x499c160] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// class UMovieGraphRenderLayer* GetActiveRenderLayer();                                                                    // [0x4a7c360] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/MovieRenderPipelineCore.MovieGraphRenderLayerSubsystem.ClearActiveRenderLayer
-	// void ClearActiveRenderLayer();                                                                                           // [0x76d1d80] Final|Native|Public|BlueprintCallable 
+	// void ClearActiveRenderLayer();                                                                                           // [0x77f02e0] Final|Native|Public|BlueprintCallable 
 	// Function /Script/MovieRenderPipelineCore.MovieGraphRenderLayerSubsystem.AddRenderLayer
-	// bool AddRenderLayer(class UMovieGraphRenderLayer* RenderLayer);                                                          // [0x76d1c50] Final|Native|Public|BlueprintCallable 
+	// bool AddRenderLayer(class UMovieGraphRenderLayer* RenderLayer);                                                          // [0x77f01b0] Final|Native|Public|BlueprintCallable 
 };
 
 /// Class /Script/MovieRenderPipelineCore.MovieGraphSamplingMethodNode
@@ -1394,7 +1394,7 @@ class UMovieGraphShowFlags : public UObject
 { 
 public:
 	unsigned char                                      UnknownData00_8[0x8];                                       // 0x0028   (0x0008)  MISSED
-	SDK_UNDEFINED(80,1137) /* TSet<uint32_t> */        __um(OverriddenShowFlags);                                  // 0x0030   (0x0050)  
+	SDK_UNDEFINED(80,1156) /* TSet<uint32_t> */        __um(OverriddenShowFlags);                                  // 0x0030   (0x0050)  
 	TMap<uint32_t, bool>                               ShowFlagEnableState;                                        // 0x0080   (0x0050)  
 	unsigned char                                      UnknownData01_7[0x30];                                      // 0x00D0   (0x0030)  MISSED
 };
@@ -1410,9 +1410,9 @@ public:
 
 	/// Functions
 	// Function /Script/MovieRenderPipelineCore.MovieGraphSubgraphNode.SetSubGraphAsset
-	// void SetSubGraphAsset(TWeakObjectPtr<UMovieGraphConfig*>& InSubgraphAsset);                                              // [0x76d7a00] Final|Native|Public|HasOutParms|BlueprintCallable 
+	// void SetSubGraphAsset(TWeakObjectPtr<UMovieGraphConfig*>& InSubgraphAsset);                                              // [0x77f5f60] Final|Native|Public|HasOutParms|BlueprintCallable 
 	// Function /Script/MovieRenderPipelineCore.MovieGraphSubgraphNode.GetSubgraphAsset
-	// class UMovieGraphConfig* GetSubgraphAsset();                                                                             // [0x76d6060] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// class UMovieGraphConfig* GetSubgraphAsset();                                                                             // [0x77f45c0] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 };
 
 /// Class /Script/MovieRenderPipelineCore.MovieGraphUIRendererNode
@@ -1433,9 +1433,9 @@ public:
 
 	/// Functions
 	// Function /Script/MovieRenderPipelineCore.MovieGraphVariableNode.SetVariable
-	// void SetVariable(class UMovieGraphVariable* InVariable);                                                                 // [0x76d8ee0] Final|Native|Public|BlueprintCallable 
+	// void SetVariable(class UMovieGraphVariable* InVariable);                                                                 // [0x77f7440] Final|Native|Public|BlueprintCallable 
 	// Function /Script/MovieRenderPipelineCore.MovieGraphVariableNode.GetVariable
-	// class UMovieGraphVariable* GetVariable();                                                                                // [0x76d2860] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// class UMovieGraphVariable* GetVariable();                                                                                // [0x77f0dc0] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 };
 
 /// Class /Script/MovieRenderPipelineCore.MovieGraphWarmUpSettingNode
@@ -1463,69 +1463,69 @@ public:
 
 	/// Functions
 	// Function /Script/MovieRenderPipelineCore.MovieJobVariableAssignmentContainer.SetVariableAssignmentEnableState
-	// bool SetVariableAssignmentEnableState(class UMovieGraphVariable* InGraphVariable, bool bIsEnabled);                      // [0x76d8f70] Final|Native|Public|BlueprintCallable 
+	// bool SetVariableAssignmentEnableState(class UMovieGraphVariable* InGraphVariable, bool bIsEnabled);                      // [0x77f74d0] Final|Native|Public|BlueprintCallable 
 	// Function /Script/MovieRenderPipelineCore.MovieJobVariableAssignmentContainer.SetValueText
-	// bool SetValueText(class UMovieGraphVariable* InGraphVariable, FText& InValue);                                           // [0x76d8c80] Final|Native|Public|HasOutParms|BlueprintCallable 
+	// bool SetValueText(class UMovieGraphVariable* InGraphVariable, FText& InValue);                                           // [0x77f71e0] Final|Native|Public|HasOutParms|BlueprintCallable 
 	// Function /Script/MovieRenderPipelineCore.MovieJobVariableAssignmentContainer.SetValueString
-	// bool SetValueString(class UMovieGraphVariable* InGraphVariable, FString InValue);                                        // [0x76d8ad0] Final|Native|Public|BlueprintCallable 
+	// bool SetValueString(class UMovieGraphVariable* InGraphVariable, FString InValue);                                        // [0x77f7030] Final|Native|Public|BlueprintCallable 
 	// Function /Script/MovieRenderPipelineCore.MovieJobVariableAssignmentContainer.SetValueSerializedString
-	// bool SetValueSerializedString(class UMovieGraphVariable* InGraphVariable, FString NewValue);                             // [0x76d8930] Final|Native|Public|BlueprintCallable 
+	// bool SetValueSerializedString(class UMovieGraphVariable* InGraphVariable, FString NewValue);                             // [0x77f6e90] Final|Native|Public|BlueprintCallable 
 	// Function /Script/MovieRenderPipelineCore.MovieJobVariableAssignmentContainer.SetValueObject
-	// bool SetValueObject(class UMovieGraphVariable* InGraphVariable, class UObject* InValue);                                 // [0x76d7e40] Final|Native|Public|BlueprintCallable 
+	// bool SetValueObject(class UMovieGraphVariable* InGraphVariable, class UObject* InValue);                                 // [0x77f63a0] Final|Native|Public|BlueprintCallable 
 	// Function /Script/MovieRenderPipelineCore.MovieJobVariableAssignmentContainer.SetValueName
-	// bool SetValueName(class UMovieGraphVariable* InGraphVariable, FName InValue);                                            // [0x76d87b0] Final|Native|Public|BlueprintCallable 
+	// bool SetValueName(class UMovieGraphVariable* InGraphVariable, FName InValue);                                            // [0x77f6d10] Final|Native|Public|BlueprintCallable 
 	// Function /Script/MovieRenderPipelineCore.MovieJobVariableAssignmentContainer.SetValueInt64
-	// bool SetValueInt64(class UMovieGraphVariable* InGraphVariable, int64_t InValue);                                         // [0x76d8640] Final|Native|Public|BlueprintCallable 
+	// bool SetValueInt64(class UMovieGraphVariable* InGraphVariable, int64_t InValue);                                         // [0x77f6ba0] Final|Native|Public|BlueprintCallable 
 	// Function /Script/MovieRenderPipelineCore.MovieJobVariableAssignmentContainer.SetValueInt32
-	// bool SetValueInt32(class UMovieGraphVariable* InGraphVariable, int32_t InValue);                                         // [0x76d84d0] Final|Native|Public|BlueprintCallable 
+	// bool SetValueInt32(class UMovieGraphVariable* InGraphVariable, int32_t InValue);                                         // [0x77f6a30] Final|Native|Public|BlueprintCallable 
 	// Function /Script/MovieRenderPipelineCore.MovieJobVariableAssignmentContainer.SetValueFloat
-	// bool SetValueFloat(class UMovieGraphVariable* InGraphVariable, float InValue);                                           // [0x76d8360] Final|Native|Public|BlueprintCallable 
+	// bool SetValueFloat(class UMovieGraphVariable* InGraphVariable, float InValue);                                           // [0x77f68c0] Final|Native|Public|BlueprintCallable 
 	// Function /Script/MovieRenderPipelineCore.MovieJobVariableAssignmentContainer.SetValueEnum
-	// bool SetValueEnum(class UMovieGraphVariable* InGraphVariable, char InValue, class UEnum* Enum);                          // [0x76d81c0] Final|Native|Public|BlueprintCallable 
+	// bool SetValueEnum(class UMovieGraphVariable* InGraphVariable, char InValue, class UEnum* Enum);                          // [0x77f6720] Final|Native|Public|BlueprintCallable 
 	// Function /Script/MovieRenderPipelineCore.MovieJobVariableAssignmentContainer.SetValueDouble
-	// bool SetValueDouble(class UMovieGraphVariable* InGraphVariable, double InValue);                                         // [0x76d8020] Final|Native|Public|BlueprintCallable 
+	// bool SetValueDouble(class UMovieGraphVariable* InGraphVariable, double InValue);                                         // [0x77f6580] Final|Native|Public|BlueprintCallable 
 	// Function /Script/MovieRenderPipelineCore.MovieJobVariableAssignmentContainer.SetValueClass
-	// bool SetValueClass(class UMovieGraphVariable* InGraphVariable, class UClass* InValue);                                   // [0x76d7e40] Final|Native|Public|BlueprintCallable 
+	// bool SetValueClass(class UMovieGraphVariable* InGraphVariable, class UClass* InValue);                                   // [0x77f63a0] Final|Native|Public|BlueprintCallable 
 	// Function /Script/MovieRenderPipelineCore.MovieJobVariableAssignmentContainer.SetValueByte
-	// bool SetValueByte(class UMovieGraphVariable* InGraphVariable, char InValue);                                             // [0x76d7cd0] Final|Native|Public|BlueprintCallable 
+	// bool SetValueByte(class UMovieGraphVariable* InGraphVariable, char InValue);                                             // [0x77f6230] Final|Native|Public|BlueprintCallable 
 	// Function /Script/MovieRenderPipelineCore.MovieJobVariableAssignmentContainer.SetValueBool
-	// bool SetValueBool(class UMovieGraphVariable* InGraphVariable, bool bInValue);                                            // [0x76d7b70] Final|Native|Public|BlueprintCallable 
+	// bool SetValueBool(class UMovieGraphVariable* InGraphVariable, bool bInValue);                                            // [0x77f60d0] Final|Native|Public|BlueprintCallable 
 	// Function /Script/MovieRenderPipelineCore.MovieJobVariableAssignmentContainer.SetGraphConfig
-	// void SetGraphConfig(TWeakObjectPtr<UMovieGraphConfig*>& InGraphConfig);                                                  // [0x76d7930] Final|Native|Public|HasOutParms|BlueprintCallable 
+	// void SetGraphConfig(TWeakObjectPtr<UMovieGraphConfig*>& InGraphConfig);                                                  // [0x77f5e90] Final|Native|Public|HasOutParms|BlueprintCallable 
 	// Function /Script/MovieRenderPipelineCore.MovieJobVariableAssignmentContainer.GetVariableAssignmentEnableState
-	// bool GetVariableAssignmentEnableState(class UMovieGraphVariable* InGraphVariable, bool& bOutIsEnabled);                  // [0x76d7850] Final|Native|Public|HasOutParms|BlueprintCallable 
+	// bool GetVariableAssignmentEnableState(class UMovieGraphVariable* InGraphVariable, bool& bOutIsEnabled);                  // [0x77f5db0] Final|Native|Public|HasOutParms|BlueprintCallable 
 	// Function /Script/MovieRenderPipelineCore.MovieJobVariableAssignmentContainer.GetValueTypeObject
-	// class UObject* GetValueTypeObject(class UMovieGraphVariable* InGraphVariable);                                           // [0x76d77b0] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// class UObject* GetValueTypeObject(class UMovieGraphVariable* InGraphVariable);                                           // [0x77f5d10] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/MovieRenderPipelineCore.MovieJobVariableAssignmentContainer.GetValueType
-	// EMovieGraphValueType GetValueType(class UMovieGraphVariable* InGraphVariable);                                           // [0x76d76e0] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// EMovieGraphValueType GetValueType(class UMovieGraphVariable* InGraphVariable);                                           // [0x77f5c40] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/MovieRenderPipelineCore.MovieJobVariableAssignmentContainer.GetValueText
-	// bool GetValueText(class UMovieGraphVariable* InGraphVariable, FText& OutValue);                                          // [0x76d75b0] Final|Native|Public|HasOutParms|BlueprintCallable|BlueprintPure|Const 
+	// bool GetValueText(class UMovieGraphVariable* InGraphVariable, FText& OutValue);                                          // [0x77f5b10] Final|Native|Public|HasOutParms|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/MovieRenderPipelineCore.MovieJobVariableAssignmentContainer.GetValueString
-	// bool GetValueString(class UMovieGraphVariable* InGraphVariable, FString& OutValue);                                      // [0x76d73f0] Final|Native|Public|HasOutParms|BlueprintCallable|BlueprintPure|Const 
+	// bool GetValueString(class UMovieGraphVariable* InGraphVariable, FString& OutValue);                                      // [0x77f5950] Final|Native|Public|HasOutParms|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/MovieRenderPipelineCore.MovieJobVariableAssignmentContainer.GetValueSerializedString
-	// FString GetValueSerializedString(class UMovieGraphVariable* InGraphVariable);                                            // [0x76d7250] Final|Native|Public|BlueprintCallable 
+	// FString GetValueSerializedString(class UMovieGraphVariable* InGraphVariable);                                            // [0x77f57b0] Final|Native|Public|BlueprintCallable 
 	// Function /Script/MovieRenderPipelineCore.MovieJobVariableAssignmentContainer.GetValueObject
-	// bool GetValueObject(class UMovieGraphVariable* InGraphVariable, class UObject* OutValue, class UClass* RequestedClass);  // [0x76d70c0] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// bool GetValueObject(class UMovieGraphVariable* InGraphVariable, class UObject* OutValue, class UClass* RequestedClass);  // [0x77f5620] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/MovieRenderPipelineCore.MovieJobVariableAssignmentContainer.GetValueName
-	// bool GetValueName(class UMovieGraphVariable* InGraphVariable, FName& OutValue);                                          // [0x76d6f10] Final|Native|Public|HasOutParms|BlueprintCallable|BlueprintPure|Const 
+	// bool GetValueName(class UMovieGraphVariable* InGraphVariable, FName& OutValue);                                          // [0x77f5470] Final|Native|Public|HasOutParms|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/MovieRenderPipelineCore.MovieJobVariableAssignmentContainer.GetValueInt64
-	// bool GetValueInt64(class UMovieGraphVariable* InGraphVariable, int64_t& OutValue);                                       // [0x76d6d80] Final|Native|Public|HasOutParms|BlueprintCallable|BlueprintPure|Const 
+	// bool GetValueInt64(class UMovieGraphVariable* InGraphVariable, int64_t& OutValue);                                       // [0x77f52e0] Final|Native|Public|HasOutParms|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/MovieRenderPipelineCore.MovieJobVariableAssignmentContainer.GetValueInt32
-	// bool GetValueInt32(class UMovieGraphVariable* InGraphVariable, int32_t& OutValue);                                       // [0x76d6bf0] Final|Native|Public|HasOutParms|BlueprintCallable|BlueprintPure|Const 
+	// bool GetValueInt32(class UMovieGraphVariable* InGraphVariable, int32_t& OutValue);                                       // [0x77f5150] Final|Native|Public|HasOutParms|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/MovieRenderPipelineCore.MovieJobVariableAssignmentContainer.GetValueFloat
-	// bool GetValueFloat(class UMovieGraphVariable* InGraphVariable, float& OutValue);                                         // [0x76d6a60] Final|Native|Public|HasOutParms|BlueprintCallable|BlueprintPure|Const 
+	// bool GetValueFloat(class UMovieGraphVariable* InGraphVariable, float& OutValue);                                         // [0x77f4fc0] Final|Native|Public|HasOutParms|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/MovieRenderPipelineCore.MovieJobVariableAssignmentContainer.GetValueEnum
-	// bool GetValueEnum(class UMovieGraphVariable* InGraphVariable, char& OutValue, class UEnum* RequestedEnum);               // [0x76d6890] Final|Native|Public|HasOutParms|BlueprintCallable|BlueprintPure|Const 
+	// bool GetValueEnum(class UMovieGraphVariable* InGraphVariable, char& OutValue, class UEnum* RequestedEnum);               // [0x77f4df0] Final|Native|Public|HasOutParms|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/MovieRenderPipelineCore.MovieJobVariableAssignmentContainer.GetValueDouble
-	// bool GetValueDouble(class UMovieGraphVariable* InGraphVariable, double& OutValue);                                       // [0x76d66c0] Final|Native|Public|HasOutParms|BlueprintCallable|BlueprintPure|Const 
+	// bool GetValueDouble(class UMovieGraphVariable* InGraphVariable, double& OutValue);                                       // [0x77f4c20] Final|Native|Public|HasOutParms|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/MovieRenderPipelineCore.MovieJobVariableAssignmentContainer.GetValueContainerType
-	// EMovieGraphContainerType GetValueContainerType(class UMovieGraphVariable* InGraphVariable);                              // [0x76d6570] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// EMovieGraphContainerType GetValueContainerType(class UMovieGraphVariable* InGraphVariable);                              // [0x77f4ad0] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/MovieRenderPipelineCore.MovieJobVariableAssignmentContainer.GetValueClass
-	// bool GetValueClass(class UMovieGraphVariable* InGraphVariable, class UClass*& OutValue);                                 // [0x76d6460] Final|Native|Public|HasOutParms|BlueprintCallable|BlueprintPure|Const 
+	// bool GetValueClass(class UMovieGraphVariable* InGraphVariable, class UClass*& OutValue);                                 // [0x77f49c0] Final|Native|Public|HasOutParms|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/MovieRenderPipelineCore.MovieJobVariableAssignmentContainer.GetValueByte
-	// bool GetValueByte(class UMovieGraphVariable* InGraphVariable, char& OutValue);                                           // [0x76d62d0] Final|Native|Public|HasOutParms|BlueprintCallable|BlueprintPure|Const 
+	// bool GetValueByte(class UMovieGraphVariable* InGraphVariable, char& OutValue);                                           // [0x77f4830] Final|Native|Public|HasOutParms|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/MovieRenderPipelineCore.MovieJobVariableAssignmentContainer.GetValueBool
-	// bool GetValueBool(class UMovieGraphVariable* InGraphVariable, bool& bOutValue);                                          // [0x76d6140] Final|Native|Public|HasOutParms|BlueprintCallable|BlueprintPure|Const 
+	// bool GetValueBool(class UMovieGraphVariable* InGraphVariable, bool& bOutValue);                                          // [0x77f46a0] Final|Native|Public|HasOutParms|BlueprintCallable|BlueprintPure|Const 
 };
 
 /// Class /Script/MovieRenderPipelineCore.MoviePipelineSetting
@@ -1540,13 +1540,13 @@ public:
 
 	/// Functions
 	// Function /Script/MovieRenderPipelineCore.MoviePipelineSetting.SetIsEnabled
-	// void SetIsEnabled(bool bInEnabled);                                                                                      // [0x775e680] Native|Public|BlueprintCallable 
+	// void SetIsEnabled(bool bInEnabled);                                                                                      // [0x787cbe0] Native|Public|BlueprintCallable 
 	// Function /Script/MovieRenderPipelineCore.MoviePipelineSetting.IsEnabled
-	// bool IsEnabled();                                                                                                        // [0x4e0add0] Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// bool IsEnabled();                                                                                                        // [0x4eeb130] Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/MovieRenderPipelineCore.MoviePipelineSetting.BuildNewProcessCommandLineArgs
-	// void BuildNewProcessCommandLineArgs(TArray<FString>& InOutUnrealURLParams, TArray<FString>& InOutCommandLineArgs, TArray<FString>& InOutDeviceProfileCvars, TArray<FString>& InOutExecCmds); // [0x775bc20] Final|Native|Public|HasOutParms|BlueprintCallable|BlueprintPure|Const 
+	// void BuildNewProcessCommandLineArgs(TArray<FString>& InOutUnrealURLParams, TArray<FString>& InOutCommandLineArgs, TArray<FString>& InOutDeviceProfileCvars, TArray<FString>& InOutExecCmds); // [0x787a180] Final|Native|Public|HasOutParms|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/MovieRenderPipelineCore.MoviePipelineSetting.BuildNewProcessCommandLine
-	// void BuildNewProcessCommandLine(FString& InOutUnrealURLParams, FString& InOutCommandLineArgs);                           // [0x775bb00] Final|Native|Public|HasOutParms|BlueprintCallable|BlueprintPure|Const 
+	// void BuildNewProcessCommandLine(FString& InOutUnrealURLParams, FString& InOutCommandLineArgs);                           // [0x787a060] Final|Native|Public|HasOutParms|BlueprintCallable|BlueprintPure|Const 
 };
 
 /// Class /Script/MovieRenderPipelineCore.MoviePipelineCameraSetting
@@ -1617,13 +1617,13 @@ public:
 
 	/// Functions
 	// Function /Script/MovieRenderPipelineCore.MoviePipelineSetting_BlueprintBase.ReceiveTeardownForPipelineImpl
-	// void ReceiveTeardownForPipelineImpl(class UMoviePipeline* InPipeline);                                                   // [0x2fd4400] Event|Public|BlueprintEvent 
+	// void ReceiveTeardownForPipelineImpl(class UMoviePipeline* InPipeline);                                                   // [0x30b4600] Event|Public|BlueprintEvent 
 	// Function /Script/MovieRenderPipelineCore.MoviePipelineSetting_BlueprintBase.ReceiveSetupForPipelineImpl
-	// void ReceiveSetupForPipelineImpl(class UMoviePipeline* InPipeline);                                                      // [0x2fd4400] Event|Public|BlueprintEvent 
+	// void ReceiveSetupForPipelineImpl(class UMoviePipeline* InPipeline);                                                      // [0x30b4600] Event|Public|BlueprintEvent 
 	// Function /Script/MovieRenderPipelineCore.MoviePipelineSetting_BlueprintBase.ReceiveGetFormatArguments
-	// FMoviePipelineFormatArgs ReceiveGetFormatArguments(FMoviePipelineFormatArgs& InOutFormatArgs);                           // [0x76ff0d0] Native|Event|Public|HasOutParms|BlueprintEvent|Const 
+	// FMoviePipelineFormatArgs ReceiveGetFormatArguments(FMoviePipelineFormatArgs& InOutFormatArgs);                           // [0x781d630] Native|Event|Public|HasOutParms|BlueprintEvent|Const 
 	// Function /Script/MovieRenderPipelineCore.MoviePipelineSetting_BlueprintBase.OnEngineTickBeginFrame
-	// void OnEngineTickBeginFrame();                                                                                           // [0x2fd4400] Event|Public|BlueprintEvent 
+	// void OnEngineTickBeginFrame();                                                                                           // [0x30b4600] Event|Public|BlueprintEvent 
 };
 
 /// Class /Script/MovieRenderPipelineCore.MoviePipelineViewFamilySetting
@@ -1642,7 +1642,7 @@ public:
 
 	/// Functions
 	// Function /Script/MovieRenderPipelineCore.MovieRenderDebugWidget.OnInitializedForPipeline
-	// void OnInitializedForPipeline(class UMoviePipeline* ForPipeline);                                                        // [0x2fd4400] Event|Public|BlueprintEvent 
+	// void OnInitializedForPipeline(class UMoviePipeline* ForPipeline);                                                        // [0x30b4600] Event|Public|BlueprintEvent 
 };
 
 /// Class /Script/MovieRenderPipelineCore.MovieGraphRenderPreviewWidget
@@ -1654,7 +1654,7 @@ public:
 
 	/// Functions
 	// Function /Script/MovieRenderPipelineCore.MovieGraphRenderPreviewWidget.OnInitializedForPipeline
-	// void OnInitializedForPipeline(class UMovieGraphPipeline* InPipeline);                                                    // [0x2fd4400] Event|Public|BlueprintEvent 
+	// void OnInitializedForPipeline(class UMovieGraphPipeline* InPipeline);                                                    // [0x30b4600] Event|Public|BlueprintEvent 
 };
 
 /// Class /Script/MovieRenderPipelineCore.MoviePipeline
@@ -1662,7 +1662,7 @@ public:
 class UMoviePipeline : public UMoviePipelineBase
 { 
 public:
-	SDK_UNDEFINED(16,1138) /* FMulticastInlineDelegate */ __um(OnMoviePipelineFinishedDelegate);                   // 0x0078   (0x0010)  
+	SDK_UNDEFINED(16,1157) /* FMulticastInlineDelegate */ __um(OnMoviePipelineFinishedDelegate);                   // 0x0078   (0x0010)  
 	class UMoviePipelineCustomTimeStep*                CustomTimeStep;                                             // 0x0088   (0x0008)  
 	unsigned char                                      UnknownData00_6[0x10];                                      // 0x0090   (0x0010)  MISSED
 	class UEngineCustomTimeStep*                       CachedPrevCustomTimeStep;                                   // 0x00A0   (0x0008)  
@@ -1679,23 +1679,23 @@ public:
 
 	/// Functions
 	// Function /Script/MovieRenderPipelineCore.MoviePipeline.SetInitializationTime
-	// void SetInitializationTime(FDateTime& InDateTime);                                                                       // [0x77341d0] Final|Native|Public|HasOutParms|HasDefaults|BlueprintCallable 
+	// void SetInitializationTime(FDateTime& InDateTime);                                                                       // [0x7852730] Final|Native|Public|HasOutParms|HasDefaults|BlueprintCallable 
 	// Function /Script/MovieRenderPipelineCore.MoviePipeline.OnMoviePipelineFinishedImpl
-	// void OnMoviePipelineFinishedImpl();                                                                                      // [0x516bd30] Native|Protected|BlueprintCallable 
+	// void OnMoviePipelineFinishedImpl();                                                                                      // [0x524c090] Native|Protected|BlueprintCallable 
 	// Function /Script/MovieRenderPipelineCore.MoviePipeline.Initialize
-	// void Initialize(class UMoviePipelineExecutorJob* InJob);                                                                 // [0x7733a10] Final|Native|Public|BlueprintCallable 
+	// void Initialize(class UMoviePipelineExecutorJob* InJob);                                                                 // [0x7851f70] Final|Native|Public|BlueprintCallable 
 	// Function /Script/MovieRenderPipelineCore.MoviePipeline.GetPreviewTexture
-	// class UTexture* GetPreviewTexture();                                                                                     // [0x56cb930] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// class UTexture* GetPreviewTexture();                                                                                     // [0x57abc90] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/MovieRenderPipelineCore.MoviePipeline.GetPipelinePrimaryConfig
-	// class UMoviePipelinePrimaryConfig* GetPipelinePrimaryConfig();                                                           // [0x7733940] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// class UMoviePipelinePrimaryConfig* GetPipelinePrimaryConfig();                                                           // [0x7851ea0] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/MovieRenderPipelineCore.MoviePipeline.GetPipelineMasterConfig
-	// class UMoviePipelinePrimaryConfig* GetPipelineMasterConfig();                                                            // [0x7733940] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// class UMoviePipelinePrimaryConfig* GetPipelineMasterConfig();                                                            // [0x7851ea0] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/MovieRenderPipelineCore.MoviePipeline.GetInitializationTimeOffset
-	// FTimespan GetInitializationTimeOffset();                                                                                 // [0x7732f00] Final|Native|Public|HasDefaults|BlueprintCallable|BlueprintPure|Const 
+	// FTimespan GetInitializationTimeOffset();                                                                                 // [0x7851460] Final|Native|Public|HasDefaults|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/MovieRenderPipelineCore.MoviePipeline.GetInitializationTime
-	// FDateTime GetInitializationTime();                                                                                       // [0x7732ee0] Final|Native|Public|HasDefaults|BlueprintCallable|BlueprintPure|Const 
+	// FDateTime GetInitializationTime();                                                                                       // [0x7851440] Final|Native|Public|HasDefaults|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/MovieRenderPipelineCore.MoviePipeline.GetCurrentJob
-	// class UMoviePipelineExecutorJob* GetCurrentJob();                                                                        // [0x7732440] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// class UMoviePipelineExecutorJob* GetCurrentJob();                                                                        // [0x78509a0] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 };
 
 /// Class /Script/MovieRenderPipelineCore.MoviePipelineCustomTimeStep
@@ -1733,67 +1733,67 @@ public:
 
 	/// Functions
 	// Function /Script/MovieRenderPipelineCore.MoviePipelineBlueprintLibrary.UpdateJobShotListFromSequence
-	// void UpdateJobShotListFromSequence(class ULevelSequence* InSequence, class UMoviePipelineExecutorJob* InJob, bool& bShotsChanged); // [0x7734270] Final|Native|Static|Public|HasOutParms|BlueprintCallable 
+	// void UpdateJobShotListFromSequence(class ULevelSequence* InSequence, class UMoviePipelineExecutorJob* InJob, bool& bShotsChanged); // [0x78527d0] Final|Native|Static|Public|HasOutParms|BlueprintCallable 
 	// Function /Script/MovieRenderPipelineCore.MoviePipelineBlueprintLibrary.ResolveVersionNumber
-	// int32_t ResolveVersionNumber(FMoviePipelineFilenameResolveParams InParams, bool bGetNextVersion);                        // [0x7733f40] Final|Native|Static|Public|BlueprintCallable 
+	// int32_t ResolveVersionNumber(FMoviePipelineFilenameResolveParams InParams, bool bGetNextVersion);                        // [0x78524a0] Final|Native|Static|Public|BlueprintCallable 
 	// Function /Script/MovieRenderPipelineCore.MoviePipelineBlueprintLibrary.ResolveFilenameFormatArguments
-	// void ResolveFilenameFormatArguments(FString InFormatString, FMoviePipelineFilenameResolveParams& InParams, FString& OutFinalPath, FMoviePipelineFormatArgs& OutMergedFormatArgs); // [0x7733b40] Final|Native|Static|Public|HasOutParms|BlueprintCallable 
+	// void ResolveFilenameFormatArguments(FString InFormatString, FMoviePipelineFilenameResolveParams& InParams, FString& OutFinalPath, FMoviePipelineFormatArgs& OutMergedFormatArgs); // [0x78520a0] Final|Native|Static|Public|HasOutParms|BlueprintCallable 
 	// Function /Script/MovieRenderPipelineCore.MoviePipelineBlueprintLibrary.LoadManifestFileFromString
-	// class UMoviePipelineQueue* LoadManifestFileFromString(FString InManifestFilePath);                                       // [0x7733aa0] Final|Native|Static|Public|BlueprintCallable 
+	// class UMoviePipelineQueue* LoadManifestFileFromString(FString InManifestFilePath);                                       // [0x7852000] Final|Native|Static|Public|BlueprintCallable 
 	// Function /Script/MovieRenderPipelineCore.MoviePipelineBlueprintLibrary.GetRootTimecode
-	// FTimecode GetRootTimecode(class UMoviePipeline* InMoviePipeline);                                                        // [0x7733400] Final|Native|Static|Public|BlueprintCallable|BlueprintPure 
+	// FTimecode GetRootTimecode(class UMoviePipeline* InMoviePipeline);                                                        // [0x7851960] Final|Native|Static|Public|BlueprintCallable|BlueprintPure 
 	// Function /Script/MovieRenderPipelineCore.MoviePipelineBlueprintLibrary.GetRootFrameNumber
-	// FFrameNumber GetRootFrameNumber(class UMoviePipeline* InMoviePipeline);                                                  // [0x77332f0] Final|Native|Static|Public|HasDefaults|BlueprintCallable|BlueprintPure 
+	// FFrameNumber GetRootFrameNumber(class UMoviePipeline* InMoviePipeline);                                                  // [0x7851850] Final|Native|Static|Public|HasDefaults|BlueprintCallable|BlueprintPure 
 	// Function /Script/MovieRenderPipelineCore.MoviePipelineBlueprintLibrary.GetPipelineState
-	// EMovieRenderPipelineState GetPipelineState(class UMoviePipeline* InPipeline);                                            // [0x7733970] Final|Native|Static|Public|BlueprintCallable|BlueprintPure 
+	// EMovieRenderPipelineState GetPipelineState(class UMoviePipeline* InPipeline);                                            // [0x7851ed0] Final|Native|Static|Public|BlueprintCallable|BlueprintPure 
 	// Function /Script/MovieRenderPipelineCore.MoviePipelineBlueprintLibrary.GetOverallSegmentCounts
-	// void GetOverallSegmentCounts(class UMoviePipeline* InMoviePipeline, int32_t& OutCurrentIndex, int32_t& OutTotalCount);   // [0x7733810] Final|Native|Static|Public|HasOutParms|BlueprintCallable|BlueprintPure 
+	// void GetOverallSegmentCounts(class UMoviePipeline* InMoviePipeline, int32_t& OutCurrentIndex, int32_t& OutTotalCount);   // [0x7851d70] Final|Native|Static|Public|HasOutParms|BlueprintCallable|BlueprintPure 
 	// Function /Script/MovieRenderPipelineCore.MoviePipelineBlueprintLibrary.GetOverallOutputFrames
-	// void GetOverallOutputFrames(class UMoviePipeline* InMoviePipeline, int32_t& OutCurrentIndex, int32_t& OutTotalCount);    // [0x77336a0] Final|Native|Static|Public|HasOutParms|BlueprintCallable|BlueprintPure 
+	// void GetOverallOutputFrames(class UMoviePipeline* InMoviePipeline, int32_t& OutCurrentIndex, int32_t& OutTotalCount);    // [0x7851c00] Final|Native|Static|Public|HasOutParms|BlueprintCallable|BlueprintPure 
 	// Function /Script/MovieRenderPipelineCore.MoviePipelineBlueprintLibrary.GetMoviePipelineEngineChangelistLabel
-	// FText GetMoviePipelineEngineChangelistLabel(class UMoviePipeline* InMoviePipeline);                                      // [0x77334b0] Final|Native|Static|Public|BlueprintCallable|BlueprintPure 
+	// FText GetMoviePipelineEngineChangelistLabel(class UMoviePipeline* InMoviePipeline);                                      // [0x7851a10] Final|Native|Static|Public|BlueprintCallable|BlueprintPure 
 	// Function /Script/MovieRenderPipelineCore.MoviePipelineBlueprintLibrary.GetMasterTimecode
-	// FTimecode GetMasterTimecode(class UMoviePipeline* InMoviePipeline);                                                      // [0x7733400] Final|Native|Static|Public|BlueprintCallable|BlueprintPure 
+	// FTimecode GetMasterTimecode(class UMoviePipeline* InMoviePipeline);                                                      // [0x7851960] Final|Native|Static|Public|BlueprintCallable|BlueprintPure 
 	// Function /Script/MovieRenderPipelineCore.MoviePipelineBlueprintLibrary.GetMasterFrameNumber
-	// FFrameNumber GetMasterFrameNumber(class UMoviePipeline* InMoviePipeline);                                                // [0x77332f0] Final|Native|Static|Public|HasDefaults|BlueprintCallable|BlueprintPure 
+	// FFrameNumber GetMasterFrameNumber(class UMoviePipeline* InMoviePipeline);                                                // [0x7851850] Final|Native|Static|Public|HasDefaults|BlueprintCallable|BlueprintPure 
 	// Function /Script/MovieRenderPipelineCore.MoviePipelineBlueprintLibrary.GetMapPackageName
-	// FString GetMapPackageName(class UMoviePipelineExecutorJob* InJob);                                                       // [0x7733160] Final|Native|Static|Public|BlueprintCallable|BlueprintPure 
+	// FString GetMapPackageName(class UMoviePipelineExecutorJob* InJob);                                                       // [0x78516c0] Final|Native|Static|Public|BlueprintCallable|BlueprintPure 
 	// Function /Script/MovieRenderPipelineCore.MoviePipelineBlueprintLibrary.GetJobName
-	// FText GetJobName(class UMoviePipeline* InMoviePipeline);                                                                 // [0x77330a0] Final|Native|Static|Public|BlueprintCallable|BlueprintPure 
+	// FText GetJobName(class UMoviePipeline* InMoviePipeline);                                                                 // [0x7851600] Final|Native|Static|Public|BlueprintCallable|BlueprintPure 
 	// Function /Script/MovieRenderPipelineCore.MoviePipelineBlueprintLibrary.GetJobInitializationTime
-	// FDateTime GetJobInitializationTime(class UMoviePipeline* InMoviePipeline);                                               // [0x7733000] Final|Native|Static|Public|HasDefaults|BlueprintCallable|BlueprintPure 
+	// FDateTime GetJobInitializationTime(class UMoviePipeline* InMoviePipeline);                                               // [0x7851560] Final|Native|Static|Public|HasDefaults|BlueprintCallable|BlueprintPure 
 	// Function /Script/MovieRenderPipelineCore.MoviePipelineBlueprintLibrary.GetJobAuthor
-	// FText GetJobAuthor(class UMoviePipeline* InMoviePipeline);                                                               // [0x7732f20] Final|Native|Static|Public|BlueprintCallable|BlueprintPure 
+	// FText GetJobAuthor(class UMoviePipeline* InMoviePipeline);                                                               // [0x7851480] Final|Native|Static|Public|BlueprintCallable|BlueprintPure 
 	// Function /Script/MovieRenderPipelineCore.MoviePipelineBlueprintLibrary.GetEstimatedTimeRemaining
-	// bool GetEstimatedTimeRemaining(class UMoviePipeline* InPipeline, FTimespan& OutEstimate);                                // [0x7732d50] Final|Native|Static|Public|HasOutParms|HasDefaults|BlueprintCallable|BlueprintPure 
+	// bool GetEstimatedTimeRemaining(class UMoviePipeline* InPipeline, FTimespan& OutEstimate);                                // [0x78512b0] Final|Native|Static|Public|HasOutParms|HasDefaults|BlueprintCallable|BlueprintPure 
 	// Function /Script/MovieRenderPipelineCore.MoviePipelineBlueprintLibrary.GetEffectiveOutputResolution
-	// FIntPoint GetEffectiveOutputResolution(class UMoviePipelinePrimaryConfig* InPrimaryConfig, class UMoviePipelineExecutorShot* InPipelineExecutorShot); // [0x7732a60] Final|Native|Static|Public|HasDefaults|BlueprintCallable 
+	// FIntPoint GetEffectiveOutputResolution(class UMoviePipelinePrimaryConfig* InPrimaryConfig, class UMoviePipelineExecutorShot* InPipelineExecutorShot); // [0x7850fc0] Final|Native|Static|Public|HasDefaults|BlueprintCallable 
 	// Function /Script/MovieRenderPipelineCore.MoviePipelineBlueprintLibrary.GetCurrentShotTimecode
-	// FTimecode GetCurrentShotTimecode(class UMoviePipeline* InMoviePipeline);                                                 // [0x77329b0] Final|Native|Static|Public|BlueprintCallable|BlueprintPure 
+	// FTimecode GetCurrentShotTimecode(class UMoviePipeline* InMoviePipeline);                                                 // [0x7850f10] Final|Native|Static|Public|BlueprintCallable|BlueprintPure 
 	// Function /Script/MovieRenderPipelineCore.MoviePipelineBlueprintLibrary.GetCurrentShotFrameNumber
-	// FFrameNumber GetCurrentShotFrameNumber(class UMoviePipeline* InMoviePipeline);                                           // [0x77328c0] Final|Native|Static|Public|HasDefaults|BlueprintCallable|BlueprintPure 
+	// FFrameNumber GetCurrentShotFrameNumber(class UMoviePipeline* InMoviePipeline);                                           // [0x7850e20] Final|Native|Static|Public|HasDefaults|BlueprintCallable|BlueprintPure 
 	// Function /Script/MovieRenderPipelineCore.MoviePipelineBlueprintLibrary.GetCurrentSequence
-	// class ULevelSequence* GetCurrentSequence(class UMoviePipeline* InMoviePipeline);                                         // [0x7732820] Final|Native|Static|Public|BlueprintCallable|BlueprintPure 
+	// class ULevelSequence* GetCurrentSequence(class UMoviePipeline* InMoviePipeline);                                         // [0x7850d80] Final|Native|Static|Public|BlueprintCallable|BlueprintPure 
 	// Function /Script/MovieRenderPipelineCore.MoviePipelineBlueprintLibrary.GetCurrentSegmentWorkMetrics
-	// FMoviePipelineSegmentWorkMetrics GetCurrentSegmentWorkMetrics(class UMoviePipeline* InMoviePipeline);                    // [0x7732700] Final|Native|Static|Public|BlueprintCallable|BlueprintPure 
+	// FMoviePipelineSegmentWorkMetrics GetCurrentSegmentWorkMetrics(class UMoviePipeline* InMoviePipeline);                    // [0x7850c60] Final|Native|Static|Public|BlueprintCallable|BlueprintPure 
 	// Function /Script/MovieRenderPipelineCore.MoviePipelineBlueprintLibrary.GetCurrentSegmentState
-	// EMovieRenderShotState GetCurrentSegmentState(class UMoviePipeline* InMoviePipeline);                                     // [0x7732640] Final|Native|Static|Public|BlueprintCallable|BlueprintPure 
+	// EMovieRenderShotState GetCurrentSegmentState(class UMoviePipeline* InMoviePipeline);                                     // [0x7850ba0] Final|Native|Static|Public|BlueprintCallable|BlueprintPure 
 	// Function /Script/MovieRenderPipelineCore.MoviePipelineBlueprintLibrary.GetCurrentSegmentName
-	// void GetCurrentSegmentName(class UMoviePipeline* InMoviePipeline, FText& OutOuterName, FText& OutInnerName);             // [0x7732460] Final|Native|Static|Public|HasOutParms|BlueprintCallable|BlueprintPure 
+	// void GetCurrentSegmentName(class UMoviePipeline* InMoviePipeline, FText& OutOuterName, FText& OutInnerName);             // [0x78509c0] Final|Native|Static|Public|HasOutParms|BlueprintCallable|BlueprintPure 
 	// Function /Script/MovieRenderPipelineCore.MoviePipelineBlueprintLibrary.GetCurrentFocusDistance
-	// float GetCurrentFocusDistance(class UMoviePipeline* InMoviePipeline);                                                    // [0x7732330] Final|Native|Static|Public|BlueprintCallable|BlueprintPure 
+	// float GetCurrentFocusDistance(class UMoviePipeline* InMoviePipeline);                                                    // [0x7850890] Final|Native|Static|Public|BlueprintCallable|BlueprintPure 
 	// Function /Script/MovieRenderPipelineCore.MoviePipelineBlueprintLibrary.GetCurrentFocalLength
-	// float GetCurrentFocalLength(class UMoviePipeline* InMoviePipeline);                                                      // [0x7732220] Final|Native|Static|Public|BlueprintCallable|BlueprintPure 
+	// float GetCurrentFocalLength(class UMoviePipeline* InMoviePipeline);                                                      // [0x7850780] Final|Native|Static|Public|BlueprintCallable|BlueprintPure 
 	// Function /Script/MovieRenderPipelineCore.MoviePipelineBlueprintLibrary.GetCurrentExecutorShot
-	// class UMoviePipelineExecutorShot* GetCurrentExecutorShot(class UMoviePipeline* InMoviePipeline);                         // [0x7732170] Final|Native|Static|Public|BlueprintCallable|BlueprintPure 
+	// class UMoviePipelineExecutorShot* GetCurrentExecutorShot(class UMoviePipeline* InMoviePipeline);                         // [0x78506d0] Final|Native|Static|Public|BlueprintCallable|BlueprintPure 
 	// Function /Script/MovieRenderPipelineCore.MoviePipelineBlueprintLibrary.GetCurrentAperture
-	// float GetCurrentAperture(class UMoviePipeline* InMoviePipeline);                                                         // [0x7732070] Final|Native|Static|Public|BlueprintCallable|BlueprintPure 
+	// float GetCurrentAperture(class UMoviePipeline* InMoviePipeline);                                                         // [0x78505d0] Final|Native|Static|Public|BlueprintCallable|BlueprintPure 
 	// Function /Script/MovieRenderPipelineCore.MoviePipelineBlueprintLibrary.GetCompletionPercentage
-	// float GetCompletionPercentage(class UMoviePipeline* InPipeline);                                                         // [0x7731f70] Final|Native|Static|Public|BlueprintCallable|BlueprintPure 
+	// float GetCompletionPercentage(class UMoviePipeline* InPipeline);                                                         // [0x78504d0] Final|Native|Static|Public|BlueprintCallable|BlueprintPure 
 	// Function /Script/MovieRenderPipelineCore.MoviePipelineBlueprintLibrary.FindOrGetDefaultSettingForShot
-	// class UMoviePipelineSetting* FindOrGetDefaultSettingForShot(class UClass* InSettingType, class UMoviePipelinePrimaryConfig* InPrimaryConfig, class UMoviePipelineExecutorShot* InShot); // [0x7731cf0] Final|Native|Static|Public|BlueprintCallable 
+	// class UMoviePipelineSetting* FindOrGetDefaultSettingForShot(class UClass* InSettingType, class UMoviePipelinePrimaryConfig* InPrimaryConfig, class UMoviePipelineExecutorShot* InShot); // [0x7850250] Final|Native|Static|Public|BlueprintCallable 
 	// Function /Script/MovieRenderPipelineCore.MoviePipelineBlueprintLibrary.DuplicateSequence
-	// class UMovieSceneSequence* DuplicateSequence(class UObject* Outer, class UMovieSceneSequence* InSequence);               // [0x77319b0] Final|Native|Static|Public|BlueprintCallable 
+	// class UMovieSceneSequence* DuplicateSequence(class UObject* Outer, class UMovieSceneSequence* InSequence);               // [0x784ff10] Final|Native|Static|Public|BlueprintCallable 
 };
 
 /// Class /Script/MovieRenderPipelineCore.MoviePipelineColorSetting
@@ -1853,21 +1853,21 @@ public:
 
 	/// Functions
 	// Function /Script/MovieRenderPipelineCore.MoviePipelineConfigBase.SetConfigOrigin
-	// void SetConfigOrigin(class UMoviePipelineConfigBase* InConfig);                                                          // [0x775e120] Final|Native|Public|BlueprintCallable 
+	// void SetConfigOrigin(class UMoviePipelineConfigBase* InConfig);                                                          // [0x787c680] Final|Native|Public|BlueprintCallable 
 	// Function /Script/MovieRenderPipelineCore.MoviePipelineConfigBase.RemoveSetting
-	// void RemoveSetting(class UMoviePipelineSetting* InSetting);                                                              // [0x76cd420] Native|Public|BlueprintCallable 
+	// void RemoveSetting(class UMoviePipelineSetting* InSetting);                                                              // [0x77eb980] Native|Public|BlueprintCallable 
 	// Function /Script/MovieRenderPipelineCore.MoviePipelineConfigBase.GetUserSettings
-	// TArray<UMoviePipelineSetting*> GetUserSettings();                                                                        // [0x775d250] Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// TArray<UMoviePipelineSetting*> GetUserSettings();                                                                        // [0x787b7b0] Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/MovieRenderPipelineCore.MoviePipelineConfigBase.GetConfigOrigin
-	// class UMoviePipelineConfigBase* GetConfigOrigin();                                                                       // [0x775cb80] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// class UMoviePipelineConfigBase* GetConfigOrigin();                                                                       // [0x787b0e0] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/MovieRenderPipelineCore.MoviePipelineConfigBase.FindSettingsByClass
-	// TArray<UMoviePipelineSetting*> FindSettingsByClass(class UClass* InClass, bool bIncludeDisabledSettings, bool bExactMatch); // [0x775c760] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// TArray<UMoviePipelineSetting*> FindSettingsByClass(class UClass* InClass, bool bIncludeDisabledSettings, bool bExactMatch); // [0x787acc0] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/MovieRenderPipelineCore.MoviePipelineConfigBase.FindSettingByClass
-	// class UMoviePipelineSetting* FindSettingByClass(class UClass* InClass, bool bIncludeDisabledSettings, bool bExactMatch); // [0x775c620] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// class UMoviePipelineSetting* FindSettingByClass(class UClass* InClass, bool bIncludeDisabledSettings, bool bExactMatch); // [0x787ab80] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/MovieRenderPipelineCore.MoviePipelineConfigBase.FindOrAddSettingByClass
-	// class UMoviePipelineSetting* FindOrAddSettingByClass(class UClass* InClass, bool bIncludeDisabledSettings, bool bExactMatch); // [0x775c4e0] Final|Native|Public|BlueprintCallable 
+	// class UMoviePipelineSetting* FindOrAddSettingByClass(class UClass* InClass, bool bIncludeDisabledSettings, bool bExactMatch); // [0x787aa40] Final|Native|Public|BlueprintCallable 
 	// Function /Script/MovieRenderPipelineCore.MoviePipelineConfigBase.CopyFrom
-	// void CopyFrom(class UMoviePipelineConfigBase* InConfig);                                                                 // [0x775bfa0] Native|Public|BlueprintCallable 
+	// void CopyFrom(class UMoviePipelineConfigBase* InConfig);                                                                 // [0x787a500] Native|Public|BlueprintCallable 
 };
 
 /// Class /Script/MovieRenderPipelineCore.MoviePipelineDebugSettings
@@ -1888,12 +1888,12 @@ public:
 class UMoviePipelineExecutorBase : public UObject
 { 
 public:
-	SDK_UNDEFINED(16,1139) /* FMulticastInlineDelegate */ __um(OnExecutorFinishedDelegate);                        // 0x0028   (0x0010)  
+	SDK_UNDEFINED(16,1158) /* FMulticastInlineDelegate */ __um(OnExecutorFinishedDelegate);                        // 0x0028   (0x0010)  
 	unsigned char                                      UnknownData00_6[0x18];                                      // 0x0038   (0x0018)  MISSED
-	SDK_UNDEFINED(16,1140) /* FMulticastInlineDelegate */ __um(OnExecutorErroredDelegate);                         // 0x0050   (0x0010)  
+	SDK_UNDEFINED(16,1159) /* FMulticastInlineDelegate */ __um(OnExecutorErroredDelegate);                         // 0x0050   (0x0010)  
 	unsigned char                                      UnknownData01_6[0x20];                                      // 0x0060   (0x0020)  MISSED
-	SDK_UNDEFINED(16,1141) /* FMulticastInlineDelegate */ __um(SocketMessageRecievedDelegate);                     // 0x0080   (0x0010)  
-	SDK_UNDEFINED(16,1142) /* FMulticastInlineDelegate */ __um(HTTPResponseRecievedDelegate);                      // 0x0090   (0x0010)  
+	SDK_UNDEFINED(16,1160) /* FMulticastInlineDelegate */ __um(SocketMessageRecievedDelegate);                     // 0x0080   (0x0010)  
+	SDK_UNDEFINED(16,1161) /* FMulticastInlineDelegate */ __um(HTTPResponseRecievedDelegate);                      // 0x0090   (0x0010)  
 	class UClass*                                      DebugWidgetClass;                                           // 0x00A0   (0x0008)  
 	unsigned char                                      UnknownData02_6[0x10];                                      // 0x00A8   (0x0010)  MISSED
 	FString                                            UserData;                                                   // 0x00B8   (0x0010)  
@@ -1903,39 +1903,39 @@ public:
 
 	/// Functions
 	// Function /Script/MovieRenderPipelineCore.MoviePipelineExecutorBase.SetStatusProgress
-	// void SetStatusProgress(float InProgress);                                                                                // [0x775f100] Native|Event|Public|BlueprintCallable|BlueprintEvent 
+	// void SetStatusProgress(float InProgress);                                                                                // [0x787d660] Native|Event|Public|BlueprintCallable|BlueprintEvent 
 	// Function /Script/MovieRenderPipelineCore.MoviePipelineExecutorBase.SetStatusMessage
-	// void SetStatusMessage(FString InStatus);                                                                                 // [0x775efc0] Native|Event|Public|BlueprintCallable|BlueprintEvent 
+	// void SetStatusMessage(FString InStatus);                                                                                 // [0x787d520] Native|Event|Public|BlueprintCallable|BlueprintEvent 
 	// Function /Script/MovieRenderPipelineCore.MoviePipelineExecutorBase.SetMoviePipelineClass
-	// void SetMoviePipelineClass(class UClass* InPipelineClass);                                                               // [0x775e950] Final|Native|Public|BlueprintCallable 
+	// void SetMoviePipelineClass(class UClass* InPipelineClass);                                                               // [0x787ceb0] Final|Native|Public|BlueprintCallable 
 	// Function /Script/MovieRenderPipelineCore.MoviePipelineExecutorBase.SendSocketMessage
-	// bool SendSocketMessage(FString InMessage);                                                                               // [0x775df90] Final|Native|Protected|BlueprintCallable 
+	// bool SendSocketMessage(FString InMessage);                                                                               // [0x787c4f0] Final|Native|Protected|BlueprintCallable 
 	// Function /Script/MovieRenderPipelineCore.MoviePipelineExecutorBase.SendHTTPRequest
-	// int32_t SendHTTPRequest(FString InURL, FString InVerb, FString InMessage, TMap<FString, FString>& InHeaders);            // [0x775dd80] Final|Native|Protected|HasOutParms|BlueprintCallable 
+	// int32_t SendHTTPRequest(FString InURL, FString InVerb, FString InMessage, TMap<FString, FString>& InHeaders);            // [0x787c2e0] Final|Native|Protected|HasOutParms|BlueprintCallable 
 	// Function /Script/MovieRenderPipelineCore.MoviePipelineExecutorBase.OnExecutorFinishedImpl
-	// void OnExecutorFinishedImpl();                                                                                           // [0x4e5a6d0] Native|Protected|BlueprintCallable 
+	// void OnExecutorFinishedImpl();                                                                                           // [0x4f3aa30] Native|Protected|BlueprintCallable 
 	// Function /Script/MovieRenderPipelineCore.MoviePipelineExecutorBase.OnExecutorErroredImpl
-	// void OnExecutorErroredImpl(class UMoviePipeline* ErroredPipeline, bool bFatal, FText ErrorReason);                       // [0x775d670] Native|Protected|BlueprintCallable 
+	// void OnExecutorErroredImpl(class UMoviePipeline* ErroredPipeline, bool bFatal, FText ErrorReason);                       // [0x787bbd0] Native|Protected|BlueprintCallable 
 	// Function /Script/MovieRenderPipelineCore.MoviePipelineExecutorBase.OnBeginFrame
-	// void OnBeginFrame();                                                                                                     // [0x4d33f60] Native|Event|Public|BlueprintEvent 
+	// void OnBeginFrame();                                                                                                     // [0x4e14160] Native|Event|Public|BlueprintEvent 
 	// Function /Script/MovieRenderPipelineCore.MoviePipelineExecutorBase.IsSocketConnected
-	// bool IsSocketConnected();                                                                                                // [0x775d500] Final|Native|Protected|BlueprintCallable|BlueprintPure|Const 
+	// bool IsSocketConnected();                                                                                                // [0x787ba60] Final|Native|Protected|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/MovieRenderPipelineCore.MoviePipelineExecutorBase.IsRendering
-	// bool IsRendering();                                                                                                      // [0x4d32f10] Native|Event|Public|BlueprintCallable|BlueprintEvent|BlueprintPure|Const 
+	// bool IsRendering();                                                                                                      // [0x4e13110] Native|Event|Public|BlueprintCallable|BlueprintEvent|BlueprintPure|Const 
 	// Function /Script/MovieRenderPipelineCore.MoviePipelineExecutorBase.GetStatusProgress
-	// float GetStatusProgress();                                                                                               // [0x7219f70] Native|Event|Public|BlueprintCallable|BlueprintEvent|BlueprintPure|Const 
+	// float GetStatusProgress();                                                                                               // [0x73384d0] Native|Event|Public|BlueprintCallable|BlueprintEvent|BlueprintPure|Const 
 	// Function /Script/MovieRenderPipelineCore.MoviePipelineExecutorBase.GetStatusMessage
-	// FString GetStatusMessage();                                                                                              // [0x536bf70] Native|Event|Public|BlueprintCallable|BlueprintEvent|BlueprintPure|Const 
+	// FString GetStatusMessage();                                                                                              // [0x544c2d0] Native|Event|Public|BlueprintCallable|BlueprintEvent|BlueprintPure|Const 
 	// Function /Script/MovieRenderPipelineCore.MoviePipelineExecutorBase.Execute
-	// void Execute(class UMoviePipelineQueue* InPipelineQueue);                                                                // [0x72108b0] Native|Event|Public|BlueprintCallable|BlueprintEvent 
+	// void Execute(class UMoviePipelineQueue* InPipelineQueue);                                                                // [0x732ee10] Native|Event|Public|BlueprintCallable|BlueprintEvent 
 	// Function /Script/MovieRenderPipelineCore.MoviePipelineExecutorBase.DisconnectSocket
-	// void DisconnectSocket();                                                                                                 // [0x775c260] Final|Native|Protected|BlueprintCallable 
+	// void DisconnectSocket();                                                                                                 // [0x787a7c0] Final|Native|Protected|BlueprintCallable 
 	// Function /Script/MovieRenderPipelineCore.MoviePipelineExecutorBase.ConnectSocket
-	// bool ConnectSocket(FString InHostName, int32_t InPort);                                                                  // [0x775beb0] Final|Native|Protected|BlueprintCallable 
+	// bool ConnectSocket(FString InHostName, int32_t InPort);                                                                  // [0x787a410] Final|Native|Protected|BlueprintCallable 
 	// Function /Script/MovieRenderPipelineCore.MoviePipelineExecutorBase.CancelCurrentJob
-	// void CancelCurrentJob();                                                                                                 // [0x50fd3c0] Native|Event|Public|BlueprintCallable|BlueprintEvent 
+	// void CancelCurrentJob();                                                                                                 // [0x51dd720] Native|Event|Public|BlueprintCallable|BlueprintEvent 
 	// Function /Script/MovieRenderPipelineCore.MoviePipelineExecutorBase.CancelAllJobs
-	// void CancelAllJobs();                                                                                                    // [0x53cf730] Native|Event|Public|BlueprintCallable|BlueprintEvent 
+	// void CancelAllJobs();                                                                                                    // [0x54afa90] Native|Event|Public|BlueprintCallable|BlueprintEvent 
 };
 
 /// Class /Script/MovieRenderPipelineCore.MoviePipelineFCPXMLExporter
@@ -2034,13 +2034,13 @@ public:
 
 	/// Functions
 	// Function /Script/MovieRenderPipelineCore.MoviePipelinePrimaryConfig.InitializeTransientSettings
-	// void InitializeTransientSettings();                                                                                      // [0x775d420] Final|Native|Public|BlueprintCallable 
+	// void InitializeTransientSettings();                                                                                      // [0x787b980] Final|Native|Public|BlueprintCallable 
 	// Function /Script/MovieRenderPipelineCore.MoviePipelinePrimaryConfig.GetTransientSettings
-	// TArray<UMoviePipelineSetting*> GetTransientSettings();                                                                   // [0x775d350] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// TArray<UMoviePipelineSetting*> GetTransientSettings();                                                                   // [0x787b8b0] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/MovieRenderPipelineCore.MoviePipelinePrimaryConfig.GetEffectiveFrameRate
-	// FFrameRate GetEffectiveFrameRate(class ULevelSequence* InSequence);                                                      // [0x775cc20] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// FFrameRate GetEffectiveFrameRate(class ULevelSequence* InSequence);                                                      // [0x787b180] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/MovieRenderPipelineCore.MoviePipelinePrimaryConfig.GetAllSettings
-	// TArray<UMoviePipelineSetting*> GetAllSettings(bool bIncludeDisabledSettings, bool bIncludeTransientSettings);            // [0x775c910] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// TArray<UMoviePipelineSetting*> GetAllSettings(bool bIncludeDisabledSettings, bool bIncludeTransientSettings);            // [0x787ae70] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 };
 
 /// Class /Script/MovieRenderPipelineCore.MoviePipelinePythonHostExecutor
@@ -2055,11 +2055,11 @@ public:
 
 	/// Functions
 	// Function /Script/MovieRenderPipelineCore.MoviePipelinePythonHostExecutor.OnMapLoad
-	// void OnMapLoad(class UWorld* InWorld);                                                                                   // [0x775d7c0] Native|Event|Public|BlueprintEvent 
+	// void OnMapLoad(class UWorld* InWorld);                                                                                   // [0x787bd20] Native|Event|Public|BlueprintEvent 
 	// Function /Script/MovieRenderPipelineCore.MoviePipelinePythonHostExecutor.GetLastLoadedWorld
-	// class UWorld* GetLastLoadedWorld();                                                                                      // [0x775cdf0] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// class UWorld* GetLastLoadedWorld();                                                                                      // [0x787b350] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/MovieRenderPipelineCore.MoviePipelinePythonHostExecutor.ExecuteDelayed
-	// void ExecuteDelayed(class UMoviePipelineQueue* InPipelineQueue);                                                         // [0x775c450] Native|Event|Public|BlueprintEvent 
+	// void ExecuteDelayed(class UMoviePipelineQueue* InPipelineQueue);                                                         // [0x787a9b0] Native|Event|Public|BlueprintEvent 
 };
 
 /// Struct /Script/MovieRenderPipelineCore.MoviePipelineSidecarCamera
@@ -2096,35 +2096,35 @@ public:
 
 	/// Functions
 	// Function /Script/MovieRenderPipelineCore.MoviePipelineExecutorShot.ShouldRender
-	// bool ShouldRender();                                                                                                     // [0x53cf710] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// bool ShouldRender();                                                                                                     // [0x54afa70] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/MovieRenderPipelineCore.MoviePipelineExecutorShot.SetStatusProgress
-	// void SetStatusProgress(float InProgress);                                                                                // [0x775f190] Native|Event|Public|BlueprintCallable|BlueprintEvent 
+	// void SetStatusProgress(float InProgress);                                                                                // [0x787d6f0] Native|Event|Public|BlueprintCallable|BlueprintEvent 
 	// Function /Script/MovieRenderPipelineCore.MoviePipelineExecutorShot.SetStatusMessage
-	// void SetStatusMessage(FString InStatus);                                                                                 // [0x775f060] Native|Event|Public|BlueprintCallable|BlueprintEvent 
+	// void SetStatusMessage(FString InStatus);                                                                                 // [0x787d5c0] Native|Event|Public|BlueprintCallable|BlueprintEvent 
 	// Function /Script/MovieRenderPipelineCore.MoviePipelineExecutorShot.SetShotOverridePresetOrigin
-	// void SetShotOverridePresetOrigin(class UMoviePipelineShotConfig* InPreset);                                              // [0x775ee10] Final|Native|Public|BlueprintCallable 
+	// void SetShotOverridePresetOrigin(class UMoviePipelineShotConfig* InPreset);                                              // [0x787d370] Final|Native|Public|BlueprintCallable 
 	// Function /Script/MovieRenderPipelineCore.MoviePipelineExecutorShot.SetShotOverrideConfiguration
-	// void SetShotOverrideConfiguration(class UMoviePipelineShotConfig* InPreset);                                             // [0x775ed00] Final|Native|Public|BlueprintCallable 
+	// void SetShotOverrideConfiguration(class UMoviePipelineShotConfig* InPreset);                                             // [0x787d260] Final|Native|Public|BlueprintCallable 
 	// Function /Script/MovieRenderPipelineCore.MoviePipelineExecutorShot.SetGraphPreset
-	// void SetGraphPreset(class UMovieGraphConfig* InGraphPreset, bool bUpdateVariableAssignments);                            // [0x775e520] Final|Native|Public|BlueprintCallable 
+	// void SetGraphPreset(class UMovieGraphConfig* InGraphPreset, bool bUpdateVariableAssignments);                            // [0x787ca80] Final|Native|Public|BlueprintCallable 
 	// Function /Script/MovieRenderPipelineCore.MoviePipelineExecutorShot.IsUsingGraphConfiguration
-	// bool IsUsingGraphConfiguration();                                                                                        // [0x775d5c0] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// bool IsUsingGraphConfiguration();                                                                                        // [0x787bb20] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/MovieRenderPipelineCore.MoviePipelineExecutorShot.GetStatusProgress
-	// float GetStatusProgress();                                                                                               // [0x775d310] Native|Event|Public|BlueprintCallable|BlueprintEvent|BlueprintPure|Const 
+	// float GetStatusProgress();                                                                                               // [0x787b870] Native|Event|Public|BlueprintCallable|BlueprintEvent|BlueprintPure|Const 
 	// Function /Script/MovieRenderPipelineCore.MoviePipelineExecutorShot.GetStatusMessage
-	// FString GetStatusMessage();                                                                                              // [0x775d250] Native|Event|Public|BlueprintCallable|BlueprintEvent|BlueprintPure|Const 
+	// FString GetStatusMessage();                                                                                              // [0x787b7b0] Native|Event|Public|BlueprintCallable|BlueprintEvent|BlueprintPure|Const 
 	// Function /Script/MovieRenderPipelineCore.MoviePipelineExecutorShot.GetShotOverridePresetOrigin
-	// class UMoviePipelineShotConfig* GetShotOverridePresetOrigin();                                                           // [0x775d0f0] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// class UMoviePipelineShotConfig* GetShotOverridePresetOrigin();                                                           // [0x787b650] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/MovieRenderPipelineCore.MoviePipelineExecutorShot.GetShotOverrideConfiguration
-	// class UMoviePipelineShotConfig* GetShotOverrideConfiguration();                                                          // [0x54e2c50] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// class UMoviePipelineShotConfig* GetShotOverrideConfiguration();                                                          // [0x55c2fb0] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/MovieRenderPipelineCore.MoviePipelineExecutorShot.GetOrCreateJobVariableAssignmentsForGraph
-	// class UMovieJobVariableAssignmentContainer* GetOrCreateJobVariableAssignmentsForGraph(class UMovieGraphConfig* InGraph, bool bIsForPrimaryOverrides); // [0x775ced0] Final|Native|Public|BlueprintCallable 
+	// class UMovieJobVariableAssignmentContainer* GetOrCreateJobVariableAssignmentsForGraph(class UMovieGraphConfig* InGraph, bool bIsForPrimaryOverrides); // [0x787b430] Final|Native|Public|BlueprintCallable 
 	// Function /Script/MovieRenderPipelineCore.MoviePipelineExecutorShot.GetGraphPreset
-	// class UMovieGraphConfig* GetGraphPreset();                                                                               // [0x775cd70] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// class UMovieGraphConfig* GetGraphPreset();                                                                               // [0x787b2d0] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/MovieRenderPipelineCore.MoviePipelineExecutorShot.GetCameraName
-	// FString GetCameraName(int32_t InCameraIndex);                                                                            // [0x775ca40] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// FString GetCameraName(int32_t InCameraIndex);                                                                            // [0x787afa0] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/MovieRenderPipelineCore.MoviePipelineExecutorShot.AllocateNewShotOverrideConfig
-	// class UMoviePipelineShotConfig* AllocateNewShotOverrideConfig(class UClass* InConfigType);                               // [0x775ba50] Final|Native|Public|BlueprintCallable 
+	// class UMoviePipelineShotConfig* AllocateNewShotOverrideConfig(class UClass* InConfigType);                               // [0x7879fb0] Final|Native|Public|BlueprintCallable 
 };
 
 /// Class /Script/MovieRenderPipelineCore.MoviePipelineExecutorJob
@@ -2156,41 +2156,41 @@ public:
 
 	/// Functions
 	// Function /Script/MovieRenderPipelineCore.MoviePipelineExecutorJob.SetStatusProgress
-	// void SetStatusProgress(float InProgress);                                                                                // [0x775f190] Native|Event|Public|BlueprintCallable|BlueprintEvent 
+	// void SetStatusProgress(float InProgress);                                                                                // [0x787d6f0] Native|Event|Public|BlueprintCallable|BlueprintEvent 
 	// Function /Script/MovieRenderPipelineCore.MoviePipelineExecutorJob.SetStatusMessage
-	// void SetStatusMessage(FString InStatus);                                                                                 // [0x775f060] Native|Event|Public|BlueprintCallable|BlueprintEvent 
+	// void SetStatusMessage(FString InStatus);                                                                                 // [0x787d5c0] Native|Event|Public|BlueprintCallable|BlueprintEvent 
 	// Function /Script/MovieRenderPipelineCore.MoviePipelineExecutorJob.SetSequence
-	// void SetSequence(FSoftObjectPath InSequence);                                                                            // [0x775ec00] Final|Native|Public|HasDefaults|BlueprintCallable 
+	// void SetSequence(FSoftObjectPath InSequence);                                                                            // [0x787d160] Final|Native|Public|HasDefaults|BlueprintCallable 
 	// Function /Script/MovieRenderPipelineCore.MoviePipelineExecutorJob.SetPresetOrigin
-	// void SetPresetOrigin(class UMoviePipelinePrimaryConfig* InPreset);                                                       // [0x775e9f0] Final|Native|Public|BlueprintCallable 
+	// void SetPresetOrigin(class UMoviePipelinePrimaryConfig* InPreset);                                                       // [0x787cf50] Final|Native|Public|BlueprintCallable 
 	// Function /Script/MovieRenderPipelineCore.MoviePipelineExecutorJob.SetIsEnabled
-	// void SetIsEnabled(bool bInEnabled);                                                                                      // [0x775e5f0] Native|Event|Public|BlueprintCallable|BlueprintEvent 
+	// void SetIsEnabled(bool bInEnabled);                                                                                      // [0x787cb50] Native|Event|Public|BlueprintCallable|BlueprintEvent 
 	// Function /Script/MovieRenderPipelineCore.MoviePipelineExecutorJob.SetGraphPreset
-	// void SetGraphPreset(class UMovieGraphConfig* InGraphPreset, bool bUpdateVariableAssignments);                            // [0x775e450] Final|Native|Public|BlueprintCallable 
+	// void SetGraphPreset(class UMovieGraphConfig* InGraphPreset, bool bUpdateVariableAssignments);                            // [0x787c9b0] Final|Native|Public|BlueprintCallable 
 	// Function /Script/MovieRenderPipelineCore.MoviePipelineExecutorJob.SetConsumed
-	// void SetConsumed(bool bInConsumed);                                                                                      // [0x775e3c0] Native|Event|Public|BlueprintCallable|BlueprintEvent 
+	// void SetConsumed(bool bInConsumed);                                                                                      // [0x787c920] Native|Event|Public|BlueprintCallable|BlueprintEvent 
 	// Function /Script/MovieRenderPipelineCore.MoviePipelineExecutorJob.SetConfiguration
-	// void SetConfiguration(class UMoviePipelinePrimaryConfig* InPreset);                                                      // [0x775e200] Final|Native|Public|BlueprintCallable 
+	// void SetConfiguration(class UMoviePipelinePrimaryConfig* InPreset);                                                      // [0x787c760] Final|Native|Public|BlueprintCallable 
 	// Function /Script/MovieRenderPipelineCore.MoviePipelineExecutorJob.OnDuplicated
-	// void OnDuplicated();                                                                                                     // [0x3cdc710] Native|Event|Public|BlueprintCallable|BlueprintEvent 
+	// void OnDuplicated();                                                                                                     // [0x3dbc910] Native|Event|Public|BlueprintCallable|BlueprintEvent 
 	// Function /Script/MovieRenderPipelineCore.MoviePipelineExecutorJob.IsUsingGraphConfiguration
-	// bool IsUsingGraphConfiguration();                                                                                        // [0x775d550] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// bool IsUsingGraphConfiguration();                                                                                        // [0x787bab0] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/MovieRenderPipelineCore.MoviePipelineExecutorJob.IsEnabled
-	// bool IsEnabled();                                                                                                        // [0x775d440] Native|Event|Public|BlueprintCallable|BlueprintEvent|BlueprintPure|Const 
+	// bool IsEnabled();                                                                                                        // [0x787b9a0] Native|Event|Public|BlueprintCallable|BlueprintEvent|BlueprintPure|Const 
 	// Function /Script/MovieRenderPipelineCore.MoviePipelineExecutorJob.IsConsumed
-	// bool IsConsumed();                                                                                                       // [0x4f1d480] Native|Event|Public|BlueprintCallable|BlueprintEvent|BlueprintPure|Const 
+	// bool IsConsumed();                                                                                                       // [0x4ffd7e0] Native|Event|Public|BlueprintCallable|BlueprintEvent|BlueprintPure|Const 
 	// Function /Script/MovieRenderPipelineCore.MoviePipelineExecutorJob.GetStatusProgress
-	// float GetStatusProgress();                                                                                               // [0x775d2d0] Native|Event|Public|BlueprintCallable|BlueprintEvent|BlueprintPure|Const 
+	// float GetStatusProgress();                                                                                               // [0x787b830] Native|Event|Public|BlueprintCallable|BlueprintEvent|BlueprintPure|Const 
 	// Function /Script/MovieRenderPipelineCore.MoviePipelineExecutorJob.GetStatusMessage
-	// FString GetStatusMessage();                                                                                              // [0x775d1d0] Native|Event|Public|BlueprintCallable|BlueprintEvent|BlueprintPure|Const 
+	// FString GetStatusMessage();                                                                                              // [0x787b730] Native|Event|Public|BlueprintCallable|BlueprintEvent|BlueprintPure|Const 
 	// Function /Script/MovieRenderPipelineCore.MoviePipelineExecutorJob.GetPresetOrigin
-	// class UMoviePipelinePrimaryConfig* GetPresetOrigin();                                                                    // [0x775cfd0] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// class UMoviePipelinePrimaryConfig* GetPresetOrigin();                                                                    // [0x787b530] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/MovieRenderPipelineCore.MoviePipelineExecutorJob.GetOrCreateJobVariableAssignmentsForGraph
-	// class UMovieJobVariableAssignmentContainer* GetOrCreateJobVariableAssignmentsForGraph(class UMovieGraphConfig* InGraph); // [0x775ce10] Final|Native|Public|BlueprintCallable 
+	// class UMovieJobVariableAssignmentContainer* GetOrCreateJobVariableAssignmentsForGraph(class UMovieGraphConfig* InGraph); // [0x787b370] Final|Native|Public|BlueprintCallable 
 	// Function /Script/MovieRenderPipelineCore.MoviePipelineExecutorJob.GetGraphPreset
-	// class UMovieGraphConfig* GetGraphPreset();                                                                               // [0x775ccf0] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// class UMovieGraphConfig* GetGraphPreset();                                                                               // [0x787b250] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/MovieRenderPipelineCore.MoviePipelineExecutorJob.GetConfiguration
-	// class UMoviePipelinePrimaryConfig* GetConfiguration();                                                                   // [0x775cc00] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// class UMoviePipelinePrimaryConfig* GetConfiguration();                                                                   // [0x787b160] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 };
 
 /// Class /Script/MovieRenderPipelineCore.MoviePipelineQueue
@@ -2205,23 +2205,23 @@ public:
 
 	/// Functions
 	// Function /Script/MovieRenderPipelineCore.MoviePipelineQueue.SetQueueOrigin
-	// void SetQueueOrigin(class UMoviePipelineQueue* InConfig);                                                                // [0x775eb20] Final|Native|Public|BlueprintCallable 
+	// void SetQueueOrigin(class UMoviePipelineQueue* InConfig);                                                                // [0x787d080] Final|Native|Public|BlueprintCallable 
 	// Function /Script/MovieRenderPipelineCore.MoviePipelineQueue.SetJobIndex
-	// void SetJobIndex(class UMoviePipelineExecutorJob* InJob, int32_t Index);                                                 // [0x775e710] Final|Native|Public|BlueprintCallable 
+	// void SetJobIndex(class UMoviePipelineExecutorJob* InJob, int32_t Index);                                                 // [0x787cc70] Final|Native|Public|BlueprintCallable 
 	// Function /Script/MovieRenderPipelineCore.MoviePipelineQueue.GetQueueOrigin
-	// class UMoviePipelineQueue* GetQueueOrigin();                                                                             // [0x775d070] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// class UMoviePipelineQueue* GetQueueOrigin();                                                                             // [0x787b5d0] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/MovieRenderPipelineCore.MoviePipelineQueue.GetJobs
-	// TArray<UMoviePipelineExecutorJob*> GetJobs();                                                                            // [0x76d22d0] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// TArray<UMoviePipelineExecutorJob*> GetJobs();                                                                            // [0x77f0830] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/MovieRenderPipelineCore.MoviePipelineQueue.DuplicateJob
-	// class UMoviePipelineExecutorJob* DuplicateJob(class UMoviePipelineExecutorJob* InJob);                                   // [0x775c2a0] Final|Native|Public|BlueprintCallable 
+	// class UMoviePipelineExecutorJob* DuplicateJob(class UMoviePipelineExecutorJob* InJob);                                   // [0x787a800] Final|Native|Public|BlueprintCallable 
 	// Function /Script/MovieRenderPipelineCore.MoviePipelineQueue.DeleteJob
-	// void DeleteJob(class UMoviePipelineExecutorJob* InJob);                                                                  // [0x775c1b0] Final|Native|Public|BlueprintCallable 
+	// void DeleteJob(class UMoviePipelineExecutorJob* InJob);                                                                  // [0x787a710] Final|Native|Public|BlueprintCallable 
 	// Function /Script/MovieRenderPipelineCore.MoviePipelineQueue.DeleteAllJobs
-	// void DeleteAllJobs();                                                                                                    // [0x775c170] Final|Native|Public|BlueprintCallable 
+	// void DeleteAllJobs();                                                                                                    // [0x787a6d0] Final|Native|Public|BlueprintCallable 
 	// Function /Script/MovieRenderPipelineCore.MoviePipelineQueue.CopyFrom
-	// void CopyFrom(class UMoviePipelineQueue* InQueue);                                                                       // [0x775c030] Final|Native|Public|BlueprintCallable 
+	// void CopyFrom(class UMoviePipelineQueue* InQueue);                                                                       // [0x787a590] Final|Native|Public|BlueprintCallable 
 	// Function /Script/MovieRenderPipelineCore.MoviePipelineQueue.AllocateNewJob
-	// class UMoviePipelineExecutorJob* AllocateNewJob(class UClass* InJobType);                                                // [0x775b9a0] Final|Native|Public|BlueprintCallable 
+	// class UMoviePipelineExecutorJob* AllocateNewJob(class UClass* InJobType);                                                // [0x7879f00] Final|Native|Public|BlueprintCallable 
 };
 
 /// Class /Script/MovieRenderPipelineCore.MoviePipelineQueueEngineSubsystem
@@ -2229,7 +2229,7 @@ public:
 class UMoviePipelineQueueEngineSubsystem : public UEngineSubsystem
 { 
 public:
-	SDK_UNDEFINED(16,1143) /* FMulticastInlineDelegate */ __um(OnRenderFinished);                                  // 0x0030   (0x0010)  
+	SDK_UNDEFINED(16,1162) /* FMulticastInlineDelegate */ __um(OnRenderFinished);                                  // 0x0030   (0x0010)  
 	class UMoviePipelineExecutorBase*                  ActiveExecutor;                                             // 0x0040   (0x0008)  
 	class UMoviePipelineQueue*                         CurrentQueue;                                               // 0x0048   (0x0008)  
 	unsigned char                                      UnknownData00_7[0x50];                                      // 0x0050   (0x0050)  MISSED
@@ -2237,21 +2237,21 @@ public:
 
 	/// Functions
 	// Function /Script/MovieRenderPipelineCore.MoviePipelineQueueEngineSubsystem.SetConfiguration
-	// void SetConfiguration(class UClass* InProgressWidgetClass, bool bRenderPlayerViewport);                                  // [0x775e2c0] Final|Native|Public|BlueprintCallable 
+	// void SetConfiguration(class UClass* InProgressWidgetClass, bool bRenderPlayerViewport);                                  // [0x787c820] Final|Native|Public|BlueprintCallable 
 	// Function /Script/MovieRenderPipelineCore.MoviePipelineQueueEngineSubsystem.RenderQueueWithExecutorInstance
-	// void RenderQueueWithExecutorInstance(class UMoviePipelineExecutorBase* InExecutor);                                      // [0x775dbc0] Final|Native|Public|BlueprintCallable 
+	// void RenderQueueWithExecutorInstance(class UMoviePipelineExecutorBase* InExecutor);                                      // [0x787c120] Final|Native|Public|BlueprintCallable 
 	// Function /Script/MovieRenderPipelineCore.MoviePipelineQueueEngineSubsystem.RenderQueueWithExecutor
-	// class UMoviePipelineExecutorBase* RenderQueueWithExecutor(class UClass* InExecutorType);                                 // [0x775da50] Final|Native|Public|BlueprintCallable 
+	// class UMoviePipelineExecutorBase* RenderQueueWithExecutor(class UClass* InExecutorType);                                 // [0x787bfb0] Final|Native|Public|BlueprintCallable 
 	// Function /Script/MovieRenderPipelineCore.MoviePipelineQueueEngineSubsystem.RenderJob
-	// void RenderJob(class UMoviePipelineExecutorJob* InJob);                                                                  // [0x775d850] Final|Native|Public|BlueprintCallable 
+	// void RenderJob(class UMoviePipelineExecutorJob* InJob);                                                                  // [0x787bdb0] Final|Native|Public|BlueprintCallable 
 	// Function /Script/MovieRenderPipelineCore.MoviePipelineQueueEngineSubsystem.IsRendering
-	// bool IsRendering();                                                                                                      // [0x775d470] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// bool IsRendering();                                                                                                      // [0x787b9d0] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/MovieRenderPipelineCore.MoviePipelineQueueEngineSubsystem.GetQueue
-	// class UMoviePipelineQueue* GetQueue();                                                                                   // [0x775d050] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// class UMoviePipelineQueue* GetQueue();                                                                                   // [0x787b5b0] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/MovieRenderPipelineCore.MoviePipelineQueueEngineSubsystem.GetActiveExecutor
-	// class UMoviePipelineExecutorBase* GetActiveExecutor();                                                                   // [0x499c160] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// class UMoviePipelineExecutorBase* GetActiveExecutor();                                                                   // [0x4a7c360] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/MovieRenderPipelineCore.MoviePipelineQueueEngineSubsystem.AllocateJob
-	// class UMoviePipelineExecutorJob* AllocateJob(class ULevelSequence* InSequence);                                          // [0x775b6e0] Final|Native|Public|BlueprintCallable 
+	// class UMoviePipelineExecutorJob* AllocateJob(class ULevelSequence* InSequence);                                          // [0x7879c40] Final|Native|Public|BlueprintCallable 
 };
 
 /// Class /Script/MovieRenderPipelineCore.MoviePipelineRenderPass
@@ -2341,7 +2341,7 @@ struct FMoviePipelineOutputData
 /// Size: 0x0050 (80 bytes) (0x000000 - 0x000050) align 8 MaxSize: 0x0050
 struct FMovieGraphEvaluationContext_VisitedNodeInfo
 { 
-	SDK_UNDEFINED(80,1144) /* TSet<UMovieGraphNode*> */ __um(VisitedNodes);                                        // 0x0000   (0x0050)  
+	SDK_UNDEFINED(80,1163) /* TSet<UMovieGraphNode*> */ __um(VisitedNodes);                                        // 0x0000   (0x0050)  
 };
 
 /// Struct /Script/MovieRenderPipelineCore.MovieGraphTraversalContext

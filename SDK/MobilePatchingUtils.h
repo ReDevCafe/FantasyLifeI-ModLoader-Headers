@@ -22,11 +22,11 @@ public:
 
 	/// Functions
 	// Function /Script/MobilePatchingUtils.MobileInstalledContent.mount
-	// bool mount(int32_t PakOrder, FString MountPoint);                                                                        // [0x889d700] Final|Native|Public|BlueprintCallable 
+	// bool mount(int32_t PakOrder, FString MountPoint);                                                                        // [0x89b9fc0] Final|Native|Public|BlueprintCallable 
 	// Function /Script/MobilePatchingUtils.MobileInstalledContent.GetInstalledContentSize
-	// float GetInstalledContentSize();                                                                                         // [0x889d4f0] Final|Native|Public|BlueprintCallable|BlueprintPure 
+	// float GetInstalledContentSize();                                                                                         // [0x89b9db0] Final|Native|Public|BlueprintCallable|BlueprintPure 
 	// Function /Script/MobilePatchingUtils.MobileInstalledContent.GetDiskFreeSpace
-	// float GetDiskFreeSpace();                                                                                                // [0x889d2d0] Final|Native|Public|BlueprintCallable|BlueprintPure 
+	// float GetDiskFreeSpace();                                                                                                // [0x89b9b90] Final|Native|Public|BlueprintCallable|BlueprintPure 
 };
 
 /// Class /Script/MobilePatchingUtils.MobilePendingContent
@@ -39,19 +39,19 @@ public:
 
 	/// Functions
 	// Function /Script/MobilePatchingUtils.MobilePendingContent.StartInstall
-	// void StartInstall(FDelegateProperty OnSucceeded, FDelegateProperty OnFailed);                                            // [0x889d9e0] Final|Native|Public|BlueprintCallable 
+	// void StartInstall(FDelegateProperty OnSucceeded, FDelegateProperty OnFailed);                                            // [0x89ba2a0] Final|Native|Public|BlueprintCallable 
 	// Function /Script/MobilePatchingUtils.MobilePendingContent.GetTotalDownloadedSize
-	// float GetTotalDownloadedSize();                                                                                          // [0x889d6a0] Final|Native|Public|BlueprintCallable|BlueprintPure 
+	// float GetTotalDownloadedSize();                                                                                          // [0x89b9f60] Final|Native|Public|BlueprintCallable|BlueprintPure 
 	// Function /Script/MobilePatchingUtils.MobilePendingContent.GetRequiredDiskSpace
-	// float GetRequiredDiskSpace();                                                                                            // [0x889d550] Final|Native|Public|BlueprintCallable|BlueprintPure 
+	// float GetRequiredDiskSpace();                                                                                            // [0x89b9e10] Final|Native|Public|BlueprintCallable|BlueprintPure 
 	// Function /Script/MobilePatchingUtils.MobilePendingContent.GetInstallProgress
-	// float GetInstallProgress();                                                                                              // [0x889d400] Final|Native|Public|BlueprintCallable|BlueprintPure 
+	// float GetInstallProgress();                                                                                              // [0x89b9cc0] Final|Native|Public|BlueprintCallable|BlueprintPure 
 	// Function /Script/MobilePatchingUtils.MobilePendingContent.GetDownloadStatusText
-	// FText GetDownloadStatusText();                                                                                           // [0x889d390] Final|Native|Public|BlueprintCallable|BlueprintPure 
+	// FText GetDownloadStatusText();                                                                                           // [0x89b9c50] Final|Native|Public|BlueprintCallable|BlueprintPure 
 	// Function /Script/MobilePatchingUtils.MobilePendingContent.GetDownloadSpeed
-	// float GetDownloadSpeed();                                                                                                // [0x889d330] Final|Native|Public|BlueprintCallable|BlueprintPure 
+	// float GetDownloadSpeed();                                                                                                // [0x89b9bf0] Final|Native|Public|BlueprintCallable|BlueprintPure 
 	// Function /Script/MobilePatchingUtils.MobilePendingContent.GetDownloadSize
-	// float GetDownloadSize();                                                                                                 // [0x889d300] Final|Native|Public|BlueprintCallable|BlueprintPure 
+	// float GetDownloadSize();                                                                                                 // [0x89b9bc0] Final|Native|Public|BlueprintCallable|BlueprintPure 
 };
 
 /// Class /Script/MobilePatchingUtils.MobilePatchingLibrary
@@ -63,15 +63,15 @@ public:
 
 	/// Functions
 	// Function /Script/MobilePatchingUtils.MobilePatchingLibrary.RequestContent
-	// void RequestContent(FString RemoteManifestURL, FString CloudURL, FString InstallDirectory, FDelegateProperty OnSucceeded, FDelegateProperty OnFailed); // [0x889d7f0] Final|Native|Static|Public|BlueprintCallable 
+	// void RequestContent(FString RemoteManifestURL, FString CloudURL, FString InstallDirectory, FDelegateProperty OnSucceeded, FDelegateProperty OnFailed); // [0x89ba0b0] Final|Native|Static|Public|BlueprintCallable 
 	// Function /Script/MobilePatchingUtils.MobilePatchingLibrary.HasActiveWiFiConnection
-	// bool HasActiveWiFiConnection();                                                                                          // [0x4dd9ef0] Final|Native|Static|Public|BlueprintCallable|BlueprintPure 
+	// bool HasActiveWiFiConnection();                                                                                          // [0x4eb9d20] Final|Native|Static|Public|BlueprintCallable|BlueprintPure 
 	// Function /Script/MobilePatchingUtils.MobilePatchingLibrary.GetSupportedPlatformNames
-	// TArray<FString> GetSupportedPlatformNames();                                                                             // [0x889d5b0] Final|Native|Static|Public|BlueprintCallable|BlueprintPure 
+	// TArray<FString> GetSupportedPlatformNames();                                                                             // [0x89b9e70] Final|Native|Static|Public|BlueprintCallable|BlueprintPure 
 	// Function /Script/MobilePatchingUtils.MobilePatchingLibrary.GetInstalledContent
-	// class UMobileInstalledContent* GetInstalledContent(FString InstallDirectory);                                            // [0x889d450] Final|Native|Static|Public|BlueprintCallable|BlueprintPure 
+	// class UMobileInstalledContent* GetInstalledContent(FString InstallDirectory);                                            // [0x89b9d10] Final|Native|Static|Public|BlueprintCallable|BlueprintPure 
 	// Function /Script/MobilePatchingUtils.MobilePatchingLibrary.GetActiveDeviceProfileName
-	// FString GetActiveDeviceProfileName();                                                                                    // [0x889d230] Final|Native|Static|Public|BlueprintCallable|BlueprintPure 
+	// FString GetActiveDeviceProfileName();                                                                                    // [0x89b9af0] Final|Native|Static|Public|BlueprintCallable|BlueprintPure 
 };
 
 #pragma pack(pop)

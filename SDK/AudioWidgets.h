@@ -156,25 +156,25 @@ public:
 
 	/// Functions
 	// Function /Script/AudioWidgets.AudioMeter.SetMeterValueColor
-	// void SetMeterValueColor(FLinearColor InValue);                                                                           // [0x8898d70] Final|Native|Public|HasDefaults|BlueprintCallable 
+	// void SetMeterValueColor(FLinearColor InValue);                                                                           // [0x89b5630] Final|Native|Public|HasDefaults|BlueprintCallable 
 	// Function /Script/AudioWidgets.AudioMeter.SetMeterScaleLabelColor
-	// void SetMeterScaleLabelColor(FLinearColor InValue);                                                                      // [0x8898c60] Final|Native|Public|HasDefaults|BlueprintCallable 
+	// void SetMeterScaleLabelColor(FLinearColor InValue);                                                                      // [0x89b5520] Final|Native|Public|HasDefaults|BlueprintCallable 
 	// Function /Script/AudioWidgets.AudioMeter.SetMeterScaleColor
-	// void SetMeterScaleColor(FLinearColor InValue);                                                                           // [0x8898b50] Final|Native|Public|HasDefaults|BlueprintCallable 
+	// void SetMeterScaleColor(FLinearColor InValue);                                                                           // [0x89b5410] Final|Native|Public|HasDefaults|BlueprintCallable 
 	// Function /Script/AudioWidgets.AudioMeter.SetMeterPeakColor
-	// void SetMeterPeakColor(FLinearColor InValue);                                                                            // [0x8898a40] Final|Native|Public|HasDefaults|BlueprintCallable 
+	// void SetMeterPeakColor(FLinearColor InValue);                                                                            // [0x89b5300] Final|Native|Public|HasDefaults|BlueprintCallable 
 	// Function /Script/AudioWidgets.AudioMeter.SetMeterClippingColor
-	// void SetMeterClippingColor(FLinearColor InValue);                                                                        // [0x8898930] Final|Native|Public|HasDefaults|BlueprintCallable 
+	// void SetMeterClippingColor(FLinearColor InValue);                                                                        // [0x89b51f0] Final|Native|Public|HasDefaults|BlueprintCallable 
 	// Function /Script/AudioWidgets.AudioMeter.SetMeterChannelInfo
-	// void SetMeterChannelInfo(TArray<FMeterChannelInfo>& InMeterChannelInfo);                                                 // [0x8898880] Final|Native|Public|HasOutParms|BlueprintCallable 
+	// void SetMeterChannelInfo(TArray<FMeterChannelInfo>& InMeterChannelInfo);                                                 // [0x89b5140] Final|Native|Public|HasOutParms|BlueprintCallable 
 	// Function /Script/AudioWidgets.AudioMeter.SetMeterBackgroundColor
-	// void SetMeterBackgroundColor(FLinearColor InValue);                                                                      // [0x8898770] Final|Native|Public|HasDefaults|BlueprintCallable 
+	// void SetMeterBackgroundColor(FLinearColor InValue);                                                                      // [0x89b5030] Final|Native|Public|HasDefaults|BlueprintCallable 
 	// Function /Script/AudioWidgets.AudioMeter.SetBackgroundColor
-	// void SetBackgroundColor(FLinearColor InValue);                                                                           // [0x8898520] Final|Native|Public|HasDefaults|BlueprintCallable 
+	// void SetBackgroundColor(FLinearColor InValue);                                                                           // [0x89b4de0] Final|Native|Public|HasDefaults|BlueprintCallable 
 	// Function /Script/AudioWidgets.AudioMeter.GetMeterChannelInfo__DelegateSignature
-	// TArray<FMeterChannelInfo> GetMeterChannelInfo__DelegateSignature();                                                      // [0x2fd44f0] Public|Delegate      
+	// TArray<FMeterChannelInfo> GetMeterChannelInfo__DelegateSignature();                                                      // [0x30b4600] Public|Delegate      
 	// Function /Script/AudioWidgets.AudioMeter.GetMeterChannelInfo
-	// TArray<FMeterChannelInfo> GetMeterChannelInfo();                                                                         // [0x8898240] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// TArray<FMeterChannelInfo> GetMeterChannelInfo();                                                                         // [0x89b4b00] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 };
 
 /// Struct /Script/AudioWidgets.FixedSampleSequenceRulerStyle
@@ -270,11 +270,11 @@ public:
 
 	/// Functions
 	// Function /Script/AudioWidgets.AudioOscilloscope.StopProcessing
-	// void StopProcessing();                                                                                                   // [0x8899d00] Final|Native|Public|BlueprintCallable 
+	// void StopProcessing();                                                                                                   // [0x89b65c0] Final|Native|Public|BlueprintCallable 
 	// Function /Script/AudioWidgets.AudioOscilloscope.StartProcessing
-	// void StartProcessing();                                                                                                  // [0x8899ca0] Final|Native|Public|BlueprintCallable 
+	// void StartProcessing();                                                                                                  // [0x89b6560] Final|Native|Public|BlueprintCallable 
 	// Function /Script/AudioWidgets.AudioOscilloscope.GetOscilloscopeAudioSamples__DelegateSignature
-	// TArray<float> GetOscilloscopeAudioSamples__DelegateSignature();                                                          // [0x2fd44f0] Public|Delegate      
+	// TArray<float> GetOscilloscopeAudioSamples__DelegateSignature();                                                          // [0x30b4600] Public|Delegate      
 };
 
 /// Class /Script/AudioWidgets.AudioRadialSlider
@@ -304,35 +304,35 @@ public:
 
 	/// Functions
 	// Function /Script/AudioWidgets.AudioRadialSlider.SetWidgetLayout
-	// void SetWidgetLayout(TEnumAsByte<EAudioRadialSliderLayout> InLayout);                                                    // [0x8899c10] Final|Native|Public|BlueprintCallable 
+	// void SetWidgetLayout(TEnumAsByte<EAudioRadialSliderLayout> InLayout);                                                    // [0x89b64d0] Final|Native|Public|BlueprintCallable 
 	// Function /Script/AudioWidgets.AudioRadialSlider.SetValueTextReadOnly
-	// void SetValueTextReadOnly(bool bIsReadOnly);                                                                             // [0x88999d0] Final|Native|Public|BlueprintCallable 
+	// void SetValueTextReadOnly(bool bIsReadOnly);                                                                             // [0x89b6290] Final|Native|Public|BlueprintCallable 
 	// Function /Script/AudioWidgets.AudioRadialSlider.SetUnitsTextReadOnly
-	// void SetUnitsTextReadOnly(bool bIsReadOnly);                                                                             // [0x8899890] Final|Native|Public|BlueprintCallable 
+	// void SetUnitsTextReadOnly(bool bIsReadOnly);                                                                             // [0x89b6150] Final|Native|Public|BlueprintCallable 
 	// Function /Script/AudioWidgets.AudioRadialSlider.SetUnitsText
-	// void SetUnitsText(FText Units);                                                                                          // [0x8899730] Final|Native|Public|BlueprintCallable 
+	// void SetUnitsText(FText Units);                                                                                          // [0x89b5ff0] Final|Native|Public|BlueprintCallable 
 	// Function /Script/AudioWidgets.AudioRadialSlider.SetTextLabelBackgroundColor
-	// void SetTextLabelBackgroundColor(FSlateColor InColor);                                                                   // [0x8899570] Final|Native|Public|BlueprintCallable 
+	// void SetTextLabelBackgroundColor(FSlateColor InColor);                                                                   // [0x89b5e30] Final|Native|Public|BlueprintCallable 
 	// Function /Script/AudioWidgets.AudioRadialSlider.SetSliderThickness
-	// void SetSliderThickness(float InThickness);                                                                              // [0x8899420] Final|Native|Public|BlueprintCallable 
+	// void SetSliderThickness(float InThickness);                                                                              // [0x89b5ce0] Final|Native|Public|BlueprintCallable 
 	// Function /Script/AudioWidgets.AudioRadialSlider.SetSliderProgressColor
-	// void SetSliderProgressColor(FLinearColor InValue);                                                                       // [0x8899380] Final|Native|Public|HasDefaults|BlueprintCallable 
+	// void SetSliderProgressColor(FLinearColor InValue);                                                                       // [0x89b5c40] Final|Native|Public|HasDefaults|BlueprintCallable 
 	// Function /Script/AudioWidgets.AudioRadialSlider.SetSliderBarColor
-	// void SetSliderBarColor(FLinearColor InValue);                                                                            // [0x8899240] Final|Native|Public|HasDefaults|BlueprintCallable 
+	// void SetSliderBarColor(FLinearColor InValue);                                                                            // [0x89b5b00] Final|Native|Public|HasDefaults|BlueprintCallable 
 	// Function /Script/AudioWidgets.AudioRadialSlider.SetShowUnitsText
-	// void SetShowUnitsText(bool bShowUnitsText);                                                                              // [0x8899060] Final|Native|Public|BlueprintCallable 
+	// void SetShowUnitsText(bool bShowUnitsText);                                                                              // [0x89b5920] Final|Native|Public|BlueprintCallable 
 	// Function /Script/AudioWidgets.AudioRadialSlider.SetShowLabelOnlyOnHover
-	// void SetShowLabelOnlyOnHover(bool bShowLabelOnlyOnHover);                                                                // [0x8898f20] Final|Native|Public|BlueprintCallable 
+	// void SetShowLabelOnlyOnHover(bool bShowLabelOnlyOnHover);                                                                // [0x89b57e0] Final|Native|Public|BlueprintCallable 
 	// Function /Script/AudioWidgets.AudioRadialSlider.SetOutputRange
-	// void SetOutputRange(FVector2D InOutputRange);                                                                            // [0x8898e80] Final|Native|Public|HasDefaults|BlueprintCallable 
+	// void SetOutputRange(FVector2D InOutputRange);                                                                            // [0x89b5740] Final|Native|Public|HasDefaults|BlueprintCallable 
 	// Function /Script/AudioWidgets.AudioRadialSlider.SetHandStartEndRatio
-	// void SetHandStartEndRatio(FVector2D InHandStartEndRatio);                                                                // [0x88986d0] Final|Native|Public|HasDefaults|BlueprintCallable 
+	// void SetHandStartEndRatio(FVector2D InHandStartEndRatio);                                                                // [0x89b4f90] Final|Native|Public|HasDefaults|BlueprintCallable 
 	// Function /Script/AudioWidgets.AudioRadialSlider.SetCenterBackgroundColor
-	// void SetCenterBackgroundColor(FLinearColor InValue);                                                                     // [0x8898630] Final|Native|Public|HasDefaults|BlueprintCallable 
+	// void SetCenterBackgroundColor(FLinearColor InValue);                                                                     // [0x89b4ef0] Final|Native|Public|HasDefaults|BlueprintCallable 
 	// Function /Script/AudioWidgets.AudioRadialSlider.GetSliderValue
-	// float GetSliderValue(float OutputValue);                                                                                 // [0x8898480] Final|Native|Public|BlueprintCallable 
+	// float GetSliderValue(float OutputValue);                                                                                 // [0x89b4d40] Final|Native|Public|BlueprintCallable 
 	// Function /Script/AudioWidgets.AudioRadialSlider.GetOutputValue
-	// float GetOutputValue(float InSliderValue);                                                                               // [0x8898340] Final|Native|Public|BlueprintCallable 
+	// float GetOutputValue(float InSliderValue);                                                                               // [0x89b4c00] Final|Native|Public|BlueprintCallable 
 };
 
 /// Class /Script/AudioWidgets.AudioVolumeRadialSlider
@@ -380,31 +380,31 @@ public:
 
 	/// Functions
 	// Function /Script/AudioWidgets.AudioSliderBase.SetWidgetBackgroundColor
-	// void SetWidgetBackgroundColor(FLinearColor InValue);                                                                     // [0x8899b70] Final|Native|Public|HasDefaults|BlueprintCallable 
+	// void SetWidgetBackgroundColor(FLinearColor InValue);                                                                     // [0x89b6430] Final|Native|Public|HasDefaults|BlueprintCallable 
 	// Function /Script/AudioWidgets.AudioSliderBase.SetValueTextReadOnly
-	// void SetValueTextReadOnly(bool bIsReadOnly);                                                                             // [0x8899aa0] Final|Native|Public|BlueprintCallable 
+	// void SetValueTextReadOnly(bool bIsReadOnly);                                                                             // [0x89b6360] Final|Native|Public|BlueprintCallable 
 	// Function /Script/AudioWidgets.AudioSliderBase.SetUnitsTextReadOnly
-	// void SetUnitsTextReadOnly(bool bIsReadOnly);                                                                             // [0x8899930] Final|Native|Public|BlueprintCallable 
+	// void SetUnitsTextReadOnly(bool bIsReadOnly);                                                                             // [0x89b61f0] Final|Native|Public|BlueprintCallable 
 	// Function /Script/AudioWidgets.AudioSliderBase.SetUnitsText
-	// void SetUnitsText(FText Units);                                                                                          // [0x88997e0] Final|Native|Public|BlueprintCallable 
+	// void SetUnitsText(FText Units);                                                                                          // [0x89b60a0] Final|Native|Public|BlueprintCallable 
 	// Function /Script/AudioWidgets.AudioSliderBase.SetTextLabelBackgroundColor
-	// void SetTextLabelBackgroundColor(FSlateColor InColor);                                                                   // [0x8899650] Final|Native|Public|BlueprintCallable 
+	// void SetTextLabelBackgroundColor(FSlateColor InColor);                                                                   // [0x89b5f10] Final|Native|Public|BlueprintCallable 
 	// Function /Script/AudioWidgets.AudioSliderBase.SetSliderThumbColor
-	// void SetSliderThumbColor(FLinearColor InValue);                                                                          // [0x88994d0] Final|Native|Public|HasDefaults|BlueprintCallable 
+	// void SetSliderThumbColor(FLinearColor InValue);                                                                          // [0x89b5d90] Final|Native|Public|HasDefaults|BlueprintCallable 
 	// Function /Script/AudioWidgets.AudioSliderBase.SetSliderBarColor
-	// void SetSliderBarColor(FLinearColor InValue);                                                                            // [0x88992e0] Final|Native|Public|HasDefaults|BlueprintCallable 
+	// void SetSliderBarColor(FLinearColor InValue);                                                                            // [0x89b5ba0] Final|Native|Public|HasDefaults|BlueprintCallable 
 	// Function /Script/AudioWidgets.AudioSliderBase.SetSliderBackgroundColor
-	// void SetSliderBackgroundColor(FLinearColor InValue);                                                                     // [0x88991a0] Final|Native|Public|HasDefaults|BlueprintCallable 
+	// void SetSliderBackgroundColor(FLinearColor InValue);                                                                     // [0x89b5a60] Final|Native|Public|HasDefaults|BlueprintCallable 
 	// Function /Script/AudioWidgets.AudioSliderBase.SetShowUnitsText
-	// void SetShowUnitsText(bool bShowUnitsText);                                                                              // [0x8899100] Final|Native|Public|BlueprintCallable 
+	// void SetShowUnitsText(bool bShowUnitsText);                                                                              // [0x89b59c0] Final|Native|Public|BlueprintCallable 
 	// Function /Script/AudioWidgets.AudioSliderBase.SetShowLabelOnlyOnHover
-	// void SetShowLabelOnlyOnHover(bool bShowLabelOnlyOnHover);                                                                // [0x8898fc0] Final|Native|Public|BlueprintCallable 
+	// void SetShowLabelOnlyOnHover(bool bShowLabelOnlyOnHover);                                                                // [0x89b5880] Final|Native|Public|BlueprintCallable 
 	// Function /Script/AudioWidgets.AudioSliderBase.GetSliderValue
-	// float GetSliderValue(float OutputValue);                                                                                 // [0x88981a0] Final|Native|Public|BlueprintCallable 
+	// float GetSliderValue(float OutputValue);                                                                                 // [0x89b4a60] Final|Native|Public|BlueprintCallable 
 	// Function /Script/AudioWidgets.AudioSliderBase.GetOutputValue
-	// float GetOutputValue(float InSliderValue);                                                                               // [0x88983e0] Final|Native|Public|BlueprintCallable 
+	// float GetOutputValue(float InSliderValue);                                                                               // [0x89b4ca0] Final|Native|Public|BlueprintCallable 
 	// Function /Script/AudioWidgets.AudioSliderBase.GetLinValue
-	// float GetLinValue(float OutputValue);                                                                                    // [0x88981a0] Final|Native|Public|BlueprintCallable 
+	// float GetLinValue(float OutputValue);                                                                                    // [0x89b4a60] Final|Native|Public|BlueprintCallable 
 };
 
 /// Class /Script/AudioWidgets.AudioSlider
@@ -471,11 +471,11 @@ public:
 
 	/// Functions
 	// Function /Script/AudioWidgets.AudioVectorscope.StopProcessing
-	// void StopProcessing();                                                                                                   // [0x8899d30] Final|Native|Public|BlueprintCallable 
+	// void StopProcessing();                                                                                                   // [0x89b65f0] Final|Native|Public|BlueprintCallable 
 	// Function /Script/AudioWidgets.AudioVectorscope.StartProcessing
-	// void StartProcessing();                                                                                                  // [0x8899cd0] Final|Native|Public|BlueprintCallable 
+	// void StartProcessing();                                                                                                  // [0x89b6590] Final|Native|Public|BlueprintCallable 
 	// Function /Script/AudioWidgets.AudioVectorscope.GetVectorscopeAudioSamples__DelegateSignature
-	// TArray<float> GetVectorscopeAudioSamples__DelegateSignature();                                                           // [0x2fd44f0] Public|Delegate      
+	// TArray<float> GetVectorscopeAudioSamples__DelegateSignature();                                                           // [0x30b4600] Public|Delegate      
 };
 
 /// Struct /Script/AudioWidgets.AudioSpectrumPlotStyle

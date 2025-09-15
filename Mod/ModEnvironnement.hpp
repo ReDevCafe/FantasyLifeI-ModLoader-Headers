@@ -1,7 +1,6 @@
 #ifndef MODENVIRONNEMENT_HPP
     #define MODENVIRONNEMENT_HPP
 
-    #include "Json.hpp"
     #include "Mod/ModObject.hpp"
     #include "Mod/ModBase.hpp"
     #include <mutex>
@@ -20,25 +19,34 @@
     #define CloseLib dlclose
 #endif
 
-class ModEnvironnement 
+class ModEnvironnement
 {
     public:
-        ModEnvironnement(std::string modDirs = "../../../Mods");
-        ~ModEnvironnement() { Free(); };
+    ModEnvironnement(std::string modDirs);
 
-        void                    PreLoad();
-        void                    PostLoad();
-        void                    Free();
     private:
-        int                     SetupEnvironnement(std::string modDirs);
+    // Archive reading, decompression shit..
+    bool                    findModJsonInArchive(const std::filesystem::path& archivePath, std::string& foundPath);
+    bool                    findModLibInArchive(const std::filesystem::path& archivePath, const std::string& libName, std::string& foundPath);
+    bool                    readContentFromArchive(const std::filesystem::path& archivePath, const std::string& internalName, std::vector<char>& bufferOut);
+    std::filesystem::path   writeBufferToTemp(const std::vector<char>& buffer, const std::string& suffix);
 
-        ModMetaData             parseModMeta(std::filesystem::path filename);
-        void                    resolveOrder(std::vector<ModObject*> mods);
-
-        std::vector<ModObject*>                 _modsList;
-        std::vector<LibHandle>                  _modLibList;
-        std::vector<std::unique_ptr<ModBase>>   _modPTRList;
-        std::mutex _mergeMutex;
+    // Loading libs and parsing metadatas
+    ModMetaData             parseModData(const std::vector<char>& buf);
+    void                    resolveOrder(std::vector<ModObject*> mods);
+    
+    public:
+    void                    SetupEnvironnnement(std::string modDirs);
+    void                    PreLoad();
+    void                    PostLoad();
+    void                    Free();
+    
+    private:
+    std::vector<ModObject*>                 _modsList;
+    std::vector<LibHandle>                  _modLibList;
+    std::vector<std::unique_ptr<ModBase>>   _modPtrList;
+    std::vector<std::filesystem::path>      _tempFilesToRemove;
+    std::mutex _mergeMutex;
 };
 
-#endif // !
+#endif

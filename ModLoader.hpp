@@ -11,6 +11,10 @@
     #include "Patcher/Patches/EventHook.hpp"
     #include "Export.h"
 
+    #ifndef MLVERSION
+    #define MLVERSION 0.5
+    #endif
+
 class ModLoader {
     public:
         ML_API static GameData *gameData;

@@ -11,8 +11,10 @@
     #include "API/Item/ItemData.hpp"
     #include "API/Recipe/RecipeData.hpp"
     #include <memory>
+    
+    #include "Export.h"
 
-class GameData {
+class ML_API GameData {
     public:
         GameData(uintptr_t baseAddress);
         ~GameData() = default;

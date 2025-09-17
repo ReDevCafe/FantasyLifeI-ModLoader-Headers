@@ -45787,7 +45787,7 @@ struct FGDStCommon_ItemEffParam
 	int16_t                                            val;                                                        // 0x0000   (0x0002)  
 	int16_t                                            Time;                                                       // 0x0002   (0x0002)  
 	bool                                               isRange;                                                    // 0x0004   (0x0001)  
-	char                                               itemEffectType;                                             // 0x0005   (0x0001)  
+	EItemEffectType									   itemEffectType;                                             // 0x0005   (0x0001)  
 	unsigned char                                      UnknownData00_6[0x2];                                       // 0x0006   (0x0002)  MISSED
 	FName                                              effDescId;                                                  // 0x0008   (0x0008)  
 };
@@ -45797,7 +45797,7 @@ struct FGDStCommon_ItemEffParam
 struct FGDItemConsumeData : FGDItemData
 { 
 	uint16_t                                           StackCheckNum;                                              // 0x00F0   (0x0002)  
-	char                                               itemUseActionType;                                          // 0x00F2   (0x0001)  
+	EItemUseActionType                                 itemUseActionType;                                          // 0x00F2   (0x0001)  
 	unsigned char                                      UnknownData00_6[0x1];                                       // 0x00F3   (0x0001)  MISSED
 	FName                                              modelID;                                                    // 0x00F4   (0x0008)  
 	FName                                              cmdId;                                                      // 0x00FC   (0x0008)  

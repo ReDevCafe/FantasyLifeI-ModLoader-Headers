@@ -9,12 +9,11 @@
 class ML_API ItemArmorData : public ItemUniqueSkillEquipData
 {
     public:
-        ItemArmorData(FGDItemArmorData& data) : 
-            ItemUniqueSkillEquipData(data)
-        {};
+        ItemArmorData(FGDItemArmorData& data) : ItemUniqueSkillEquipData(data){};
+        ItemArmorData(ItemData data) : ItemUniqueSkillEquipData(reinterpret_cast<FGDItemUniqueSkillEquipData&>(data.getObject())){};
 
-        bool GetDisableBurial()             { return  reinterpret_cast<FGDItemArmorData*>(&this->_object)->disableBurial; }
-        void SetDisableBurial(bool value)   { reinterpret_cast<FGDItemArmorData*>(&this->_object)->disableBurial = value; }
+        bool    GetDisableBurial()                          { return  reinterpret_cast<FGDItemArmorData*>(&this->_object)->disableBurial; }
+        void    SetDisableBurial(bool value)                { reinterpret_cast<FGDItemArmorData*>(&this->_object)->disableBurial = value; }
 
         int32_t GetPhysicalDefense(int index)               { return reinterpret_cast<FGDItemArmorData*>(&this->_object)->physicalDefenseList[index]; }
         void    SetPhysicalDefense(int index, int32_t def)  { reinterpret_cast<FGDItemArmorData*>(&this->_object)->physicalDefenseList[index]  = def; }

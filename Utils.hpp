@@ -7,6 +7,7 @@
     #include <Windows.h>
     #include "SDK.h"
     #include "Offset.h"
+    #include "Export.h"
 
     #define NAME_BUFFER 1024
 
@@ -15,7 +16,7 @@ struct FName;
 class Utils {
     public:
         static std::string &FNameToString(uintptr_t baseAddress, FName fname);
-        static std::string &FNameToString(FName fname);
+        ML_API static std::string &FNameToString(FName fname);
         
         static std::string &PC_FNameToString(uintptr_t baseAdress, FName fname);
         static std::string &PC_FNameToString(FName fname);

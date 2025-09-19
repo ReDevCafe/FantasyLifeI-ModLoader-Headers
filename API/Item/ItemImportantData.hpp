@@ -9,7 +9,7 @@ class ML_API ItemImportantData : public ItemData
         ItemImportantData(FGDItemImportantData& data) : ItemData(data){};
         ItemImportantData(ItemData data) : ItemData(data.getObject()){};
 
-        uint16_t GetStack() const { return reinterpret_cast<FGDItemImportantData*>(&this->_object)->StackCheckNum; }
+        uint16_t GetStack() const { return static_cast<FGDItemImportantData&>(this->_object).StackCheckNum; }
 };
 
 #endif // !ITEMIMPORTANTDATA_HPP

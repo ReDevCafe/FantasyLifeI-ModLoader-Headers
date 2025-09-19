@@ -8,7 +8,7 @@ class ML_API ItemWeaponData : public ItemUniqueSkillEquipData
 {
     public:
         ItemWeaponData(FGDItemWeaponData& data) : ItemUniqueSkillEquipData(data){};
-        ItemWeaponData(ItemData data) : ItemUniqueSkillEquipData(reinterpret_cast<FGDItemUniqueSkillEquipData&>(data.getObject())){};
+        ItemWeaponData(ItemData data) : ItemUniqueSkillEquipData(static_cast<FGDItemUniqueSkillEquipData&>(data.getObject())){};
 
         void    GetPhysicalOffenses();
 };

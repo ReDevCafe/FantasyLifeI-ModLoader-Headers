@@ -23,7 +23,7 @@ class ML_API EntityStats : public GameObjectProxy<FGDCharaParameter> {
         int32_t GetCriticalRateEvasion(ELifeType life);
     protected:
     private:
-        FGDCharaParameter_CharaStatusParam &_getParamFrom(ELifeType life);
+        FGDCharaParameter_CharaStatusParam &getParamFrom(ELifeType life);
 };
 
 #endif /* !ENTITYSTATS_HPP_ */

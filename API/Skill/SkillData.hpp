@@ -21,15 +21,11 @@ class ML_API SkillData : public GameObjectProxy<FGDSkillData>
 
         CommonSkillParam    GetParams()                          { return CommonSkillParam(this->_object.Params); }
 
-    protected:
         std::string         GetNameIdentifier();
-    public:
         std::string         GetName(LANG lang);
         void                SetName(LANG lang, FString name);
 
-    protected:
         std::string         GetDescIdentifier();
-    public:
         std::string         GetDescription(LANG lang);
         void                SetDescription(LANG lang, FString name);
 

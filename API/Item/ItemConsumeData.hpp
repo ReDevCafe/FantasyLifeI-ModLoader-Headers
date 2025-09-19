@@ -10,11 +10,11 @@ class ML_API ItemConsumeData : public ItemData
         ItemConsumeData(FGDItemConsumeData& data) : ItemData(data){};
         ItemConsumeData(ItemData data) : ItemData(data.getObject()){};
 
-        EItemUseActionType      GetActionType()     { return reinterpret_cast<FGDItemConsumeData*>(&this->_object)->itemUseActionType; }
+        EItemUseActionType      GetActionType()     { return static_cast<FGDItemConsumeData&>(this->_object).itemUseActionType; }
 
-        CommonItemEffectParam   GetFirstEffect()    { return (reinterpret_cast<FGDItemConsumeData*>(&this->_object)->effParam0); }
-        CommonItemEffectParam   GetSecondEffect()   { return (reinterpret_cast<FGDItemConsumeData*>(&this->_object)->effParam1); }
-        CommonItemEffectParam   GetThirdEffect()    { return (reinterpret_cast<FGDItemConsumeData*>(&this->_object)->effParam2); }
+        CommonItemEffectParam   GetFirstEffect()    { return static_cast<FGDItemConsumeData&>(this->_object).effParam0; }
+        CommonItemEffectParam   GetSecondEffect()   { return static_cast<FGDItemConsumeData&>(this->_object).effParam1; }
+        CommonItemEffectParam   GetThirdEffect()    { return static_cast<FGDItemConsumeData&>(this->_object).effParam2; }
 };
 
 #endif // !ITEMCONSUMEDATA_HPP

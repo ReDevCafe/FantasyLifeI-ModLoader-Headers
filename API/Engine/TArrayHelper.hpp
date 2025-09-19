@@ -10,13 +10,13 @@ class TArrayHelper
     public:
     static T    Get(TArray<T>& array, int index)
     {
-        if(index < 0 || index >= array.Count) throw std::out_of_range("TArrayHelper::Get() index out of range");
+        if(index < 0 || index >= array.Count - 1) throw std::out_of_range("TArrayHelper::Get() index out of range");
         return array.Data[index];
     }
 
     static void Set(TArray<T>& array, int index, T value)
     {
-        if(index < 0 || index >= array.Count) throw std::out_of_range("TArrayHelper::Set() index out of range");
+        if(index < 0 || index >= array.Count - 1) throw std::out_of_range("TArrayHelper::Set() index out of range");
         array.Data[index] = value;
     }
 

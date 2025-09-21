@@ -11,6 +11,8 @@
     #include "API/Item/ItemData.hpp"
     #include "API/Recipe/RecipeData.hpp"
     #include <memory>
+    
+    #include "Export.h"
 
 class GameData {
     public:
@@ -18,12 +20,12 @@ class GameData {
         ~GameData() = default;
 
         void initOthersData();
-        uintptr_t getBaseAddress();
-        FUObjectArray *getGObjects();
-        void *getGNames();
-        void *getGWorld();
-        UStaticDataManager *getStaticDataManager();
-        UDynamicDataManager *getDynamicDataManager();
+        ML_API uintptr_t getBaseAddress();
+        ML_API FUObjectArray *getGObjects();
+        ML_API void *getGNames();
+        ML_API void *getGWorld();
+        ML_API UStaticDataManager *getStaticDataManager();
+        ML_API UDynamicDataManager *getDynamicDataManager();
 
         template<typename T = void>
         T *getUObject(const std::string &name, bool safe = true, uint32_t nth = 0)
@@ -48,7 +50,7 @@ class GameData {
             return reinterpret_cast<T *>(object);
         }
 
-        Player *getPlayer();
+        ML_API Player *getPlayer();
 
         template<typename T = void *>
         void waitObject(T *object, const std::string &name = "", uint32_t nth = 0) {

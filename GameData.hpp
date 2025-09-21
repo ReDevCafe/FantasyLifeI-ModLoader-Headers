@@ -40,7 +40,7 @@ class GameData {
             for (int i = 0; i < _gObjects->ObjObjects.NumElements; ++i) {
                 object = _gObjects->getObject(i);
                 if (object == nullptr) continue;
-                if (FNameUtils::getString(_baseAddress, object->NamePrivate) == name && ++counter > nth) break;
+                if (FNameUtils::GetString(_baseAddress, object->NamePrivate) == name && ++counter > nth) break;
                 object = nullptr;
             }
             if (safe)

@@ -7,6 +7,7 @@
     #include <Windows.h>
     #include "SDK.h"
     #include "Offset.h"
+    #include "Export.h"
 
     #define NAME_BUFFER 1024
 

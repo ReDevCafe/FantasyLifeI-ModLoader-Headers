@@ -14,8 +14,8 @@ struct FName;
 
 class Utils {
     public:
-        static std::string &FNameToString(uintptr_t baseAddress, FName fname);
-        static std::string &FNameToString(FName fname);
+        static ML_API std::string &FNameToString(uintptr_t baseAddress, FName fname);
+        static ML_API std::string &FNameToString(FName fname);
         
         static std::string &PC_FNameToString(uintptr_t baseAdress, FName fname);
         static std::string &PC_FNameToString(FName fname);

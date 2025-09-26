@@ -3,6 +3,7 @@
     #define FUOBJECTARRAY_HPP_
 
     #include "SDK.h"
+    #include "Export.h"
     #include <Windows.h>
 
     #define NUM_ELEMENT_PER_CHUNK 65536
@@ -29,7 +30,7 @@ class FChunkedFixedUObjectArray {
         int32_t NumChunks;
 };
 
-class FUObjectArray {
+class ML_API FUObjectArray {
     public:
         FChunkedFixedUObjectArray ObjObjects;
         mutable FCriticalSection ObjObjectsCritical;

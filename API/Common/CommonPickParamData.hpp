@@ -3,7 +3,6 @@
 
     #include "CommonPickParamDataPickParam.hpp"
     #include "CommonPickStatusParam.hpp"
-    #include "API/Common/CommonPickParamData.hpp"
     #include <string>
     #include "Export.h"
 
@@ -14,8 +13,8 @@ class ML_API CommonPickParamData : GameObjectProxy<FGDCommonPickParamData>
             GameObjectProxy(data)
         {};
 
-        std::string                     GetIdentifier();
-        std::string                     GetGotIdentifier();
+        std::string&                    GetIdentifier();
+        std::string&                    GetGotIdentifier();
         CommonPickStatusParam           GetPickParamMin()       { return CommonPickStatusParam(this->_object.pickParamMin); }
         CommonPickStatusParam           GetPickParamMax()       { return CommonPickStatusParam(this->_object.pickParamMax); }
         CommonPickParamDataPickParam    GetPickInfo()           { return CommonPickParamDataPickParam(this->_object.commonPickInfo); }

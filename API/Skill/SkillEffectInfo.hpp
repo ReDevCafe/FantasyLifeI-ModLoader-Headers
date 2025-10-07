@@ -3,7 +3,6 @@
 
     #include "API/GameObjectProxy.hpp"
     #include "EffectCondition.hpp"
-    #include <vector>
     #include "Export.h"
 
 class ML_API SkillEffectInfo : public GameObjectProxy<FGDSkillData_SkillEffectInfo>

@@ -6,7 +6,7 @@
     #include <functional>
     #include <any>
     #include <stdexcept>
-    #include "windows.h"
+    #include <Windows.h>
     #include "Export.h"
 
 const std::string EventTypeNames[] = {"None", "ClickEvent"};

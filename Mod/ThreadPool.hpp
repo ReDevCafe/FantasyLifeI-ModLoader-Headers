@@ -1,10 +1,9 @@
 #ifndef THREADPOOL_HEADER
     #define THREADPOOL_HEADER
 
-    #include <atomic>
     #include <condition_variable>
-    #include <future>
     #include <mutex>
+    #include <functional>
     #include <queue>
     #include <thread>
     #include <vector>

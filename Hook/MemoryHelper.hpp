@@ -2,8 +2,6 @@
     #define MEMORYHELPER_HPP_
 
     #include <cstdint>
-    #include <limits>
-    #include <stdexcept>
     
     #define NOMINMAX
     #include <windows.h>

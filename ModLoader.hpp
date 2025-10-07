@@ -3,16 +3,12 @@
 
     #include "Logger/Logger.hpp"
     #include "Mod/ModEnvironnement.hpp"
-    #include "Utils.hpp"
     #include "GameData.hpp"
     #include "GameCache.hpp"
-    #include "Hook/MemoryHelper.hpp"
-    #include "Patcher/Patcher.hpp"
-    #include "Patcher/Patches/EventHook.hpp"
     #include "Export.h"
 
     #ifndef MLVERSION
-    #define MLVERSION 0.5
+        #define MLVERSION 0.5
     #endif
 
 class ModLoader {

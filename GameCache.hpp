@@ -1,11 +1,8 @@
 #ifndef GAMECACHE_HPP
     #define GAMECACHE_HPP
 
-    #include <functional>
     #include <string>
-    #include <type_traits>
-    #include <memory>
-
+    #include <unordered_map>
     #include "API/Item/ItemData.hpp"
     #include "API/Recipe/RecipeData.hpp"
     #include "API/Skill/SkillData.hpp"
@@ -25,17 +22,17 @@ class GameCache
         //                                          Called for caches that require the save to be loaded
         void                                        PostLoadCache   ();
 
-        FGDStCommon_NounInfo*                       GetNoun         (std::string key) const { return _cacheNounInfo.at(key); }
-        FGDStCommon_TextInfo*                       GetText         (std::string key) const { return _cacheTextInfo.at(key); }
-        SkillData                                   GetSkill        (std::string key) const { return *_cacheSkillData.at(key); }
-        CommonPickParamData                         GetPickParam    (std::string key) const { return *_cacheCommonPickParam.at(key); }
-        ItemData                                    GetItem         (std::string key) const { return *_cacheItemData.at(key); }
-        RecipeData                                  GetRecipe       (std::string key) const { return *_cacheRecipeData.at(key); }
-        CharaData                                   GetChara        (std::string key) const { return *_cacheCharaData.at(key); }
-        TArray<FGDAddSkillLotTable_AddSkillInfo>&   GetAddSkillTable(std::string key) const { return *_cacheAddSkillLotTable.at(key); }
+        FGDStCommon_NounInfo*                       GetNoun         (std::string& key) const { return _cacheNounInfo.at(key); }
+        FGDStCommon_TextInfo*                       GetText         (std::string& key) const { return _cacheTextInfo.at(key); }
+        SkillData                                   GetSkill        (std::string& key) const { return *_cacheSkillData.at(key); }
+        CommonPickParamData                         GetPickParam    (std::string& key) const { return *_cacheCommonPickParam.at(key); }
+        ItemData                                    GetItem         (std::string& key) const { return *_cacheItemData.at(key); }
+        RecipeData                                  GetRecipe       (std::string& key) const { return *_cacheRecipeData.at(key); }
+        CharaData                                   GetChara        (std::string& key) const { return *_cacheCharaData.at(key); }
+        TArray<FGDAddSkillLotTable_AddSkillInfo>&   GetAddSkillTable(std::string& key) const { return *_cacheAddSkillLotTable.at(key); }
 
-        MapSubLevel                                 GetSubLevel     (std::string key) const { return *_cacheSubLevel.at(key); }
-        MapData                                     GetMapData      (std::string key) const { return *_cacheMap.at(key); }
+        MapSubLevel                                 GetSubLevel     (std::string& key) const { return *_cacheSubLevel.at(key); }
+        MapData                                     GetMapData      (std::string& key) const { return *_cacheMap.at(key); }
 
         const std::unordered_map<std::string, std::unique_ptr<ItemData>>&   GetListItems() const { return _cacheItemData; }
         const std::unordered_map<std::string, std::unique_ptr<RecipeData>>& GetListRecipes() const { return _cacheRecipeData; }

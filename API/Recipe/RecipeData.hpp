@@ -4,7 +4,6 @@
     #include "RecipeDataLifeParamInfo.hpp"
     #include "RecipeDataItemInfo.hpp"
     #include "API/Recipe/RecipeDataRewardData.hpp"
-    #include <vector>
     #include "Export.h"
 
 class ML_API RecipeData : GameObjectProxy<FGDRecipeData>
@@ -14,8 +13,8 @@ public:
         : GameObjectProxy(data)
     {};
 
-    std::string GetIdentifier();
-    std::string GetItemIdentifier();
+    std::string&                    GetIdentifier();
+    std::string&                    GetItemIdentifier();
 
     ERecipeType                     GetType()                                   { return this->_object.Type; }
     void                            SetType(ERecipeType type)                   { this->_object.Type = type; }
@@ -53,7 +52,6 @@ public:
 
     bool                            GetNotAcquiredLife()                        { return this->_object.notAcquiredLife; }
     void                            SetNotAcquiredLife(bool i)                  { this->_object.notAcquiredLife = i; }
-        
 };
 
 #endif // !RECIPEDATA_HPP

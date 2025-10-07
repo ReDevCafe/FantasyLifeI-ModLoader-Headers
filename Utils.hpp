@@ -2,12 +2,10 @@
     #define UTILS_HPP_
 
     #include <string>
-    #include <unordered_map>
-    #include <stdexcept>
     #include <Windows.h>
-    #include "SDK.h"
-    #include "Offset.h"
     #include "Export.h"
+    #include <unordered_map>
+    #include "SDK/BasicType.h"
 
     #define NAME_BUFFER 1024
 

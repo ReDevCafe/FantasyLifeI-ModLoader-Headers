@@ -11,17 +11,17 @@ class ML_API LifeData : public GameObjectProxy<FGDLifeData>
         LifeData(FGDLifeData &data) : GameObjectProxy(data){};
 
     protected:
-        std::string GetNameIdentifier();
+        std::string& GetNameIdentifier();
     public:
-        std::string GetName(LANG lang);
-        void        SetName(LANG lang, FString string);
+        std::string  GetName(LANG lang);
+        void         SetName(LANG lang, FString string);
 
     protected:
-        std::string GetDescIdentifier();
+        std::string& GetDescIdentifier();
     public:
-        std::string GetDescription(LANG lang);
-        void        SetDescription(LANG lang, FString string);
+        std::string  GetDescription(LANG lang);
+        void         SetDescription(LANG lang, FString string);
 
 };
 
-#endif //  API_LIFEDATA_HPP*/
+#endif //  API_LIFEDATA_HPP

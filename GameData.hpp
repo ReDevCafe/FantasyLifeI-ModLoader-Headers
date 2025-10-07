@@ -1,17 +1,14 @@
 #ifndef GAMEDATA_HPP_
     #define GAMEDATA_HPP_
 
-    #include "SDK.h"
     #include "Engine/FUObjectArray.hpp"
     #include "API/Entities/Player/Player.hpp"
     #include "Utils.hpp"
-    #include "ModLoader.hpp"
+    #include <string_view>
     #include <type_traits>
-    #include <functional>
-    #include "API/Item/ItemData.hpp"
-    #include "API/Recipe/RecipeData.hpp"
     #include <memory>
     
+    #include "SDK.h"
     #include "Export.h"
 
 class GameData {
@@ -28,7 +25,7 @@ class GameData {
         ML_API UDynamicDataManager *getDynamicDataManager();
 
         template<typename T = void>
-        T *getUObject(const std::string &name, bool safe = true, uint32_t nth = 0)
+        T *getUObject(const std::string name, bool safe = true, uint32_t nth = 0)
         {
             if (_gObjects == nullptr) return nullptr;
             if (_cache.contains(name))
@@ -51,13 +48,13 @@ class GameData {
         }
 
         ML_API Player *getPlayer();
-
+        
         template<typename T = void *>
-        void waitObject(T *object, const std::string &name = "", uint32_t nth = 0) {
+        void waitObject(T *object, std::string_view name = {}, uint32_t nth = 0) {
             while (*object == nullptr) 
             {
-                if (name != "")
-                    *object = this->getUObject<typename std::remove_pointer<T>::type>(name, false, nth);
+                if (!name.empty())
+                    *object = this->getUObject<typename std::remove_pointer<T>::type>(name.data(), false, nth);
                 Sleep(1);
             }
         }

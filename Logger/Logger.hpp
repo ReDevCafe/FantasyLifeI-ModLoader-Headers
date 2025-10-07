@@ -3,7 +3,6 @@
 
 #include <string>
 #include <ostream>
-#include <string_view>
 #include <sstream>
 #include <iostream>
 #include <fstream>
@@ -11,13 +10,12 @@
 #include <functional>
 #include <filesystem>
 #include <ctime>
+#include <utility>
 
 #ifdef _WIN32
     #include <ShlObj.h>
     #include <Windows.h>
-
     #pragma comment (lib, "shell32.lib")
-
 #else
     #include <cstdlib>
 #endif
@@ -26,14 +24,14 @@ class Logger
 {
     private:
         template<typename... Args>
-        void log(std::string_view level, Args&&... args)
+        void log(const std::string &level, Args&&... args)
         {
-            mutex.lock();
+            std::lock_guard<std::mutex> lock(mutex);
             std::ostringstream oss;
             (oss << ... << std::forward<Args>(args));
 
             std::string content = prefix + oss.str();
-            logFunc(std::string(level) + content + "\033[0m\n");
+            logFunc(level + content + "\033[0m\n");
             std::cout.flags(std::ios::fmtflags(0));
 
             pushToFile(content);

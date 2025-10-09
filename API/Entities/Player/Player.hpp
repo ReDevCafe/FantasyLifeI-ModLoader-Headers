@@ -4,7 +4,6 @@
 
     #include "../EntityStats.hpp"
     #include "../EntityStatus.hpp"
-    #include <cstddef>
     #include "Export.h"
 
 class ML_API Player {
@@ -18,7 +17,6 @@ class ML_API Player {
     
     public:
     ELifeType    GetLifeType();
-    std::string& GetLifeId();
     void        SetExp(ELifeType life, uint32_t exp);
     void        SetLevel(ELifeType life, uint16_t lvl);
     uint32_t    GetExp(ELifeType life);

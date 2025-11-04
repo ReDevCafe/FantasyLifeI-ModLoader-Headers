@@ -10,7 +10,7 @@
   #include "ConfigValue.hpp"
   #include "../../Lib/json.hpp"
 
-using json = nlohmann::json;
+  using json = nlohmann::json;
 
 /*
  * Please refer to the following documentation:

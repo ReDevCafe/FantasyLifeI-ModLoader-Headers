@@ -3,7 +3,6 @@
 
   #include <mutex>
 
-
 /*
 * Please refer to the following documentation:
 * https://github.com/ReDevCafe/FantasyLifeI-API/tree/master/.github/doc/Mod/ConfigurationFiles.md

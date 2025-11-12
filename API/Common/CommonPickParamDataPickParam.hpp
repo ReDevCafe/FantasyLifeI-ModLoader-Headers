@@ -2,6 +2,7 @@
     #define COMMONPICKPARAMDATAPICKPARAM
 
     #include "API/GameObjectProxy.hpp"
+    #include "SDK.h"
 
 class CommonPickParamDataPickParam : public GameObjectProxy<FGDCommonPickParamData_CommonPickParam>
 {

@@ -1,7 +1,9 @@
 #ifndef ENTITYSTATUS_HPP_
     #define ENTITYSTATUS_HPP_
 
-    #include "API/GameObjectProxy.hpp"
+    #include <cstdint>
+    #include "SDK.h"
+
     #include "Export.h"
 
 class ML_API EntityStatus {

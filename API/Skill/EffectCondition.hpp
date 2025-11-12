@@ -2,6 +2,7 @@
     #define EFFECTCONDITION_HPP
 
     #include "API/GameObjectProxy.hpp"
+    #include "SDK.h"
 
 class EffectCondition : public GameObjectProxy<FGDSkillData_EffCond>
 {

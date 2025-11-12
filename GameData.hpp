@@ -13,10 +13,11 @@
 
 class GameData {
     public:
-        GameData(uintptr_t baseAddress);
+        GameData(uintptr_t baseAddress, uint32_t imageSize);
         ~GameData() = default;
 
         void initOthersData();
+        ML_API uint32_t getImageSize();
         ML_API uintptr_t getBaseAddress();
         ML_API FUObjectArray *getGObjects();
         ML_API void *getGNames();
@@ -62,6 +63,7 @@ class GameData {
     protected:
     private:
         uintptr_t _baseAddress; 
+        uint32_t _imageSize;
         FUObjectArray *_gObjects;
         void *_gNames;
         void *_gWorld;

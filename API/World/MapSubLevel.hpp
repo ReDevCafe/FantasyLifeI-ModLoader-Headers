@@ -1,6 +1,7 @@
 #ifndef MAPSUBLEVEL_HPP
     #define MAPSUBLEVEL_HPP
 
+    #include "SDK.h"
     #include "API/GameObjectProxy.hpp"
     #include "Export.h"
 

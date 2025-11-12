@@ -2,6 +2,7 @@
     #define CHARADATA_HPP
 
     #include "API/GameObjectProxy.hpp"
+    #include "SDK.h"
     #include "API/Language.hpp"
     #include "Export.h"
 

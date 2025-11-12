@@ -2,6 +2,8 @@
     #define COMMONITEMEFFECTPARAM_HPP
 
     #include "API/GameObjectProxy.hpp"
+    #include "SDK.h"
+    #include <cstdint>
     #include "API/Language.hpp"
 
 class CommonItemEffectParam : public GameObjectProxy<FGDStCommon_ItemEffParam>

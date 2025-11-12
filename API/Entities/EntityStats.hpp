@@ -5,6 +5,7 @@
     #include "../GameObjectProxy.hpp"
     #include <stdexcept>
     #include "Export.h"
+    #include "SDK.h"
 
 class ML_API EntityStats : public GameObjectProxy<FGDCharaParameter> {
     public:

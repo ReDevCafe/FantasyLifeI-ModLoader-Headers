@@ -2,6 +2,7 @@
     #define COMMONPICKSTAATUSPARAM_HPP
 
     #include "API/GameObjectProxy.hpp"
+    #include "SDK.h"
     #include "Export.h"
 
 class ML_API  CommonPickStatusParam : public GameObjectProxy<FGDStCommon_PickStatusParam>

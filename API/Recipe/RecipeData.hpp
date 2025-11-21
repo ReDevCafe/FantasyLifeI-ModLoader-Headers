@@ -13,8 +13,8 @@ public:
         : GameObjectProxy(data)
     {};
 
-    std::string&                    GetIdentifier();
-    std::string&                    GetItemIdentifier();
+    std::string                     GetIdentifier();
+    std::string                     GetItemIdentifier();
 
     ERecipeType                     GetType()                                   { return static_cast<ERecipeType>(this->_object.Type); }
     void                            SetType(ERecipeType type)                   { this->_object.Type =  static_cast<char>(type); }

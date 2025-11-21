@@ -13,7 +13,7 @@ class ML_API ItemTableDetail : public GameObjectProxy<FGDStItem_ItemTableDetail>
     {};
 
     protected:
-    std::string& GetItemIdentifier();
+    std::string GetItemIdentifier();
 
     public:
     ItemData    GetItem();

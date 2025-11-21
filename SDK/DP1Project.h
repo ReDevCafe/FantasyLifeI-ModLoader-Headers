@@ -55987,8 +55987,13 @@ struct FGDSkillData : FTableRowBase
 	FName                                              paramId;                                                    // 0x0018   (0x0008)  
 	FGDStCommon_SkillParam                             Params;                                                     // 0x0020   (0x0010)  
 	FName                                              nameTextID;                                                 // 0x0030   (0x0008)  
+<<<<<<< HEAD
 	FName                                              dascTextId;                                                 // 0x0038   (0x0008)  
 	char                                               skillIconType;                                              // 0x0040   (0x0001)  
+=======
+	FName                                              descTextID;                                                 // 0x0038   (0x0008)  
+	ESkillIconType                                     skillIconType;                                              // 0x0040   (0x0001)  
+>>>>>>> 3b92786 (Full FName Conversion)
 	unsigned char                                      UnknownData01_6[0x3];                                       // 0x0041   (0x0003)  MISSED
 	FName                                              lifeLimitId;                                                // 0x0044   (0x0008)  
 	uint32_t                                           sortOrder;                                                  // 0x004C   (0x0004)  

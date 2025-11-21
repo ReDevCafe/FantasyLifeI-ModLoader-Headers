@@ -24,7 +24,7 @@ class CommonItemEffectParam : public GameObjectProxy<FGDStCommon_ItemEffParam>
     EItemEffectType GetEffect()                     {  return this->_object.itemEffectType; }
 
     protected:
-    std::string&     getDescIdentifier();
+    std::string     getDescIdentifier();
 
     public:
     std::string     GetDescription(LANG lang);

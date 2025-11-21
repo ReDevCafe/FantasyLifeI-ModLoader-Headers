@@ -7,18 +7,8 @@
   #include <string>
   #include <string_view>
 
-
-class API_FName 
-    #ifndef USE_CUSTOM_UE_CLASS
-    : public FName
-    #endif
+class API_FName : public FName
 {
-
-  #ifdef USE_CUSTOM_UE_CLASS
-  private:
-  FNameEntryId ComparisonIndex = 0;
-  FNameEntryId Number = 0;
-  #endif
 
   public:
   API_FName(std::string_view value)
@@ -49,9 +39,6 @@ class API_FName
     return !(*this == o);
   }
 
-  #ifndef USE_CUSTOM_UE_CLASS  
-
-
   bool operator==(const FName &o) const 
   {
     return (ComparisonIndex == o.ComparisonIndex);
@@ -61,13 +48,6 @@ class API_FName
   {
     return !(*this == o);
   }
-
-
-  #endif
 };
-
-#ifdef USE_CUSTOM_UE_CLASS
-  #define FName API_FName 
-#endif
 
 #endif // !FNAME_HPP

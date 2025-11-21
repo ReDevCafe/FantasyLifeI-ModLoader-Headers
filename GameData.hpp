@@ -3,10 +3,10 @@
 
     #include "Engine/FUObjectArray.hpp"
     #include "API/Entities/Player/Player.hpp"
-    #include "Utils.hpp"
     #include <string_view>
     #include <type_traits>
     #include <memory>
+    #include <unordered_map>
     
     #include "SDK.h"
     #include "Export.h"
@@ -16,6 +16,7 @@ class GameData {
         GameData(uintptr_t baseAddress, uint32_t imageSize);
         ~GameData() = default;
 
+        void init();
         void initOthersData();
         ML_API uint32_t getImageSize();
         ML_API uintptr_t getBaseAddress();
@@ -31,18 +32,7 @@ class GameData {
             if (_gObjects == nullptr) return nullptr;
             if (_cache.contains(name))
                 return reinterpret_cast<T *>(_cache.at(name));
-            UObject *object = nullptr;
-            uint32_t counter = 0;
-            if (safe)
-                _gObjects->lock();
-            for (int i = 0; i < _gObjects->ObjObjects.NumElements; ++i) {
-                object = _gObjects->getObject(i);
-                if (object == nullptr) continue;
-                if (Utils::FNameToString(_baseAddress, object->NamePrivate) == name && ++counter > nth) break;
-                object = nullptr;
-            }
-            if (safe)
-                _gObjects->unlock();
+            UObject *object = _getUObject(name, safe, nth);
             if (object)
                 _cache.emplace(name, object);
             return reinterpret_cast<T *>(object);
@@ -61,6 +51,8 @@ class GameData {
         }
 
     protected:
+        UObject* _getUObject(std::string_view name, bool safe, int nth);
+
     private:
         uintptr_t _baseAddress; 
         uint32_t _imageSize;

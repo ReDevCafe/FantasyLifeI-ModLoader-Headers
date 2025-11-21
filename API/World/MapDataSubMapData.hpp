@@ -12,7 +12,7 @@ class ML_API MapDataSubMapData : public GameObjectProxy<FGDMapData_SubMapData>
         GameObjectProxy(data)
     {};
 
-    std::string& GetSubMapIdentifier();
+    std::string GetSubMapIdentifier();
 
     public:
     MapSubLevel GetSubMap();
@@ -21,7 +21,7 @@ class ML_API MapDataSubMapData : public GameObjectProxy<FGDMapData_SubMapData>
     EMapType    GetMapType()                            { return this->_object.Type; }
     void        SetMapType(EMapType type)               { this->_object.Type = type; }
 
-    std::string& GetAreaID();
+    std::string GetAreaID();
     MapAttributeInfo GetAttributeInfo()                 { return MapAttributeInfo(this->_object.attributeInfo); }
 
     float       GetShadowAmountInEvent()                { return this->_object.shadowAmountInEvent; }

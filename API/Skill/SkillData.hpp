@@ -13,25 +13,25 @@ class ML_API SkillData : public GameObjectProxy<FGDSkillData>
             GameObjectProxy(data)
         {};
 
-        std::string&         GetIdentifier();
+        std::string         GetIdentifier();
 
         ESkillCategory      GetCategory()                        { return this->_object.Category;}
         void                SetCategory(ESkillCategory category) { this->_object.Category = category; }
 
         CommonSkillParam    GetParams()                          { return CommonSkillParam(this->_object.Params); }
 
-        std::string&         GetNameIdentifier();
+        std::string         GetNameIdentifier();
         std::string         GetName(LANG lang);
         void                SetName(LANG lang, FString name);
 
-        std::string&         GetDescIdentifier();
+        std::string         GetDescIdentifier();
         std::string         GetDescription(LANG lang);
         void                SetDescription(LANG lang, FString name);
 
         ESkillIconType      GetIconType()                       { return this->_object.skillIconType; }
         void                SetIconType(ESkillIconType type)    { this->_object.skillIconType = type; }
 
-        std::string&         GetLifeLimit();
+        std::string         GetLifeLimit();
 
         uint8_t             GetSortOrder()                      { return  this->_object.sortOrder; }
         void                SetSortOrder(int8_t value)          { this->_object.sortOrder = value; }

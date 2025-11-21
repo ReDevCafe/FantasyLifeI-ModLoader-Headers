@@ -11,13 +11,13 @@ class ML_API MapSubLevel : public GameObjectProxy<FGDMapSubLevel>
     MapSubLevel(FGDMapSubLevel& data) : GameObjectProxy(data)
     {};
 
-    std::string&        GetIdentifier();
+    std::string         GetIdentifier();
 
     EMapSublevelType    GetLevelType()                      { return this->_object.SubLevelType; }
     void                SetLevelType(EMapSublevelType type) { this->_object.SubLevelType = type; }
 
-    std::string&        GetMapSubIdentifier();
-    std::string&        GetPath();
+    std::string         GetMapSubIdentifier();
+    std::string         GetPath();
     
     // IMPLEMENT VALID CONDITION
 }; 

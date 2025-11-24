@@ -1,9 +1,7 @@
 #ifndef GAME_FUNCTION_PROXY_HPP
   #define GAME_FUNCTION_PROXY_HPP
 
-  #include "GameData.hpp"
   #include "Hook/Pattern.hpp"
-  #include "ModLoader.hpp"
   #include <cstdint>
   #include <stdexcept>
   #include <utility>
@@ -54,25 +52,19 @@ class GameFunctionProxy
   uintptr_t getAddress() const { return reinterpret_cast<uintptr_t>(_function); }
 
   protected:
-  GameFunctionProxy(const std::string& id, uint8_t* pattern, const char* mask, uintptr_t offset) :
+  GameFunctionProxy(const std::string& id, uint8_t* pattern, const char* mask, uintptr_t startOffset = 0) :
   _function(nullptr),
   _id(id)
   {
-    GameData* gameData = ModLoader::gameData;
-    uintptr_t baseAddress = gameData->getBaseAddress();
-
     try 
     {
       Pattern pat(pattern, mask);
-      uintptr_t addr = pat.find(baseAddress, gameData->getImageSize());
+      uintptr_t addr = pat.find(startOffset);
       
-      if(addr != 0)
-        _function = reinterpret_cast<FuncType>(addr);
-      else throw std::runtime_error("Pattern finder returned address=0");
+      _function = reinterpret_cast<FuncType>(addr);
     } catch (const std::runtime_error& e) 
     {
-      ModLoader::logger->warn(id, e.what(), " defaulting to offset (UNSAFE)");
-      _function = reinterpret_cast<FuncType>(baseAddress + offset);
+      throw std::runtime_error("Failed to initialize function proxy for " + _id + ": " + e.what());
     }
   }
 };

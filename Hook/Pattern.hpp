@@ -19,6 +19,7 @@ class Pattern
   const char* getMask();
 
   uintptr_t find(uintptr_t baseAddress, uint32_t range);
+  uintptr_t find(uintptr_t startOffset);
 };
 
 #endif //! PATTERN_HPPP

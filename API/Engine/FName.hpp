@@ -1,42 +1,33 @@
 #ifndef FNAME_HPP
   #define FNAME_HPP
   
-  #include "API/Function/Engine/FNameCTor.hpp"
-  #include "API/Function/Engine/FnameToString.hpp"
-  #include "SDK/BasicType.h"
-  #include <string>
-  #include <string_view>
+#include "API/Function/Engine/FName/FnameToString.hpp"
+#include "API/Function/Engine/FName/FNameCTor.hpp"
+#include <string>
+#include <string_view>
 
-class API_FName : public FName
+class FName
 {
-
   public:
-  API_FName(std::string_view value)
+  uint32_t ComparisonIndex;
+  uint32_t Number;
+
+  FName(std::string_view value)
   {
     FNameCTor::call(reinterpret_cast<FName*>(this), static_cast<int>(value.size()), value.data(), 1);
   }
 
-  API_FName(const FName& fname)
+  FName(const FName& fname)
   {
     this->ComparisonIndex = fname.ComparisonIndex;
     this->Number = fname.Number;
   }
   
-  std::string ToString() const
+  inline std::string ToString()
   {
     FString str;
-    FNameToString::call(reinterpret_cast<FName*>(const_cast<API_FName*>(this)), &str);
+    FNameToString::call(this, &str);
     return str.ToString();
-  }
-
-  bool operator==(const API_FName &o) const 
-  {
-    return (ComparisonIndex == o.ComparisonIndex);
-  }
-
-  bool operator!=(const API_FName &o) const 
-  {
-    return !(*this == o);
   }
 
   bool operator==(const FName &o) const 

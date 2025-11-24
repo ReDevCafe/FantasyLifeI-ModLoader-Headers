@@ -1,6 +1,9 @@
-#pragma once
+#pragma once // BASICTYPE_H
 #include <cstdint>
 #include <locale>
+#include "../API/Engine/TArray.hpp"
+#include "../API/Engine/FString.hpp"
+#include "../API/Engine/FName.hpp"
 
 /********************************************************
 *                                                       *
@@ -26,130 +29,6 @@
 
 
 //TODO: Define FMulticastSparseDelegate!
-
-
-/// Definition for TArray
-
-template <class T = char>
-struct TArray
-{
-    friend struct FString;
-
-
-public:
-    inline TArray()
-    {
-        Data = nullptr;
-        Count = Max = 0;
-    };
-
-    inline int Num() const
-    {
-        return Count;
-    };
-
-    inline T& operator[](int i)
-    {
-        return Data[i];
-    };
-
-    inline const T& operator[](int i) const
-    {
-        return Data[i];
-    };
-
-    inline bool IsValidIndex(int i) const
-    {
-        return i < Num();
-    }
-
-    inline int Slack() const
-    {
-        return Max - Count;
-    }
-
-    __forceinline bool RemoveSingle(const int Index)
-    {
-        if (Index < Count)
-        {
-            if (Index != Count - 1)
-                Data[Index] = Data[Count - 1];
-
-            --Count;
-
-            return true;
-        }
-        return false;
-    }
-
-    __forceinline void RemoveAt(int Index, int Length = 1)
-    {
-        for (; Length != 0; --Length)
-        {
-            if (!RemoveSingle(Index++))
-                break;
-        }
-    }
-
-public:
-    T* Data;
-    int32_t Count;
-    int32_t Max;
-};
-
-
-/// Definition for FString
-
-struct FString : public TArray<wchar_t>
-{
-    inline FString() {};
-
-    FString(const wchar_t* other)
-    {
-        Max = Count = *other ? static_cast<int32_t>(std::wcslen(other)) + 1 : 0;
-
-        if (Count)
-        {
-            Data = const_cast<wchar_t*>(other);
-        }
-    };
-
-    inline bool IsValid() const
-    {
-        return Data != nullptr;
-    }
-
-    inline const wchar_t* c_str() const
-    {
-        return Data;
-    }
-
-    std::string ToString() const
-    {
-        const auto length = std::wcslen(Data);
-
-        std::string str(length, '\0');
-
-        std::use_facet<std::ctype<wchar_t>>(std::locale()).narrow(Data, Data + length, '?', &str[0]);
-
-        return str;
-    }
-};
-
-
-/// Definition for FName
-
-typedef uint32_t FNameEntryId;
-
-struct FName
-{
-    /** Index into the Names array (used to find String portion of the string/number pair used for comparison) */
-    FNameEntryId ComparisonIndex = 0;
-
-	/** Number portion of the string/number pair (stored internally as 1 more than actual, so zero'd memory will be the default, no-instance case) */
-    FNameEntryId Number = 0;
-
-};
 
 
 /// Definition for FScriptInterface

@@ -1,7 +1,7 @@
 #pragma once
 
 #include "API/GameFunctionProxy.hpp"
-#include "SDK/BasicType.h"
+#include "SDK.h"
 
 /*
 https://dev.epicgames.com/documentation/en-us/unreal-engine/API/Runtime/CoreUObject/GetObjectsOfClass?application_version=5.7

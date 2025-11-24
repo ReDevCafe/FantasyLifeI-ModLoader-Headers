@@ -4,7 +4,7 @@
 #include "../API/Engine/TArray.hpp"
 #include "../API/Engine/FString.hpp"
 #include "../API/Engine/FName.hpp"
-
+#include "../API/Engine/TMap.hpp"
 /********************************************************
 *                                                       *
 *   Package generated using UEDumper by Spuckwaffel.    *
@@ -209,13 +209,13 @@ public:
 
 /// Definition for TPair
 
-template <typename KeyType, typename ValueType>
-class TPair
-{
-public:
-	KeyType First;
-    ValueType Second;
-};
+// template <typename KeyType, typename ValueType>
+// class TPair
+// {
+// public:
+// 	KeyType First;
+//     ValueType Second;
+// };
 
 
 /// Definition for TUniquePtr
@@ -259,36 +259,36 @@ struct FText
 
 /// Definition for TSetElement
 
-template<typename ElementType>
-class TSetElement
-{
-public:
-    ElementType                                                Value;                                                   // 0x0000(0x0000)
-    int32_t                                                    HashNextId;                                              // 0x0000(0x0000)
-    int32_t                                                    HashIndex;                                               // 0x0000(0x0000)
-};
+// template<typename ElementType>
+// class TSetElement
+// {
+// public:
+//     ElementType                                                Value;                                                   // 0x0000(0x0000)
+//     int32_t                                                    HashNextId;                                              // 0x0000(0x0000)
+//     int32_t                                                    HashIndex;                                               // 0x0000(0x0000)
+// };
 
 
-/// Definition for TMap
+// /// Definition for TMap
 
-template<typename Key, typename Value>
-class TMap
-{
-public:
-	TArray<TSetElement<TPair<Key, Value>>>                     Data;                                                    // 0x0000(0x0000)
-private:
-	uint8_t                                                    UnknownData01[0x04];                                     // 0x0000(0x0000)
-	uint8_t                                                    UnknownData02[0x04];                                     // 0x0000(0x0000)
-	uint8_t                                                    UnknownData03[0x08];                                     // 0x0000(0x0000)
-	uint8_t                                                    UnknownData04[0x08];                                     // 0x0000(0x0000)
-	uint8_t                                                    UnknownData_MayBeSize[0x04];                             // 0x0000(0x0000)
-	uint8_t                                                    UnknownData_MayBeFlag[0x04];                             // 0x0000(0x0000)
-	uint8_t                                                    UnknownData05[0x08];                                     // 0x0000(0x0000)
-	uint8_t                                                    UnknownData06[0x08];                                     // 0x0000(0x0000)
-	uint8_t                                                    UnknownData07[0x08];                                     // 0x0000(0x0000)
-	uint8_t                                                    UnknownData_MayBeSize02[0x04];                           // 0x0000(0x0000)
-	uint8_t                                                    UnknownData08[0x04];                                     // 0x0000(0x0000)
-};
+// template<typename Key, typename Value>
+// class TMap
+// {
+// public:
+// 	TArray<TSetElement<TPair<Key, Value>>>                     Data;                                                    // 0x0000(0x0000)
+// private:
+// 	uint8_t                                                    UnknownData01[0x04];                                     // 0x0000(0x0000)
+// 	uint8_t                                                    UnknownData02[0x04];                                     // 0x0000(0x0000)
+// 	uint8_t                                                    UnknownData03[0x08];                                     // 0x0000(0x0000)
+// 	uint8_t                                                    UnknownData04[0x08];                                     // 0x0000(0x0000)
+// 	uint8_t                                                    UnknownData_MayBeSize[0x04];                             // 0x0000(0x0000)
+// 	uint8_t                                                    UnknownData_MayBeFlag[0x04];                             // 0x0000(0x0000)
+// 	uint8_t                                                    UnknownData05[0x08];                                     // 0x0000(0x0000)
+// 	uint8_t                                                    UnknownData06[0x08];                                     // 0x0000(0x0000)
+// 	uint8_t                                                    UnknownData07[0x08];                                     // 0x0000(0x0000)
+// 	uint8_t                                                    UnknownData_MayBeSize02[0x04];                           // 0x0000(0x0000)
+// 	uint8_t                                                    UnknownData08[0x04];                                     // 0x0000(0x0000)
+// };
 
 
 /// Definition for EObjectFlags

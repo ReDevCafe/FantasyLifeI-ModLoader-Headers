@@ -11,7 +11,7 @@ class ML_API CommonItemTableSetting : public GameObjectProxy<FGDCommonItemTableS
     CommonItemTableSetting(FGDCommonItemTableSetting& data) : GameObjectProxy(data)
     {};
 
-    std::string&     GetIdentifier();
+    std::string     GetIdentifier();
     
     ItemTableDetail GetData(int index);
     void            SetData(int index, ItemTableDetail value);

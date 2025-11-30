@@ -2,6 +2,7 @@
     #define CHARADATA_HPP
 
     #include "API/GameObjectProxy.hpp"
+    #include "SDK.h"
     #include "API/Language.hpp"
     #include "Export.h"
 
@@ -11,11 +12,11 @@ class ML_API CharaData : GameObjectProxy<FGDCharaData>
     CharaData(FGDCharaData& data) : GameObjectProxy(data)
     {};
 
-    std::string& GetIdentifier();
-    std::string& GetFlag();
+    std::string GetIdentifier();
+    std::string GetFlag();
 
     protected:
-    std::string& GetNameIdentifier();
+    std::string GetNameIdentifier();
 
     public:
     std::string GetName(LANG lang);

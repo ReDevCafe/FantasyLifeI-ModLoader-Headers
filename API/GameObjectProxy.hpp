@@ -1,7 +1,5 @@
 #ifndef GAMEOBJECTPROXY_HPP_
     #define GAMEOBJECTPROXY_HPP_
-
-    #include "SDK.h"
     
 template<typename T>
 class GameObjectProxy {

@@ -4,6 +4,7 @@
     #include "API/Language.hpp"
     #include "API/GameObjectProxy.hpp"
     #include "Export.h"
+    #include "SDK.h"
 
 class ML_API LifeData : public GameObjectProxy<FGDLifeData>
 {   
@@ -11,13 +12,13 @@ class ML_API LifeData : public GameObjectProxy<FGDLifeData>
         LifeData(FGDLifeData &data) : GameObjectProxy(data){};
 
     protected:
-        std::string& GetNameIdentifier();
+        std::string  GetNameIdentifier();
     public:
         std::string  GetName(LANG lang);
         void         SetName(LANG lang, FString string);
 
     protected:
-        std::string& GetDescIdentifier();
+        std::string  GetDescIdentifier();
     public:
         std::string  GetDescription(LANG lang);
         void         SetDescription(LANG lang, FString string);

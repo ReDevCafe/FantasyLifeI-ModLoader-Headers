@@ -1,7 +1,8 @@
 #ifndef RECIPEDATALIFEPARAMINFO_HPP
     #define RECIPEDATALIFEPARAMINFO_HPP
-
+    
     #include "API/GameObjectProxy.hpp"
+    #include "SDK.h"
     #include "Export.h"
 
 class ML_API RecipeDataLifeParamInfo : GameObjectProxy<FGDRecipeData_LifeParamInfo>

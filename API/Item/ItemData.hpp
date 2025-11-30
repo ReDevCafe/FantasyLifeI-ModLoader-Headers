@@ -10,18 +10,18 @@ class ML_API ItemData : public GameObjectProxy<FGDItemData>
     public:
         ItemData(FGDItemData& data) : GameObjectProxy(data){};
 
-        std::string&        GetIdentifier();
+        std::string        GetIdentifier();
 
-        std::string&        getNameIdentifier();
+        std::string        getNameIdentifier();
         std::string         GetName(LANG lang);
         void                SetName(LANG lang, FString string);
 
-        std::string&        GetDescIdentifier();
+        std::string        GetDescIdentifier();
         std::string         GetDescription(LANG lang);
         void                SetDescription(LANG lang, FString string);
 
-        std::string&         GetOverwriteIconIdentifier();
-        std::string&         GetOverwriteIcon();
+        std::string         GetOverwriteIconIdentifier();
+        std::string         GetOverwriteIcon();
         void                SetOverwriteIcon(ItemData data)     { this->_object.overwriteIconName = data.getObject().overwriteIconName;  };
 
         uint32_t            GetSortOrder()                      { return this->_object.sortOrder; }

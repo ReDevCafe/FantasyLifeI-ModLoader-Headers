@@ -2,6 +2,8 @@
     #define COMMONITEMEFFECTPARAM_HPP
 
     #include "API/GameObjectProxy.hpp"
+    #include "SDK.h"
+    #include <cstdint>
     #include "API/Language.hpp"
 
 class CommonItemEffectParam : public GameObjectProxy<FGDStCommon_ItemEffParam>
@@ -22,7 +24,7 @@ class CommonItemEffectParam : public GameObjectProxy<FGDStCommon_ItemEffParam>
     EItemEffectType GetEffect()                     {  return this->_object.itemEffectType; }
 
     protected:
-    std::string&     getDescIdentifier();
+    std::string     getDescIdentifier();
 
     public:
     std::string     GetDescription(LANG lang);

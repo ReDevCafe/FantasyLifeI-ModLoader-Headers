@@ -2,7 +2,7 @@
     #define MODLOADER_HPP
 
     #include "Logger/Logger.hpp"
-#include "Mod/Configuration/ConfigManager.hpp"
+    #include "Mod/Configuration/ConfigManager.hpp"
     #include "Mod/ModEnvironnement.hpp"
     #include "GameData.hpp"
     #include "GameCache.hpp"

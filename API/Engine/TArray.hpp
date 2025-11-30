@@ -1,18 +1,26 @@
 #ifndef TARRAY_HPP
-  #define TARRAY_HPP
+#define TARRAY_HPP
 
-    #include <cstdint>
-    #include <stdexcept>
+#include "API/Function/Engine/FMemory/FMemoryMalloc.hpp"
+#include <cstdint>
+#include <stdexcept>
+#include <type_traits>
+
+template<typename T = char>
+constexpr typename std::remove_reference<T>::type&& MoveTemp(T&& obj) noexcept
+{
+    return static_cast<typename std::remove_reference<T>::type&&>(obj);
+}
 
 template <class T = char>
 class TArray
 {
     friend class FString;
 
-    public:
-        T* Data;
-        int32_t Count;
-        int32_t Max;
+public:
+    T* Data;
+    int32_t Count;
+    int32_t Max;
 
     inline TArray()
     {
@@ -70,29 +78,48 @@ class TArray
 
     inline T Get(int index)
     {
-        if(index < 0 || index >= Count - 1) throw std::out_of_range("TArray::Get() index out of range");
+        if(index < 0 || index >= Count) throw std::out_of_range("TArray::Get() index out of range");
         return Data[index];
     }
 
     inline void Add(T value)
     {
-        if(Max == 0)
+        if (Count >= Max)
         {
-            Max = Count = 1;
-            Data[0] = value;
-            return;
-        } 
-
-        int count = Count;
-        Data[count] = value;
-        Count = count + 1;
-        Max = ++count;
+            size_t newMax = (Max == 0) ? 4 : (Max * 2);
+            this->ResizeGrow(newMax);
+        }
+        
+        new (&Data[Count]) T(MoveTemp(value));
+        Count++;
     }
 
-    inline void Set(int index, T value)
+    inline void ResizeGrow(int32_t newSize)
     {
-        if(index < 0 || index >= Count - 1) throw std::out_of_range("TArray::Set() index out of range");
-        Data[index] = value;
+        if (newSize <= Max)
+            return;
+        
+        T* newData = (T*)FMemoryMalloc::call((size_t)(newSize * sizeof(T)), (size_t)alignof(T));
+        
+        if (Data != nullptr && Count > 0)
+        {
+            for (size_t i = 0; i < Count; i++)
+            {
+                new (&newData[i]) T(MoveTemp(Data[i]));
+                Data[i].~T();
+            }
+            
+            // FMemoryFree(Data);
+        }
+        
+        Data = newData;
+        Max = newSize;
+    }
+
+    inline void Set(size_t index, T value)
+    {
+        if(index >= Count) throw std::out_of_range("TArray::Set() index out of range");
+        Data[index] = MoveTemp(value);
     }
 
     inline T* GetData() noexcept

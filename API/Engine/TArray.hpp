@@ -2,6 +2,7 @@
 #define TARRAY_HPP
 
 #include "API/Function/Engine/FMemory/FMemoryMalloc.hpp"
+#include "API/Function/Engine/FMemory/FMemoryFree.hpp"
 #include <cstdint>
 #include <stdexcept>
 #include <type_traits>
@@ -89,7 +90,6 @@ public:
             size_t newMax = (Max == 0) ? 4 : (Max * 2);
             this->ResizeGrow(newMax);
         }
-        
         new (&Data[Count]) T(MoveTemp(value));
         Count++;
     }
@@ -108,8 +108,8 @@ public:
                 new (&newData[i]) T(MoveTemp(Data[i]));
                 Data[i].~T();
             }
-            
-            // FMemoryFree(Data);
+
+            FMemoryFree::call(Data);
         }
         
         Data = newData;

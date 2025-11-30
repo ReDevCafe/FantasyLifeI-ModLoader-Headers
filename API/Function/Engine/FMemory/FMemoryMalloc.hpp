@@ -20,7 +20,7 @@ class FMemoryMalloc : public GameFunctionProxy<FLIAPI_DEF_FMemoryMalloc>
     (
       "FMemory::Malloc()",
       const_cast<uint8_t*>(pattern),
-      "xxxxxxxxxxxxxxxxxx????xxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxx????xxxxx",
       0
     )
     {}

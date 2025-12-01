@@ -13,11 +13,11 @@ public:
         : GameObjectProxy(data)
     {};
 
-    std::string                     GetIdentifier();
-    std::string                     GetItemIdentifier();
+    std::string                     GetIdentifier() const { return this->_object.recipeId.ToString(); };
+    std::string                     GetItemIdentifier() const { return this->_object.ItemId.ToString(); };
 
-    ERecipeType                     GetType()                                   { return this->_object.Type; }
-    void                            SetType(ERecipeType type)                   { this->_object.Type = type; }
+    ERecipeType                     GetType() const { return this->_object.Type; }
+    void                            SetType(ERecipeType type) { this->_object.Type = type; }
 
     RecipeDataLifeParamInfo         GetLifeParam()                              { return RecipeDataLifeParamInfo(this->_object.lifeParamInfo); }
 

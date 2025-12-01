@@ -12,13 +12,13 @@ class ML_API LifeData : public GameObjectProxy<FGDLifeData>
         LifeData(FGDLifeData &data) : GameObjectProxy(data){};
 
     protected:
-        std::string  GetNameIdentifier();
+        std::string  GetNameIdentifier() const { return this->_object.nameId.ToString(); }
     public:
         std::string  GetName(LANG lang);
         void         SetName(LANG lang, FString string);
 
     protected:
-        std::string  GetDescIdentifier();
+        std::string  GetDescIdentifier() const { return this->_object.DescId.ToString(); }
     public:
         std::string  GetDescription(LANG lang);
         void         SetDescription(LANG lang, FString string);

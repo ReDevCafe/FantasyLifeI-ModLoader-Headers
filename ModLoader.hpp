@@ -12,6 +12,10 @@
         #define MLVERSION 0.5
     #endif
 
+    #ifdef _WIN32
+        #include <Psapi.h>
+    #endif
+
 class ModLoader {
     public:
         ML_API static GameData *gameData;
@@ -21,7 +25,7 @@ class ModLoader {
         static ModEnvironnement *modEnvironnement;
         static Logger *logger; 
         
-        static DWORD WINAPI init(LPVOID lpParam);
+        static void WINAPI init(MODULEINFO* moduleInfo);
 
     protected:
     private:

@@ -7,6 +7,7 @@
     #include <type_traits>
     #include <memory>
     #include <unordered_map>
+    #include <thread>
     
     #include "SDK.h"
     #include "Export.h"
@@ -44,9 +45,8 @@ class GameData {
         void waitObject(T *object, std::string_view name = {}, uint32_t nth = 0) {
             while (*object == nullptr) 
             {
-                if (!name.empty())
-                    *object = this->getUObject<typename std::remove_pointer<T>::type>(name.data(), false, nth);
-                Sleep(1);
+                if (!name.empty()) *object = this->getUObject<typename std::remove_pointer<T>::type>(name.data(), false, nth);
+                std::this_thread::sleep_for(std::chrono::milliseconds(1));
             }
         }
 

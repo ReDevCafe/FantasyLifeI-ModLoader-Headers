@@ -24,7 +24,7 @@ class ML_API SkillData : public GameObjectProxy<FGDSkillData>
         std::string         GetName(LANG lang) const;
         void                SetName(LANG lang, FString name);
 
-        std::string         GetDescIdentifier() const { return this->_object.descTextID.ToString(); }
+        std::string         GetDescIdentifier() const { return this->_object.dascTextId.ToString(); }
         std::string         GetDescription(LANG lang) const;
         void                SetDescription(LANG lang, FString name);
 

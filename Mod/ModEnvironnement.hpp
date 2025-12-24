@@ -26,8 +26,7 @@ class ModEnvironnement
 
     private:
     // Archive reading, decompression shit..
-    bool                    findModJsonInArchive(const std::filesystem::path& archivePath, std::string& foundPath);
-    bool                    findModLibInArchive(const std::filesystem::path& archivePath, const std::string& libName, std::string& foundPath);
+    bool                    findFileInArchive(const std::filesystem::path& archivePath, const std::string& suffix, std::string& foundPath);
     bool                    readContentFromArchive(const std::filesystem::path& archivePath, const std::string& internalName, std::vector<char>& bufferOut);
     std::filesystem::path   writeBufferToTemp(const std::vector<char>& buffer, const std::string& suffix);
 

@@ -26,6 +26,7 @@ class Logger
         template<typename... Args>
         void log(const std::string &level, Args&&... args)
         {
+            std::lock_guard<std::mutex> lock(mutex);
             std::ostringstream oss;
             (oss << ... << std::forward<Args>(args));
 
@@ -95,7 +96,6 @@ class Logger
         template<typename... Args>
         void pushToFile(Args&&... args)
         {
-            std::lock_guard<std::mutex> lock(mutex);
             std::ostringstream oss;
             (oss << ... << std::forward<Args>(args));
 

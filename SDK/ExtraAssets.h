@@ -34,9 +34,9 @@ public:
 
 	/// Functions
 	// Function /Script/ExtraAssets.GameDataAsset.ImportCSV
-	// void ImportCSV();                                                                                                        // [0x61f40f0] Final|Native|Public  
+	// void ImportCSV();                                                                                                        // [0x6716660] Final|Native|Public  
 	// Function /Script/ExtraAssets.GameDataAsset.ExportCSV
-	// void ExportCSV();                                                                                                        // [0x61f40d0] Final|Native|Public|Const 
+	// void ExportCSV();                                                                                                        // [0x6716640] Final|Native|Public|Const 
 };
 
 /// Class /Script/ExtraAssets.TextAsset

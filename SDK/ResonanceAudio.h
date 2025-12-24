@@ -99,9 +99,9 @@ public:
 
 	/// Functions
 	// Function /Script/ResonanceAudio.ResonanceAudioBlueprintFunctionLibrary.SetGlobalReverbPreset
-	// void SetGlobalReverbPreset(class UResonanceAudioReverbPluginPreset* InPreset);                                           // [0x89c0920] Final|Native|Static|Public|BlueprintCallable 
+	// void SetGlobalReverbPreset(class UResonanceAudioReverbPluginPreset* InPreset);                                           // [0x904d9d0] Final|Native|Static|Public|BlueprintCallable 
 	// Function /Script/ResonanceAudio.ResonanceAudioBlueprintFunctionLibrary.GetGlobalReverbPreset
-	// class UResonanceAudioReverbPluginPreset* GetGlobalReverbPreset();                                                        // [0x89c07f0] Final|Native|Static|Public|BlueprintCallable 
+	// class UResonanceAudioReverbPluginPreset* GetGlobalReverbPreset();                                                        // [0x904d8a0] Final|Native|Static|Public|BlueprintCallable 
 };
 
 /// Class /Script/ResonanceAudio.ResonanceAudioDirectivityVisualizer
@@ -148,23 +148,23 @@ public:
 
 	/// Functions
 	// Function /Script/ResonanceAudio.ResonanceAudioReverbPluginPreset.SetRoomRotation
-	// void SetRoomRotation(FQuat& InRotation);                                                                                 // [0x89c0f80] Final|Native|Public|HasOutParms|HasDefaults|BlueprintCallable 
+	// void SetRoomRotation(FQuat& InRotation);                                                                                 // [0x904e030] Final|Native|Public|HasOutParms|HasDefaults|BlueprintCallable 
 	// Function /Script/ResonanceAudio.ResonanceAudioReverbPluginPreset.SetRoomPosition
-	// void SetRoomPosition(FVector& InPosition);                                                                               // [0x89c0ea0] Final|Native|Public|HasOutParms|HasDefaults|BlueprintCallable 
+	// void SetRoomPosition(FVector& InPosition);                                                                               // [0x904df50] Final|Native|Public|HasOutParms|HasDefaults|BlueprintCallable 
 	// Function /Script/ResonanceAudio.ResonanceAudioReverbPluginPreset.SetRoomMaterials
-	// void SetRoomMaterials(TArray<ERaMaterialName>& InMaterials);                                                             // [0x89c0da0] Final|Native|Public|HasOutParms|BlueprintCallable 
+	// void SetRoomMaterials(TArray<ERaMaterialName>& InMaterials);                                                             // [0x904de50] Final|Native|Public|HasOutParms|BlueprintCallable 
 	// Function /Script/ResonanceAudio.ResonanceAudioReverbPluginPreset.SetRoomDimensions
-	// void SetRoomDimensions(FVector& InDimensions);                                                                           // [0x89c0cc0] Final|Native|Public|HasOutParms|HasDefaults|BlueprintCallable 
+	// void SetRoomDimensions(FVector& InDimensions);                                                                           // [0x904dd70] Final|Native|Public|HasOutParms|HasDefaults|BlueprintCallable 
 	// Function /Script/ResonanceAudio.ResonanceAudioReverbPluginPreset.SetReverbTimeModifier
-	// void SetReverbTimeModifier(float InReverbTimeModifier);                                                                  // [0x89c0c30] Final|Native|Public|BlueprintCallable 
+	// void SetReverbTimeModifier(float InReverbTimeModifier);                                                                  // [0x904dce0] Final|Native|Public|BlueprintCallable 
 	// Function /Script/ResonanceAudio.ResonanceAudioReverbPluginPreset.SetReverbGain
-	// void SetReverbGain(float InReverbGain);                                                                                  // [0x89c0ba0] Final|Native|Public|BlueprintCallable 
+	// void SetReverbGain(float InReverbGain);                                                                                  // [0x904dc50] Final|Native|Public|BlueprintCallable 
 	// Function /Script/ResonanceAudio.ResonanceAudioReverbPluginPreset.SetReverbBrightness
-	// void SetReverbBrightness(float InReverbBrightness);                                                                      // [0x89c0b10] Final|Native|Public|BlueprintCallable 
+	// void SetReverbBrightness(float InReverbBrightness);                                                                      // [0x904dbc0] Final|Native|Public|BlueprintCallable 
 	// Function /Script/ResonanceAudio.ResonanceAudioReverbPluginPreset.SetReflectionScalar
-	// void SetReflectionScalar(float InReflectionScalar);                                                                      // [0x89c0a80] Final|Native|Public|BlueprintCallable 
+	// void SetReflectionScalar(float InReflectionScalar);                                                                      // [0x904db30] Final|Native|Public|BlueprintCallable 
 	// Function /Script/ResonanceAudio.ResonanceAudioReverbPluginPreset.SetEnableRoomEffects
-	// void SetEnableRoomEffects(bool bInEnableRoomEffects);                                                                    // [0x89c0890] Final|Native|Public|BlueprintCallable 
+	// void SetEnableRoomEffects(bool bInEnableRoomEffects);                                                                    // [0x904d940] Final|Native|Public|BlueprintCallable 
 };
 
 /// Class /Script/ResonanceAudio.ResonanceAudioSettings
@@ -201,9 +201,9 @@ public:
 
 	/// Functions
 	// Function /Script/ResonanceAudio.ResonanceAudioSpatializationSourceSettings.SetSoundSourceSpread
-	// void SetSoundSourceSpread(float InSpread);                                                                               // [0x524d2a0] Final|Native|Public|BlueprintCallable 
+	// void SetSoundSourceSpread(float InSpread);                                                                               // [0x576f770] Final|Native|Public|BlueprintCallable 
 	// Function /Script/ResonanceAudio.ResonanceAudioSpatializationSourceSettings.SetSoundSourceDirectivity
-	// void SetSoundSourceDirectivity(float InPattern, float InSharpness);                                                      // [0x89c1060] Final|Native|Public|BlueprintCallable 
+	// void SetSoundSourceDirectivity(float InPattern, float InSharpness);                                                      // [0x904e110] Final|Native|Public|BlueprintCallable 
 };
 
 #pragma pack(pop)

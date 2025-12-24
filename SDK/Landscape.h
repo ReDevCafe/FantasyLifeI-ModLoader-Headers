@@ -379,25 +379,25 @@ public:
 
 	/// Functions
 	// Function /Script/Landscape.LandscapeProxy.SetVirtualTextureRenderPassType
-	// void SetVirtualTextureRenderPassType(ERuntimeVirtualTextureMainPassType InType);                                         // [0x4945a60] Final|Native|Public|BlueprintCallable 
+	// void SetVirtualTextureRenderPassType(ERuntimeVirtualTextureMainPassType InType);                                         // [0x4e67e70] Final|Native|Public|BlueprintCallable 
 	// Function /Script/Landscape.LandscapeProxy.SetLandscapeMaterialVectorParameterValue
-	// void SetLandscapeMaterialVectorParameterValue(FName ParameterName, FLinearColor Value);                                  // [0x4945990] Final|RequiredAPI|Native|Public|HasDefaults|BlueprintCallable 
+	// void SetLandscapeMaterialVectorParameterValue(FName ParameterName, FLinearColor Value);                                  // [0x4e67da0] Final|RequiredAPI|Native|Public|HasDefaults|BlueprintCallable 
 	// Function /Script/Landscape.LandscapeProxy.SetLandscapeMaterialTextureParameterValue
-	// void SetLandscapeMaterialTextureParameterValue(FName ParameterName, class UTexture* Value);                              // [0x49458c0] Final|RequiredAPI|Native|Public|BlueprintCallable 
+	// void SetLandscapeMaterialTextureParameterValue(FName ParameterName, class UTexture* Value);                              // [0x4e67cd0] Final|RequiredAPI|Native|Public|BlueprintCallable 
 	// Function /Script/Landscape.LandscapeProxy.SetLandscapeMaterialScalarParameterValue
-	// void SetLandscapeMaterialScalarParameterValue(FName ParameterName, float Value);                                         // [0x49457f0] Final|RequiredAPI|Native|Public|BlueprintCallable 
+	// void SetLandscapeMaterialScalarParameterValue(FName ParameterName, float Value);                                         // [0x4e67c00] Final|RequiredAPI|Native|Public|BlueprintCallable 
 	// Function /Script/Landscape.LandscapeProxy.LandscapeExportHeightmapToRenderTarget
-	// bool LandscapeExportHeightmapToRenderTarget(class UTextureRenderTarget2D* InRenderTarget, bool InExportHeightIntoRGChannel, bool InExportLandscapeProxies); // [0x49456d0] Final|Native|Public|BlueprintCallable 
+	// bool LandscapeExportHeightmapToRenderTarget(class UTextureRenderTarget2D* InRenderTarget, bool InExportHeightIntoRGChannel, bool InExportLandscapeProxies); // [0x4e67ae0] Final|Native|Public|BlueprintCallable 
 	// Function /Script/Landscape.LandscapeProxy.GetLandscapeActor
-	// class ALandscape* GetLandscapeActor();                                                                                   // [0x49456a0] Native|Public|BlueprintCallable 
+	// class ALandscape* GetLandscapeActor();                                                                                   // [0x4e67ab0] Native|Public|BlueprintCallable 
 	// Function /Script/Landscape.LandscapeProxy.EditorSetLandscapeMaterial
-	// void EditorSetLandscapeMaterial(class UMaterialInterface* NewLandscapeMaterial);                                         // [0x4945610] Final|Native|Public|BlueprintCallable 
+	// void EditorSetLandscapeMaterial(class UMaterialInterface* NewLandscapeMaterial);                                         // [0x4e67a20] Final|Native|Public|BlueprintCallable 
 	// Function /Script/Landscape.LandscapeProxy.EditorApplySpline
-	// void EditorApplySpline(class USplineComponent* InSplineComponent, float StartWidth, float EndWidth, float StartSideFalloff, float EndSideFalloff, float StartRoll, float EndRoll, int32_t NumSubdivisions, bool bRaiseHeights, bool bLowerHeights, class ULandscapeLayerInfoObject* PaintLayer, FName EditLayerName); // [0x4945280] Final|RequiredAPI|Native|Public|BlueprintCallable 
+	// void EditorApplySpline(class USplineComponent* InSplineComponent, float StartWidth, float EndWidth, float StartSideFalloff, float EndSideFalloff, float StartRoll, float EndRoll, int32_t NumSubdivisions, bool bRaiseHeights, bool bLowerHeights, class ULandscapeLayerInfoObject* PaintLayer, FName EditLayerName); // [0x4e67690] Final|RequiredAPI|Native|Public|BlueprintCallable 
 	// Function /Script/Landscape.LandscapeProxy.ChangeLODDistanceFactor
-	// void ChangeLODDistanceFactor(float InLODDistanceFactor);                                                                 // [0x49451f0] Native|Public|BlueprintCallable 
+	// void ChangeLODDistanceFactor(float InLODDistanceFactor);                                                                 // [0x4e67600] Native|Public|BlueprintCallable 
 	// Function /Script/Landscape.LandscapeProxy.ChangeComponentScreenSizeToUseSubSections
-	// void ChangeComponentScreenSizeToUseSubSections(float InComponentScreenSizeToUseSubSections);                             // [0x4945160] Native|Public|BlueprintCallable 
+	// void ChangeComponentScreenSizeToUseSubSections(float InComponentScreenSizeToUseSubSections);                             // [0x4e67570] Native|Public|BlueprintCallable 
 };
 
 /// Class /Script/Landscape.Landscape
@@ -409,13 +409,13 @@ public:
 
 	/// Functions
 	// Function /Script/Landscape.Landscape.RenderWeightmaps
-	// bool RenderWeightmaps(FTransform InWorldTransform, FBox2D InExtents, TArray<FName>& InWeightmapLayerNames, class UTextureRenderTarget* OutRenderTarget); // [0x48ecf10] Final|RequiredAPI|Native|Public|HasOutParms|HasDefaults|BlueprintCallable 
+	// bool RenderWeightmaps(FTransform InWorldTransform, FBox2D InExtents, TArray<FName>& InWeightmapLayerNames, class UTextureRenderTarget* OutRenderTarget); // [0x4e0f320] Final|RequiredAPI|Native|Public|HasOutParms|HasDefaults|BlueprintCallable 
 	// Function /Script/Landscape.Landscape.RenderWeightmap
-	// bool RenderWeightmap(FTransform InWorldTransform, FBox2D InExtents, FName InWeightmapLayerName, class UTextureRenderTarget2D* OutRenderTarget); // [0x48ecd00] Final|RequiredAPI|Native|Public|HasDefaults|BlueprintCallable 
+	// bool RenderWeightmap(FTransform InWorldTransform, FBox2D InExtents, FName InWeightmapLayerName, class UTextureRenderTarget2D* OutRenderTarget); // [0x4e0f110] Final|RequiredAPI|Native|Public|HasDefaults|BlueprintCallable 
 	// Function /Script/Landscape.Landscape.RenderHeightmap
-	// bool RenderHeightmap(FTransform InWorldTransform, FBox2D InExtents, class UTextureRenderTarget2D* OutRenderTarget);      // [0x48ecb40] Final|RequiredAPI|Native|Public|HasDefaults|BlueprintCallable 
+	// bool RenderHeightmap(FTransform InWorldTransform, FBox2D InExtents, class UTextureRenderTarget2D* OutRenderTarget);      // [0x4e0ef50] Final|RequiredAPI|Native|Public|HasDefaults|BlueprintCallable 
 	// Function /Script/Landscape.Landscape.GetTargetLayerNames
-	// TArray<FName> GetTargetLayerNames(bool bInIncludeVisibilityLayer);                                                       // [0x48eca60] Final|Native|Public|BlueprintCallable|Const 
+	// TArray<FName> GetTargetLayerNames(bool bInIncludeVisibilityLayer);                                                       // [0x4e0ee70] Final|Native|Public|BlueprintCallable|Const 
 };
 
 /// Class /Script/Landscape.LandscapeLODStreamingProxy_DEPRECATED
@@ -489,15 +489,15 @@ public:
 
 	/// Functions
 	// Function /Script/Landscape.LandscapeComponent.SetLODBias
-	// void SetLODBias(int32_t InLODBias);                                                                                      // [0x48ed1e0] Final|RequiredAPI|Native|Public|BlueprintCallable 
+	// void SetLODBias(int32_t InLODBias);                                                                                      // [0x4e0f5f0] Final|RequiredAPI|Native|Public|BlueprintCallable 
 	// Function /Script/Landscape.LandscapeComponent.SetForcedLOD
-	// void SetForcedLOD(int32_t InForcedLOD);                                                                                  // [0x48ed150] Final|RequiredAPI|Native|Public|BlueprintCallable 
+	// void SetForcedLOD(int32_t InForcedLOD);                                                                                  // [0x4e0f560] Final|RequiredAPI|Native|Public|BlueprintCallable 
 	// Function /Script/Landscape.LandscapeComponent.GetMaterialInstanceDynamic
-	// class UMaterialInstanceDynamic* GetMaterialInstanceDynamic(int32_t InIndex);                                             // [0x48ec990] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// class UMaterialInstanceDynamic* GetMaterialInstanceDynamic(int32_t InIndex);                                             // [0x4e0eda0] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/Landscape.LandscapeComponent.EditorGetPaintLayerWeightByNameAtLocation
-	// float EditorGetPaintLayerWeightByNameAtLocation(FVector& InLocation, FName InPaintLayerName);                            // [0x48ec8a0] Final|RequiredAPI|Native|Public|HasOutParms|HasDefaults|BlueprintCallable 
+	// float EditorGetPaintLayerWeightByNameAtLocation(FVector& InLocation, FName InPaintLayerName);                            // [0x4e0ecb0] Final|RequiredAPI|Native|Public|HasOutParms|HasDefaults|BlueprintCallable 
 	// Function /Script/Landscape.LandscapeComponent.EditorGetPaintLayerWeightAtLocation
-	// float EditorGetPaintLayerWeightAtLocation(FVector& InLocation, class ULandscapeLayerInfoObject* PaintLayer);             // [0x48ec7b0] Final|RequiredAPI|Native|Public|HasOutParms|HasDefaults|BlueprintCallable 
+	// float EditorGetPaintLayerWeightAtLocation(FVector& InLocation, class ULandscapeLayerInfoObject* PaintLayer);             // [0x4e0ebc0] Final|RequiredAPI|Native|Public|HasOutParms|HasDefaults|BlueprintCallable 
 };
 
 /// Class /Script/Landscape.LandscapeGizmoActor
@@ -607,7 +607,7 @@ public:
 
 	/// Functions
 	// Function /Script/Landscape.LandscapeHeightfieldCollisionComponent.GetRenderComponent
-	// class ULandscapeComponent* GetRenderComponent();                                                                         // [0x48eca30] Final|RequiredAPI|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// class ULandscapeComponent* GetRenderComponent();                                                                         // [0x4e0ee40] Final|RequiredAPI|Native|Public|BlueprintCallable|BlueprintPure|Const 
 };
 
 /// Class /Script/Landscape.LandscapeLayerInfoObject
@@ -714,7 +714,7 @@ public:
 
 	/// Functions
 	// Function /Script/Landscape.LandscapeSplinesComponent.GetSplineMeshComponents
-	// TArray<USplineMeshComponent*> GetSplineMeshComponents();                                                                 // [0x48fd5a0] Final|Native|Public|BlueprintCallable 
+	// TArray<USplineMeshComponent*> GetSplineMeshComponents();                                                                 // [0x4e1f9b0] Final|Native|Public|BlueprintCallable 
 };
 
 /// Struct /Script/Landscape.LandscapeSplineConnection
@@ -793,7 +793,7 @@ class ALandscapeStreamingProxy : public ALandscapeProxy
 public:
 	TWeakObjectPtr<class ALandscape*>                  LandscapeActorRef;                                          // 0x0760   (0x0008)  
 	unsigned char                                      UnknownData00_6[0x20];                                      // 0x0768   (0x0020)  MISSED
-	SDK_UNDEFINED(80,1130) /* TSet<FName> */           __um(OverriddenSharedProperties);                           // 0x0788   (0x0050)  
+	SDK_UNDEFINED(80,1146) /* TSet<FName> */           __um(OverriddenSharedProperties);                           // 0x0788   (0x0050)  
 };
 
 /// Class /Script/Landscape.LandscapeWeightmapUsage
@@ -878,15 +878,15 @@ public:
 
 	/// Functions
 	// Function /Script/Landscape.LandscapeBlueprintBrushBase.RequestLandscapeUpdate
-	// void RequestLandscapeUpdate(bool bInUserTriggered);                                                                      // [0x490a770] Final|RequiredAPI|Native|Public|BlueprintCallable 
+	// void RequestLandscapeUpdate(bool bInUserTriggered);                                                                      // [0x4e2cb80] Final|RequiredAPI|Native|Public|BlueprintCallable 
 	// Function /Script/Landscape.LandscapeBlueprintBrushBase.RenderLayer
-	// class UTextureRenderTarget2D* RenderLayer(FLandscapeBrushParameters& InParameters);                                      // [0x490a6c0] RequiredAPI|Native|Event|Public|HasOutParms|BlueprintEvent 
+	// class UTextureRenderTarget2D* RenderLayer(FLandscapeBrushParameters& InParameters);                                      // [0x4e2cad0] RequiredAPI|Native|Event|Public|HasOutParms|BlueprintEvent 
 	// Function /Script/Landscape.LandscapeBlueprintBrushBase.Render
-	// class UTextureRenderTarget2D* Render(bool InIsHeightmap, class UTextureRenderTarget2D* InCombinedResult, FName& InWeightmapLayerName); // [0x490a590] RequiredAPI|Native|Event|Public|HasOutParms|BlueprintEvent 
+	// class UTextureRenderTarget2D* Render(bool InIsHeightmap, class UTextureRenderTarget2D* InCombinedResult, FName& InWeightmapLayerName); // [0x4e2c9a0] RequiredAPI|Native|Event|Public|HasOutParms|BlueprintEvent 
 	// Function /Script/Landscape.LandscapeBlueprintBrushBase.Initialize
-	// void Initialize(FTransform& InLandscapeTransform, FIntPoint& InLandscapeSize, FIntPoint& InLandscapeRenderTargetSize);   // [0x490a3d0] RequiredAPI|Native|Event|Public|HasOutParms|HasDefaults|BlueprintEvent 
+	// void Initialize(FTransform& InLandscapeTransform, FIntPoint& InLandscapeSize, FIntPoint& InLandscapeRenderTargetSize);   // [0x4e2c7e0] RequiredAPI|Native|Event|Public|HasOutParms|HasDefaults|BlueprintEvent 
 	// Function /Script/Landscape.LandscapeBlueprintBrushBase.GetBlueprintRenderDependencies
-	// void GetBlueprintRenderDependencies(TArray<UObject*>& OutStreamableAssets);                                              // [0x30b4600] RequiredAPI|Event|Public|HasOutParms|BlueprintEvent 
+	// void GetBlueprintRenderDependencies(TArray<UObject*>& OutStreamableAssets);                                              // [0x35d69e0] RequiredAPI|Event|Public|HasOutParms|BlueprintEvent 
 };
 
 /// Class /Script/Landscape.LandscapeHLODBuilder
@@ -909,7 +909,7 @@ public:
 	unsigned char                                      UnknownData00_6[0x4];                                       // 0x004C   (0x0004)  MISSED
 	FVector                                            DrawScale;                                                  // 0x0050   (0x0018)  
 	unsigned char                                      UnknownData01_6[0xB0];                                      // 0x0068   (0x00B0)  MISSED
-	SDK_UNDEFINED(16,1131) /* TArray<TWeakObjectPtr<ALandscapeStreamingProxy*>> */ __um(StreamingProxies);         // 0x0118   (0x0010)  
+	SDK_UNDEFINED(16,1147) /* TArray<TWeakObjectPtr<ALandscapeStreamingProxy*>> */ __um(StreamingProxies);         // 0x0118   (0x0010)  
 	unsigned char                                      UnknownData02_7[0x100];                                     // 0x0128   (0x0100)  MISSED
 };
 

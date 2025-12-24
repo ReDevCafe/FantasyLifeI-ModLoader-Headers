@@ -28,7 +28,7 @@ class GameData {
         ML_API UDynamicDataManager *getDynamicDataManager();
 
         template<typename T = void>
-        T *getUObject(const std::string name, bool safe = true, uint32_t nth = 0)
+        T *getUObject(const std::string name, bool safe = false, uint32_t nth = 0)
         {
             if (_gObjects == nullptr) return nullptr;
             if (_cache.contains(name))

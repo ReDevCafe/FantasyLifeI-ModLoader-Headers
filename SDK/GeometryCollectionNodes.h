@@ -2638,7 +2638,7 @@ struct FCollectionTransformSelectionLevelDataflowNode : FDataflowNode
 struct FCollectionTransformSelectionTargetLevelDataflowNode : FDataflowNode
 { 
 	FManagedArrayCollection                            Collection;                                                 // 0x00E8   (0x00B0)  
-	int32_t                                            TargetLevel;                                                // 0x0198   (0x0004)  
+	int32_t                                            targetLevel;                                                // 0x0198   (0x0004)  
 	bool                                               bSkipEmbedded;                                              // 0x019C   (0x0001)  
 	unsigned char                                      UnknownData00_6[0x3];                                       // 0x019D   (0x0003)  MISSED
 	FDataflowTransformSelection                        TransformSelection;                                         // 0x01A0   (0x0020)  

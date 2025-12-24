@@ -17,28 +17,28 @@ public:
     std::string GetIdentifier();
     std::string GetItemIdentifier();
 
-    ERecipeType                     GetType()                                   { return this->_object.Type; }
-    void                            SetType(ERecipeType type)                   { this->_object.Type = type; }
+    ERecipeType                     GetType()                                   { return static_cast<ERecipeType>(this->_object.Type); }
+    void                            SetType(ERecipeType type)                   { this->_object.Type =  static_cast<char>(type); }
 
     RecipeDataLifeParamInfo         GetLifeParam()                              { return RecipeDataLifeParamInfo(this->_object.lifeParamInfo); }
 
-    ERecipeCategory                 GetCategory()                               { return this->_object.Category; }
-    void                            GetCategory(ERecipeCategory category)       { this->_object.Category = category; }
+    ERecipeCategory                 GetCategory()                               { return static_cast<ERecipeCategory>(this->_object.Category); }
+    void                            GetCategory(ERecipeCategory category)       { this->_object.Category =  static_cast<char>(category); }
 
-    ERecipeItemSeries               GetSeries()                                 { return this->_object.recipeItemSeries; }
-    void                            SetSeries(ERecipeItemSeries serie)          { this->_object.recipeItemSeries = serie; }
+    ERecipeItemSeries               GetSeries()                                 { return static_cast<ERecipeItemSeries>(this->_object.recipeItemSeries); }
+    void                            SetSeries(ERecipeItemSeries serie)          { this->_object.recipeItemSeries =  static_cast<char>(serie); }
 
-    EItemTitleType                  GetRank()                                   { return this->_object.titleType; }
-    void                            SetRank(EItemTitleType rank)                { this->_object.titleType = rank; }
+    EItemTitleType                  GetRank()                                   { return static_cast<EItemTitleType>(this->_object.titleType); }
+    void                            SetRank(EItemTitleType rank)                { this->_object.titleType = static_cast<char>(rank); }
 
-    ERandomRecipeType               GetRandomRecipeType()                       { return this->_object.randomRecipeType; }
-    void                            SetRandomRecipeType(ERandomRecipeType type) { this->_object.randomRecipeType = type; }
+    ERandomRecipeType               GetRandomRecipeType()                       { return static_cast<ERandomRecipeType>(this->_object.randomRecipeType); }
+    void                            SetRandomRecipeType(ERandomRecipeType type) { this->_object.randomRecipeType =  static_cast<char>(type); }
 
     ItemData GetItem();
     void                            SetItem(ItemData data)                      { this->_object.ItemId = data.getObject().ID; }
 
-    ERarityType                     GetRarity()                                 { return this->_object.rarity; }  
-    void                            SetRarity(ERarityType rarity)               { this->_object.rarity = rarity; }
+    ERarityType                     GetRarity()                                 { return static_cast<ERarityType>(this->_object.rarity); }  
+    void                            SetRarity(ERarityType rarity)               { this->_object.rarity = static_cast<char>(rarity); }
 
     RecipeDataRewardData            GetRewards()                                { return RecipeDataRewardData(this->_object.rewardData); }
 

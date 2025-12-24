@@ -31,11 +31,11 @@ public:
 
 	/// Functions
 	// Function /Script/AndroidFileServer.AndroidFileServerBPLibrary.StopFileServer
-	// bool StopFileServer(bool bUSB, bool bNetwork);                                                                           // [0x8512cd0] Final|Native|Static|Public|BlueprintCallable 
+	// bool StopFileServer(bool bUSB, bool bNetwork);                                                                           // [0x8b9fd80] Final|Native|Static|Public|BlueprintCallable 
 	// Function /Script/AndroidFileServer.AndroidFileServerBPLibrary.StartFileServer
-	// bool StartFileServer(bool bUSB, bool bNetwork, int32_t Port);                                                            // [0x8512be0] Final|Native|Static|Public|BlueprintCallable 
+	// bool StartFileServer(bool bUSB, bool bNetwork, int32_t Port);                                                            // [0x8b9fc90] Final|Native|Static|Public|BlueprintCallable 
 	// Function /Script/AndroidFileServer.AndroidFileServerBPLibrary.IsFileServerRunning
-	// TEnumAsByte<EAFSActiveType> IsFileServerRunning();                                                                       // [0x55685c0] Final|Native|Static|Public|BlueprintCallable 
+	// TEnumAsByte<EAFSActiveType> IsFileServerRunning();                                                                       // [0x5a8aa90] Final|Native|Static|Public|BlueprintCallable 
 };
 
 #pragma pack(pop)

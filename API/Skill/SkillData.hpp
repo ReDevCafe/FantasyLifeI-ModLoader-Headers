@@ -33,8 +33,8 @@ class ML_API SkillData : public GameObjectProxy<FGDSkillData>
         std::string         GetDescription(LANG lang);
         void                SetDescription(LANG lang, FString name);
 
-        ESkillIconType      GetIconType()                       { return this->_object.skillIconType; }
-        void                SetIconType(ESkillIconType type)    { this->_object.skillIconType = type; }
+        ESkillIconType      GetIconType()                       { return static_cast<ESkillIconType>(this->_object.skillIconType); }
+        void                SetIconType(ESkillIconType type)    { this->_object.skillIconType = static_cast<char>(type); }
 
         std::string         GetLifeLimit();
 

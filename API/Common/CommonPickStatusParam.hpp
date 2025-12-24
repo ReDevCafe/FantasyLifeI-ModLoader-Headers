@@ -9,8 +9,8 @@ class ML_API  CommonPickStatusParam : public GameObjectProxy<FGDStCommon_PickSta
     public:
         CommonPickStatusParam(FGDStCommon_PickStatusParam& data) : GameObjectProxy(data) {};
 
-        int32_t     GetHP()                         { return  this->_object.HP; }
-        void        SetHP(int32_t value)            { this->_object.HP = value; }
+        int32_t     GetHP()                         { return  this->_object.hp; }
+        void        SetHP(int32_t value)            { this->_object.hp = value; }
 
         int32_t     GetOffense()                    { return  this->_object.offense; }
         void        SetOffense(int32_t value)       { this->_object.offense = value; }

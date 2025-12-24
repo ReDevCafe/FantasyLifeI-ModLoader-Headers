@@ -120,7 +120,7 @@ public:
 
 	/// Functions
 	// Function /Script/GLTFExporter.GLTFExportOptions.ResetToDefault
-	// void ResetToDefault();                                                                                                   // [0x80eafd0] Final|Native|Public|BlueprintCallable 
+	// void ResetToDefault();                                                                                                   // [0x8778080] Final|Native|Public|BlueprintCallable 
 };
 
 /// Class /Script/GLTFExporter.GLTFExporter
@@ -132,7 +132,7 @@ public:
 
 	/// Functions
 	// Function /Script/GLTFExporter.GLTFExporter.ExportToGLTF
-	// bool ExportToGLTF(class UObject* Object, FString FilePath, class UGLTFExportOptions* OPTIONS, TSet<AActor*>& SelectedActors, FGLTFExportMessages& OutMessages); // [0x80eaca0] Final|Native|Static|Public|HasOutParms|BlueprintCallable 
+	// bool ExportToGLTF(class UObject* Object, FString FilePath, class UGLTFExportOptions* OPTIONS, TSet<AActor*>& SelectedActors, FGLTFExportMessages& OutMessages); // [0x8777d50] Final|Native|Static|Public|HasOutParms|BlueprintCallable 
 };
 
 /// Class /Script/GLTFExporter.GLTFAnimSequenceExporter
@@ -201,7 +201,7 @@ public:
 
 	/// Functions
 	// Function /Script/GLTFExporter.GLTFProxyOptions.ResetToDefault
-	// void ResetToDefault();                                                                                                   // [0x80eb060] Final|Native|Public|BlueprintCallable 
+	// void ResetToDefault();                                                                                                   // [0x8778110] Final|Native|Public|BlueprintCallable 
 };
 
 /// Class /Script/GLTFExporter.GLTFMaterialExportOptions

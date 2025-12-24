@@ -27,11 +27,11 @@ class ML_API ItemData : public GameObjectProxy<FGDItemData>
         uint32_t            GetSortOrder() const { return this->_object.sortOrder; }
         void                SetSortOrder(uint32_t value)       { this->_object.sortOrder = value; }
 
-        EItemCategory       GetCategory() const { return this->_object.Category; }
-        void                SetCategory(EItemCategory value)    { this->_object.Category = value; }
+        EItemCategory       GetCategory()                       { return static_cast<EItemCategory>(this->_object.Category); }
+        void                SetCategory(EItemCategory value)    { this->_object.Category = static_cast<char>(value); }
 
-        EItemType           GetType() const { return this->_object.Type; }
-        void                SetType(EItemType type)             { this->_object.Type = type; }
+        EItemType           GetType()                           { return static_cast<EItemType>(this->_object.Type); }
+        void                SetType(EItemType type)             { this->_object.Type = static_cast<char>(type); }
 
         char                GetSeries() const { return this->_object.series; }
         void                SetSeries(char series)              { this->_object.series = series; }
@@ -59,13 +59,13 @@ class ML_API ItemData : public GameObjectProxy<FGDItemData>
 
         CommonPriceInfo     GetPriceInfo() const { return CommonPriceInfo(this->_object.priceInfo); }
 
-        ERarityType         GetRarityType() const { return this->_object.rarity; }
-        void                SetRarityType(ERarityType type) { this->_object.rarity = type; }
+        ERarityType         GetRarityType()                     { return static_cast<ERarityType>(this->_object.rarity); }
+        void                SetRarityType(ERarityType type)     { this->_object.rarity = static_cast<char>(type); }
 
-        EItemQualityType    GetQuality() const { return this->_object.Quality; }
-        void                SetQuality(EItemQualityType quality) { this->_object.Quality = quality; }
+        EItemQualityType    GetQuality()                        { return static_cast<EItemQualityType>(this->_object.Quality); }
+        void                SetQuality(EItemQualityType quality){ this->_object.Quality = static_cast<char>(quality); }
 
-        EItemEffectType     GetEffectType() const { return this->_object.dropEffType; }
-        void                SetEffectType(EItemEffectType type) { this->_object.dropEffType = type; }
+        EItemEffectType     GetEffectType()                     { return static_cast<EItemEffectType>(this->_object.dropEffType); }
+        void                SetEffectType(EItemEffectType type) { this->_object.dropEffType = static_cast<char>(type); }
 };
 #endif // !ITEMDATA_HPP

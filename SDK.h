@@ -19,6 +19,16 @@
   #pragma warning(push, 0)
 #endif
 
+#pragma once
+
+#if defined(__clang__)
+  #pragma clang diagnostic push
+  #pragma clang diagnostic ignored "-Wc++11-narrowing"
+
+#elif defined(_MSC_VER)
+  #pragma warning(push, 0)
+#endif
+
 #include <string>
 
 #define SDK_UNDEFINED(__ssize__, __cnt__, ...) char undefined##__cnt__[__ssize__]; //
@@ -228,6 +238,18 @@
 #include "SDK/WebRemoteControl.h"
 #include "SDK/WebSocketNetworking.h"
 #include "SDK/WmfMediaFactory.h"
+
+#if defined(__clang__)
+  #pragma clang diagnostic pop
+#elif defined(_MSC_VER)
+  #pragma warning(pop)
+#endif
+
+#if defined(__clang__)
+  #pragma clang diagnostic pop
+#elif defined(_MSC_VER)
+  #pragma warning(pop)
+#endif
 
 #if defined(__clang__)
   #pragma clang diagnostic pop

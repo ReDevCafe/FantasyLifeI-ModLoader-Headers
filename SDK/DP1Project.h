@@ -51444,9 +51444,9 @@ public:
 /// Size: 0x000C (12 bytes) (0x000000 - 0x00000C) align 4 MaxSize: 0x000C
 struct FGDMapMinimap_MapMenuScaleInfo
 { 
-	float                                              small;                                                      // 0x0000   (0x0004)  
+	float                                              Small;                                                      // 0x0000   (0x0004)  
 	float                                              Medium;                                                     // 0x0004   (0x0004)  
-	float                                              large;                                                      // 0x0008   (0x0004)  
+	float                                              Large;                                                      // 0x0008   (0x0004)  
 };
 
 /// Struct /Script/DP1Project.GDMapMinimap

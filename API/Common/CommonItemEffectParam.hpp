@@ -20,8 +20,8 @@ class CommonItemEffectParam : public GameObjectProxy<FGDStCommon_ItemEffParam>
     void            SetIsRange(bool value)          { this->_object.isRange = value; }
     bool            GetIsRange()                    {  return this->_object.isRange; }
 
-    void            SetEffect(EItemEffectType value){ this->_object.itemEffectType = value; }
-    EItemEffectType GetEffect()                     {  return this->_object.itemEffectType; }
+    void            SetEffect(EItemEffectType value){ this->_object.itemEffectType = static_cast<char>(value); }
+    EItemEffectType GetEffect()                     {  return static_cast<EItemEffectType>(this->_object.itemEffectType); }
 
     protected:
     std::string     getDescIdentifier() const { return this->_object.effDescId.ToString(); }

@@ -7,6 +7,7 @@ class ML_API ItemLifeToolsData : public  ItemUniqueSkillEquipData
 {
     public:
         ItemLifeToolsData(FGDItemLifeToolsData& data) : ItemUniqueSkillEquipData(data){}
+        ItemLifeToolsData(ItemData data) : ItemUniqueSkillEquipData(reinterpret_cast<FGDItemUniqueSkillEquipData&>(data.getObject())){};
 
         bool GetDisableBurial()                             { return  reinterpret_cast<FGDItemLifeToolsData*>(&this->_object)->disableBurial; }
         void SetDisableBurial(bool value)                   { reinterpret_cast<FGDItemLifeToolsData*>(&this->_object)->disableBurial = value; }

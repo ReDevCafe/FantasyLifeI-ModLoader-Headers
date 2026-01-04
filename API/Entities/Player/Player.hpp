@@ -9,16 +9,22 @@
 
 class ML_API Player {
     public:
-        Player(FGDCharaParameter &charaParameter, FCharaStatusP *charaStatusP, FAvatarCharaStatusV &charaStatusV);
-        ~Player() = default;
-        EntityStats stats;
-        EntityStatus status;
-        ELifeType getLifeType();
-        void setExp(ELifeType life, uint32_t exp);
-        void setLevel(ELifeType life, uint16_t lvl);
-        uint32_t getExp(ELifeType life);
-        uint16_t getLevel(ELifeType life);
-    protected:
+    Player(FGDCharaParameter &charaParameter, FCharaStatusP *charaStatusP, FAvatarCharaStatusV &charaStatusV);
+    ~Player() = default;
+    
+    private:
+    EntityStats stats;
+    EntityStatus status;
+    
+    public:
+    ELifeType   GetLifeType();
+    void        SetExp(ELifeType life, uint32_t exp);
+    void        SetLevel(ELifeType life, uint16_t lvl);
+    uint32_t    GetExp(ELifeType life);
+    uint16_t    GetLevel(ELifeType life);
+
+    EntityStats  GetStats()  { return stats; }
+    EntityStatus GetStatus() { return status; }
 };
 
 #endif /* !PLAYER_HPP_ */

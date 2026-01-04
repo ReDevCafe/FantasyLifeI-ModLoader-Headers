@@ -2,13 +2,19 @@
     #define ITEMCONSUMEDATA_HPP
 
     #include "ItemData.hpp"
+    #include "API/Common/CommonItemEffectParam.hpp"
 
 class ML_API ItemConsumeData : public ItemData 
 {
     public:
         ItemConsumeData(FGDItemConsumeData& data) : ItemData(data){};
+        ItemConsumeData(ItemData data) : ItemData(data.getObject()){};
 
-        EItemUseActionType ActionType();
+        EItemUseActionType      GetActionType()     { return reinterpret_cast<FGDItemConsumeData*>(&this->_object)->itemUseActionType; }
+
+        CommonItemEffectParam   GetFirstEffect()    { return (reinterpret_cast<FGDItemConsumeData*>(&this->_object)->effParam0); }
+        CommonItemEffectParam   GetSecondEffect()   { return (reinterpret_cast<FGDItemConsumeData*>(&this->_object)->effParam1); }
+        CommonItemEffectParam   GetThirdEffect()    { return (reinterpret_cast<FGDItemConsumeData*>(&this->_object)->effParam2); }
 };
 
 #endif // !ITEMCONSUMEDATA_HPP

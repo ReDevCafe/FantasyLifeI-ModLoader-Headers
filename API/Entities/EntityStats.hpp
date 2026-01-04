@@ -9,18 +9,18 @@
 class ML_API EntityStats : public GameObjectProxy<FGDCharaParameter> {
     public:
         EntityStats(FGDCharaParameter &parameter) : GameObjectProxy(parameter) {};
-        void setPhysicalAttack(ELifeType life, int32_t physicalAttack);
-        void setMagicalAttack(ELifeType life, int32_t magicalAttack);
-        void setPhysicalDefense(ELifeType life, int32_t physicalDefense);
-        void setMagicalDefense(ELifeType life, int32_t magicalDefense);
-        void setCriticalRate(ELifeType life, int32_t criticalRate);
-        void setCriticalRateEvasion(ELifeType life, int32_t criticalRateEvasion);
-        int32_t getPhysicalAttack(ELifeType life);
-        int32_t getMagicalAttack(ELifeType life);
-        int32_t getPhysicalDefense(ELifeType life);
-        int32_t getMagicalDefense(ELifeType life);
-        int32_t getCriticalRate(ELifeType life);
-        int32_t getCriticalRateEvasion(ELifeType life);
+        void SetPhysicalAttack(ELifeType life, int32_t physicalAttack);
+        void SetMagicalAttack(ELifeType life, int32_t magicalAttack);
+        void SetPhysicalDefense(ELifeType life, int32_t physicalDefense);
+        void SetMagicalDefense(ELifeType life, int32_t magicalDefense);
+        void SetCriticalRate(ELifeType life, int32_t criticalRate);
+        void SetCriticalRateEvasion(ELifeType life, int32_t criticalRateEvasion);
+        int32_t GetPhysicalAttack(ELifeType life);
+        int32_t GetMagicalAttack(ELifeType life);
+        int32_t GetPhysicalDefense(ELifeType life);
+        int32_t GetMagicalDefense(ELifeType life);
+        int32_t GetCriticalRate(ELifeType life);
+        int32_t GetCriticalRateEvasion(ELifeType life);
     protected:
     private:
         FGDCharaParameter_CharaStatusParam &_getParamFrom(ELifeType life);

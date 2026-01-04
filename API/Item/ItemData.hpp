@@ -8,14 +8,12 @@
 class ML_API ItemData : public GameObjectProxy<FGDItemData>
 {
     public:
-        ItemData(FGDItemData& data) :
-            GameObjectProxy(data)
-        {};
+        ItemData(FGDItemData& data) : GameObjectProxy(data){};
 
         std::string         GetIdentifier();
 
     protected:
-        std::string         GetNameIdentifier();
+        std::string         getNameIdentifier();
     public:
         std::string         GetName(LANG lang);
         void                SetName(LANG lang, FString string);

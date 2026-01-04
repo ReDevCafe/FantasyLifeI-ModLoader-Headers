@@ -48905,7 +48905,7 @@ struct FGDStCommon_ItemEffParam
 	int16_t                                            val;                                                        // 0x0000   (0x0002)  
 	int16_t                                            Time;                                                       // 0x0002   (0x0002)  
 	bool                                               isRange;                                                    // 0x0004   (0x0001)  
-	char                                               itemEffectType;                                             // 0x0005   (0x0001)  
+	EItemEffectType									   itemEffectType;                                             // 0x0005   (0x0001)  
 	unsigned char                                      UnknownData00_6[0x2];                                       // 0x0006   (0x0002)  MISSED
 	FName                                              effDescId;                                                  // 0x0008   (0x0008)  
 };
@@ -48914,6 +48914,7 @@ struct FGDStCommon_ItemEffParam
 /// Size: 0x0168 (360 bytes) (0x000120 - 0x000168) align 8 MaxSize: 0x0168
 struct FGDItemConsumeData : FGDItemData
 { 
+<<<<<<< HEAD
 	uint16_t                                           StackCheckNum;                                              // 0x0120   (0x0002)  
 	char                                               itemUseActionType;                                          // 0x0122   (0x0001)  
 	unsigned char                                      UnknownData00_6[0x1];                                       // 0x0123   (0x0001)  MISSED
@@ -48923,6 +48924,17 @@ struct FGDItemConsumeData : FGDItemData
 	FGDStCommon_ItemEffParam                           effParam1;                                                  // 0x0144   (0x0010)  
 	FGDStCommon_ItemEffParam                           effParam2;                                                  // 0x0154   (0x0010)  
 	unsigned char                                      UnknownData01_7[0x4];                                       // 0x0164   (0x0004)  MISSED
+=======
+	uint16_t                                           StackCheckNum;                                              // 0x00F0   (0x0002)  
+	EItemUseActionType                                 itemUseActionType;                                          // 0x00F2   (0x0001)  
+	unsigned char                                      UnknownData00_6[0x1];                                       // 0x00F3   (0x0001)  MISSED
+	FName                                              modelID;                                                    // 0x00F4   (0x0008)  
+	FName                                              cmdId;                                                      // 0x00FC   (0x0008)  
+	FGDStCommon_ItemEffParam                           effParam0;                                                  // 0x0104   (0x0010)  
+	FGDStCommon_ItemEffParam                           effParam1;                                                  // 0x0114   (0x0010)  
+	FGDStCommon_ItemEffParam                           effParam2;                                                  // 0x0124   (0x0010)  
+	unsigned char                                      UnknownData01_7[0x4];                                       // 0x0134   (0x0004)  MISSED
+>>>>>>> b717a06 (WIP)
 };
 
 /// Class /Script/DP1Project.GDSItemConsumeData

@@ -41,11 +41,11 @@ public:
 
 	/// Functions
 	// Function /Script/CriWareMovieScenes.MovieSceneAtomSection.SetStartOffset
-	// void SetStartOffset(FFrameNumber InStartOffset);                                                                         // [0x67a2ba0] Final|Native|Public|HasDefaults|BlueprintCallable 
+	// void SetStartOffset(FFrameNumber InStartOffset);                                                                         // [0x67a3fd0] Final|Native|Public|HasDefaults|BlueprintCallable 
 	// Function /Script/CriWareMovieScenes.MovieSceneAtomSection.IsLooping
-	// bool IsLooping();                                                                                                        // [0x85e3fb0] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// bool IsLooping();                                                                                                        // [0x85e5e30] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/CriWareMovieScenes.MovieSceneAtomSection.GetStartOffset
-	// FFrameNumber GetStartOffset();                                                                                           // [0x67a2b80] Final|Native|Public|HasDefaults|BlueprintCallable|BlueprintPure|Const 
+	// FFrameNumber GetStartOffset();                                                                                           // [0x67a3fb0] Final|Native|Public|HasDefaults|BlueprintCallable|BlueprintPure|Const 
 };
 
 /// Class /Script/CriWareMovieScenes.MovieSceneAtomTrack

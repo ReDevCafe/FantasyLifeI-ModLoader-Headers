@@ -25,8 +25,8 @@ class ML_API CharaData : GameObjectProxy<FGDCharaData>
     std::string GetMoveSpeed();
     std::string GetCraftMoveSpeed();
 
-    EGenderType GetGender()                     { return   this->_object.gender; }
-    void        SetGender(EGenderType gender)   { this->_object.gender = gender; }
+    EGenderType GetGender()                     { return   static_cast<EGenderType>(this->_object.gender); }
+    void        SetGender(EGenderType gender)   { this->_object.gender = static_cast<char>(gender); }
 
     bool        GetIsAvatar()                   { return this->_object.IsAvatar; }
 };

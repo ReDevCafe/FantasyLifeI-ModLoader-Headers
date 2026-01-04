@@ -51,23 +51,23 @@ public:
 
 	/// Functions
 	// Function /Script/CriWareAdxLipSync.LipsAnalyzerBase.SetSilenceThreshold
-	// void SetSilenceThreshold(float VolumeDb);                                                                                // [0x67a2050] Final|Native|Public|BlueprintCallable 
+	// void SetSilenceThreshold(float VolumeDb);                                                                                // [0x67a3480] Final|Native|Public|BlueprintCallable 
 	// Function /Script/CriWareAdxLipSync.LipsAnalyzerBase.SetSamplingRate
-	// void SetSamplingRate(int32_t SamplingRateHz);                                                                            // [0x67a1fc0] Final|Native|Public|BlueprintCallable 
+	// void SetSamplingRate(int32_t SamplingRateHz);                                                                            // [0x67a33f0] Final|Native|Public|BlueprintCallable 
 	// Function /Script/CriWareAdxLipSync.LipsAnalyzerBase.IsAtSilence
-	// bool IsAtSilence();                                                                                                      // [0x67a1f90] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// bool IsAtSilence();                                                                                                      // [0x67a33c0] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/CriWareAdxLipSync.LipsAnalyzerBase.Init
-	// void Init(int32_t MaxInputSamplingRate, ELipsAnalyzerDataReadoutMode dataReadoutMode);                                   // [0x67a1ec0] Final|Native|Public|BlueprintCallable 
+	// void Init(int32_t MaxInputSamplingRate, ELipsAnalyzerDataReadoutMode dataReadoutMode);                                   // [0x67a32f0] Final|Native|Public|BlueprintCallable 
 	// Function /Script/CriWareAdxLipSync.LipsAnalyzerBase.GetVolume
-	// float GetVolume();                                                                                                       // [0x67a1e80] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// float GetVolume();                                                                                                       // [0x67a32b0] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/CriWareAdxLipSync.LipsAnalyzerBase.GetSilenceThreshold
-	// float GetSilenceThreshold();                                                                                             // [0x67a1e40] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// float GetSilenceThreshold();                                                                                             // [0x67a3270] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/CriWareAdxLipSync.LipsAnalyzerBase.GetMorphTargetBlendAmountAsJapanese
-	// FCriLipsMorphTargetBlendAmountAsJapanese GetMorphTargetBlendAmountAsJapanese();                                          // [0x67a1de0] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// FCriLipsMorphTargetBlendAmountAsJapanese GetMorphTargetBlendAmountAsJapanese();                                          // [0x67a3210] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/CriWareAdxLipSync.LipsAnalyzerBase.GetInfoAtSilence
-	// FCriLipsMouthInfo GetInfoAtSilence();                                                                                    // [0x67a1d80] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// FCriLipsMouthInfo GetInfoAtSilence();                                                                                    // [0x67a31b0] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/CriWareAdxLipSync.LipsAnalyzerBase.GetInfo
-	// FCriLipsMouthInfo GetInfo();                                                                                             // [0x67a1d20] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// FCriLipsMouthInfo GetInfo();                                                                                             // [0x67a3150] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 };
 
 /// Class /Script/CriWareAdxLipSync.LipsAtomAnalyzer
@@ -81,17 +81,17 @@ public:
 
 	/// Functions
 	// Function /Script/CriWareAdxLipSync.LipsAtomAnalyzer.SetReadoutOffset
-	// void SetReadoutOffset(int64_t offsetMs);                                                                                 // [0x67a25e0] Final|Native|Public|BlueprintCallable 
+	// void SetReadoutOffset(int64_t offsetMs);                                                                                 // [0x67a3a10] Final|Native|Public|BlueprintCallable 
 	// Function /Script/CriWareAdxLipSync.LipsAtomAnalyzer.IsAttached
-	// bool IsAttached();                                                                                                       // [0x67a25a0] Final|Native|Public|BlueprintCallable 
+	// bool IsAttached();                                                                                                       // [0x67a39d0] Final|Native|Public|BlueprintCallable 
 	// Function /Script/CriWareAdxLipSync.LipsAtomAnalyzer.GetReadoutStatus
-	// ELipsAtomAnalyzerReadoutStatus GetReadoutStatus();                                                                       // [0x67a2570] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// ELipsAtomAnalyzerReadoutStatus GetReadoutStatus();                                                                       // [0x67a39a0] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/CriWareAdxLipSync.LipsAtomAnalyzer.GetProcessStatus
-	// ELipsAtomAnalyzerProcessStatus GetProcessStatus();                                                                       // [0x67a2540] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// ELipsAtomAnalyzerProcessStatus GetProcessStatus();                                                                       // [0x67a3970] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/CriWareAdxLipSync.LipsAtomAnalyzer.Detach
-	// void Detach();                                                                                                           // [0x67a2520] Final|Native|Public|BlueprintCallable 
+	// void Detach();                                                                                                           // [0x67a3950] Final|Native|Public|BlueprintCallable 
 	// Function /Script/CriWareAdxLipSync.LipsAtomAnalyzer.Attach
-	// void Attach(class UAtomComponent* InAtomComponent);                                                                      // [0x67a2490] Final|Native|Public|BlueprintCallable 
+	// void Attach(class UAtomComponent* InAtomComponent);                                                                      // [0x67a38c0] Final|Native|Public|BlueprintCallable 
 };
 
 /// Struct /Script/CriWareAdxLipSync.AtomLipSyncSectionParameter
@@ -139,9 +139,9 @@ public:
 
 	/// Functions
 	// Function /Script/CriWareAdxLipSync.MovieSceneLipSyncAtomSection.SetStartOffset
-	// void SetStartOffset(FFrameNumber InStartOffset);                                                                         // [0x67a2ba0] Final|Native|Public|HasDefaults|BlueprintCallable 
+	// void SetStartOffset(FFrameNumber InStartOffset);                                                                         // [0x67a3fd0] Final|Native|Public|HasDefaults|BlueprintCallable 
 	// Function /Script/CriWareAdxLipSync.MovieSceneLipSyncAtomSection.GetStartOffset
-	// FFrameNumber GetStartOffset();                                                                                           // [0x67a2b80] Final|Native|Public|HasDefaults|BlueprintCallable|BlueprintPure|Const 
+	// FFrameNumber GetStartOffset();                                                                                           // [0x67a3fb0] Final|Native|Public|HasDefaults|BlueprintCallable|BlueprintPure|Const 
 };
 
 /// Class /Script/CriWareAdxLipSync.MovieSceneLipSyncAtomTrack

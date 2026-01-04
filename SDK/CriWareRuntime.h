@@ -369,9 +369,9 @@ public:
 
 	/// Functions
 	// Function /Script/CriWareRuntime.Atom3dRegion.SetHandle
-	// void SetHandle(class UAtom3dRegionHandle* InHandle);                                                                     // [0x672b150] Final|Native|Public|BlueprintCallable 
+	// void SetHandle(class UAtom3dRegionHandle* InHandle);                                                                     // [0x672c580] Final|Native|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.Atom3dRegion.GetHandle
-	// class UAtom3dRegionHandle* GetHandle();                                                                                  // [0x672b120] Final|Native|Public|BlueprintCallable 
+	// class UAtom3dRegionHandle* GetHandle();                                                                                  // [0x672c550] Final|Native|Public|BlueprintCallable 
 };
 
 /// Class /Script/CriWareRuntime.Atom3dSourceBaseComponent
@@ -401,7 +401,7 @@ public:
 
 	/// Functions
 	// Function /Script/CriWareRuntime.Atom3dSourceBaseComponent.SetRegion
-	// void SetRegion(class UAtom3dRegion* InRegion);                                                                           // [0x672b7e0] Final|Native|Public|BlueprintCallable 
+	// void SetRegion(class UAtom3dRegion* InRegion);                                                                           // [0x672cc10] Final|Native|Public|BlueprintCallable 
 };
 
 /// Class /Script/CriWareRuntime.Atom3dTransceiverComponent
@@ -440,19 +440,19 @@ public:
 
 	/// Functions
 	// Function /Script/CriWareRuntime.AtomAreaSoundVolume.SetPriority
-	// void SetPriority(float NewPriority);                                                                                     // [0x672bff0] Final|Native|Public|BlueprintCallable 
+	// void SetPriority(float NewPriority);                                                                                     // [0x672d420] Final|Native|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.AtomAreaSoundVolume.SetEnabled
-	// void SetEnabled(bool bNewEnabled);                                                                                       // [0x672bf60] Final|Native|Public|BlueprintCallable 
+	// void SetEnabled(bool bNewEnabled);                                                                                       // [0x672d390] Final|Native|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.AtomAreaSoundVolume.OnRep_bEnabled
-	// void OnRep_bEnabled();                                                                                                   // [0x672bf40] Final|Native|Private 
+	// void OnRep_bEnabled();                                                                                                   // [0x672d370] Final|Native|Private 
 	// Function /Script/CriWareRuntime.AtomAreaSoundVolume.GetPriority
-	// float GetPriority();                                                                                                     // [0x672bf20] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// float GetPriority();                                                                                                     // [0x672d350] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/CriWareRuntime.AtomAreaSoundVolume.GetEnabled
-	// bool GetEnabled();                                                                                                       // [0x672bef0] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// bool GetEnabled();                                                                                                       // [0x672d320] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/CriWareRuntime.AtomAreaSoundVolume.DestroySounds
-	// void DestroySounds();                                                                                                    // [0x672bed0] Final|Native|Public|BlueprintCallable 
+	// void DestroySounds();                                                                                                    // [0x672d300] Final|Native|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.AtomAreaSoundVolume.CreateSounds
-	// TArray<UAtomComponent*> CreateSounds(FVector listener_location);                                                         // [0x672bde0] Final|Native|Public|HasDefaults|BlueprintCallable 
+	// TArray<UAtomComponent*> CreateSounds(FVector listener_location);                                                         // [0x672d210] Final|Native|Public|HasDefaults|BlueprintCallable 
 };
 
 /// Class /Script/CriWareRuntime.AtomAsrRack
@@ -466,37 +466,37 @@ public:
 
 	/// Functions
 	// Function /Script/CriWareRuntime.AtomAsrRack.SetEffectBypass
-	// void SetEffectBypass(FString BusName, FString EffectName, bool Bypasses);                                                // [0x672d250] Final|Native|Public|BlueprintCallable 
+	// void SetEffectBypass(FString BusName, FString EffectName, bool Bypasses);                                                // [0x672e680] Final|Native|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.AtomAsrRack.SetBusVolumeByName
-	// void SetBusVolumeByName(FString BusName, float Volume);                                                                  // [0x672d110] Final|Native|Public|BlueprintCallable 
+	// void SetBusVolumeByName(FString BusName, float Volume);                                                                  // [0x672e540] Final|Native|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.AtomAsrRack.SetBusSendLevelByName
-	// void SetBusSendLevelByName(FString SourceBusName, FString DestBusName, float Level);                                     // [0x672cf50] Final|Native|Public|BlueprintCallable 
+	// void SetBusSendLevelByName(FString SourceBusName, FString DestBusName, float Level);                                     // [0x672e380] Final|Native|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.AtomAsrRack.SetAisacControlByName
-	// void SetAisacControlByName(FString control_name, float control_value);                                                   // [0x672ce10] Final|Native|Public|BlueprintCallable 
+	// void SetAisacControlByName(FString control_name, float control_value);                                                   // [0x672e240] Final|Native|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.AtomAsrRack.IsEnabledBinauralizer
-	// bool IsEnabledBinauralizer();                                                                                            // [0x672cde0] Final|Native|Static|Public|BlueprintCallable 
+	// bool IsEnabledBinauralizer();                                                                                            // [0x672e210] Final|Native|Static|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.AtomAsrRack.GetDefaultAsrRack
-	// class UAtomAsrRack* GetDefaultAsrRack();                                                                                 // [0x672cdb0] Final|Native|Static|Public|BlueprintCallable 
+	// class UAtomAsrRack* GetDefaultAsrRack();                                                                                 // [0x672e1e0] Final|Native|Static|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.AtomAsrRack.GetCurrentAppliedSnapshot
-	// FString GetCurrentAppliedSnapshot(int32_t AsrRackID);                                                                    // [0x672ccd0] Final|Native|Public|BlueprintCallable 
+	// FString GetCurrentAppliedSnapshot(int32_t AsrRackID);                                                                    // [0x672e100] Final|Native|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.AtomAsrRack.GetBusAnalyzerInfo
-	// bool GetBusAnalyzerInfo(FString DspBusName, int32_t& num_channels, TArray<float>& rms_levels, TArray<float>& peak_levels, TArray<float>& peak_hold_levels); // [0x672ca60] Final|Native|Public|HasOutParms|BlueprintCallable 
+	// bool GetBusAnalyzerInfo(FString DspBusName, int32_t& num_channels, TArray<float>& rms_levels, TArray<float>& peak_levels, TArray<float>& peak_hold_levels); // [0x672de90] Final|Native|Public|HasOutParms|BlueprintCallable 
 	// Function /Script/CriWareRuntime.AtomAsrRack.GetAsrRack
-	// class UAtomAsrRack* GetAsrRack(int32_t AsrRackID);                                                                       // [0x672c9d0] Final|Native|Static|Public|BlueprintCallable 
+	// class UAtomAsrRack* GetAsrRack(int32_t AsrRackID);                                                                       // [0x672de00] Final|Native|Static|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.AtomAsrRack.EnableBinauralizer
-	// void EnableBinauralizer(bool bIsEnabled);                                                                                // [0x672c950] Final|Native|Static|Public|BlueprintCallable 
+	// void EnableBinauralizer(bool bIsEnabled);                                                                                // [0x672dd80] Final|Native|Static|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.AtomAsrRack.DetachDspBusSetting
-	// void DetachDspBusSetting();                                                                                              // [0x672c930] Final|Native|Public|BlueprintCallable 
+	// void DetachDspBusSetting();                                                                                              // [0x672dd60] Final|Native|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.AtomAsrRack.ConnectToPadVibrator
-	// void ConnectToPadVibrator(int32_t UserIndex);                                                                            // [0x672c8a0] Final|Native|Public|BlueprintCallable 
+	// void ConnectToPadVibrator(int32_t UserIndex);                                                                            // [0x672dcd0] Final|Native|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.AtomAsrRack.ConnectToPadSpeaker
-	// void ConnectToPadSpeaker(int32_t UserIndex);                                                                             // [0x672c810] Final|Native|Public|BlueprintCallable 
+	// void ConnectToPadSpeaker(int32_t UserIndex);                                                                             // [0x672dc40] Final|Native|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.AtomAsrRack.AttachDspBusSetting
-	// void AttachDspBusSetting(FString SettingName);                                                                           // [0x672c720] Final|Native|Public|BlueprintCallable 
+	// void AttachDspBusSetting(FString SettingName);                                                                           // [0x672db50] Final|Native|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.AtomAsrRack.AssociateOutputPort
-	// bool AssociateOutputPort(FString OutputPortName);                                                                        // [0x672c670] Final|Native|Public|BlueprintCallable 
+	// bool AssociateOutputPort(FString OutputPortName);                                                                        // [0x672daa0] Final|Native|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.AtomAsrRack.ApplyDspBusSnapshot
-	// void ApplyDspBusSnapshot(FString SnapshotName, int32_t Milliseconds);                                                    // [0x672c540] Final|Native|Public|BlueprintCallable 
+	// void ApplyDspBusSnapshot(FString SnapshotName, int32_t Milliseconds);                                                    // [0x672d970] Final|Native|Public|BlueprintCallable 
 };
 
 /// Class /Script/CriWareRuntime.AtomEntranceVolume
@@ -512,15 +512,15 @@ public:
 
 	/// Functions
 	// Function /Script/CriWareRuntime.AtomEntranceVolume.SetPriority
-	// void SetPriority(float NewPriority);                                                                                     // [0x672ece0] Final|Native|Public|BlueprintCallable 
+	// void SetPriority(float NewPriority);                                                                                     // [0x6730110] Final|Native|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.AtomEntranceVolume.SetEnabled
-	// void SetEnabled(bool bNewEnabled);                                                                                       // [0x672ebd0] Final|Native|Public|BlueprintCallable 
+	// void SetEnabled(bool bNewEnabled);                                                                                       // [0x6730000] Final|Native|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.AtomEntranceVolume.OnRep_bEnabled
-	// void OnRep_bEnabled();                                                                                                   // [0x672bf40] Final|Native|Private 
+	// void OnRep_bEnabled();                                                                                                   // [0x672d370] Final|Native|Private 
 	// Function /Script/CriWareRuntime.AtomEntranceVolume.GetPriority
-	// float GetPriority();                                                                                                     // [0x672bf20] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// float GetPriority();                                                                                                     // [0x672d350] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/CriWareRuntime.AtomEntranceVolume.GetEnabled
-	// bool GetEnabled();                                                                                                       // [0x672bef0] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// bool GetEnabled();                                                                                                       // [0x672d320] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 };
 
 /// Struct /Script/CriWareRuntime.SnapshotSwitchSettings
@@ -605,19 +605,19 @@ public:
 
 	/// Functions
 	// Function /Script/CriWareRuntime.AtomAudioVolume.SetReverbSettings
-	// void SetReverbSettings(FSnapshotSwitchSettings& NewReverbSettings);                                                      // [0x672ed60] Final|Native|Public|HasOutParms|BlueprintCallable 
+	// void SetReverbSettings(FSnapshotSwitchSettings& NewReverbSettings);                                                      // [0x6730190] Final|Native|Public|HasOutParms|BlueprintCallable 
 	// Function /Script/CriWareRuntime.AtomAudioVolume.SetPriority
-	// void SetPriority(float NewPriority);                                                                                     // [0x672ec60] Final|Native|Public|BlueprintCallable 
+	// void SetPriority(float NewPriority);                                                                                     // [0x6730090] Final|Native|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.AtomAudioVolume.SetEnabled
-	// void SetEnabled(bool bNewEnabled);                                                                                       // [0x672eb40] Final|Native|Public|BlueprintCallable 
+	// void SetEnabled(bool bNewEnabled);                                                                                       // [0x672ff70] Final|Native|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.AtomAudioVolume.OnRep_bEnabled
-	// void OnRep_bEnabled();                                                                                                   // [0x672bf40] Final|Native|Private 
+	// void OnRep_bEnabled();                                                                                                   // [0x672d370] Final|Native|Private 
 	// Function /Script/CriWareRuntime.AtomAudioVolume.GetPriority
-	// float GetPriority();                                                                                                     // [0x672bf20] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// float GetPriority();                                                                                                     // [0x672d350] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/CriWareRuntime.AtomAudioVolume.GetEnabled
-	// bool GetEnabled();                                                                                                       // [0x672bef0] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// bool GetEnabled();                                                                                                       // [0x672d320] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/CriWareRuntime.AtomAudioVolume.EnableAllAudioVolume
-	// void EnableAllAudioVolume(bool bEnable);                                                                                 // [0x672eac0] Final|Native|Static|Public|BlueprintCallable 
+	// void EnableAllAudioVolume(bool bEnable);                                                                                 // [0x672fef0] Final|Native|Static|Public|BlueprintCallable 
 };
 
 /// Class /Script/CriWareRuntime.AtomAudioVolumeSettings
@@ -640,35 +640,35 @@ public:
 
 	/// Functions
 	// Function /Script/CriWareRuntime.AtomBusSampler.StopRecordedSoundWithoutReleaseTime
-	// void StopRecordedSoundWithoutReleaseTime();                                                                              // [0x672f710] Final|Native|Public|BlueprintCallable 
+	// void StopRecordedSoundWithoutReleaseTime();                                                                              // [0x6730b40] Final|Native|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.AtomBusSampler.StopRecordedSound
-	// void StopRecordedSound();                                                                                                // [0x672f6f0] Final|Native|Public|BlueprintCallable 
+	// void StopRecordedSound();                                                                                                // [0x6730b20] Final|Native|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.AtomBusSampler.StartRecording
-	// void StartRecording(float InExpectedDuration, int32_t InAsrRack, FString InBusName, bool BusOutput);                     // [0x672f540] Final|Native|Public|BlueprintCallable 
+	// void StartRecording(float InExpectedDuration, int32_t InAsrRack, FString InBusName, bool BusOutput);                     // [0x6730970] Final|Native|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.AtomBusSampler.ResumeRecording
-	// void ResumeRecording();                                                                                                  // [0x672f520] Final|Native|Public|BlueprintCallable 
+	// void ResumeRecording();                                                                                                  // [0x6730950] Final|Native|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.AtomBusSampler.PlayRecordedSound
-	// void PlayRecordedSound(int32_t Milliseconds);                                                                            // [0x672f490] Final|Native|Public|BlueprintCallable 
+	// void PlayRecordedSound(int32_t Milliseconds);                                                                            // [0x67308c0] Final|Native|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.AtomBusSampler.PauseRecording
-	// void PauseRecording();                                                                                                   // [0x672f470] Final|Native|Public|BlueprintCallable 
+	// void PauseRecording();                                                                                                   // [0x67308a0] Final|Native|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.AtomBusSampler.PauseRecordedSound
-	// void PauseRecordedSound(bool bPause);                                                                                    // [0x672f3e0] Final|Native|Public|BlueprintCallable 
+	// void PauseRecordedSound(bool bPause);                                                                                    // [0x6730810] Final|Native|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.AtomBusSampler.OnRecordingStarted__DelegateSignature
-	// void OnRecordingStarted__DelegateSignature();                                                                            // [0x35d69e0] MulticastDelegate|Public|Delegate 
+	// void OnRecordingStarted__DelegateSignature();                                                                            // [0x35d7f00] MulticastDelegate|Public|Delegate 
 	// Function /Script/CriWareRuntime.AtomBusSampler.OnRecordingFinished__DelegateSignature
-	// void OnRecordingFinished__DelegateSignature();                                                                           // [0x35d69e0] MulticastDelegate|Public|Delegate 
+	// void OnRecordingFinished__DelegateSignature();                                                                           // [0x35d7f00] MulticastDelegate|Public|Delegate 
 	// Function /Script/CriWareRuntime.AtomBusSampler.IsRecording
-	// bool IsRecording();                                                                                                      // [0x672f3b0] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// bool IsRecording();                                                                                                      // [0x67307e0] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/CriWareRuntime.AtomBusSampler.IsPlayingRecordedSound
-	// bool IsPlayingRecordedSound();                                                                                           // [0x672f380] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// bool IsPlayingRecordedSound();                                                                                           // [0x67307b0] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/CriWareRuntime.AtomBusSampler.IsPausedRecordedSound
-	// bool IsPausedRecordedSound();                                                                                            // [0x672f350] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// bool IsPausedRecordedSound();                                                                                            // [0x6730780] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/CriWareRuntime.AtomBusSampler.FinishRecording
-	// void FinishRecording();                                                                                                  // [0x672f330] Final|Native|Public|BlueprintCallable 
+	// void FinishRecording();                                                                                                  // [0x6730760] Final|Native|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.AtomBusSampler.CanRecord
-	// bool CanRecord();                                                                                                        // [0x672f300] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// bool CanRecord();                                                                                                        // [0x6730730] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/CriWareRuntime.AtomBusSampler.CanPlayRecordedSound
-	// bool CanPlayRecordedSound();                                                                                             // [0x672f2d0] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// bool CanPlayRecordedSound();                                                                                             // [0x6730700] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 };
 
 /// Class /Script/CriWareRuntime.AtomCallback
@@ -688,9 +688,9 @@ public:
 
 	/// Functions
 	// Function /Script/CriWareRuntime.AtomCallbackManager.NativeBreakAtomSequenceInfo
-	// void NativeBreakAtomSequenceInfo(FAtomSequenceInfo& SequenceInfo, float& Time, FString& TagName, EAtomSequenceEventType& EventType, int32_t& CallbackID); // [0x672ff60] Final|Native|Static|Private|HasOutParms|BlueprintCallable|BlueprintPure 
+	// void NativeBreakAtomSequenceInfo(FAtomSequenceInfo& SequenceInfo, float& Time, FString& TagName, EAtomSequenceEventType& EventType, int32_t& CallbackID); // [0x6731390] Final|Native|Static|Private|HasOutParms|BlueprintCallable|BlueprintPure 
 	// Function /Script/CriWareRuntime.AtomCallbackManager.NativeBreakAtomBeatSyncInfo
-	// void NativeBreakAtomBeatSyncInfo(FAtomBeatSyncInfo& BeatSyncInfo, int32_t& BarCnt, int32_t& BeatCnt, float& BeatProgress, float& Bpm, int32_t& Offset, int32_t& NumBeats); // [0x672fcd0] Final|Native|Static|Private|HasOutParms|BlueprintCallable|BlueprintPure 
+	// void NativeBreakAtomBeatSyncInfo(FAtomBeatSyncInfo& BeatSyncInfo, int32_t& BarCnt, int32_t& BeatCnt, float& BeatProgress, float& Bpm, int32_t& Offset, int32_t& NumBeats); // [0x6731100] Final|Native|Static|Private|HasOutParms|BlueprintCallable|BlueprintPure 
 };
 
 /// Class /Script/CriWareRuntime.AtomCategory
@@ -702,35 +702,35 @@ public:
 
 	/// Functions
 	// Function /Script/CriWareRuntime.AtomCategory.StopByName
-	// void StopByName(FString CategoryName);                                                                                   // [0x6731610] Final|Native|Static|Public|BlueprintCallable 
+	// void StopByName(FString CategoryName);                                                                                   // [0x6732a40] Final|Native|Static|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.AtomCategory.SetVolumeByName
-	// void SetVolumeByName(FString CategoryName, float Volume);                                                                // [0x67314e0] Final|Native|Static|Public|BlueprintCallable 
+	// void SetVolumeByName(FString CategoryName, float Volume);                                                                // [0x6732910] Final|Native|Static|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.AtomCategory.SetMute
-	// void SetMute(FString CategoryName, bool IsMute);                                                                         // [0x67313b0] Final|Native|Static|Public|BlueprintCallable 
+	// void SetMute(FString CategoryName, bool IsMute);                                                                         // [0x67327e0] Final|Native|Static|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.AtomCategory.SetAisacControlByName
-	// void SetAisacControlByName(FString CategoryName, FString AisacName, float Value);                                        // [0x6731200] Final|Native|Static|Public|BlueprintCallable 
+	// void SetAisacControlByName(FString CategoryName, FString AisacName, float Value);                                        // [0x6732630] Final|Native|Static|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.AtomCategory.ResetAllAisacControlByName
-	// bool ResetAllAisacControlByName(FString CategoryName);                                                                   // [0x6731110] Final|Native|Static|Public|BlueprintCallable 
+	// bool ResetAllAisacControlByName(FString CategoryName);                                                                   // [0x6732540] Final|Native|Static|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.AtomCategory.ResetAllAisacControlById
-	// bool ResetAllAisacControlById(int32_t categoryID);                                                                       // [0x6731080] Final|Native|Static|Public|BlueprintCallable 
+	// bool ResetAllAisacControlById(int32_t categoryID);                                                                       // [0x67324b0] Final|Native|Static|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.AtomCategory.PauseByName
-	// void PauseByName(FString CategoryName, bool bPause);                                                                     // [0x6730f50] Final|Native|Static|Public|BlueprintCallable 
+	// void PauseByName(FString CategoryName, bool bPause);                                                                     // [0x6732380] Final|Native|Static|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.AtomCategory.IsPausedByName
-	// bool IsPausedByName(FString CategoryName);                                                                               // [0x6730e60] Final|Native|Static|Public|BlueprintCallable 
+	// bool IsPausedByName(FString CategoryName);                                                                               // [0x6732290] Final|Native|Static|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.AtomCategory.GetVolumeByName
-	// float GetVolumeByName(FString CategoryName);                                                                             // [0x6730d70] Final|Native|Static|Public|BlueprintCallable 
+	// float GetVolumeByName(FString CategoryName);                                                                             // [0x67321a0] Final|Native|Static|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.AtomCategory.GetNumAttachedAisacsByName
-	// int32_t GetNumAttachedAisacsByName(FString CategoryName);                                                                // [0x6730c80] Final|Native|Static|Public|BlueprintCallable 
+	// int32_t GetNumAttachedAisacsByName(FString CategoryName);                                                                // [0x67320b0] Final|Native|Static|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.AtomCategory.GetNumAttachedAisacsById
-	// int32_t GetNumAttachedAisacsById(int32_t categoryID);                                                                    // [0x6730bf0] Final|Native|Static|Public|BlueprintCallable 
+	// int32_t GetNumAttachedAisacsById(int32_t categoryID);                                                                    // [0x6732020] Final|Native|Static|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.AtomCategory.GetCurrentAisacControlValueByName
-	// float GetCurrentAisacControlValueByName(FString CategoryName, FString AisacControlName);                                 // [0x6730a70] Final|Native|Static|Public|BlueprintCallable 
+	// float GetCurrentAisacControlValueByName(FString CategoryName, FString AisacControlName);                                 // [0x6731ea0] Final|Native|Static|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.AtomCategory.GetCurrentAisacControlValueById
-	// float GetCurrentAisacControlValueById(int32_t categoryID, int32_t AisacControlID);                                       // [0x67309a0] Final|Native|Static|Public|BlueprintCallable 
+	// float GetCurrentAisacControlValueById(int32_t categoryID, int32_t AisacControlID);                                       // [0x6731dd0] Final|Native|Static|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.AtomCategory.GetAttachedAisacInfoByName
-	// void GetAttachedAisacInfoByName(FString CategoryName, int32_t AisacAttachedIndex, bool& isSuccess, FAtomAisacInfo& AisacInfo); // [0x67307a0] Final|Native|Static|Public|HasOutParms|BlueprintCallable 
+	// void GetAttachedAisacInfoByName(FString CategoryName, int32_t AisacAttachedIndex, bool& isSuccess, FAtomAisacInfo& AisacInfo); // [0x6731bd0] Final|Native|Static|Public|HasOutParms|BlueprintCallable 
 	// Function /Script/CriWareRuntime.AtomCategory.GetAttachedAisacInfoById
-	// void GetAttachedAisacInfoById(int32_t categoryID, int32_t AisacAttachedIndex, bool& isSuccess, FAtomAisacInfo& AisacInfo); // [0x6730610] Final|Native|Static|Public|HasOutParms|BlueprintCallable 
+	// void GetAttachedAisacInfoById(int32_t categoryID, int32_t AisacAttachedIndex, bool& isSuccess, FAtomAisacInfo& AisacInfo); // [0x6731a40] Final|Native|Static|Public|HasOutParms|BlueprintCallable 
 };
 
 /// Struct /Script/CriWareRuntime.AtomAisacControlParam
@@ -816,149 +816,149 @@ public:
 
 	/// Functions
 	// Function /Script/CriWareRuntime.AtomComponent.StopWithoutReleaseTime
-	// void StopWithoutReleaseTime();                                                                                           // [0x6736cb0] Final|Native|Public|BlueprintCallable 
+	// void StopWithoutReleaseTime();                                                                                           // [0x67380e0] Final|Native|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.AtomComponent.Stop
-	// void Stop();                                                                                                             // [0x6736c90] Final|Native|Public|BlueprintCallable 
+	// void Stop();                                                                                                             // [0x67380c0] Final|Native|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.AtomComponent.SetVolume
-	// void SetVolume(float Volume);                                                                                            // [0x6736c10] Final|Native|Public|BlueprintCallable 
+	// void SetVolume(float Volume);                                                                                            // [0x6738040] Final|Native|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.AtomComponent.SetSoundObject
-	// void SetSoundObject(class UAtomSoundObject* InSoundObject);                                                              // [0x6736b80] Final|Native|Public|BlueprintCallable 
+	// void SetSoundObject(class UAtomSoundObject* InSoundObject);                                                              // [0x6737fb0] Final|Native|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.AtomComponent.SetSound
-	// void SetSound(class USoundAtomCue* NewSound);                                                                            // [0x6736af0] Final|Native|Public|BlueprintCallable 
+	// void SetSound(class USoundAtomCue* NewSound);                                                                            // [0x6737f20] Final|Native|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.AtomComponent.SetSelectorLabel
-	// void SetSelectorLabel(FString Selector, FString Label);                                                                  // [0x6736970] Final|Native|Public|BlueprintCallable 
+	// void SetSelectorLabel(FString Selector, FString Label);                                                                  // [0x6737da0] Final|Native|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.AtomComponent.SetRegion
-	// void SetRegion(class UAtom3dRegion* InRegion);                                                                           // [0x67368e0] Final|Native|Public|BlueprintCallable 
+	// void SetRegion(class UAtom3dRegion* InRegion);                                                                           // [0x6737d10] Final|Native|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.AtomComponent.SetPreferredOutputPort
-	// void SetPreferredOutputPort(FString port_name);                                                                          // [0x67367f0] Final|Native|Public|BlueprintCallable 
+	// void SetPreferredOutputPort(FString port_name);                                                                          // [0x6737c20] Final|Native|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.AtomComponent.SetPitchMultiplier
-	// void SetPitchMultiplier(float NewPitchMultiplier);                                                                       // [0x6736770] Final|Native|Public|BlueprintCallable 
+	// void SetPitchMultiplier(float NewPitchMultiplier);                                                                       // [0x6737ba0] Final|Native|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.AtomComponent.SetPitch
-	// void SetPitch(float Pitch);                                                                                              // [0x67366f0] Final|Native|Public|BlueprintCallable 
+	// void SetPitch(float Pitch);                                                                                              // [0x6737b20] Final|Native|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.AtomComponent.SetOutputPort
-	// void SetOutputPort(FString port_name);                                                                                   // [0x6736600] Final|Native|Public|BlueprintCallable 
+	// void SetOutputPort(FString port_name);                                                                                   // [0x6737a30] Final|Native|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.AtomComponent.SetNextBlockIndex
-	// void SetNextBlockIndex(int32_t BlockIndex);                                                                              // [0x6736570] Final|Native|Public|BlueprintCallable 
+	// void SetNextBlockIndex(int32_t BlockIndex);                                                                              // [0x67379a0] Final|Native|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.AtomComponent.SetDefaultAttenuationEnable
-	// void SetDefaultAttenuationEnable(bool bEnable);                                                                          // [0x6736500] Final|Native|Static|Public 
+	// void SetDefaultAttenuationEnable(bool bEnable);                                                                          // [0x6737930] Final|Native|Static|Public 
 	// Function /Script/CriWareRuntime.AtomComponent.SetBusSendLevelOffsetByName
-	// void SetBusSendLevelOffsetByName(FString BusName, float LevelOffset);                                                    // [0x67363c0] Final|Native|Public|BlueprintCallable 
+	// void SetBusSendLevelOffsetByName(FString BusName, float LevelOffset);                                                    // [0x67377f0] Final|Native|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.AtomComponent.SetBusSendLevelOffset
-	// void SetBusSendLevelOffset(int32_t BusId, float LevelOffset);                                                            // [0x67362f0] Final|Native|Public|BlueprintCallable 
+	// void SetBusSendLevelOffset(int32_t BusId, float LevelOffset);                                                            // [0x6737720] Final|Native|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.AtomComponent.SetBusSendLevelByName
-	// void SetBusSendLevelByName(FString BusName, float Level);                                                                // [0x67361b0] Final|Native|Public|BlueprintCallable 
+	// void SetBusSendLevelByName(FString BusName, float Level);                                                                // [0x67375e0] Final|Native|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.AtomComponent.SetBusSendLevel
-	// void SetBusSendLevel(int32_t BusId, float Level);                                                                        // [0x67360e0] Final|Native|Public|BlueprintCallable 
+	// void SetBusSendLevel(int32_t BusId, float Level);                                                                        // [0x6737510] Final|Native|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.AtomComponent.SetAsrRackIdArray
-	// void SetAsrRackIdArray(TArray<int32_t> AsrRackIDs);                                                                      // [0x6735ff0] Final|Native|Public|BlueprintCallable 
+	// void SetAsrRackIdArray(TArray<int32_t> AsrRackIDs);                                                                      // [0x6737420] Final|Native|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.AtomComponent.SetAsrRackID
-	// void SetAsrRackID(int32_t asr_rack_id);                                                                                  // [0x6735f60] Final|Native|Public|BlueprintCallable 
+	// void SetAsrRackID(int32_t asr_rack_id);                                                                                  // [0x6737390] Final|Native|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.AtomComponent.SetAisacByName
-	// void SetAisacByName(FString ControlName, float ControlValue);                                                            // [0x6735e20] Final|Native|Public|BlueprintCallable 
+	// void SetAisacByName(FString ControlName, float ControlValue);                                                            // [0x6737250] Final|Native|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.AtomComponent.RemovePreferredOutputPort
-	// void RemovePreferredOutputPort(FString port_name);                                                                       // [0x6735d30] Final|Native|Public|BlueprintCallable 
+	// void RemovePreferredOutputPort(FString port_name);                                                                       // [0x6737160] Final|Native|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.AtomComponent.RemoveOutputPort
-	// void RemoveOutputPort(FString port_name);                                                                                // [0x6735c40] Final|Native|Public|BlueprintCallable 
+	// void RemoveOutputPort(FString port_name);                                                                                // [0x6737070] Final|Native|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.AtomComponent.Play
-	// void Play(float StartTime);                                                                                              // [0x6735bc0] Final|Native|Public|BlueprintCallable 
+	// void Play(float StartTime);                                                                                              // [0x6736ff0] Final|Native|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.AtomComponent.Pause
-	// void Pause(bool bPause);                                                                                                 // [0x6735b30] Final|Native|Public|BlueprintCallable 
+	// void Pause(bool bPause);                                                                                                 // [0x6736f60] Final|Native|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.AtomComponent.OnStatusChanged__DelegateSignature
-	// void OnStatusChanged__DelegateSignature(EAtomComponentStatus Status, class UAtomComponent* AtomComponent);               // [0x35d69e0] MulticastDelegate|Public|Delegate 
+	// void OnStatusChanged__DelegateSignature(EAtomComponentStatus Status, class UAtomComponent* AtomComponent);               // [0x35d7f00] MulticastDelegate|Public|Delegate 
 	// Function /Script/CriWareRuntime.AtomComponent.OnAudioVolumeChanged__DelegateSignature
-	// void OnAudioVolumeChanged__DelegateSignature(EAtomAudioVolumeType Type, class AAtomAudioVolume* AtomAudioVolume, bool bIsCalledFromTick); // [0x35d69e0] MulticastDelegate|Public|Delegate 
+	// void OnAudioVolumeChanged__DelegateSignature(EAtomAudioVolumeType Type, class AAtomAudioVolume* AtomAudioVolume, bool bIsCalledFromTick); // [0x35d7f00] MulticastDelegate|Public|Delegate 
 	// Function /Script/CriWareRuntime.AtomComponent.OnAudioFinished__DelegateSignature
-	// void OnAudioFinished__DelegateSignature();                                                                               // [0x35d69e0] MulticastDelegate|Public|Delegate 
+	// void OnAudioFinished__DelegateSignature();                                                                               // [0x35d7f00] MulticastDelegate|Public|Delegate 
 	// Function /Script/CriWareRuntime.AtomComponent.OnAtomSoundCueBlockIndexChanged__DelegateSignature
-	// void OnAtomSoundCueBlockIndexChanged__DelegateSignature(int32_t BlockIndex);                                             // [0x35d69e0] MulticastDelegate|Public|Delegate 
+	// void OnAtomSoundCueBlockIndexChanged__DelegateSignature(int32_t BlockIndex);                                             // [0x35d7f00] MulticastDelegate|Public|Delegate 
 	// Function /Script/CriWareRuntime.AtomComponent.IsReducingTickFrequency
-	// bool IsReducingTickFrequency();                                                                                          // [0x6735a70] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// bool IsReducingTickFrequency();                                                                                          // [0x6736ea0] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/CriWareRuntime.AtomComponent.IsPlaying
-	// bool IsPlaying();                                                                                                        // [0x6735b00] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// bool IsPlaying();                                                                                                        // [0x6736f30] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/CriWareRuntime.AtomComponent.IsPaused
-	// bool IsPaused();                                                                                                         // [0x6735ad0] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// bool IsPaused();                                                                                                         // [0x6736f00] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/CriWareRuntime.AtomComponent.IsLoop
-	// bool IsLoop();                                                                                                           // [0x6735aa0] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// bool IsLoop();                                                                                                           // [0x6736ed0] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/CriWareRuntime.AtomComponent.HasBeenEconomicTick
-	// bool HasBeenEconomicTick();                                                                                              // [0x6735a70] Final|Native|Public|Const 
+	// bool HasBeenEconomicTick();                                                                                              // [0x6736ea0] Final|Native|Public|Const 
 	// Function /Script/CriWareRuntime.AtomComponent.GetVolume
-	// float GetVolume();                                                                                                       // [0x6735a40] Final|Native|Public|BlueprintCallable 
+	// float GetVolume();                                                                                                       // [0x6736e70] Final|Native|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.AtomComponent.GetVelocity
-	// FVector GetVelocity();                                                                                                   // [0x6735a10] Final|Native|Public|HasDefaults|BlueprintCallable|BlueprintPure|Const 
+	// FVector GetVelocity();                                                                                                   // [0x6736e40] Final|Native|Public|HasDefaults|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/CriWareRuntime.AtomComponent.GetTime
-	// float GetTime();                                                                                                         // [0x67359e0] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// float GetTime();                                                                                                         // [0x6736e10] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/CriWareRuntime.AtomComponent.GetStatus
-	// EAtomComponentStatus GetStatus();                                                                                        // [0x67359b0] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// EAtomComponentStatus GetStatus();                                                                                        // [0x6736de0] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/CriWareRuntime.AtomComponent.GetSequencePosition
-	// float GetSequencePosition();                                                                                             // [0x6735980] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// float GetSequencePosition();                                                                                             // [0x6736db0] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/CriWareRuntime.AtomComponent.GetNumQueuedSounds
-	// int32_t GetNumQueuedSounds();                                                                                            // [0x6735950] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// int32_t GetNumQueuedSounds();                                                                                            // [0x6736d80] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/CriWareRuntime.AtomComponent.GetNumPlayedSamples
-	// void GetNumPlayedSamples(int64_t& NumSamples, int32_t& SamplingRate);                                                    // [0x6735860] Final|Native|Public|HasOutParms|BlueprintCallable|BlueprintPure|Const 
+	// void GetNumPlayedSamples(int64_t& NumSamples, int32_t& SamplingRate);                                                    // [0x6736c90] Final|Native|Public|HasOutParms|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/CriWareRuntime.AtomComponent.GetMaxAttenuationDistance
-	// float GetMaxAttenuationDistance();                                                                                       // [0x6735830] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// float GetMaxAttenuationDistance();                                                                                       // [0x6736c60] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/CriWareRuntime.AtomComponent.GetEconomicTickFrequency
-	// float GetEconomicTickFrequency();                                                                                        // [0x6735780] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// float GetEconomicTickFrequency();                                                                                        // [0x6736bb0] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/CriWareRuntime.AtomComponent.GetEconomicTickDistanceMargin
-	// float GetEconomicTickDistanceMargin();                                                                                   // [0x67357b0] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// float GetEconomicTickDistanceMargin();                                                                                   // [0x6736be0] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/CriWareRuntime.AtomComponent.GetEconomicTickDistance
-	// float GetEconomicTickDistance();                                                                                         // [0x6735750] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// float GetEconomicTickDistance();                                                                                         // [0x6736b80] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/CriWareRuntime.AtomComponent.GetDefaultAttenuationEnable
-	// bool GetDefaultAttenuationEnable();                                                                                      // [0x6735810] Final|Native|Static|Public 
+	// bool GetDefaultAttenuationEnable();                                                                                      // [0x6736c40] Final|Native|Static|Public 
 	// Function /Script/CriWareRuntime.AtomComponent.GetCurrentMaxAttenuationDistance
-	// float GetCurrentMaxAttenuationDistance();                                                                                // [0x67357e0] Final|Native|Public|Const 
+	// float GetCurrentMaxAttenuationDistance();                                                                                // [0x6736c10] Final|Native|Public|Const 
 	// Function /Script/CriWareRuntime.AtomComponent.GetCurrentEconomicTickMarginDistance
-	// float GetCurrentEconomicTickMarginDistance();                                                                            // [0x67357b0] Final|Native|Public|Const 
+	// float GetCurrentEconomicTickMarginDistance();                                                                            // [0x6736be0] Final|Native|Public|Const 
 	// Function /Script/CriWareRuntime.AtomComponent.GetCurrentEconomicTickFrequency
-	// float GetCurrentEconomicTickFrequency();                                                                                 // [0x6735780] Final|Native|Public|Const 
+	// float GetCurrentEconomicTickFrequency();                                                                                 // [0x6736bb0] Final|Native|Public|Const 
 	// Function /Script/CriWareRuntime.AtomComponent.GetCurrentEconomicTickBoundaryDistance
-	// float GetCurrentEconomicTickBoundaryDistance();                                                                          // [0x6735750] Final|Native|Public|Const 
+	// float GetCurrentEconomicTickBoundaryDistance();                                                                          // [0x6736b80] Final|Native|Public|Const 
 	// Function /Script/CriWareRuntime.AtomComponent.GetCurrentCullingMarginDistance
-	// float GetCurrentCullingMarginDistance();                                                                                 // [0x6735620] Final|Native|Public|Const 
+	// float GetCurrentCullingMarginDistance();                                                                                 // [0x6736a50] Final|Native|Public|Const 
 	// Function /Script/CriWareRuntime.AtomComponent.GetCurrentCullingBoundaryDistance
-	// float GetCurrentCullingBoundaryDistance();                                                                               // [0x67355f0] Final|Native|Public|Const 
+	// float GetCurrentCullingBoundaryDistance();                                                                               // [0x6736a20] Final|Native|Public|Const 
 	// Function /Script/CriWareRuntime.AtomComponent.GetCurrentBlockIndex
-	// int32_t GetCurrentBlockIndex();                                                                                          // [0x6735720] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// int32_t GetCurrentBlockIndex();                                                                                          // [0x6736b50] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/CriWareRuntime.AtomComponent.GetCurrentBelongingAudioVolume
-	// class AAtomAudioVolume* GetCurrentBelongingAudioVolume(EAtomAudioVolumeType Type, bool IsNeighbor);                      // [0x6735650] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// class AAtomAudioVolume* GetCurrentBelongingAudioVolume(EAtomAudioVolumeType Type, bool IsNeighbor);                      // [0x6736a80] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/CriWareRuntime.AtomComponent.GetCullDistanceMargin
-	// float GetCullDistanceMargin();                                                                                           // [0x6735620] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// float GetCullDistanceMargin();                                                                                           // [0x6736a50] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/CriWareRuntime.AtomComponent.GetCullDistance
-	// float GetCullDistance();                                                                                                 // [0x67355f0] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// float GetCullDistance();                                                                                                 // [0x6736a20] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/CriWareRuntime.AtomComponent.GetCueName
-	// FString GetCueName();                                                                                                    // [0x6735520] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// FString GetCueName();                                                                                                    // [0x6736950] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/CriWareRuntime.AtomComponent.GetAudioVolumeValueMap
-	// TMap<FString, float> GetAudioVolumeValueMap(EAtomAudioVolumeType Type);                                                  // [0x67353e0] Final|Native|Public|BlueprintCallable 
+	// TMap<FString, float> GetAudioVolumeValueMap(EAtomAudioVolumeType Type);                                                  // [0x6736810] Final|Native|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.AtomComponent.GetAtomComponentID
-	// int32_t GetAtomComponentID();                                                                                            // [0x67353c0] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// int32_t GetAtomComponentID();                                                                                            // [0x67367f0] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/CriWareRuntime.AtomComponent.GetAtomComponentFromID
-	// class UAtomComponent* GetAtomComponentFromID(int32_t TargetID);                                                          // [0x6735330] Final|Native|Static|Public|BlueprintCallable 
+	// class UAtomComponent* GetAtomComponentFromID(int32_t TargetID);                                                          // [0x6736760] Final|Native|Static|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.AtomComponent.GetAtomAppliedValueParam
-	// FAtomAppliedValueParam GetAtomAppliedValueParam();                                                                       // [0x67352d0] Final|Native|Public|BlueprintCallable 
+	// FAtomAppliedValueParam GetAtomAppliedValueParam();                                                                       // [0x6736700] Final|Native|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.AtomComponent.FadeOut
-	// void FadeOut(float FadeOutDuration);                                                                                     // [0x6735250] Final|Native|Public|BlueprintCallable 
+	// void FadeOut(float FadeOutDuration);                                                                                     // [0x6736680] Final|Native|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.AtomComponent.FadeIn
-	// void FadeIn(float FadeInDuration, float FadeVolumeLevel, float StartTime);                                               // [0x6735130] Final|Native|Public|BlueprintCallable 
+	// void FadeIn(float FadeInDuration, float FadeVolumeLevel, float StartTime);                                               // [0x6736560] Final|Native|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.AtomComponent.EnqueueSound
-	// void EnqueueSound(class USoundAtomCue* NewSound);                                                                        // [0x67350a0] Final|Native|Public|BlueprintCallable 
+	// void EnqueueSound(class USoundAtomCue* NewSound);                                                                        // [0x67364d0] Final|Native|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.AtomComponent.DestroyComponentByID
-	// void DestroyComponentByID(int32_t TargetID);                                                                             // [0x6735020] Final|Native|Static|Public|BlueprintCallable 
+	// void DestroyComponentByID(int32_t TargetID);                                                                             // [0x6736450] Final|Native|Static|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.AtomComponent.ClearSelectorLabels
-	// void ClearSelectorLabels();                                                                                              // [0x6735000] Final|Native|Public|BlueprintCallable 
+	// void ClearSelectorLabels();                                                                                              // [0x6736430] Final|Native|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.AtomComponent.ClearPreferredOutputPort
-	// void ClearPreferredOutputPort();                                                                                         // [0x6734fe0] Final|Native|Public|BlueprintCallable 
+	// void ClearPreferredOutputPort();                                                                                         // [0x6736410] Final|Native|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.AtomComponent.ClearOutputPort
-	// void ClearOutputPort();                                                                                                  // [0x6734fc0] Final|Native|Public|BlueprintCallable 
+	// void ClearOutputPort();                                                                                                  // [0x67363f0] Final|Native|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.AtomComponent.BP_GetAttenuationSettingsToApply
-	// bool BP_GetAttenuationSettingsToApply(FSoundAttenuationSettings& OutAttenuationSettings);                                // [0x6734ef0] Final|Native|Public|HasOutParms|BlueprintCallable 
+	// bool BP_GetAttenuationSettingsToApply(FSoundAttenuationSettings& OutAttenuationSettings);                                // [0x6736320] Final|Native|Public|HasOutParms|BlueprintCallable 
 	// Function /Script/CriWareRuntime.AtomComponent.AttachAreaSoundVolume
-	// void AttachAreaSoundVolume(class AAtomAreaSoundVolume* sound_shape_volume);                                              // [0x6734e60] Final|Native|Public|BlueprintCallable 
+	// void AttachAreaSoundVolume(class AAtomAreaSoundVolume* sound_shape_volume);                                              // [0x6736290] Final|Native|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.AtomComponent.AtomSequenceCallbackDelegate__DelegateSignature
-	// void AtomSequenceCallbackDelegate__DelegateSignature(class UAtomComponent* AtomComponent, FAtomSequenceInfo& SequenceInfo); // [0x35d69e0] MulticastDelegate|Public|Delegate|HasOutParms 
+	// void AtomSequenceCallbackDelegate__DelegateSignature(class UAtomComponent* AtomComponent, FAtomSequenceInfo& SequenceInfo); // [0x35d7f00] MulticastDelegate|Public|Delegate|HasOutParms 
 	// Function /Script/CriWareRuntime.AtomComponent.AtomBeatSyncCallbackDelegate__DelegateSignature
-	// void AtomBeatSyncCallbackDelegate__DelegateSignature(class UAtomComponent* AtomComponent, FAtomBeatSyncInfo& BeatSyncInfo); // [0x35d69e0] MulticastDelegate|Public|Delegate|HasOutParms 
+	// void AtomBeatSyncCallbackDelegate__DelegateSignature(class UAtomComponent* AtomComponent, FAtomBeatSyncInfo& BeatSyncInfo); // [0x35d7f00] MulticastDelegate|Public|Delegate|HasOutParms 
 	// Function /Script/CriWareRuntime.AtomComponent.AdjustAttenuation
-	// void AdjustAttenuation(FSoundAttenuationSettings& InAttenuationSettings);                                                // [0x6734d90] Final|Native|Public|HasOutParms|BlueprintCallable 
+	// void AdjustAttenuation(FSoundAttenuationSettings& InAttenuationSettings);                                                // [0x67361c0] Final|Native|Public|HasOutParms|BlueprintCallable 
 };
 
 /// Class /Script/CriWareRuntime.AtomComponentPool
@@ -986,19 +986,19 @@ public:
 
 	/// Functions
 	// Function /Script/CriWareRuntime.AtomCueSheetLoaderComponent.OnLoadError__DelegateSignature
-	// void OnLoadError__DelegateSignature();                                                                                   // [0x35d69e0] MulticastDelegate|Public|Delegate 
+	// void OnLoadError__DelegateSignature();                                                                                   // [0x35d7f00] MulticastDelegate|Public|Delegate 
 	// Function /Script/CriWareRuntime.AtomCueSheetLoaderComponent.OnLoadCompleted__DelegateSignature
-	// void OnLoadCompleted__DelegateSignature();                                                                               // [0x35d69e0] MulticastDelegate|Public|Delegate 
+	// void OnLoadCompleted__DelegateSignature();                                                                               // [0x35d7f00] MulticastDelegate|Public|Delegate 
 	// Function /Script/CriWareRuntime.AtomCueSheetLoaderComponent.OnAtomCueSheetLoaded__DelegateSignature
-	// void OnAtomCueSheetLoaded__DelegateSignature(class USoundAtomCueSheet* Loaded);                                          // [0x35d69e0] Public|Delegate      
+	// void OnAtomCueSheetLoaded__DelegateSignature(class USoundAtomCueSheet* Loaded);                                          // [0x35d7f00] Public|Delegate      
 	// Function /Script/CriWareRuntime.AtomCueSheetLoaderComponent.LoadAtomCueSheet
-	// void LoadAtomCueSheet(class UObject* WorldContextObject, TWeakObjectPtr<USoundAtomCueSheet*> Asset, FDelegateProperty OnLoaded, FLatentActionInfo LatentInfo); // [0x6737350] Final|Native|Static|Public|BlueprintCallable 
+	// void LoadAtomCueSheet(class UObject* WorldContextObject, TWeakObjectPtr<USoundAtomCueSheet*> Asset, FDelegateProperty OnLoaded, FLatentActionInfo LatentInfo); // [0x6738780] Final|Native|Static|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.AtomCueSheetLoaderComponent.Load
-	// void Load();                                                                                                             // [0x6737330] Final|Native|Public|BlueprintCallable 
+	// void Load();                                                                                                             // [0x6738760] Final|Native|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.AtomCueSheetLoaderComponent.GetStatus
-	// EAtomCueSheetLoaderComponentStatus GetStatus();                                                                          // [0x6737310] Final|Native|Public|BlueprintCallable 
+	// EAtomCueSheetLoaderComponentStatus GetStatus();                                                                          // [0x6738740] Final|Native|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.AtomCueSheetLoaderComponent.GetAtomCueSheet
-	// class USoundAtomCueSheet* GetAtomCueSheet();                                                                             // [0x67372e0] Final|Native|Public|BlueprintCallable 
+	// class USoundAtomCueSheet* GetAtomCueSheet();                                                                             // [0x6738710] Final|Native|Public|BlueprintCallable 
 };
 
 /// Class /Script/CriWareRuntime.AtomDeviceWatcher
@@ -1012,11 +1012,11 @@ public:
 
 	/// Functions
 	// Function /Script/CriWareRuntime.AtomDeviceWatcher.OnDeviceUpdated__DelegateSignature
-	// void OnDeviceUpdated__DelegateSignature();                                                                               // [0x35d69e0] MulticastDelegate|Public|Delegate 
+	// void OnDeviceUpdated__DelegateSignature();                                                                               // [0x35d7f00] MulticastDelegate|Public|Delegate 
 	// Function /Script/CriWareRuntime.AtomDeviceWatcher.GetDeviceName
-	// FString GetDeviceName();                                                                                                 // [0x673a130] Final|Native|Public|BlueprintCallable 
+	// FString GetDeviceName();                                                                                                 // [0x673b560] Final|Native|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.AtomDeviceWatcher.GetDeviceChannelCount
-	// int32_t GetDeviceChannelCount();                                                                                         // [0x673a100] Final|Native|Public|BlueprintCallable 
+	// int32_t GetDeviceChannelCount();                                                                                         // [0x673b530] Final|Native|Public|BlueprintCallable 
 };
 
 /// Class /Script/CriWareRuntime.AtomDisposer
@@ -1055,9 +1055,9 @@ public:
 
 	/// Functions
 	// Function /Script/CriWareRuntime.AtomProfileData.CriWareAdx2ProfileDataUpdate
-	// TArray<FAtomProfileItem> CriWareAdx2ProfileDataUpdate(class UObject* WorldContextObject);                                // [0x673b0c0] Final|Native|Static|Public|BlueprintCallable 
+	// TArray<FAtomProfileItem> CriWareAdx2ProfileDataUpdate(class UObject* WorldContextObject);                                // [0x673c4f0] Final|Native|Static|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.AtomProfileData.CriWareAdx2ProfileDataSort
-	// void CriWareAdx2ProfileDataSort(TArray<FAtomProfileItem> original_item, EAtomProfileSortType sort_type, EAtomSortOrderType order_type, TArray<FAtomProfileItem>& sorted_item); // [0x673ae70] Final|Native|Static|Public|HasOutParms|BlueprintCallable 
+	// void CriWareAdx2ProfileDataSort(TArray<FAtomProfileItem> original_item, EAtomProfileSortType sort_type, EAtomSortOrderType order_type, TArray<FAtomProfileItem>& sorted_item); // [0x673c2a0] Final|Native|Static|Public|HasOutParms|BlueprintCallable 
 };
 
 /// Class /Script/CriWareRuntime.AtomSound
@@ -1096,13 +1096,13 @@ public:
 
 	/// Functions
 	// Function /Script/CriWareRuntime.AtomSpectrumAnalyzer.GetLevelsDB
-	// void GetLevelsDB(float display_range, TArray<float>& spectra);                                                           // [0x673bb60] Final|Native|Static|Public|HasOutParms|BlueprintCallable 
+	// void GetLevelsDB(float display_range, TArray<float>& spectra);                                                           // [0x673cf90] Final|Native|Static|Public|HasOutParms|BlueprintCallable 
 	// Function /Script/CriWareRuntime.AtomSpectrumAnalyzer.GetLevels
-	// void GetLevels(TArray<float>& spectra);                                                                                  // [0x673bac0] Final|Native|Static|Public|HasOutParms|BlueprintCallable 
+	// void GetLevels(TArray<float>& spectra);                                                                                  // [0x673cef0] Final|Native|Static|Public|HasOutParms|BlueprintCallable 
 	// Function /Script/CriWareRuntime.AtomSpectrumAnalyzer.DestroyDspSpectra
-	// void DestroyDspSpectra();                                                                                                // [0x673baa0] Final|Native|Static|Public|BlueprintCallable 
+	// void DestroyDspSpectra();                                                                                                // [0x673ced0] Final|Native|Static|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.AtomSpectrumAnalyzer.CreateDspSpectra
-	// void CreateDspSpectra(class UAtomAsrRack* asr_rack, FString bus_name, int32_t num_bands);                                // [0x673b940] Final|Native|Static|Public|BlueprintCallable 
+	// void CreateDspSpectra(class UAtomAsrRack* asr_rack, FString bus_name, int32_t num_bands);                                // [0x673cd70] Final|Native|Static|Public|BlueprintCallable 
 };
 
 /// Class /Script/CriWareRuntime.AtomStatics
@@ -1114,73 +1114,73 @@ public:
 
 	/// Functions
 	// Function /Script/CriWareRuntime.AtomStatics.UpdateDistanceFactorForAllSounds
-	// void UpdateDistanceFactorForAllSounds(float ArgDistanceFactor);                                                          // [0x6740220] Final|Native|Static|Public|BlueprintCallable 
+	// void UpdateDistanceFactorForAllSounds(float ArgDistanceFactor);                                                          // [0x6741650] Final|Native|Static|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.AtomStatics.StopAllSoundsForKeyFromAtomComponentIds
-	// void StopAllSoundsForKeyFromAtomComponentIds(class UObject* AtomPlayGateRef, class UObject* SkeltalMeshComponentRef);    // [0x6740160] Final|Native|Static|Public|BlueprintCallable 
+	// void StopAllSoundsForKeyFromAtomComponentIds(class UObject* AtomPlayGateRef, class UObject* SkeltalMeshComponentRef);    // [0x6741590] Final|Native|Static|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.AtomStatics.StopAllSounds
-	// void StopAllSounds();                                                                                                    // [0x6740140] Final|Native|Static|Public|BlueprintCallable 
+	// void StopAllSounds();                                                                                                    // [0x6741570] Final|Native|Static|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.AtomStatics.SpawnSoundAttached
-	// class UAtomComponent* SpawnSoundAttached(class USoundAtomCue* sound, class USceneComponent* AttachToComponent, FName AttachPointName, FVector Location, FRotator Rotation, TEnumAsByte<EAttachLocation> LocationType, bool bStopWhenAttachedToDestroyed, float VolumeMultiplier, float PitchMultiplier, float StartTime, class USoundAttenuation* AttenuationSettings, class USoundConcurrency* ConcurrencySettings, bool bAutoDestroy); // [0x673fd60] Final|Native|Static|Public|HasDefaults|BlueprintCallable 
+	// class UAtomComponent* SpawnSoundAttached(class USoundAtomCue* sound, class USceneComponent* AttachToComponent, FName AttachPointName, FVector Location, FRotator Rotation, TEnumAsByte<EAttachLocation> LocationType, bool bStopWhenAttachedToDestroyed, float VolumeMultiplier, float PitchMultiplier, float StartTime, class USoundAttenuation* AttenuationSettings, class USoundConcurrency* ConcurrencySettings, bool bAutoDestroy); // [0x6741190] Final|Native|Static|Public|HasDefaults|BlueprintCallable 
 	// Function /Script/CriWareRuntime.AtomStatics.SpawnSoundAtLocation
-	// class UAtomComponent* SpawnSoundAtLocation(class UObject* WorldContextObject, class USoundAtomCue* sound, FVector Location, FRotator Rotation, float VolumeMultiplier, float PitchMultiplier, float StartTime, class USoundAttenuation* AttenuationSettings, class USoundConcurrency* ConcurrencySettings, bool bAutoDestroy); // [0x673fa50] Final|Native|Static|Public|HasDefaults|BlueprintCallable 
+	// class UAtomComponent* SpawnSoundAtLocation(class UObject* WorldContextObject, class USoundAtomCue* sound, FVector Location, FRotator Rotation, float VolumeMultiplier, float PitchMultiplier, float StartTime, class USoundAttenuation* AttenuationSettings, class USoundConcurrency* ConcurrencySettings, bool bAutoDestroy); // [0x6740e80] Final|Native|Static|Public|HasDefaults|BlueprintCallable 
 	// Function /Script/CriWareRuntime.AtomStatics.SpawnSound2D
-	// class UAtomComponent* SpawnSound2D(class UObject* WorldContextObject, class USoundAtomCue* sound, float PitchMultiplier, float StartTime, bool bPersistAcrossLevelTransition, bool bAutoDestroy); // [0x673f880] Final|BlueprintCosmetic|Native|Static|Public|BlueprintCallable 
+	// class UAtomComponent* SpawnSound2D(class UObject* WorldContextObject, class USoundAtomCue* sound, float PitchMultiplier, float StartTime, bool bPersistAcrossLevelTransition, bool bAutoDestroy); // [0x6740cb0] Final|BlueprintCosmetic|Native|Static|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.AtomStatics.SpawnAtomSoundAttachedByName
-	// class UAtomComponent* SpawnAtomSoundAttachedByName(class USoundAtomCueSheet* CueSheet, FString CueName, class USceneComponent* AttachToComponent, FAtomComponentParams& Params, FName AttachPointName, FVector Location, TEnumAsByte<EAttachLocation> LocationType, bool bStopWhenAttachedToDestroyed, bool bAutoDestroy); // [0x673f480] Final|Native|Static|Public|HasOutParms|HasDefaults|BlueprintCallable 
+	// class UAtomComponent* SpawnAtomSoundAttachedByName(class USoundAtomCueSheet* CueSheet, FString CueName, class USceneComponent* AttachToComponent, FAtomComponentParams& Params, FName AttachPointName, FVector Location, TEnumAsByte<EAttachLocation> LocationType, bool bStopWhenAttachedToDestroyed, bool bAutoDestroy); // [0x67408b0] Final|Native|Static|Public|HasOutParms|HasDefaults|BlueprintCallable 
 	// Function /Script/CriWareRuntime.AtomStatics.SpawnAtomSoundAttached
-	// class UAtomComponent* SpawnAtomSoundAttached(class USoundAtomCue* sound, class USceneComponent* AttachToComponent, FAtomComponentParams& Params, FName AttachPointName, FVector Location, TEnumAsByte<EAttachLocation> LocationType, bool bStopWhenAttachedToDestroyed, bool bAutoDestroy); // [0x673f170] Final|Native|Static|Public|HasOutParms|HasDefaults|BlueprintCallable 
+	// class UAtomComponent* SpawnAtomSoundAttached(class USoundAtomCue* sound, class USceneComponent* AttachToComponent, FAtomComponentParams& Params, FName AttachPointName, FVector Location, TEnumAsByte<EAttachLocation> LocationType, bool bStopWhenAttachedToDestroyed, bool bAutoDestroy); // [0x67405a0] Final|Native|Static|Public|HasOutParms|HasDefaults|BlueprintCallable 
 	// Function /Script/CriWareRuntime.AtomStatics.SpawnAtomSoundAtLocationByName
-	// class UAtomComponent* SpawnAtomSoundAtLocationByName(class UObject* WorldContextObject, class USoundAtomCueSheet* CueSheet, FString CueName, FVector Location, FAtomComponentParams& Params, bool bAutoDestroy); // [0x673ee80] Final|Native|Static|Public|HasOutParms|HasDefaults|BlueprintCallable 
+	// class UAtomComponent* SpawnAtomSoundAtLocationByName(class UObject* WorldContextObject, class USoundAtomCueSheet* CueSheet, FString CueName, FVector Location, FAtomComponentParams& Params, bool bAutoDestroy); // [0x67402b0] Final|Native|Static|Public|HasOutParms|HasDefaults|BlueprintCallable 
 	// Function /Script/CriWareRuntime.AtomStatics.SpawnAtomSoundAtLocation
-	// class UAtomComponent* SpawnAtomSoundAtLocation(class UObject* WorldContextObject, class USoundAtomCue* sound, FVector Location, FAtomComponentParams& Params, bool bAutoDestroy); // [0x673ec50] Final|Native|Static|Public|HasOutParms|HasDefaults|BlueprintCallable 
+	// class UAtomComponent* SpawnAtomSoundAtLocation(class UObject* WorldContextObject, class USoundAtomCue* sound, FVector Location, FAtomComponentParams& Params, bool bAutoDestroy); // [0x6740080] Final|Native|Static|Public|HasOutParms|HasDefaults|BlueprintCallable 
 	// Function /Script/CriWareRuntime.AtomStatics.SpawnAtomSound2DByName
-	// class UAtomComponent* SpawnAtomSound2DByName(class UObject* WorldContextObject, class USoundAtomCueSheet* CueSheet, FString CueName, FAtomComponentParams& Params, bool bPersistAcrossLevelTransition, bool bAutoDestroy); // [0x673e980] Final|BlueprintCosmetic|Native|Static|Public|HasOutParms|BlueprintCallable 
+	// class UAtomComponent* SpawnAtomSound2DByName(class UObject* WorldContextObject, class USoundAtomCueSheet* CueSheet, FString CueName, FAtomComponentParams& Params, bool bPersistAcrossLevelTransition, bool bAutoDestroy); // [0x673fdb0] Final|BlueprintCosmetic|Native|Static|Public|HasOutParms|BlueprintCallable 
 	// Function /Script/CriWareRuntime.AtomStatics.SpawnAtomSound2D
-	// class UAtomComponent* SpawnAtomSound2D(class UObject* WorldContextObject, class USoundAtomCue* sound, FAtomComponentParams& Params, bool bPersistAcrossLevelTransition, bool bAutoDestroy); // [0x673e750] Final|BlueprintCosmetic|Native|Static|Public|HasOutParms|BlueprintCallable 
+	// class UAtomComponent* SpawnAtomSound2D(class UObject* WorldContextObject, class USoundAtomCue* sound, FAtomComponentParams& Params, bool bPersistAcrossLevelTransition, bool bAutoDestroy); // [0x673fb80] Final|BlueprintCosmetic|Native|Static|Public|HasOutParms|BlueprintCallable 
 	// Function /Script/CriWareRuntime.AtomStatics.SetListenerRegion
-	// void SetListenerRegion(class UAtom3dRegion* Region, int32_t playerIndex);                                                // [0x673e690] Final|Native|Static|Public|BlueprintCallable 
+	// void SetListenerRegion(class UAtom3dRegion* Region, int32_t playerIndex);                                                // [0x673fac0] Final|Native|Static|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.AtomStatics.SetListenerFocusPointTargetComponent
-	// void SetListenerFocusPointTargetComponent(class USceneComponent* TargetComponent, int32_t playerIndex);                  // [0x673e5d0] Final|Native|Static|Public|BlueprintCallable 
+	// void SetListenerFocusPointTargetComponent(class USceneComponent* TargetComponent, int32_t playerIndex);                  // [0x673fa00] Final|Native|Static|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.AtomStatics.SetListenerFocusPointTargetActor
-	// void SetListenerFocusPointTargetActor(class AActor* TargetActor, int32_t playerIndex);                                   // [0x673e510] Final|Native|Static|Public|BlueprintCallable 
+	// void SetListenerFocusPointTargetActor(class AActor* TargetActor, int32_t playerIndex);                                   // [0x673f940] Final|Native|Static|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.AtomStatics.SetListenerFocusPointInfo
-	// void SetListenerFocusPointInfo(FAtomListenerFocusPointInfo FocusPointInfo, int32_t playerIndex);                         // [0x673e420] Final|Native|Static|Public|BlueprintCallable 
+	// void SetListenerFocusPointInfo(FAtomListenerFocusPointInfo FocusPointInfo, int32_t playerIndex);                         // [0x673f850] Final|Native|Static|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.AtomStatics.SetListenerFocusPointDistanceLevel
-	// void SetListenerFocusPointDistanceLevel(float DistanceLevel, int32_t playerIndex);                                       // [0x673e360] Final|Native|Static|Public|BlueprintCallable 
+	// void SetListenerFocusPointDistanceLevel(float DistanceLevel, int32_t playerIndex);                                       // [0x673f790] Final|Native|Static|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.AtomStatics.SetListenerFocusPointDirectionLevel
-	// void SetListenerFocusPointDirectionLevel(float DirectionLevel, int32_t playerIndex);                                     // [0x673e2a0] Final|Native|Static|Public|BlueprintCallable 
+	// void SetListenerFocusPointDirectionLevel(float DirectionLevel, int32_t playerIndex);                                     // [0x673f6d0] Final|Native|Static|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.AtomStatics.SetAtomGameVariable
-	// void SetAtomGameVariable(FString GameVariableName, float Value);                                                         // [0x673e100] Final|Native|Static|Public|BlueprintCallable 
+	// void SetAtomGameVariable(FString GameVariableName, float Value);                                                         // [0x673f530] Final|Native|Static|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.AtomStatics.PlaySoundForAnimNotify
-	// class UAtomComponent* PlaySoundForAnimNotify(class USoundAtomCue* sound, class USceneComponent* AttachToComponent, FName AttachPointName, FVector Location, bool bStopWhenAttachedToDestroyed, float VolumeMultiplier, float PitchMultiplier, float StartTime, class USoundAttenuation* AttenuationSettings, bool bFollow); // [0x673de00] Final|Native|Static|Public|HasDefaults|BlueprintCallable 
+	// class UAtomComponent* PlaySoundForAnimNotify(class USoundAtomCue* sound, class USceneComponent* AttachToComponent, FName AttachPointName, FVector Location, bool bStopWhenAttachedToDestroyed, float VolumeMultiplier, float PitchMultiplier, float StartTime, class USoundAttenuation* AttenuationSettings, bool bFollow); // [0x673f230] Final|Native|Static|Public|HasDefaults|BlueprintCallable 
 	// Function /Script/CriWareRuntime.AtomStatics.PlaySoundAttached
-	// class UAtomComponent* PlaySoundAttached(class USoundAtomCue* sound, class USceneComponent* AttachToComponent, FName AttachPointName, FVector Location, bool bStopWhenAttachedToDestroyed, float VolumeMultiplier, float PitchMultiplier, float StartTime, class USoundAttenuation* AttenuationSettings); // [0x673db50] Final|Native|Static|Public|HasDefaults|BlueprintCallable 
+	// class UAtomComponent* PlaySoundAttached(class USoundAtomCue* sound, class USceneComponent* AttachToComponent, FName AttachPointName, FVector Location, bool bStopWhenAttachedToDestroyed, float VolumeMultiplier, float PitchMultiplier, float StartTime, class USoundAttenuation* AttenuationSettings); // [0x673ef80] Final|Native|Static|Public|HasDefaults|BlueprintCallable 
 	// Function /Script/CriWareRuntime.AtomStatics.PlaySoundAtLocation
-	// void PlaySoundAtLocation(class UObject* WorldContextObject, class USoundAtomCue* sound, FVector Location, FRotator Rotation, float VolumeMultiplier, float PitchMultiplier, float StartTime, class USoundAttenuation* AttenuationSettings, class USoundConcurrency* ConcurrencySettings); // [0x673d890] Final|Native|Static|Public|HasDefaults|BlueprintCallable 
+	// void PlaySoundAtLocation(class UObject* WorldContextObject, class USoundAtomCue* sound, FVector Location, FRotator Rotation, float VolumeMultiplier, float PitchMultiplier, float StartTime, class USoundAttenuation* AttenuationSettings, class USoundConcurrency* ConcurrencySettings); // [0x673ecc0] Final|Native|Static|Public|HasDefaults|BlueprintCallable 
 	// Function /Script/CriWareRuntime.AtomStatics.PlayAtomSoundForAnimNotify
-	// class UAtomComponent* PlayAtomSoundForAnimNotify(class USoundAtomCue* sound, FAtomComponentParams& Params, class USceneComponent* AttachToComponent, FName AttachPointName, FVector Location, bool bStopWhenAttachedToDestroyed, float VolumeMultiplier, float PitchMultiplier, float StartTime, class USoundAttenuation* AttenuationSettings, bool bFollow); // [0x673d4a0] Final|Native|Static|Public|HasOutParms|HasDefaults|BlueprintCallable 
+	// class UAtomComponent* PlayAtomSoundForAnimNotify(class USoundAtomCue* sound, FAtomComponentParams& Params, class USceneComponent* AttachToComponent, FName AttachPointName, FVector Location, bool bStopWhenAttachedToDestroyed, float VolumeMultiplier, float PitchMultiplier, float StartTime, class USoundAttenuation* AttenuationSettings, bool bFollow); // [0x673e8d0] Final|Native|Static|Public|HasOutParms|HasDefaults|BlueprintCallable 
 	// Function /Script/CriWareRuntime.AtomStatics.PlayAtomSoundAtLocationByName
-	// void PlayAtomSoundAtLocationByName(class UObject* WorldContextObject, class USoundAtomCueSheet* CueSheet, FString CueName, FVector Location, FAtomComponentParams& Params); // [0x673d200] Final|Native|Static|Public|HasOutParms|HasDefaults|BlueprintCallable 
+	// void PlayAtomSoundAtLocationByName(class UObject* WorldContextObject, class USoundAtomCueSheet* CueSheet, FString CueName, FVector Location, FAtomComponentParams& Params); // [0x673e630] Final|Native|Static|Public|HasOutParms|HasDefaults|BlueprintCallable 
 	// Function /Script/CriWareRuntime.AtomStatics.PlayAtomSoundAtLocation
-	// void PlayAtomSoundAtLocation(class UObject* WorldContextObject, class USoundAtomCue* sound, FVector Location, FAtomComponentParams& Params); // [0x673d020] Final|Native|Static|Public|HasOutParms|HasDefaults|BlueprintCallable 
+	// void PlayAtomSoundAtLocation(class UObject* WorldContextObject, class USoundAtomCue* sound, FVector Location, FAtomComponentParams& Params); // [0x673e450] Final|Native|Static|Public|HasOutParms|HasDefaults|BlueprintCallable 
 	// Function /Script/CriWareRuntime.AtomStatics.PauseAudioOutput
-	// void PauseAudioOutput(bool bPause);                                                                                      // [0x673cfa0] Final|Native|Static|Public|BlueprintCallable 
+	// void PauseAudioOutput(bool bPause);                                                                                      // [0x673e3d0] Final|Native|Static|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.AtomStatics.LoadAtomConfig
-	// bool LoadAtomConfig(class USoundAtomConfig* AcfObject);                                                                  // [0x673cf10] Final|Native|Static|Public|BlueprintCallable 
+	// bool LoadAtomConfig(class USoundAtomConfig* AcfObject);                                                                  // [0x673e340] Final|Native|Static|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.AtomStatics.GetListeningPoint
-	// FVector GetListeningPoint(int32_t playerIndex);                                                                          // [0x673ce70] Final|Native|Static|Public|HasDefaults|BlueprintCallable|BlueprintPure 
+	// FVector GetListeningPoint(int32_t playerIndex);                                                                          // [0x673e2a0] Final|Native|Static|Public|HasDefaults|BlueprintCallable|BlueprintPure 
 	// Function /Script/CriWareRuntime.AtomStatics.GetListenerRegion
-	// class UAtom3dRegion* GetListenerRegion(int32_t playerIndex);                                                             // [0x673cde0] Final|Native|Static|Public|BlueprintCallable 
+	// class UAtom3dRegion* GetListenerRegion(int32_t playerIndex);                                                             // [0x673e210] Final|Native|Static|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.AtomStatics.GetListenerFocusPointInfo
-	// FAtomListenerFocusPointInfo GetListenerFocusPointInfo(int32_t playerIndex);                                              // [0x673cd40] Final|Native|Static|Public|BlueprintCallable|BlueprintPure 
+	// FAtomListenerFocusPointInfo GetListenerFocusPointInfo(int32_t playerIndex);                                              // [0x673e170] Final|Native|Static|Public|BlueprintCallable|BlueprintPure 
 	// Function /Script/CriWareRuntime.AtomStatics.GetAudioVolumeAffectingListener
-	// class AAtomAudioVolume* GetAudioVolumeAffectingListener(int32_t playerIndex, EAtomAudioVolumeType TypeNum);              // [0x673cc70] Final|Native|Static|Public|BlueprintCallable|BlueprintPure 
+	// class AAtomAudioVolume* GetAudioVolumeAffectingListener(int32_t playerIndex, EAtomAudioVolumeType TypeNum);              // [0x673e0a0] Final|Native|Static|Public|BlueprintCallable|BlueprintPure 
 	// Function /Script/CriWareRuntime.AtomStatics.GetAtomGameVariable
-	// float GetAtomGameVariable(FString GameVariableName);                                                                     // [0x673cb10] Final|Native|Static|Public|BlueprintCallable 
+	// float GetAtomGameVariable(FString GameVariableName);                                                                     // [0x673df40] Final|Native|Static|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.AtomStatics.CreateRootedAtomComponent
-	// class UAtomComponent* CreateRootedAtomComponent(class UObject* WorldContextObject, bool bAutoDestroy);                   // [0x673ca40] Final|BlueprintCosmetic|Native|Static|Public|BlueprintCallable 
+	// class UAtomComponent* CreateRootedAtomComponent(class UObject* WorldContextObject, bool bAutoDestroy);                   // [0x673de70] Final|BlueprintCosmetic|Native|Static|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.AtomStatics.AddToAtomComponentIds
-	// void AddToAtomComponentIds(class UObject* AtomPlayGateRef, class UObject* SkeltalMeshComponentRef, int32_t AtomComponentID); // [0x673c940] Final|Native|Static|Public|BlueprintCallable 
+	// void AddToAtomComponentIds(class UObject* AtomPlayGateRef, class UObject* SkeltalMeshComponentRef, int32_t AtomComponentID); // [0x673dd70] Final|Native|Static|Public|BlueprintCallable 
 };
 
 /// Class /Script/CriWareRuntime.AtomTriggerTableFunctionLibrary
@@ -1192,7 +1192,7 @@ public:
 
 	/// Functions
 	// Function /Script/CriWareRuntime.AtomTriggerTableFunctionLibrary.GetDataTableRowFromName
-	// bool GetDataTableRowFromName(class UDataTable* Table, FName RowName, FAtomTriggerRow& OutRow);                           // [0x67404d0] Final|Native|Static|Public|HasOutParms|BlueprintCallable 
+	// bool GetDataTableRowFromName(class UDataTable* Table, FName RowName, FAtomTriggerRow& OutRow);                           // [0x6741900] Final|Native|Static|Public|HasOutParms|BlueprintCallable 
 };
 
 /// Class /Script/CriWareRuntime.AtomUnrealSoundRenderer
@@ -1236,35 +1236,35 @@ public:
 
 	/// Functions
 	// Function /Script/CriWareRuntime.AtomWavePlayer.StopDelayed
-	// void StopDelayed(float delayTime);                                                                                       // [0x67412a0] Final|Native|Public|BlueprintCallable 
+	// void StopDelayed(float delayTime);                                                                                       // [0x67426d0] Final|Native|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.AtomWavePlayer.Stop
-	// void Stop();                                                                                                             // [0x6741280] Final|Native|Public|BlueprintCallable 
+	// void Stop();                                                                                                             // [0x67426b0] Final|Native|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.AtomWavePlayer.SetWave
-	// void SetWave(class USoundAtomCue* InCue);                                                                                // [0x67411f0] Final|Native|Public|BlueprintCallable 
+	// void SetWave(class USoundAtomCue* InCue);                                                                                // [0x6742620] Final|Native|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.AtomWavePlayer.SetPaused
-	// void SetPaused(bool bPause);                                                                                             // [0x6741160] Final|Native|Public|BlueprintCallable 
+	// void SetPaused(bool bPause);                                                                                             // [0x6742590] Final|Native|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.AtomWavePlayer.SetLooping
-	// bool SetLooping(bool Looping);                                                                                           // [0x67410e0] Final|Native|Public|BlueprintCallable 
+	// bool SetLooping(bool Looping);                                                                                           // [0x6742510] Final|Native|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.AtomWavePlayer.Play
-	// void Play(float StartTime);                                                                                              // [0x6741060] Final|Native|Public|BlueprintCallable 
+	// void Play(float StartTime);                                                                                              // [0x6742490] Final|Native|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.AtomWavePlayer.IsPlaying
-	// bool IsPlaying();                                                                                                        // [0x6741030] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// bool IsPlaying();                                                                                                        // [0x6742460] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/CriWareRuntime.AtomWavePlayer.IsPaused
-	// bool IsPaused();                                                                                                         // [0x6741000] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// bool IsPaused();                                                                                                         // [0x6742430] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/CriWareRuntime.AtomWavePlayer.IsLooping
-	// bool IsLooping();                                                                                                        // [0x6740fd0] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// bool IsLooping();                                                                                                        // [0x6742400] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/CriWareRuntime.AtomWavePlayer.HasError
-	// bool HasError();                                                                                                         // [0x6740fa0] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// bool HasError();                                                                                                         // [0x67423d0] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/CriWareRuntime.AtomWavePlayer.GetWaveInfo
-	// FAtomWaveInfo GetWaveInfo();                                                                                             // [0x6740f70] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// FAtomWaveInfo GetWaveInfo();                                                                                             // [0x67423a0] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/CriWareRuntime.AtomWavePlayer.GetTime
-	// FTimespan GetTime();                                                                                                     // [0x6740f50] Final|Native|Public|HasDefaults|BlueprintCallable|BlueprintPure|Const 
+	// FTimespan GetTime();                                                                                                     // [0x6742380] Final|Native|Public|HasDefaults|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/CriWareRuntime.AtomWavePlayer.GetPlayState
-	// EAtomWavePlayState GetPlayState();                                                                                       // [0x6740f20] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// EAtomWavePlayState GetPlayState();                                                                                       // [0x6742350] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/CriWareRuntime.AtomWavePlayer.GetCue
-	// class USoundAtomCue* GetCue();                                                                                           // [0x6740f00] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// class USoundAtomCue* GetCue();                                                                                           // [0x6742330] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/CriWareRuntime.AtomWavePlayer.AdjustVolume
-	// void AdjustVolume(float AdjustVolumeDuration, float AdjustVolumeLevel);                                                  // [0x6740e30] Final|Native|Public|BlueprintCallable 
+	// void AdjustVolume(float AdjustVolumeDuration, float AdjustVolumeLevel);                                                  // [0x6742260] Final|Native|Public|BlueprintCallable 
 };
 
 /// Class /Script/CriWareRuntime.CriFsBinderComponent
@@ -1280,15 +1280,15 @@ public:
 
 	/// Functions
 	// Function /Script/CriWareRuntime.CriFsBinderComponent.Stop
-	// void Stop();                                                                                                             // [0x67416c0] Final|Native|Public|BlueprintCallable 
+	// void Stop();                                                                                                             // [0x6742af0] Final|Native|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.CriFsBinderComponent.OnBindError__DelegateSignature
-	// void OnBindError__DelegateSignature();                                                                                   // [0x35d69e0] MulticastDelegate|Public|Delegate 
+	// void OnBindError__DelegateSignature();                                                                                   // [0x35d7f00] MulticastDelegate|Public|Delegate 
 	// Function /Script/CriWareRuntime.CriFsBinderComponent.OnBindCompleted__DelegateSignature
-	// void OnBindCompleted__DelegateSignature();                                                                               // [0x35d69e0] MulticastDelegate|Public|Delegate 
+	// void OnBindCompleted__DelegateSignature();                                                                               // [0x35d7f00] MulticastDelegate|Public|Delegate 
 	// Function /Script/CriWareRuntime.CriFsBinderComponent.GetStatus
-	// ECriFsBinderStatus GetStatus();                                                                                          // [0x6741690] Final|Native|Public|BlueprintCallable 
+	// ECriFsBinderStatus GetStatus();                                                                                          // [0x6742ac0] Final|Native|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.CriFsBinderComponent.Bind
-	// void Bind();                                                                                                             // [0x6741670] Final|Native|Public|BlueprintCallable 
+	// void Bind();                                                                                                             // [0x6742aa0] Final|Native|Public|BlueprintCallable 
 };
 
 /// Class /Script/CriWareRuntime.CriFsLoader
@@ -1312,15 +1312,15 @@ public:
 
 	/// Functions
 	// Function /Script/CriWareRuntime.CriFsLoaderComponent.OnLoadError__DelegateSignature
-	// void OnLoadError__DelegateSignature();                                                                                   // [0x35d69e0] MulticastDelegate|Public|Delegate 
+	// void OnLoadError__DelegateSignature();                                                                                   // [0x35d7f00] MulticastDelegate|Public|Delegate 
 	// Function /Script/CriWareRuntime.CriFsLoaderComponent.OnLoadCompleted__DelegateSignature
-	// void OnLoadCompleted__DelegateSignature();                                                                               // [0x35d69e0] MulticastDelegate|Public|Delegate 
+	// void OnLoadCompleted__DelegateSignature();                                                                               // [0x35d7f00] MulticastDelegate|Public|Delegate 
 	// Function /Script/CriWareRuntime.CriFsLoaderComponent.Load
-	// void Load();                                                                                                             // [0x6741c60] Final|Native|Public|BlueprintCallable 
+	// void Load();                                                                                                             // [0x6743090] Final|Native|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.CriFsLoaderComponent.GetStatus
-	// ECriFsLoaderStatus GetStatus();                                                                                          // [0x6741c30] Final|Native|Public|BlueprintCallable 
+	// ECriFsLoaderStatus GetStatus();                                                                                          // [0x6743060] Final|Native|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.CriFsLoaderComponent.GetDataArray
-	// TArray<char> GetDataArray();                                                                                             // [0x6741ba0] Final|Native|Public|BlueprintCallable 
+	// TArray<char> GetDataArray();                                                                                             // [0x6742fd0] Final|Native|Public|BlueprintCallable 
 };
 
 /// Class /Script/CriWareRuntime.CriWareError
@@ -1335,9 +1335,9 @@ public:
 
 	/// Functions
 	// Function /Script/CriWareRuntime.CriWareError.OnCriWareError__DelegateSignature
-	// void OnCriWareError__DelegateSignature(FCriWareErrorInfo& ErrorInfo);                                                    // [0x35d69e0] MulticastDelegate|Public|Delegate|HasOutParms 
+	// void OnCriWareError__DelegateSignature(FCriWareErrorInfo& ErrorInfo);                                                    // [0x35d7f00] MulticastDelegate|Public|Delegate|HasOutParms 
 	// Function /Script/CriWareRuntime.CriWareError.GetCriWareError
-	// class UCriWareError* GetCriWareError();                                                                                  // [0x67422e0] Final|RequiredAPI|Native|Static|Public|BlueprintCallable|BlueprintPure 
+	// class UCriWareError* GetCriWareError();                                                                                  // [0x6743710] Final|RequiredAPI|Native|Static|Public|BlueprintCallable|BlueprintPure 
 };
 
 /// Class /Script/CriWareRuntime.CriWareFunctionLibrary
@@ -1349,13 +1349,13 @@ public:
 
 	/// Functions
 	// Function /Script/CriWareRuntime.CriWareFunctionLibrary.SetSpeakerAngleArray
-	// void SetSpeakerAngleArray(ECriWareSpeakerSystem SpeakerSystem, TArray<float>& Angles);                                   // [0x67428b0] Final|Native|Static|Public|HasOutParms|BlueprintCallable 
+	// void SetSpeakerAngleArray(ECriWareSpeakerSystem SpeakerSystem, TArray<float>& Angles);                                   // [0x6743ce0] Final|Native|Static|Public|HasOutParms|BlueprintCallable 
 	// Function /Script/CriWareRuntime.CriWareFunctionLibrary.SetGlobalLabelToSelectorByName
-	// void SetGlobalLabelToSelectorByName(FString SelectorName, FString LabelName);                                            // [0x6742740] Final|Native|Static|Public|BlueprintCallable 
+	// void SetGlobalLabelToSelectorByName(FString SelectorName, FString LabelName);                                            // [0x6743b70] Final|Native|Static|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.CriWareFunctionLibrary.SetGameVariableByName
-	// void SetGameVariableByName(FString GameVariableName, float Value);                                                       // [0x6742610] Final|Native|Static|Public|BlueprintCallable 
+	// void SetGameVariableByName(FString GameVariableName, float Value);                                                       // [0x6743a40] Final|Native|Static|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.CriWareFunctionLibrary.SearchAtomCuesInAssetRegistry
-	// TArray<USoundAtomCue*> SearchAtomCuesInAssetRegistry(class USoundAtomCueSheet* CueSheet);                                // [0x6742540] Final|Native|Static|Public|BlueprintCallable 
+	// TArray<USoundAtomCue*> SearchAtomCuesInAssetRegistry(class USoundAtomCueSheet* CueSheet);                                // [0x6743970] Final|Native|Static|Public|BlueprintCallable 
 };
 
 /// Class /Script/CriWareRuntime.CriWareInitializer
@@ -1617,125 +1617,125 @@ public:
 
 	/// Functions
 	// Function /Script/CriWareRuntime.ManaComponent.ToIndex
-	// bool ToIndex(int32_t Index);                                                                                             // [0x67459c0] Final|Native|Public|BlueprintCallable 
+	// bool ToIndex(int32_t Index);                                                                                             // [0x6746df0] Final|Native|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.ManaComponent.Stop
-	// void Stop();                                                                                                             // [0x67459a0] Final|Native|Public|BlueprintCallable 
+	// void Stop();                                                                                                             // [0x6746dd0] Final|Native|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.ManaComponent.SetVolume
-	// void SetVolume(float Volume);                                                                                            // [0x6745920] Final|Native|Public|BlueprintCallable 
+	// void SetVolume(float Volume);                                                                                            // [0x6746d50] Final|Native|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.ManaComponent.SetTexture
-	// void SetTexture(class UManaTexture* Texture);                                                                            // [0x6745890] Final|Native|Public|BlueprintCallable 
+	// void SetTexture(class UManaTexture* Texture);                                                                            // [0x6746cc0] Final|Native|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.ManaComponent.SetSubVolume
-	// void SetSubVolume(float Volume);                                                                                         // [0x6745810] Final|Native|Public|BlueprintCallable 
+	// void SetSubVolume(float Volume);                                                                                         // [0x6746c40] Final|Native|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.ManaComponent.SetSubAudioTrack
-	// void SetSubAudioTrack(int32_t Track);                                                                                    // [0x6745780] Final|Native|Public|BlueprintCallable 
+	// void SetSubAudioTrack(int32_t Track);                                                                                    // [0x6746bb0] Final|Native|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.ManaComponent.SetSubAudioSendLevel
-	// void SetSubAudioSendLevel(int32_t Channel, EAtomSpeakerID SpeakerId, float Volume);                                      // [0x6745670] Final|Native|Public|BlueprintCallable 
+	// void SetSubAudioSendLevel(int32_t Channel, EAtomSpeakerID SpeakerId, float Volume);                                      // [0x6746aa0] Final|Native|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.ManaComponent.SetSubAudioCategory
-	// void SetSubAudioCategory(FString CategoryName);                                                                          // [0x67455d0] Final|Native|Public|BlueprintCallable 
+	// void SetSubAudioCategory(FString CategoryName);                                                                          // [0x6746a00] Final|Native|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.ManaComponent.SetPlaybackTimer
-	// void SetPlaybackTimer(EManaPlaybackTimer InPlaybackTimer);                                                               // [0x6745550] Final|Native|Public|BlueprintCallable 
+	// void SetPlaybackTimer(EManaPlaybackTimer InPlaybackTimer);                                                               // [0x6746980] Final|Native|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.ManaComponent.SetMovie
-	// void SetMovie(class UManaMovie* InMovie);                                                                                // [0x67454c0] Final|Native|Public|BlueprintCallable 
+	// void SetMovie(class UManaMovie* InMovie);                                                                                // [0x67468f0] Final|Native|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.ManaComponent.SetMaxDropFrames
-	// void SetMaxDropFrames(EManaMaxFrameDrop InMaxDropFrames);                                                                // [0x6745440] Final|Native|Public|BlueprintCallable 
+	// void SetMaxDropFrames(EManaMaxFrameDrop InMaxDropFrames);                                                                // [0x6746870] Final|Native|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.ManaComponent.SetFile
-	// void SetFile(FString MovieFilePath);                                                                                     // [0x67453a0] Final|Native|Public|BlueprintCallable 
+	// void SetFile(FString MovieFilePath);                                                                                     // [0x67467d0] Final|Native|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.ManaComponent.SetExtraVolume
-	// void SetExtraVolume(float Volume);                                                                                       // [0x6745320] Final|Native|Public|BlueprintCallable 
+	// void SetExtraVolume(float Volume);                                                                                       // [0x6746750] Final|Native|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.ManaComponent.SetExtraAudioTrack
-	// void SetExtraAudioTrack(int32_t Track);                                                                                  // [0x6745290] Final|Native|Public|BlueprintCallable 
+	// void SetExtraAudioTrack(int32_t Track);                                                                                  // [0x67466c0] Final|Native|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.ManaComponent.SetExtraAudioCategory
-	// void SetExtraAudioCategory(FString CategoryName);                                                                        // [0x67451f0] Final|Native|Public|BlueprintCallable 
+	// void SetExtraAudioCategory(FString CategoryName);                                                                        // [0x6746620] Final|Native|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.ManaComponent.SetEndFrameAction
-	// void SetEndFrameAction(EManaFrameAction InFrameAction);                                                                  // [0x6745170] Final|Native|Public|BlueprintCallable 
+	// void SetEndFrameAction(EManaFrameAction InFrameAction);                                                                  // [0x67465a0] Final|Native|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.ManaComponent.SetAudioTrack
-	// void SetAudioTrack(int32_t Track);                                                                                       // [0x67450e0] Final|Native|Public|BlueprintCallable 
+	// void SetAudioTrack(int32_t Track);                                                                                       // [0x6746510] Final|Native|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.ManaComponent.SetAudioCategory
-	// void SetAudioCategory(FString CategoryName);                                                                             // [0x6745040] Final|Native|Public|BlueprintCallable 
+	// void SetAudioCategory(FString CategoryName);                                                                             // [0x6746470] Final|Native|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.ManaComponent.SetAlphaTrack
-	// void SetAlphaTrack(int32_t Track);                                                                                       // [0x6744fb0] Final|Native|Public|BlueprintCallable 
+	// void SetAlphaTrack(int32_t Track);                                                                                       // [0x67463e0] Final|Native|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.ManaComponent.SeekToPosition
-	// void SeekToPosition(int32_t FrameNumber);                                                                                // [0x6744f20] Final|Native|Public|BlueprintCallable 
+	// void SeekToPosition(int32_t FrameNumber);                                                                                // [0x6746350] Final|Native|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.ManaComponent.Seek
-	// void Seek(FTimespan Time);                                                                                               // [0x6744e90] Final|Native|Public|HasDefaults|BlueprintCallable 
+	// void Seek(FTimespan Time);                                                                                               // [0x67462c0] Final|Native|Public|HasDefaults|BlueprintCallable 
 	// Function /Script/CriWareRuntime.ManaComponent.RemoveSubAudioCategory
-	// void RemoveSubAudioCategory();                                                                                           // [0x6744e70] Final|Native|Public|BlueprintCallable 
+	// void RemoveSubAudioCategory();                                                                                           // [0x67462a0] Final|Native|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.ManaComponent.RemoveExtraAudioCategory
-	// void RemoveExtraAudioCategory();                                                                                         // [0x6744e50] Final|Native|Public|BlueprintCallable 
+	// void RemoveExtraAudioCategory();                                                                                         // [0x6746280] Final|Native|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.ManaComponent.RemoveAudioCategory
-	// void RemoveAudioCategory();                                                                                              // [0x6744e30] Final|Native|Public|BlueprintCallable 
+	// void RemoveAudioCategory();                                                                                              // [0x6746260] Final|Native|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.ManaComponent.Previous
-	// bool Previous();                                                                                                         // [0x6744e00] Final|Native|Public|BlueprintCallable 
+	// bool Previous();                                                                                                         // [0x6746230] Final|Native|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.ManaComponent.PreparePlaylistIndex
-	// void PreparePlaylistIndex(int32_t Index);                                                                                // [0x6744d70] Final|Native|Public|BlueprintCallable 
+	// void PreparePlaylistIndex(int32_t Index);                                                                                // [0x67461a0] Final|Native|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.ManaComponent.Prepare
-	// void Prepare();                                                                                                          // [0x6744d50] Final|Native|Public|BlueprintCallable 
+	// void Prepare();                                                                                                          // [0x6746180] Final|Native|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.ManaComponent.Play
-	// void Play();                                                                                                             // [0x6744d30] Final|Native|Public|BlueprintCallable 
+	// void Play();                                                                                                             // [0x6746160] Final|Native|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.ManaComponent.Pause
-	// void Pause(bool bPause);                                                                                                 // [0x6744ca0] Final|Native|Public|BlueprintCallable 
+	// void Pause(bool bPause);                                                                                                 // [0x67460d0] Final|Native|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.ManaComponent.OnTrackChanged__DelegateSignature
-	// void OnTrackChanged__DelegateSignature(int32_t TrackNumber, class UManaComponent* ManaComponent);                        // [0x35d69e0] MulticastDelegate|Public|Delegate 
+	// void OnTrackChanged__DelegateSignature(int32_t TrackNumber, class UManaComponent* ManaComponent);                        // [0x35d7f00] MulticastDelegate|Public|Delegate 
 	// Function /Script/CriWareRuntime.ManaComponent.OnSubtitleChanged__DelegateSignature
-	// void OnSubtitleChanged__DelegateSignature(FText Subtitle);                                                               // [0x35d69e0] MulticastDelegate|Public|Delegate 
+	// void OnSubtitleChanged__DelegateSignature(FText Subtitle);                                                               // [0x35d7f00] MulticastDelegate|Public|Delegate 
 	// Function /Script/CriWareRuntime.ManaComponent.OnStatusChanged__DelegateSignature
-	// void OnStatusChanged__DelegateSignature(EManaComponentStatus Status, class UManaComponent* ManaComponent);               // [0x35d69e0] MulticastDelegate|Public|Delegate 
+	// void OnStatusChanged__DelegateSignature(EManaComponentStatus Status, class UManaComponent* ManaComponent);               // [0x35d7f00] MulticastDelegate|Public|Delegate 
 	// Function /Script/CriWareRuntime.ManaComponent.OnSeekCompleted__DelegateSignature
-	// void OnSeekCompleted__DelegateSignature(int32_t FrameNumber, class UManaComponent* ManaComponent);                       // [0x35d69e0] MulticastDelegate|Public|Delegate 
+	// void OnSeekCompleted__DelegateSignature(int32_t FrameNumber, class UManaComponent* ManaComponent);                       // [0x35d7f00] MulticastDelegate|Public|Delegate 
 	// Function /Script/CriWareRuntime.ManaComponent.OnRequestData__DelegateSignature
-	// void OnRequestData__DelegateSignature(class UManaComponent* ManaComponent);                                              // [0x35d69e0] Public|Delegate      
+	// void OnRequestData__DelegateSignature(class UManaComponent* ManaComponent);                                              // [0x35d7f00] Public|Delegate      
 	// Function /Script/CriWareRuntime.ManaComponent.OnPlayerDestroyed__DelegateSignature
-	// void OnPlayerDestroyed__DelegateSignature(class UManaComponent* ManaComponent);                                          // [0x35d69e0] MulticastDelegate|Public|Delegate 
+	// void OnPlayerDestroyed__DelegateSignature(class UManaComponent* ManaComponent);                                          // [0x35d7f00] MulticastDelegate|Public|Delegate 
 	// Function /Script/CriWareRuntime.ManaComponent.OnMovieChanged__DelegateSignature
-	// void OnMovieChanged__DelegateSignature(class UManaMovie* Movie, class UManaComponent* ManaComponent);                    // [0x35d69e0] MulticastDelegate|Public|Delegate 
+	// void OnMovieChanged__DelegateSignature(class UManaMovie* Movie, class UManaComponent* ManaComponent);                    // [0x35d7f00] MulticastDelegate|Public|Delegate 
 	// Function /Script/CriWareRuntime.ManaComponent.OnFrameOnTime__DelegateSignature
-	// void OnFrameOnTime__DelegateSignature(int32_t FrameNumber, class UManaComponent* ManaComponent);                         // [0x35d69e0] MulticastDelegate|Public|Delegate 
+	// void OnFrameOnTime__DelegateSignature(int32_t FrameNumber, class UManaComponent* ManaComponent);                         // [0x35d7f00] MulticastDelegate|Public|Delegate 
 	// Function /Script/CriWareRuntime.ManaComponent.OnEventPoint__DelegateSignature
-	// void OnEventPoint__DelegateSignature(FManaEventPointInfo EventPointInfo);                                                // [0x35d69e0] MulticastDelegate|Public|Delegate 
+	// void OnEventPoint__DelegateSignature(FManaEventPointInfo EventPointInfo);                                                // [0x35d7f00] MulticastDelegate|Public|Delegate 
 	// Function /Script/CriWareRuntime.ManaComponent.Next
-	// bool Next();                                                                                                             // [0x6744c70] Final|Native|Public|BlueprintCallable 
+	// bool Next();                                                                                                             // [0x67460a0] Final|Native|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.ManaComponent.Loop
-	// void Loop(bool bInLoop);                                                                                                 // [0x6744be0] Final|Native|Public|BlueprintCallable 
+	// void Loop(bool bInLoop);                                                                                                 // [0x6746010] Final|Native|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.ManaComponent.IsReady
-	// bool IsReady();                                                                                                          // [0x6744bb0] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// bool IsReady();                                                                                                          // [0x6745fe0] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/CriWareRuntime.ManaComponent.IsPreparing
-	// bool IsPreparing();                                                                                                      // [0x6744b80] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// bool IsPreparing();                                                                                                      // [0x6745fb0] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/CriWareRuntime.ManaComponent.IsPlaying
-	// bool IsPlaying();                                                                                                        // [0x6744b50] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// bool IsPlaying();                                                                                                        // [0x6745f80] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/CriWareRuntime.ManaComponent.IsPaused
-	// bool IsPaused();                                                                                                         // [0x6744b20] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// bool IsPaused();                                                                                                         // [0x6745f50] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/CriWareRuntime.ManaComponent.IsLooping
-	// bool IsLooping();                                                                                                        // [0x6744b00] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// bool IsLooping();                                                                                                        // [0x6745f30] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/CriWareRuntime.ManaComponent.GetVolume
-	// float GetVolume();                                                                                                       // [0x6744ad0] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// float GetVolume();                                                                                                       // [0x6745f00] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/CriWareRuntime.ManaComponent.GetTime
-	// FTimespan GetTime();                                                                                                     // [0x6744a90] Final|Native|Public|HasDefaults|BlueprintCallable|BlueprintPure|Const 
+	// FTimespan GetTime();                                                                                                     // [0x6745ec0] Final|Native|Public|HasDefaults|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/CriWareRuntime.ManaComponent.GetTexture
-	// class UManaTexture* GetTexture();                                                                                        // [0x6744a60] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// class UManaTexture* GetTexture();                                                                                        // [0x6745e90] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/CriWareRuntime.ManaComponent.GetSubVolume
-	// float GetSubVolume();                                                                                                    // [0x6744a30] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// float GetSubVolume();                                                                                                    // [0x6745e60] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/CriWareRuntime.ManaComponent.GetStatus
-	// EManaComponentStatus GetStatus();                                                                                        // [0x6744a00] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// EManaComponentStatus GetStatus();                                                                                        // [0x6745e30] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/CriWareRuntime.ManaComponent.GetSource
-	// class UManaMovie* GetSource();                                                                                           // [0x67449d0] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// class UManaMovie* GetSource();                                                                                           // [0x6745e00] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/CriWareRuntime.ManaComponent.GetPosition
-	// int32_t GetPosition();                                                                                                   // [0x67449a0] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// int32_t GetPosition();                                                                                                   // [0x6745dd0] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/CriWareRuntime.ManaComponent.GetMovieTime
-	// FTimespan GetMovieTime();                                                                                                // [0x6744960] Final|Native|Public|HasDefaults|BlueprintCallable|BlueprintPure|Const 
+	// FTimespan GetMovieTime();                                                                                                // [0x6745d90] Final|Native|Public|HasDefaults|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/CriWareRuntime.ManaComponent.GetFrameNumber
-	// int32_t GetFrameNumber();                                                                                                // [0x6744930] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// int32_t GetFrameNumber();                                                                                                // [0x6745d60] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/CriWareRuntime.ManaComponent.GetExtraVolume
-	// float GetExtraVolume();                                                                                                  // [0x6744900] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// float GetExtraVolume();                                                                                                  // [0x6745d30] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/CriWareRuntime.ManaComponent.EnableSubtitles
-	// void EnableSubtitles(bool bEnable);                                                                                      // [0x6744870] Final|Native|Public|BlueprintCallable 
+	// void EnableSubtitles(bool bEnable);                                                                                      // [0x6745ca0] Final|Native|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.ManaComponent.EnableSeamless
-	// void EnableSeamless(bool bEnable);                                                                                       // [0x67447e0] Final|Native|Public|BlueprintCallable 
+	// void EnableSeamless(bool bEnable);                                                                                       // [0x6745c10] Final|Native|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.ManaComponent.ChangeSubtitlesEncoding
-	// void ChangeSubtitlesEncoding(EManaSubtitlesEncoding Encoding);                                                           // [0x6744760] Final|Native|Public|BlueprintCallable 
+	// void ChangeSubtitlesEncoding(EManaSubtitlesEncoding Encoding);                                                           // [0x6745b90] Final|Native|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.ManaComponent.ChangeSubtitlesChannel
-	// void ChangeSubtitlesChannel(int32_t Channel);                                                                            // [0x67446d0] Final|Native|Public|BlueprintCallable 
+	// void ChangeSubtitlesChannel(int32_t Channel);                                                                            // [0x6745b00] Final|Native|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.ManaComponent.AdvanceTime
-	// void AdvanceTime(FTimespan DeltaTime);                                                                                   // [0x6744640] Final|Native|Public|HasDefaults|BlueprintCallable 
+	// void AdvanceTime(FTimespan DeltaTime);                                                                                   // [0x6745a70] Final|Native|Public|HasDefaults|BlueprintCallable 
 };
 
 /// Class /Script/CriWareRuntime.ManaComponentTexture
@@ -1825,9 +1825,9 @@ public:
 
 	/// Functions
 	// Function /Script/CriWareRuntime.ManaMovie.Validate
-	// bool Validate();                                                                                                         // [0x6747020] Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// bool Validate();                                                                                                         // [0x6748450] Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/CriWareRuntime.ManaMovie.GetUrl
-	// FString GetUrl();                                                                                                        // [0x6746e50] Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// FString GetUrl();                                                                                                        // [0x6748280] Native|Public|BlueprintCallable|BlueprintPure|Const 
 };
 
 /// Class /Script/CriWareRuntime.FileManaMovie
@@ -1842,7 +1842,7 @@ public:
 
 	/// Functions
 	// Function /Script/CriWareRuntime.FileManaMovie.SetFilePath
-	// void SetFilePath(FString Path);                                                                                          // [0x6746f80] Final|Native|Public|BlueprintCallable 
+	// void SetFilePath(FString Path);                                                                                          // [0x67483b0] Final|Native|Public|BlueprintCallable 
 };
 
 /// Class /Script/CriWareRuntime.DataManaMovie
@@ -1855,9 +1855,9 @@ public:
 
 	/// Functions
 	// Function /Script/CriWareRuntime.DataManaMovie.SetDataArray
-	// void SetDataArray(TArray<char>& InDataArray);                                                                            // [0x6746ed0] Final|Native|Public|HasOutParms|BlueprintCallable 
+	// void SetDataArray(TArray<char>& InDataArray);                                                                            // [0x6748300] Final|Native|Public|HasOutParms|BlueprintCallable 
 	// Function /Script/CriWareRuntime.DataManaMovie.GetDataArray
-	// TArray<char> GetDataArray();                                                                                             // [0x6746dc0] Final|Native|Public|BlueprintCallable 
+	// TArray<char> GetDataArray();                                                                                             // [0x67481f0] Final|Native|Public|BlueprintCallable 
 };
 
 /// Class /Script/CriWareRuntime.StreamManaMovie
@@ -1901,119 +1901,119 @@ public:
 
 	/// Functions
 	// Function /Script/CriWareRuntime.ManaPlayer.SetVolume
-	// bool SetVolume(float Volume, EManaPlayerTrack TrackType);                                                                // [0x6749b70] Final|Native|Public|BlueprintCallable 
+	// bool SetVolume(float Volume, EManaPlayerTrack TrackType);                                                                // [0x674afa0] Final|Native|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.ManaPlayer.SetTrackFormat
-	// bool SetTrackFormat(EManaPlayerTrack TrackType, int32_t TrackIndex, int32_t FormatIndex);                                // [0x6749a60] Final|Native|Public|BlueprintCallable 
+	// bool SetTrackFormat(EManaPlayerTrack TrackType, int32_t TrackIndex, int32_t FormatIndex);                                // [0x674ae90] Final|Native|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.ManaPlayer.SetTimeSyncedSource
-	// void SetTimeSyncedSource(class UAtomComponent* SyncedSource);                                                            // [0x67499d0] Final|Native|Public|BlueprintCallable 
+	// void SetTimeSyncedSource(class UAtomComponent* SyncedSource);                                                            // [0x674ae00] Final|Native|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.ManaPlayer.SetTexture
-	// void SetTexture(class UManaTexture* InManaTexture);                                                                      // [0x6749940] Final|Native|Public|BlueprintCallable 
+	// void SetTexture(class UManaTexture* InManaTexture);                                                                      // [0x674ad70] Final|Native|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.ManaPlayer.SetRate
-	// bool SetRate(float Rate);                                                                                                // [0x67498c0] Final|Native|Public|BlueprintCallable 
+	// bool SetRate(float Rate);                                                                                                // [0x674acf0] Final|Native|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.ManaPlayer.SetLooping
-	// bool SetLooping(bool Looping);                                                                                           // [0x6749820] Final|Native|Public|BlueprintCallable 
+	// bool SetLooping(bool Looping);                                                                                           // [0x674ac50] Final|Native|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.ManaPlayer.SelectTrack
-	// bool SelectTrack(EManaPlayerTrack TrackType, int32_t TrackIndex);                                                        // [0x6749750] Final|Native|Public|BlueprintCallable 
+	// bool SelectTrack(EManaPlayerTrack TrackType, int32_t TrackIndex);                                                        // [0x674ab80] Final|Native|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.ManaPlayer.Seek
-	// bool Seek(FTimespan Time);                                                                                               // [0x67496b0] Final|Native|Public|HasDefaults|BlueprintCallable 
+	// bool Seek(FTimespan Time);                                                                                               // [0x674aae0] Final|Native|Public|HasDefaults|BlueprintCallable 
 	// Function /Script/CriWareRuntime.ManaPlayer.Rewind
-	// bool Rewind();                                                                                                           // [0x6749680] Final|Native|Public|BlueprintCallable 
+	// bool Rewind();                                                                                                           // [0x674aab0] Final|Native|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.ManaPlayer.Reopen
-	// bool Reopen();                                                                                                           // [0x6749650] Final|Native|Public|BlueprintCallable 
+	// bool Reopen();                                                                                                           // [0x674aa80] Final|Native|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.ManaPlayer.Previous
-	// bool Previous();                                                                                                         // [0x6749610] Final|Native|Public|BlueprintCallable 
+	// bool Previous();                                                                                                         // [0x674aa40] Final|Native|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.ManaPlayer.PlayAndSeek
-	// void PlayAndSeek();                                                                                                      // [0x67495f0] Final|Native|Public|BlueprintCallable 
+	// void PlayAndSeek();                                                                                                      // [0x674aa20] Final|Native|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.ManaPlayer.Play
-	// bool Play();                                                                                                             // [0x67495c0] Final|Native|Public|BlueprintCallable 
+	// bool Play();                                                                                                             // [0x674a9f0] Final|Native|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.ManaPlayer.Pause
-	// bool Pause();                                                                                                            // [0x6749590] Final|Native|Public|BlueprintCallable 
+	// bool Pause();                                                                                                            // [0x674a9c0] Final|Native|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.ManaPlayer.OpenSourceWithOptions
-	// bool OpenSourceWithOptions(class UManaSource* ManaSource, FManaPlayerOptions& PlayerOptions);                            // [0x6749480] Final|Native|Public|HasOutParms|BlueprintCallable 
+	// bool OpenSourceWithOptions(class UManaSource* ManaSource, FManaPlayerOptions& PlayerOptions);                            // [0x674a8b0] Final|Native|Public|HasOutParms|BlueprintCallable 
 	// Function /Script/CriWareRuntime.ManaPlayer.OpenPlaylistIndex
-	// bool OpenPlaylistIndex(class UManaPlaylist* InPlaylist, int32_t Index);                                                  // [0x67493b0] Final|Native|Public|BlueprintCallable 
+	// bool OpenPlaylistIndex(class UManaPlaylist* InPlaylist, int32_t Index);                                                  // [0x674a7e0] Final|Native|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.ManaPlayer.OpenPlaylist
-	// bool OpenPlaylist(class UManaPlaylist* InPlaylist);                                                                      // [0x6749310] Final|Native|Public|BlueprintCallable 
+	// bool OpenPlaylist(class UManaPlaylist* InPlaylist);                                                                      // [0x674a740] Final|Native|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.ManaPlayer.OpenMovieSource
-	// void OpenMovieSource(class UManaMovie* InManaMovie);                                                                     // [0x6749280] Final|Native|Public|BlueprintCallable 
+	// void OpenMovieSource(class UManaMovie* InManaMovie);                                                                     // [0x674a6b0] Final|Native|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.ManaPlayer.OnFrameUpdatedDelegate__DelegateSignature
-	// void OnFrameUpdatedDelegate__DelegateSignature(int32_t FrameNumber);                                                     // [0x35d69e0] Public|Delegate      
+	// void OnFrameUpdatedDelegate__DelegateSignature(int32_t FrameNumber);                                                     // [0x35d7f00] Public|Delegate      
 	// Function /Script/CriWareRuntime.ManaPlayer.Next
-	// bool Next();                                                                                                             // [0x6749240] Final|Native|Public|BlueprintCallable 
+	// bool Next();                                                                                                             // [0x674a670] Final|Native|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.ManaPlayer.IsSeeking
-	// bool IsSeeking();                                                                                                        // [0x6749220] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// bool IsSeeking();                                                                                                        // [0x674a650] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/CriWareRuntime.ManaPlayer.IsReady
-	// bool IsReady();                                                                                                          // [0x67491d0] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// bool IsReady();                                                                                                          // [0x674a600] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/CriWareRuntime.ManaPlayer.IsPreparing
-	// bool IsPreparing();                                                                                                      // [0x6749180] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// bool IsPreparing();                                                                                                      // [0x674a5b0] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/CriWareRuntime.ManaPlayer.IsPlaying
-	// bool IsPlaying();                                                                                                        // [0x6749110] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// bool IsPlaying();                                                                                                        // [0x674a540] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/CriWareRuntime.ManaPlayer.IsPaused
-	// bool IsPaused();                                                                                                         // [0x67490c0] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// bool IsPaused();                                                                                                         // [0x674a4f0] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/CriWareRuntime.ManaPlayer.IsLooping
-	// bool IsLooping();                                                                                                        // [0x6749090] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// bool IsLooping();                                                                                                        // [0x674a4c0] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/CriWareRuntime.ManaPlayer.IsClosed
-	// bool IsClosed();                                                                                                         // [0x6749060] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// bool IsClosed();                                                                                                         // [0x674a490] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/CriWareRuntime.ManaPlayer.HasError
-	// bool HasError();                                                                                                         // [0x6749000] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// bool HasError();                                                                                                         // [0x674a430] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/CriWareRuntime.ManaPlayer.HandleManaComponentSubtitleChanged
-	// void HandleManaComponentSubtitleChanged(FText Subtitle);                                                                 // [0x6748f50] Final|Native|Private 
+	// void HandleManaComponentSubtitleChanged(FText Subtitle);                                                                 // [0x674a380] Final|Native|Private 
 	// Function /Script/CriWareRuntime.ManaPlayer.HandleManaComponentStatusChanged
-	// void HandleManaComponentStatusChanged(EManaComponentStatus Status, class UManaComponent* InManaComponent);               // [0x6748e80] Final|Native|Private 
+	// void HandleManaComponentStatusChanged(EManaComponentStatus Status, class UManaComponent* InManaComponent);               // [0x674a2b0] Final|Native|Private 
 	// Function /Script/CriWareRuntime.ManaPlayer.HandleManaComponentSeekCompleted
-	// void HandleManaComponentSeekCompleted(int32_t InFrameNumber, class UManaComponent* InManaComponent);                     // [0x6748db0] Final|Native|Private 
+	// void HandleManaComponentSeekCompleted(int32_t InFrameNumber, class UManaComponent* InManaComponent);                     // [0x674a1e0] Final|Native|Private 
 	// Function /Script/CriWareRuntime.ManaPlayer.HandleManaComponentPlayerDestroyed
-	// void HandleManaComponentPlayerDestroyed(class UManaComponent* InManaComponent);                                          // [0x6748d20] Final|Native|Private 
+	// void HandleManaComponentPlayerDestroyed(class UManaComponent* InManaComponent);                                          // [0x674a150] Final|Native|Private 
 	// Function /Script/CriWareRuntime.ManaPlayer.HandleManaComponentMovieChanged
-	// void HandleManaComponentMovieChanged(class UManaMovie* InManaMovie, class UManaComponent* InManaComponent);              // [0x6748c50] Final|Native|Private 
+	// void HandleManaComponentMovieChanged(class UManaMovie* InManaMovie, class UManaComponent* InManaComponent);              // [0x674a080] Final|Native|Private 
 	// Function /Script/CriWareRuntime.ManaPlayer.HandleManaComponentFrameOnTime
-	// void HandleManaComponentFrameOnTime(int32_t InFrameNumber, class UManaComponent* InManaComponent);                       // [0x6748b80] Final|Native|Private 
+	// void HandleManaComponentFrameOnTime(int32_t InFrameNumber, class UManaComponent* InManaComponent);                       // [0x6749fb0] Final|Native|Private 
 	// Function /Script/CriWareRuntime.ManaPlayer.HandleManaComponentEventPoint
-	// void HandleManaComponentEventPoint(FManaEventPointInfo EventPointInfo);                                                  // [0x6748a80] Final|Native|Private 
+	// void HandleManaComponentEventPoint(FManaEventPointInfo EventPointInfo);                                                  // [0x6749eb0] Final|Native|Private 
 	// Function /Script/CriWareRuntime.ManaPlayer.GetVolume
-	// float GetVolume(EManaPlayerTrack TrackType);                                                                             // [0x67489f0] Final|Native|Public|BlueprintCallable 
+	// float GetVolume(EManaPlayerTrack TrackType);                                                                             // [0x6749e20] Final|Native|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.ManaPlayer.GetTrackLanguage
-	// FString GetTrackLanguage(EManaPlayerTrack TrackType, int32_t TrackIndex);                                                // [0x67488e0] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// FString GetTrackLanguage(EManaPlayerTrack TrackType, int32_t TrackIndex);                                                // [0x6749d10] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/CriWareRuntime.ManaPlayer.GetTrackFormat
-	// int32_t GetTrackFormat(EManaPlayerTrack TrackType, int32_t TrackIndex);                                                  // [0x6748810] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// int32_t GetTrackFormat(EManaPlayerTrack TrackType, int32_t TrackIndex);                                                  // [0x6749c40] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/CriWareRuntime.ManaPlayer.GetTrackDisplayName
-	// FText GetTrackDisplayName(EManaPlayerTrack TrackType, int32_t TrackIndex);                                               // [0x6748720] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// FText GetTrackDisplayName(EManaPlayerTrack TrackType, int32_t TrackIndex);                                               // [0x6749b50] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/CriWareRuntime.ManaPlayer.GetTimeSyncedSource
-	// class UAtomComponent* GetTimeSyncedSource();                                                                             // [0x67486e0] Final|Native|Public|BlueprintCallable 
+	// class UAtomComponent* GetTimeSyncedSource();                                                                             // [0x6749b10] Final|Native|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.ManaPlayer.GetTime
-	// FTimespan GetTime();                                                                                                     // [0x67486a0] Final|Native|Public|HasDefaults|BlueprintCallable|BlueprintPure|Const 
+	// FTimespan GetTime();                                                                                                     // [0x6749ad0] Final|Native|Public|HasDefaults|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/CriWareRuntime.ManaPlayer.GetTexture
-	// class UManaTexture* GetTexture();                                                                                        // [0x6748680] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// class UManaTexture* GetTexture();                                                                                        // [0x6749ab0] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/CriWareRuntime.ManaPlayer.GetSubtitleTrackEncoding
-	// EManaSubtitlesEncoding GetSubtitleTrackEncoding(int32_t TrackIndex);                                                     // [0x67485e0] Final|Native|Public|BlueprintCallable 
+	// EManaSubtitlesEncoding GetSubtitleTrackEncoding(int32_t TrackIndex);                                                     // [0x6749a10] Final|Native|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.ManaPlayer.GetStatus
-	// EManaComponentStatus GetStatus();                                                                                        // [0x6748590] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// EManaComponentStatus GetStatus();                                                                                        // [0x67499c0] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/CriWareRuntime.ManaPlayer.GetSelectedTrack
-	// int32_t GetSelectedTrack(EManaPlayerTrack TrackType);                                                                    // [0x6748500] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// int32_t GetSelectedTrack(EManaPlayerTrack TrackType);                                                                    // [0x6749930] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/CriWareRuntime.ManaPlayer.GetRate
-	// float GetRate();                                                                                                         // [0x6748490] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// float GetRate();                                                                                                         // [0x67498c0] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/CriWareRuntime.ManaPlayer.GetPlaylistIndex
-	// int32_t GetPlaylistIndex();                                                                                              // [0x6748460] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// int32_t GetPlaylistIndex();                                                                                              // [0x6749890] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/CriWareRuntime.ManaPlayer.GetNumTracks
-	// int32_t GetNumTracks(EManaPlayerTrack TrackType);                                                                        // [0x67483d0] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// int32_t GetNumTracks(EManaPlayerTrack TrackType);                                                                        // [0x6749800] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/CriWareRuntime.ManaPlayer.GetNumTrackFormats
-	// int32_t GetNumTrackFormats(EManaPlayerTrack TrackType, int32_t TrackIndex);                                              // [0x6748300] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// int32_t GetNumTrackFormats(EManaPlayerTrack TrackType, int32_t TrackIndex);                                              // [0x6749730] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/CriWareRuntime.ManaPlayer.GetMovieTime
-	// FTimespan GetMovieTime();                                                                                                // [0x67482c0] Final|Native|Public|HasDefaults|BlueprintCallable|BlueprintPure|Const 
+	// FTimespan GetMovieTime();                                                                                                // [0x67496f0] Final|Native|Public|HasDefaults|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/CriWareRuntime.ManaPlayer.GetMovieSource
-	// class UManaMovie* GetMovieSource();                                                                                      // [0x6748260] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// class UManaMovie* GetMovieSource();                                                                                      // [0x6749690] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/CriWareRuntime.ManaPlayer.GetMovieFrames
-	// int32_t GetMovieFrames();                                                                                                // [0x67481c0] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// int32_t GetMovieFrames();                                                                                                // [0x67495f0] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/CriWareRuntime.ManaPlayer.GetFrames
-	// int32_t GetFrames();                                                                                                     // [0x6748180] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// int32_t GetFrames();                                                                                                     // [0x67495b0] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/CriWareRuntime.ManaPlayer.GetDuration
-	// FTimespan GetDuration();                                                                                                 // [0x6748140] Final|Native|Public|HasDefaults|BlueprintCallable|BlueprintPure|Const 
+	// FTimespan GetDuration();                                                                                                 // [0x6749570] Final|Native|Public|HasDefaults|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/CriWareRuntime.ManaPlayer.DisableTrack
-	// bool DisableTrack(EManaPlayerTrack TrackType);                                                                           // [0x67480b0] Final|Native|Public|BlueprintCallable 
+	// bool DisableTrack(EManaPlayerTrack TrackType);                                                                           // [0x67494e0] Final|Native|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.ManaPlayer.Close
-	// void Close();                                                                                                            // [0x6748090] Final|Native|Public|BlueprintCallable 
+	// void Close();                                                                                                            // [0x67494c0] Final|Native|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.ManaPlayer.BindOnFrameUpdated
-	// void BindOnFrameUpdated(FDelegateProperty& Event);                                                                       // [0x6747fe0] Final|Native|Public|HasOutParms|BlueprintCallable 
+	// void BindOnFrameUpdated(FDelegateProperty& Event);                                                                       // [0x6749410] Final|Native|Public|HasOutParms|BlueprintCallable 
 };
 
 /// Class /Script/CriWareRuntime.ManaPlaylist
@@ -2030,29 +2030,29 @@ public:
 
 	/// Functions
 	// Function /Script/CriWareRuntime.ManaPlaylist.RemoveAt
-	// void RemoveAt(int32_t Index);                                                                                            // [0x674a810] Final|Native|Public|BlueprintCallable 
+	// void RemoveAt(int32_t Index);                                                                                            // [0x674bc40] Final|Native|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.ManaPlaylist.Remove
-	// void Remove(class UManaMovie* ManaMovie);                                                                                // [0x674a780] Final|Native|Public|BlueprintCallable 
+	// void Remove(class UManaMovie* ManaMovie);                                                                                // [0x674bbb0] Final|Native|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.ManaPlaylist.Num
-	// int32_t Num();                                                                                                           // [0x674a760] Final|Native|Public|BlueprintCallable 
+	// int32_t Num();                                                                                                           // [0x674bb90] Final|Native|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.ManaPlaylist.IsSeamless
-	// bool IsSeamless();                                                                                                       // [0x674a740] Final|Native|Public|BlueprintCallable 
+	// bool IsSeamless();                                                                                                       // [0x674bb70] Final|Native|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.ManaPlaylist.IsMixedTypes
-	// bool IsMixedTypes();                                                                                                     // [0x674a720] Final|Native|Public|BlueprintCallable 
+	// bool IsMixedTypes();                                                                                                     // [0x674bb50] Final|Native|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.ManaPlaylist.IsAlpha
-	// bool IsAlpha();                                                                                                          // [0x674a700] Final|Native|Public|BlueprintCallable 
+	// bool IsAlpha();                                                                                                          // [0x674bb30] Final|Native|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.ManaPlaylist.Insert
-	// void Insert(class UManaMovie* ManaMovie, int32_t Index);                                                                 // [0x674a630] Final|Native|Public|BlueprintCallable 
+	// void Insert(class UManaMovie* ManaMovie, int32_t Index);                                                                 // [0x674ba60] Final|Native|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.ManaPlaylist.GetRandom
-	// class UManaMovie* GetRandom(int32_t& InOutIndex);                                                                        // [0x674a580] Final|Native|Public|HasOutParms|BlueprintCallable 
+	// class UManaMovie* GetRandom(int32_t& InOutIndex);                                                                        // [0x674b9b0] Final|Native|Public|HasOutParms|BlueprintCallable 
 	// Function /Script/CriWareRuntime.ManaPlaylist.GetPrevious
-	// class UManaMovie* GetPrevious(int32_t& InOutIndex);                                                                      // [0x674a4d0] Final|Native|Public|HasOutParms|BlueprintCallable 
+	// class UManaMovie* GetPrevious(int32_t& InOutIndex);                                                                      // [0x674b900] Final|Native|Public|HasOutParms|BlueprintCallable 
 	// Function /Script/CriWareRuntime.ManaPlaylist.GetNext
-	// class UManaMovie* GetNext(int32_t& InOutIndex);                                                                          // [0x674a420] Final|Native|Public|HasOutParms|BlueprintCallable 
+	// class UManaMovie* GetNext(int32_t& InOutIndex);                                                                          // [0x674b850] Final|Native|Public|HasOutParms|BlueprintCallable 
 	// Function /Script/CriWareRuntime.ManaPlaylist.Get
-	// class UManaMovie* Get(int32_t Index);                                                                                    // [0x674a380] Final|Native|Public|BlueprintCallable 
+	// class UManaMovie* Get(int32_t Index);                                                                                    // [0x674b7b0] Final|Native|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.ManaPlaylist.Add
-	// void Add(class UManaMovie* ManaMovie);                                                                                   // [0x674a2f0] Final|Native|Public|BlueprintCallable 
+	// void Add(class UManaMovie* ManaMovie);                                                                                   // [0x674b720] Final|Native|Public|BlueprintCallable 
 };
 
 /// Class /Script/CriWareRuntime.ManaSoundComponent
@@ -2082,13 +2082,13 @@ public:
 
 	/// Functions
 	// Function /Script/CriWareRuntime.ManaSoundComponent.SetManaPlayer
-	// void SetManaPlayer(class UManaPlayer* NewManaPlayer);                                                                    // [0x674adc0] Final|Native|Public|BlueprintCallable 
+	// void SetManaPlayer(class UManaPlayer* NewManaPlayer);                                                                    // [0x674c1f0] Final|Native|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.ManaSoundComponent.SetAudioTrackCategory
-	// void SetAudioTrackCategory(EManaPlayerTrack Track, FString CategoryName);                                                // [0x674ace0] Final|Native|Public|BlueprintCallable 
+	// void SetAudioTrackCategory(EManaPlayerTrack Track, FString CategoryName);                                                // [0x674c110] Final|Native|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.ManaSoundComponent.RemoveAudioTrackCategory
-	// void RemoveAudioTrackCategory(EManaPlayerTrack Track);                                                                   // [0x674ac60] Final|Native|Public|BlueprintCallable 
+	// void RemoveAudioTrackCategory(EManaPlayerTrack Track);                                                                   // [0x674c090] Final|Native|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.ManaSoundComponent.GetManaPlayer
-	// class UManaPlayer* GetManaPlayer();                                                                                      // [0x674ac30] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// class UManaPlayer* GetManaPlayer();                                                                                      // [0x674c060] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 };
 
 /// Class /Script/CriWareRuntime.ManaTexture
@@ -2122,9 +2122,9 @@ public:
 
 	/// Functions
 	// Function /Script/CriWareRuntime.ManaTexture.SetMovieSource
-	// void SetMovieSource(class UManaSource* InSource);                                                                        // [0x674b310] Final|Native|Public|BlueprintCallable 
+	// void SetMovieSource(class UManaSource* InSource);                                                                        // [0x674c740] Final|Native|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.ManaTexture.OnTextureUpdated__DelegateSignature
-	// void OnTextureUpdated__DelegateSignature(class UManaTexture* ManaTexture);                                               // [0x35d69e0] MulticastDelegate|Public|Delegate 
+	// void OnTextureUpdated__DelegateSignature(class UManaTexture* ManaTexture);                                               // [0x35d7f00] MulticastDelegate|Public|Delegate 
 };
 
 /// Class /Script/CriWareRuntime.MaterialExpressionManaColorSpaceConverter
@@ -2172,7 +2172,7 @@ public:
 
 	/// Functions
 	// Function /Script/CriWareRuntime.SoundAtomConfig.GetCategoryInfoArray
-	// TArray<FAtomCategoryInfoParam> GetCategoryInfoArray();                                                                   // [0x674bc60] Final|Native|Static|Public|BlueprintCallable 
+	// TArray<FAtomCategoryInfoParam> GetCategoryInfoArray();                                                                   // [0x674d090] Final|Native|Static|Public|BlueprintCallable 
 };
 
 /// Class /Script/CriWareRuntime.SoundAtomCue
@@ -2228,37 +2228,37 @@ public:
 
 	/// Functions
 	// Function /Script/CriWareRuntime.SoundAtomCue.Validate
-	// bool Validate();                                                                                                         // [0x674c5d0] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// bool Validate();                                                                                                         // [0x674da00] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/CriWareRuntime.SoundAtomCue.IsLooping
-	// bool IsLooping();                                                                                                        // [0x674c5a0] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// bool IsLooping();                                                                                                        // [0x674d9d0] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/CriWareRuntime.SoundAtomCue.IsEconomicTickEnabled
-	// bool IsEconomicTickEnabled();                                                                                            // [0x674c570] Final|Native|Public|Const 
+	// bool IsEconomicTickEnabled();                                                                                            // [0x674d9a0] Final|Native|Public|Const 
 	// Function /Script/CriWareRuntime.SoundAtomCue.GetMaxAttenuationDistanceToUse
-	// float GetMaxAttenuationDistanceToUse();                                                                                  // [0x674c540] Final|Native|Public|Const 
+	// float GetMaxAttenuationDistanceToUse();                                                                                  // [0x674d970] Final|Native|Public|Const 
 	// Function /Script/CriWareRuntime.SoundAtomCue.GetMaxAttenuationDistanceToApply
-	// float GetMaxAttenuationDistanceToApply();                                                                                // [0x674c540] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// float GetMaxAttenuationDistanceToApply();                                                                                // [0x674d970] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/CriWareRuntime.SoundAtomCue.GetEconomicTickMarginDistanceToUse
-	// float GetEconomicTickMarginDistanceToUse();                                                                              // [0x674c4e0] Final|Native|Public|Const 
+	// float GetEconomicTickMarginDistanceToUse();                                                                              // [0x674d910] Final|Native|Public|Const 
 	// Function /Script/CriWareRuntime.SoundAtomCue.GetEconomicTickFrequencyToUse
-	// float GetEconomicTickFrequencyToUse();                                                                                   // [0x674c510] Final|Native|Public|Const 
+	// float GetEconomicTickFrequencyToUse();                                                                                   // [0x674d940] Final|Native|Public|Const 
 	// Function /Script/CriWareRuntime.SoundAtomCue.GetEconomicTickFrequencyToApply
-	// float GetEconomicTickFrequencyToApply();                                                                                 // [0x674c510] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// float GetEconomicTickFrequencyToApply();                                                                                 // [0x674d940] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/CriWareRuntime.SoundAtomCue.GetEconomicTickDistanceMarginToApply
-	// float GetEconomicTickDistanceMarginToApply();                                                                            // [0x674c4e0] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// float GetEconomicTickDistanceMarginToApply();                                                                            // [0x674d910] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/CriWareRuntime.SoundAtomCue.GetEconomicTickDistance
-	// float GetEconomicTickDistance();                                                                                         // [0x674c4b0] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// float GetEconomicTickDistance();                                                                                         // [0x674d8e0] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/CriWareRuntime.SoundAtomCue.GetEconomicTickBoundaryDistanceToUse
-	// float GetEconomicTickBoundaryDistanceToUse();                                                                            // [0x674c4b0] Final|Native|Public|Const 
+	// float GetEconomicTickBoundaryDistanceToUse();                                                                            // [0x674d8e0] Final|Native|Public|Const 
 	// Function /Script/CriWareRuntime.SoundAtomCue.GetCullingMarginDistanceToUse
-	// float GetCullingMarginDistanceToUse();                                                                                   // [0x674c480] Final|Native|Public|Const 
+	// float GetCullingMarginDistanceToUse();                                                                                   // [0x674d8b0] Final|Native|Public|Const 
 	// Function /Script/CriWareRuntime.SoundAtomCue.GetCullingBoundaryDistanceToUse
-	// float GetCullingBoundaryDistanceToUse();                                                                                 // [0x674c450] Final|Native|Public|Const 
+	// float GetCullingBoundaryDistanceToUse();                                                                                 // [0x674d880] Final|Native|Public|Const 
 	// Function /Script/CriWareRuntime.SoundAtomCue.GetCullDistanceMarginToApply
-	// float GetCullDistanceMarginToApply();                                                                                    // [0x674c480] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// float GetCullDistanceMarginToApply();                                                                                    // [0x674d8b0] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/CriWareRuntime.SoundAtomCue.GetCullDistance
-	// float GetCullDistance();                                                                                                 // [0x674c450] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// float GetCullDistance();                                                                                                 // [0x674d880] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/CriWareRuntime.SoundAtomCue.BP_GetCueInfo
-	// bool BP_GetCueInfo(FAtomCueInfo& CueInfo);                                                                               // [0x674c310] Final|Native|Public|HasOutParms|BlueprintCallable|BlueprintPure|Const 
+	// bool BP_GetCueInfo(FAtomCueInfo& CueInfo);                                                                               // [0x674d740] Final|Native|Public|HasOutParms|BlueprintCallable|BlueprintPure|Const 
 };
 
 /// Struct /Script/CriWareRuntime.AtomAttenuationDistanceParam
@@ -2309,39 +2309,39 @@ public:
 
 	/// Functions
 	// Function /Script/CriWareRuntime.SoundAtomCueSheet.ReleaseAcb
-	// void ReleaseAcb(FName AcbName);                                                                                          // [0x674dbd0] Final|Native|Static|Public|BlueprintCallable 
+	// void ReleaseAcb(FName AcbName);                                                                                          // [0x674f000] Final|Native|Static|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.SoundAtomCueSheet.OnLoadCompleted_BP__DelegateSignature
-	// void OnLoadCompleted_BP__DelegateSignature(class USoundAtomCueSheet* AtomCueSheet);                                      // [0x35d69e0] MulticastDelegate|Public|Delegate 
+	// void OnLoadCompleted_BP__DelegateSignature(class USoundAtomCueSheet* AtomCueSheet);                                      // [0x35d7f00] MulticastDelegate|Public|Delegate 
 	// Function /Script/CriWareRuntime.SoundAtomCueSheet.LoadAtomCueSheet
-	// class USoundAtomCueSheet* LoadAtomCueSheet(class USoundAtomCueSheet* CueSheet, bool bAddToLevel);                        // [0x674db00] Final|Native|Static|Public|BlueprintCallable 
+	// class USoundAtomCueSheet* LoadAtomCueSheet(class USoundAtomCueSheet* CueSheet, bool bAddToLevel);                        // [0x674ef30] Final|Native|Static|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.SoundAtomCueSheet.LoadAcb
-	// class USoundAtomCueSheet* LoadAcb(FName AcbName, bool bAddToLevel);                                                      // [0x674da30] Final|Native|Static|Public|BlueprintCallable 
+	// class USoundAtomCueSheet* LoadAcb(FName AcbName, bool bAddToLevel);                                                      // [0x674ee60] Final|Native|Static|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.SoundAtomCueSheet.IsRawAcbDataAvailable
-	// bool IsRawAcbDataAvailable();                                                                                            // [0x674da00] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// bool IsRawAcbDataAvailable();                                                                                            // [0x674ee30] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/CriWareRuntime.SoundAtomCueSheet.IsLoaded
-	// bool IsLoaded();                                                                                                         // [0x674da00] Final|Native|Public|BlueprintCallable 
+	// bool IsLoaded();                                                                                                         // [0x674ee30] Final|Native|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.SoundAtomCueSheet.GetNumCues
-	// int32_t GetNumCues();                                                                                                    // [0x674d9a0] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// int32_t GetNumCues();                                                                                                    // [0x674edd0] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/CriWareRuntime.SoundAtomCueSheet.GetAtomCueByName
-	// class USoundAtomCue* GetAtomCueByName(FString CueName);                                                                  // [0x674d8a0] Final|Native|Public|BlueprintCallable 
+	// class USoundAtomCue* GetAtomCueByName(FString CueName);                                                                  // [0x674ecd0] Final|Native|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.SoundAtomCueSheet.GetAtomCueByIndex
-	// class USoundAtomCue* GetAtomCueByIndex(int32_t CueIndex);                                                                // [0x674d800] Final|Native|Public|BlueprintCallable 
+	// class USoundAtomCue* GetAtomCueByIndex(int32_t CueIndex);                                                                // [0x674ec30] Final|Native|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.SoundAtomCueSheet.GetAtomCueById
-	// class USoundAtomCue* GetAtomCueById(int32_t CueId);                                                                      // [0x674d760] Final|Native|Public|BlueprintCallable 
+	// class USoundAtomCue* GetAtomCueById(int32_t CueId);                                                                      // [0x674eb90] Final|Native|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.SoundAtomCueSheet.DetachDspBusSetting
-	// void DetachDspBusSetting();                                                                                              // [0x674d740] Final|Native|Static|Public|BlueprintCallable 
+	// void DetachDspBusSetting();                                                                                              // [0x674eb70] Final|Native|Static|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.SoundAtomCueSheet.BP_GetCueInfoFromName
-	// bool BP_GetCueInfoFromName(FString Name, FAtomCueInfo& CueInfo);                                                         // [0x674d630] Final|Native|Public|HasOutParms|BlueprintCallable|BlueprintPure|Const 
+	// bool BP_GetCueInfoFromName(FString Name, FAtomCueInfo& CueInfo);                                                         // [0x674ea60] Final|Native|Public|HasOutParms|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/CriWareRuntime.SoundAtomCueSheet.BP_GetCueInfoFromIndex
-	// bool BP_GetCueInfoFromIndex(int32_t Index, FAtomCueInfo& CueInfo);                                                       // [0x674d520] Final|Native|Public|HasOutParms|BlueprintCallable|BlueprintPure|Const 
+	// bool BP_GetCueInfoFromIndex(int32_t Index, FAtomCueInfo& CueInfo);                                                       // [0x674e950] Final|Native|Public|HasOutParms|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/CriWareRuntime.SoundAtomCueSheet.BP_GetCueInfoFromId
-	// bool BP_GetCueInfoFromId(int32_t ID, FAtomCueInfo& CueInfo);                                                             // [0x674d410] Final|Native|Public|HasOutParms|BlueprintCallable|BlueprintPure|Const 
+	// bool BP_GetCueInfoFromId(int32_t ID, FAtomCueInfo& CueInfo);                                                             // [0x674e840] Final|Native|Public|HasOutParms|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/CriWareRuntime.SoundAtomCueSheet.AttachDspBusSetting
-	// void AttachDspBusSetting(FString SettingName);                                                                           // [0x674d330] Final|Native|Static|Public|BlueprintCallable 
+	// void AttachDspBusSetting(FString SettingName);                                                                           // [0x674e760] Final|Native|Static|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.SoundAtomCueSheet.AsyncLoadCueSheet
-	// void AsyncLoadCueSheet();                                                                                                // [0x674d310] Final|Native|Public|BlueprintCallable 
+	// void AsyncLoadCueSheet();                                                                                                // [0x674e740] Final|Native|Public|BlueprintCallable 
 	// Function /Script/CriWareRuntime.SoundAtomCueSheet.ApplyDspBusSnapshot
-	// void ApplyDspBusSnapshot(FString SnapshotName, int32_t Milliseconds);                                                    // [0x674d1e0] Final|Native|Static|Public|BlueprintCallable 
+	// void ApplyDspBusSnapshot(FString SnapshotName, int32_t Milliseconds);                                                    // [0x674e610] Final|Native|Static|Public|BlueprintCallable 
 };
 
 /// Struct /Script/CriWareRuntime.AtomBeatSyncInfo

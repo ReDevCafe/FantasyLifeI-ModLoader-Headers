@@ -40,23 +40,23 @@ public:
 
 	/// Functions
 	// Function /Script/NiagaraUIRenderer.NiagaraSystemWidget.UpdateTickWhenPaused
-	// void UpdateTickWhenPaused(bool NewTickWhenPaused);                                                                       // [0x7f3e4d0] Final|Native|Public|BlueprintCallable 
+	// void UpdateTickWhenPaused(bool NewTickWhenPaused);                                                                       // [0x7f40350] Final|Native|Public|BlueprintCallable 
 	// Function /Script/NiagaraUIRenderer.NiagaraSystemWidget.UpdateNiagaraSystemReference
-	// void UpdateNiagaraSystemReference(class UNiagaraSystem* NewNiagaraSystem);                                               // [0x7f3e440] Final|Native|Public|BlueprintCallable 
+	// void UpdateNiagaraSystemReference(class UNiagaraSystem* NewNiagaraSystem);                                               // [0x7f402c0] Final|Native|Public|BlueprintCallable 
 	// Function /Script/NiagaraUIRenderer.NiagaraSystemWidget.SetRemapMaterial
-	// void SetRemapMaterial(class UMaterialInterface* OriginalMaterial, class UMaterialInterface* RemapMaterial);              // [0x7f3e370] Final|Native|Public|BlueprintCallable 
+	// void SetRemapMaterial(class UMaterialInterface* OriginalMaterial, class UMaterialInterface* RemapMaterial);              // [0x7f401f0] Final|Native|Public|BlueprintCallable 
 	// Function /Script/NiagaraUIRenderer.NiagaraSystemWidget.SetDesiredWidgetSize
-	// void SetDesiredWidgetSize(FVector2D NewDesiredSize);                                                                     // [0x7f3e2e0] Final|Native|Public|HasDefaults|BlueprintCallable 
+	// void SetDesiredWidgetSize(FVector2D NewDesiredSize);                                                                     // [0x7f40160] Final|Native|Public|HasDefaults|BlueprintCallable 
 	// Function /Script/NiagaraUIRenderer.NiagaraSystemWidget.SetColorAndOpacity
-	// void SetColorAndOpacity(FLinearColor InColorAndOpacity);                                                                 // [0x7f3e250] Final|Native|Public|HasDefaults|BlueprintCallable 
+	// void SetColorAndOpacity(FLinearColor InColorAndOpacity);                                                                 // [0x7f400d0] Final|Native|Public|HasDefaults|BlueprintCallable 
 	// Function /Script/NiagaraUIRenderer.NiagaraSystemWidget.GetRemapMaterial
-	// class UMaterialInterface* GetRemapMaterial(class UMaterialInterface* OriginalMaterial);                                  // [0x7f3e1b0] Final|Native|Public|BlueprintCallable 
+	// class UMaterialInterface* GetRemapMaterial(class UMaterialInterface* OriginalMaterial);                                  // [0x7f40030] Final|Native|Public|BlueprintCallable 
 	// Function /Script/NiagaraUIRenderer.NiagaraSystemWidget.GetNiagaraComponent
-	// class UNiagaraUIComponent* GetNiagaraComponent();                                                                        // [0x7f3e180] Final|Native|Public|BlueprintCallable|BlueprintPure 
+	// class UNiagaraUIComponent* GetNiagaraComponent();                                                                        // [0x7f40000] Final|Native|Public|BlueprintCallable|BlueprintPure 
 	// Function /Script/NiagaraUIRenderer.NiagaraSystemWidget.DeactivateSystem
-	// void DeactivateSystem();                                                                                                 // [0x7f3e160] Final|Native|Public|BlueprintCallable 
+	// void DeactivateSystem();                                                                                                 // [0x7f3ffe0] Final|Native|Public|BlueprintCallable 
 	// Function /Script/NiagaraUIRenderer.NiagaraSystemWidget.ActivateSystem
-	// void ActivateSystem(bool Reset);                                                                                         // [0x7f3e0d0] Final|Native|Public|BlueprintCallable 
+	// void ActivateSystem(bool Reset);                                                                                         // [0x7f3ff50] Final|Native|Public|BlueprintCallable 
 };
 
 /// Class /Script/NiagaraUIRenderer.NiagaraUIActor

@@ -41,7 +41,7 @@ public:
 
 	/// Functions
 	// Function /Script/OpenColorIO.OpenColorIOBlueprintLibrary.ApplyColorSpaceTransform
-	// bool ApplyColorSpaceTransform(class UObject* WorldContextObject, FOpenColorIOColorConversionSettings& ConversionSettings, class UTexture* InputTexture, class UTextureRenderTarget2D* OutputRenderTarget); // [0x7e694a0] Final|RequiredAPI|Native|Static|Public|HasOutParms|BlueprintCallable 
+	// bool ApplyColorSpaceTransform(class UObject* WorldContextObject, FOpenColorIOColorConversionSettings& ConversionSettings, class UTexture* InputTexture, class UTextureRenderTarget2D* OutputRenderTarget); // [0x7e6b320] Final|RequiredAPI|Native|Static|Public|HasOutParms|BlueprintCallable 
 };
 
 /// Class /Script/OpenColorIO.OpenColorIOColorTransform
@@ -95,7 +95,7 @@ public:
 
 	/// Functions
 	// Function /Script/OpenColorIO.OpenColorIOConfiguration.ReloadExistingColorspaces
-	// void ReloadExistingColorspaces(bool bForce);                                                                             // [0x7e6a1b0] Final|Native|Public|BlueprintCallable 
+	// void ReloadExistingColorspaces(bool bForce);                                                                             // [0x7e6c030] Final|Native|Public|BlueprintCallable 
 };
 
 /// Class /Script/OpenColorIO.OpenColorIODisplayExtensionWrapper
@@ -108,19 +108,19 @@ public:
 
 	/// Functions
 	// Function /Script/OpenColorIO.OpenColorIODisplayExtensionWrapper.SetSceneExtensionIsActiveFunctions
-	// void SetSceneExtensionIsActiveFunctions(TArray<FSceneViewExtensionIsActiveFunctor>& IsActiveFunctions);                  // [0x7e6a5d0] Final|Native|Public|HasOutParms|BlueprintCallable 
+	// void SetSceneExtensionIsActiveFunctions(TArray<FSceneViewExtensionIsActiveFunctor>& IsActiveFunctions);                  // [0x7e6c450] Final|Native|Public|HasOutParms|BlueprintCallable 
 	// Function /Script/OpenColorIO.OpenColorIODisplayExtensionWrapper.SetSceneExtensionIsActiveFunction
-	// void SetSceneExtensionIsActiveFunction(FSceneViewExtensionIsActiveFunctor& IsActiveFunction);                            // [0x7e6a4e0] Final|Native|Public|HasOutParms|BlueprintCallable 
+	// void SetSceneExtensionIsActiveFunction(FSceneViewExtensionIsActiveFunctor& IsActiveFunction);                            // [0x7e6c360] Final|Native|Public|HasOutParms|BlueprintCallable 
 	// Function /Script/OpenColorIO.OpenColorIODisplayExtensionWrapper.SetOpenColorIOConfiguration
-	// void SetOpenColorIOConfiguration(FOpenColorIODisplayConfiguration InDisplayConfiguration);                               // [0x7e6a2f0] Final|Native|Public|BlueprintCallable 
+	// void SetOpenColorIOConfiguration(FOpenColorIODisplayConfiguration InDisplayConfiguration);                               // [0x7e6c170] Final|Native|Public|BlueprintCallable 
 	// Function /Script/OpenColorIO.OpenColorIODisplayExtensionWrapper.RemoveSceneExtension
-	// void RemoveSceneExtension();                                                                                             // [0x7e6a240] Final|Native|Public|BlueprintCallable 
+	// void RemoveSceneExtension();                                                                                             // [0x7e6c0c0] Final|Native|Public|BlueprintCallable 
 	// Function /Script/OpenColorIO.OpenColorIODisplayExtensionWrapper.GetOpenColorIOConfiguration
-	// FOpenColorIODisplayConfiguration GetOpenColorIOConfiguration();                                                          // [0x7e6a020] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
+	// FOpenColorIODisplayConfiguration GetOpenColorIOConfiguration();                                                          // [0x7e6bea0] Final|Native|Public|BlueprintCallable|BlueprintPure|Const 
 	// Function /Script/OpenColorIO.OpenColorIODisplayExtensionWrapper.CreateOpenColorIODisplayExtension
-	// class UOpenColorIODisplayExtensionWrapper* CreateOpenColorIODisplayExtension(FOpenColorIODisplayConfiguration InDisplayConfiguration, FSceneViewExtensionIsActiveFunctor& IsActiveFunction); // [0x7e69da0] Final|Native|Static|Public|HasOutParms|BlueprintCallable 
+	// class UOpenColorIODisplayExtensionWrapper* CreateOpenColorIODisplayExtension(FOpenColorIODisplayConfiguration InDisplayConfiguration, FSceneViewExtensionIsActiveFunctor& IsActiveFunction); // [0x7e6bc20] Final|Native|Static|Public|HasOutParms|BlueprintCallable 
 	// Function /Script/OpenColorIO.OpenColorIODisplayExtensionWrapper.CreateInGameOpenColorIODisplayExtension
-	// class UOpenColorIODisplayExtensionWrapper* CreateInGameOpenColorIODisplayExtension(FOpenColorIODisplayConfiguration InDisplayConfiguration); // [0x7e69a90] Final|Native|Static|Public|BlueprintCallable 
+	// class UOpenColorIODisplayExtensionWrapper* CreateInGameOpenColorIODisplayExtension(FOpenColorIODisplayConfiguration InDisplayConfiguration); // [0x7e6b910] Final|Native|Static|Public|BlueprintCallable 
 };
 
 /// Struct /Script/OpenColorIO.OpenColorIOColorConversionSettings

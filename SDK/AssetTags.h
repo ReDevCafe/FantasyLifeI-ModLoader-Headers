@@ -30,19 +30,19 @@ public:
 
 	/// Functions
 	// Function /Script/AssetTags.AssetTagsSubsystem.K2_GetCollectionsContainingAsset
-	// TArray<FName> K2_GetCollectionsContainingAsset(FSoftObjectPath& AssetPath);                                              // [0x8ba5990] Final|Native|Public|HasOutParms|HasDefaults|BlueprintCallable 
+	// TArray<FName> K2_GetCollectionsContainingAsset(FSoftObjectPath& AssetPath);                                              // [0x8ba7810] Final|Native|Public|HasOutParms|HasDefaults|BlueprintCallable 
 	// Function /Script/AssetTags.AssetTagsSubsystem.GetCollectionsContainingAssetPtr
-	// TArray<FName> GetCollectionsContainingAssetPtr(class UObject* AssetPtr);                                                 // [0x8ba5840] Final|Native|Public|BlueprintCallable 
+	// TArray<FName> GetCollectionsContainingAssetPtr(class UObject* AssetPtr);                                                 // [0x8ba76c0] Final|Native|Public|BlueprintCallable 
 	// Function /Script/AssetTags.AssetTagsSubsystem.GetCollectionsContainingAssetData
-	// TArray<FName> GetCollectionsContainingAssetData(FAssetData& AssetData);                                                  // [0x8ba5690] Final|Native|Public|HasOutParms|HasDefaults|BlueprintCallable 
+	// TArray<FName> GetCollectionsContainingAssetData(FAssetData& AssetData);                                                  // [0x8ba7510] Final|Native|Public|HasOutParms|HasDefaults|BlueprintCallable 
 	// Function /Script/AssetTags.AssetTagsSubsystem.GetCollectionsContainingAsset
-	// TArray<FName> GetCollectionsContainingAsset(FName AssetPathName);                                                        // [0x8ba5580] Final|Native|Public|BlueprintCallable 
+	// TArray<FName> GetCollectionsContainingAsset(FName AssetPathName);                                                        // [0x8ba7400] Final|Native|Public|BlueprintCallable 
 	// Function /Script/AssetTags.AssetTagsSubsystem.GetCollections
-	// TArray<FName> GetCollections();                                                                                          // [0x8ba5450] Final|Native|Public|BlueprintCallable 
+	// TArray<FName> GetCollections();                                                                                          // [0x8ba72d0] Final|Native|Public|BlueprintCallable 
 	// Function /Script/AssetTags.AssetTagsSubsystem.GetAssetsInCollection
-	// TArray<FAssetData> GetAssetsInCollection(FName Name);                                                                    // [0x8ba5300] Final|Native|Public|BlueprintCallable 
+	// TArray<FAssetData> GetAssetsInCollection(FName Name);                                                                    // [0x8ba7180] Final|Native|Public|BlueprintCallable 
 	// Function /Script/AssetTags.AssetTagsSubsystem.CollectionExists
-	// bool CollectionExists(FName Name);                                                                                       // [0x8ba51d0] Final|Native|Public|BlueprintCallable 
+	// bool CollectionExists(FName Name);                                                                                       // [0x8ba7050] Final|Native|Public|BlueprintCallable 
 };
 
 #pragma pack(pop)

@@ -48,8 +48,8 @@ class ML_API SkillData : public GameObjectProxy<FGDSkillData>
         bool                GetNotAggregated()                  { return  this->_object.notAggregated; }
         void                SetNotAggregated(bool value)        { this->_object.notAggregated = value; }
 
-        ERarityType         GetRarity()                         { return  this->_object.rarity; }
-        void                SetRarity(ERarityType value)        { this->_object.rarity = value; }
+        ERarityType         GetRarity()                         { return  static_cast<ERarityType>(this->_object.rarity); }
+        void                SetRarity(ERarityType value)        { this->_object.rarity = static_cast<char>(value); }
 };
 
 #endif // !SKILLDATA_HPP

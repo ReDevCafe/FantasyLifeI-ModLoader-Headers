@@ -12,15 +12,13 @@
     #include "SDK.h"
     #include "Export.h"
 
-class GameData {
+    class GameData {
     public:
-        GameData(uintptr_t baseAddress, uint32_t imageSize);
+        GameData();
         ~GameData() = default;
 
         void init();
         void initOthersData();
-        ML_API uint32_t getImageSize();
-        ML_API uintptr_t getBaseAddress();
         ML_API FUObjectArray *getGObjects();
         ML_API void *getGNames();
         ML_API void *getGWorld();
@@ -54,8 +52,6 @@ class GameData {
         UObject* _getUObject(std::string_view name, bool safe, int nth);
 
     private:
-        uintptr_t _baseAddress; 
-        uint32_t _imageSize;
         FUObjectArray *_gObjects;
         void *_gNames;
         void *_gWorld;

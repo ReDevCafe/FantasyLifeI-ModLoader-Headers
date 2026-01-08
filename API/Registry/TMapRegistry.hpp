@@ -1,90 +1,93 @@
 #ifndef TMAP_REGISTRY
-  #define TMAP_REGISTRY
+#define TMAP_REGISTRY
 
-  #include "API/Engine/TMap.hpp"
-  #include "RegistryBase.hpp"
-  #include <stdexcept>
-  #include <unordered_map>
-  #include "Export.h"
+#include "API/Engine/TMap.hpp"
+#include "RegistrySource.hpp"
+#include <stdexcept>
+#include <unordered_map>
+#include "SDK.h"
 
 class FName;
 
-template<typename Value, typename Entry>
-class TMapRegistry : public IRegistry<Value>
+template<typename Key, typename Entry>
+class TMapRegistrySource : public RegistrySource<Entry>
 {
-  public:
-  TMapRegistry() : _gameMap(nullptr), _isIndexed(false), _mapSize(0)
+public:
+  TMapRegistrySource(const std::string& name, int priority, TMap<Key, Entry>* gameMap) : 
+    _name(name), 
+    _priority(priority), 
+    _gameMap(gameMap), 
+    _isIndexed(false) 
   {}
-
-  ML_API void Bind(TMap<FName, Entry>* gameMap)
+  
+  void BuildIndex() 
   {
-    _gameMap = gameMap;
-    _isIndexed = false;
-  }
-
-  ML_API void BuildIndex()
-  {
-    if(!_gameMap) throw std::runtime_error("Cannot build index: game map not bound");
-
-    _mapSize = _gameMap->Num();
-    _keyToIndex.clear();
-
-    for(uint32_t i = 0; i < _gameMap->Data.Num(); ++i)
+    if (!_gameMap) throw std::runtime_error("Game map not bound");
+      
+    _keyToOffset.clear();
+    for (uint32_t i = 0; i < _gameMap->Data.Num(); ++i) 
     {
       auto& entry = _gameMap->Data[i];
       std::string key = entry.Value.First.ToString();
-      _keyToIndex.emplace(key, i);
+      _keyToOffset[key] = i;
     }
-
     _isIndexed = true;
   }
-
-  ML_API Value* Get(const std::string& key) override 
+  
+  Entry* Get(const std::string& key) override 
   {
-    if(!_isIndexed)  
-    {
-      #ifdef MLDEBUG 
-      throw std::runtime_error("Registry not indexed: Call BuildIndex() first");
-      #else 
-      BuildIndex();
-      #endif
-    } else if (_gameMap->Num() != _mapSize) 
-    {
-      _isIndexed = false;
-      BuildIndex();
-    }
-
-    auto it = _keyToIndex.find(key);
-    if (it == _keyToIndex.end() || !_gameMap) return nullptr;
-
-    uint32_t index = it->second;
-    if(index >= _gameMap->Data.Num()) return nullptr;
-
-    return ExtractValue(_gameMap->Data[index].Value.Second);
+    if (!_isIndexed) BuildIndex();
+    
+    auto it = _keyToOffset.find(key);
+    if (it == _keyToOffset.end()) return nullptr;
+    
+    return ExtractValue(_gameMap->Data[it->second].Value.Second);
   }
-
-  ML_API bool Contains(const std::string& key) const override { return _keyToIndex.find(key) != _keyToIndex.end(); }
-
-  ML_API size_t Size() const override { return _keyToIndex.size(); }
   
-  ML_API std::unordered_map<std::string, uint32_t>::const_iterator begin() const override { return _keyToIndex.begin(); }
-  
-  ML_API std::unordered_map<std::string, uint32_t>::const_iterator end() const override { return _keyToIndex.end(); }
-  
-  ML_API TMap<FName, Entry>* GetGameMap() const { return _gameMap; }
-  
-  ML_API const std::unordered_map<std::string, uint32_t>& GetMapping() const { return _keyToIndex; }
-
-  protected:
-  virtual Value* ExtractValue(Entry& entry)
+  Entry* GetByOffset(uint64_t offset) override 
   {
-    return new Value(entry);
+    if (!_gameMap || offset >= _gameMap->Data.Num()) return nullptr;
+    return ExtractValue(_gameMap->Data[offset].Value.Second);
   }
+  
+  bool Contains(const std::string& key) const override 
+  {
+    return _keyToOffset.find(key) != _keyToOffset.end();
+  }
+  
+  size_t Size() const override { return _keyToOffset.size(); }
+  
+  std::vector<std::string> GetAllKeys() const override 
+  {
+    std::vector<std::string> keys;
+    keys.reserve(_keyToOffset.size());
 
-  TMap<FName, Entry>* _gameMap;
-  std::unordered_map<std::string, uint32_t> _keyToIndex;
+    for (const auto& [key, _] : _keyToOffset) 
+      keys.push_back(key);
+
+    return keys;
+  }
+  
+  uint64_t GetOffset(const std::string& key) const override 
+  {
+    auto it = _keyToOffset.find(key);
+    return (it != _keyToOffset.end()) ? it->second : UINT64_MAX;
+  }
+  
+  int GetPriority() const override { return _priority; }
+  std::string GetSourceName() const override { return _name; }
+
+protected:
+  virtual Entry* ExtractValue(Entry& entry) 
+  {
+    return &entry;
+  }
+  
+  std::string _name;
+  int _priority;
+  TMap<Key, Entry>* _gameMap;
+  std::unordered_map<std::string, uint64_t> _keyToOffset;
   bool _isIndexed;
-  size_t _mapSize;
 };
 
 #endif

@@ -2,13 +2,13 @@
 
 #include "API/GameFunctionProxy.hpp"
 /*
-https://dev.epicgames.com/documentation/en-us/unreal-engine/API/Runtime/CoreUObject/GetObjectsOfClass?application_version=5.7
+  https://dev.epicgames.com/documentation/en-us/unreal-engine/API/Runtime/CoreUObject/GetObjectsOfClass?application_version=5.4
 
-ClassToLookFor 	        Class of the objects to return.
-Results 	              An output list of objects of the specified class.
-bIncludeDerivedClasses 	If true, the results will include objects of child classes as well.
-AdditionalExcludeFlags 	Objects with any of these flags will be excluded from the results.
-ExclusiveInternalFlags 	Specifies internal flags to use as a filter for which objects to return
+  ClassToLookFor 	        Class of the objects to return.
+  Results 	              An output list of objects of the specified class.
+  bIncludeDerivedClasses 	If true, the results will include objects of child classes as well.
+  AdditionalExcludeFlags 	Objects with any of these flags will be excluded from the results.
+  ExclusiveInternalFlags 	Specifies internal flags to use as a filter for which objects to return
 */
 
 class UClass;

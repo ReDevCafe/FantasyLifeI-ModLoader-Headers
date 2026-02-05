@@ -1,6 +1,6 @@
 #ifndef MAPDATASUBMAPDATA_HPP
     #define MAPDATASUBMAPDATA_HPP
-
+    
     #include "API/World/MapSubLevel.hpp"
     #include "API/World/MapAttributeInfo.hpp"
     #include "Export.h"
@@ -12,8 +12,7 @@ class ML_API MapDataSubMapData : public GameObjectProxy<FGDMapData_SubMapData>
         GameObjectProxy(data)
     {};
 
-    //protected:
-    std::string GetSubMapIdentifier();
+    std::string GetSubMapIdentifier() const {  return this->_object.subMapId.ToString(); }
 
     public:
     MapSubLevel GetSubMap();
@@ -22,7 +21,7 @@ class ML_API MapDataSubMapData : public GameObjectProxy<FGDMapData_SubMapData>
     EMapType    GetMapType()                            { return this->_object.Type; }
     void        SetMapType(EMapType type)               { this->_object.Type = type; }
 
-    std::string GetAreaID();
+    std::string GetAreaID() const                       { return this->_object.AreaID.ToString(); }
     MapAttributeInfo GetAttributeInfo()                 { return MapAttributeInfo(this->_object.attributeInfo); }
 
     float       GetShadowAmountInEvent()                { return this->_object.shadowAmountInEvent; }

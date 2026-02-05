@@ -1,10 +1,9 @@
 #ifndef THREADPOOL_HEADER
     #define THREADPOOL_HEADER
 
-    #include <atomic>
     #include <condition_variable>
-    #include <future>
     #include <mutex>
+    #include <functional>
     #include <queue>
     #include <thread>
     #include <vector>
@@ -15,26 +14,24 @@ class ThreadPool
     ThreadPool(size_t threads = std::thread::hardware_concurrency())
     {
         for(size_t i = 0; i < threads; ++i)
+        workers.emplace_back([this] 
         {
-            workers.emplace_back([this] 
+            while(true)
             {
-                while(true)
+                std::function<void()> task;
                 {
-                    std::function<void()> task;
-                    {
-                        std::unique_lock<std::mutex> lk(mtx);
-                        cv_tasks.wait(lk, [this]{return stopping || !tasks.empty(); });
+                    std::unique_lock<std::mutex> lk(mtx);
+                    cv_tasks.wait(lk, [this]{return stopping || !tasks.empty(); });
 
-                        if(stopping && tasks.empty()) return;
+                    if(stopping && tasks.empty()) return;
 
-                        task = std::move(tasks.front());
-                        tasks.pop();
-                    }
-
-                    task();
+                    task = std::move(tasks.front());
+                    tasks.pop();
                 }
-            });
-        }
+
+                task();
+            }
+        });
     }
 
     ~ThreadPool()

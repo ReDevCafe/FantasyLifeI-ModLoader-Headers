@@ -3,7 +3,6 @@
 
     #include "API/Common/CommonSkillParam.hpp"
     #include "API/Language.hpp"
-    #include <vector>
     #include "SkillEffectInfo.hpp"
     #include "Export.h"
 //TODO: Check how FGDSkillData works
@@ -14,23 +13,19 @@ class ML_API SkillData : public GameObjectProxy<FGDSkillData>
             GameObjectProxy(data)
         {};
 
-        std::string         GetIdentifier();
+        std::string         GetIdentifier() const { return this->_object.ID.Name.ToString(); };
 
-        ESkillCategory      GetCategory()                        { return this->_object.Category;}
+        ESkillCategory      GetCategory() const { return this->_object.Category; }
         void                SetCategory(ESkillCategory category) { this->_object.Category = category; }
 
-        CommonSkillParam    GetParams()                          { return CommonSkillParam(this->_object.Params); }
+        CommonSkillParam    GetParams() const { return CommonSkillParam(this->_object.Params); }
 
-    protected:
-        std::string         GetNameIdentifier();
-    public:
-        std::string         GetName(LANG lang);
+        std::string         GetNameIdentifier() const { return this->_object.nameTextID.ToString(); }
+        std::string         GetName(LANG lang) const;
         void                SetName(LANG lang, FString name);
 
-    protected:
-        std::string         GetDescIdentifier();
-    public:
-        std::string         GetDescription(LANG lang);
+        std::string         GetDescIdentifier() const { return this->_object.dascTextId.ToString(); }
+        std::string         GetDescription(LANG lang) const;
         void                SetDescription(LANG lang, FString name);
 
         ESkillIconType      GetIconType()                       { return static_cast<ESkillIconType>(this->_object.skillIconType); }
@@ -38,8 +33,8 @@ class ML_API SkillData : public GameObjectProxy<FGDSkillData>
 
         std::string         GetLifeLimit();
 
-        uint8_t             GetSortOrder()                      { return  this->_object.sortOrder; }
-        void                SetSortOrder(int8_t value)          { this->_object.sortOrder = value; }
+        uint8_t             GetSortOrder() const { return  this->_object.sortOrder; }
+        void                SetSortOrder(int8_t value) { this->_object.sortOrder = value; }
 
         SkillEffectInfo     GetSkillEffect(int index);
         void                SetSkillEffect(int index, SkillEffectInfo value);

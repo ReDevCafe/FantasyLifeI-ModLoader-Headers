@@ -8,6 +8,7 @@ class ModBase
 
     virtual void OnPreLoad()    = 0;
     virtual void OnPostLoad()   = 0;
+    virtual void OnExit()       = 0;
 };
 
 #endif // !MODBASE_HPP

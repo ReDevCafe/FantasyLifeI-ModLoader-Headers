@@ -1,26 +1,24 @@
 #ifndef GAMEDATA_HPP_
     #define GAMEDATA_HPP_
 
-    #include "SDK.h"
     #include "Engine/FUObjectArray.hpp"
     #include "API/Entities/Player/Player.hpp"
-    #include "Utils.hpp"
-    #include "ModLoader.hpp"
+    #include <string_view>
     #include <type_traits>
-    #include <functional>
-    #include "API/Item/ItemData.hpp"
-    #include "API/Recipe/RecipeData.hpp"
     #include <memory>
+    #include <unordered_map>
+    #include <thread>
     
+    #include "SDK.h"
     #include "Export.h"
 
-class GameData {
+    class GameData {
     public:
-        GameData(uintptr_t baseAddress);
+        GameData();
         ~GameData() = default;
 
+        void init();
         void initOthersData();
-        ML_API uintptr_t getBaseAddress();
         ML_API FUObjectArray *getGObjects();
         ML_API void *getGNames();
         ML_API void *getGWorld();
@@ -28,43 +26,32 @@ class GameData {
         ML_API UDynamicDataManager *getDynamicDataManager();
 
         template<typename T = void>
-        T *getUObject(const std::string &name, bool safe = true, uint32_t nth = 0)
+        T *getUObject(const std::string name, bool safe = false, uint32_t nth = 0)
         {
             if (_gObjects == nullptr) return nullptr;
             if (_cache.contains(name))
                 return reinterpret_cast<T *>(_cache.at(name));
-            UObject *object = nullptr;
-            uint32_t counter = 0;
-            if (safe)
-                _gObjects->lock();
-            for (int i = 0; i < _gObjects->ObjObjects.NumElements; ++i) {
-                object = _gObjects->getObject(i);
-                if (object == nullptr) continue;
-                if (Utils::FNameToString(_baseAddress, object->NamePrivate) == name && ++counter > nth) break;
-                object = nullptr;
-            }
-            if (safe)
-                _gObjects->unlock();
+            UObject *object = _getUObject(name, safe, nth);
             if (object)
                 _cache.emplace(name, object);
             return reinterpret_cast<T *>(object);
         }
 
         ML_API Player *getPlayer();
-
+        
         template<typename T = void *>
-        void waitObject(T *object, const std::string &name = "", uint32_t nth = 0) {
+        void waitObject(T *object, std::string_view name = {}, uint32_t nth = 0) {
             while (*object == nullptr) 
             {
-                if (name != "")
-                    *object = this->getUObject<typename std::remove_pointer<T>::type>(name, false, nth);
-                Sleep(1);
+                if (!name.empty()) *object = this->getUObject<typename std::remove_pointer<T>::type>(name.data(), false, nth);
+                std::this_thread::sleep_for(std::chrono::milliseconds(1));
             }
         }
 
     protected:
+        UObject* _getUObject(std::string_view name, bool safe, int nth);
+
     private:
-        uintptr_t _baseAddress; 
         FUObjectArray *_gObjects;
         void *_gNames;
         void *_gWorld;

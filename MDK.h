@@ -16,8 +16,6 @@
 #include "API/Common/CommonPriceInfo.hpp"
 #include "API/Common/CommonSkillParam.hpp"
 
-#include "API/Engine/TArrayHelper.hpp"
-
 #include "API/Entities/Player/Player.hpp"
 
 #include "API/Entities/CharaData.hpp"
@@ -82,5 +80,4 @@
 // Utility and Cache
 #include "GameCache.hpp"
 #include "GameData.hpp"
-#include "Utils.hpp"
 #include "ModLoader.hpp"
